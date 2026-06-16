@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bantam Football Draft</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap');
+
+  :root {
+    --green-deep: #0a1f0f;
+    --green-field: #1a3d20;
+    --green-mid: #2d6a35;
+    --green-bright: #3d8b45;
+    --gold: #f0c040;
+    --gold-dim: #a07c1a;
+    --white: #f4f6f0;
+    --gray: #8a9e8e;
+    --gray-dark: #3a4e3e;
+    --red: #c0392b;
+    --top-pool: #27ae60;
+    --bottom-pool: #e67e22;
+    --lineman-pool: #8e44ad;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--green-deep);
+    color: var(--white);
+    font-family: 'Barlow', sans-serif;
+    min-height: 100vh;
+  }
+
+  .screen { display: none; }
+  .screen.active { display: block; }
+
+  /* ── SETUP ── */
+  #setup {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  .setup-logo { text-align: center; margin-bottom: 36px; }
+  .setup-logo h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3rem; font-weight: 900;
+    letter-spacing: 0.06em; color: var(--gold);
+    text-transform: uppercase; line-height: 1;
+  }
+  .setup-logo p { color: var(--gray); font-size: 0.95rem; margin-top: 6px; }
+
+  .setup-card {
+    background: var(--green-field);
+    border: 1px solid var(--gray-dark);
+    border-radius: 10px; padding: 24px; margin-bottom: 18px;
+  }
+  .setup-card h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--gold); margin-bottom: 16px;
+  }
+
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+  .field-row.three { grid-template-columns: 1fr 1fr 1fr; }
+  .field { display: flex; flex-direction: column; gap: 5px; }
+  .field label {
+    font-size: 0.75rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.06em; color: var(--gray);
+  }
+  .field input, .field select {
+    background: var(--green-deep); border: 1px solid var(--gray-dark);
+    border-radius: 6px; color: var(--white);
+    font-family: 'Barlow', sans-serif; font-size: 0.9rem;
+    padding: 8px 11px; transition: border-color 0.2s;
+  }
+  .field input:focus, .field select:focus { outline: none; border-color: var(--green-bright); }
+  .field input::placeholder { color: var(--gray); }
+  .field select option { background: var(--green-deep); }
+
+  .teams-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 4px; }
+  .team-input-wrap { display: flex; align-items: center; gap: 8px; }
+  .team-num {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+    font-size: 1rem; color: var(--gold); min-width: 20px;
+  }
+  .team-input-wrap input {
+    flex: 1; background: var(--green-deep); border: 1px solid var(--gray-dark);
+    border-radius: 6px; color: var(--white);
+    font-family: 'Barlow', sans-serif; font-size: 0.85rem; padding: 7px 10px;
+  }
+  .team-input-wrap input:focus { outline: none; border-color: var(--green-bright); }
+
+  /* CSV import area */
+  .csv-drop {
+    border: 2px dashed var(--gray-dark); border-radius: 8px;
+    padding: 20px; text-align: center; cursor: pointer;
+    transition: border-color 0.2s, background 0.2s; margin-bottom: 10px;
+  }
+  .csv-drop:hover, .csv-drop.dragover {
+    border-color: var(--gold); background: rgba(240,192,64,0.05);
+  }
+  .csv-drop p { color: var(--gray); font-size: 0.88rem; }
+  .csv-drop p strong { color: var(--gold); }
+  .csv-status {
+    font-size: 0.82rem; color: var(--green-bright);
+    min-height: 20px; margin-top: 6px;
+  }
+  .csv-status.error { color: var(--red); }
+  .csv-fmt {
+    font-size: 0.78rem; color: var(--gray); margin-top: 8px;
+    background: var(--green-deep); border-radius: 6px; padding: 8px 12px;
+    font-family: monospace; line-height: 1.6;
+  }
+
+  .rule-legend { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .rule-pill {
+    display: flex; align-items: center; gap: 6px;
+    background: var(--green-deep); border-radius: 20px;
+    padding: 4px 11px; font-size: 0.78rem; font-weight: 600;
+  }
+  .rule-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+
+  .btn-primary {
+    width: 100%; background: var(--gold); color: var(--green-deep);
+    border: none; border-radius: 8px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    padding: 14px; cursor: pointer;
+    transition: background 0.2s, transform 0.1s; margin-top: 6px;
+  }
+  .btn-primary:hover { background: #ffd060; transform: translateY(-1px); }
+  .btn-primary:active { transform: translateY(0); }
+
+  /* ── DRAFT SCREEN ── */
+  #draft { display: flex; flex-direction: column; min-height: 100vh; }
+
+  .draft-header {
+    background: var(--green-field);
+    border-bottom: 2px solid var(--gold-dim);
+    padding: 10px 16px;
+    display: flex; align-items: center;
+    justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  }
+  .draft-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900; font-size: 1.4rem;
+    color: var(--gold); text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  .draft-controls {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .round-badge {
+    background: var(--green-deep); border: 1px solid var(--gray-dark);
+    border-radius: 6px; padding: 5px 12px; text-align: center;
+  }
+  .round-badge .lbl {
+    font-size: 0.65rem; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--gray); font-weight: 600;
+  }
+  .round-badge .val {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2rem; font-weight: 700; color: var(--white); line-height: 1;
+  }
+
+  /* Pool override dropdown */
+  .pool-override-wrap {
+    display: flex; align-items: center; gap: 6px;
+  }
+  .pool-override-wrap label {
+    font-size: 0.7rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--gray); font-weight: 600;
+    white-space: nowrap;
+  }
+  #pool-override {
+    background: var(--green-deep); border: 1px solid var(--gray-dark);
+    border-radius: 6px; color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem; font-weight: 700;
+    padding: 5px 10px; cursor: pointer;
+  }
+  #pool-override:focus { outline: none; border-color: var(--gold); }
+  #pool-override option { background: var(--green-deep); font-family: 'Barlow', sans-serif; }
+  #pool-override.override-active { border-color: var(--gold); color: var(--gold); }
+
+  .pool-badge {
+    border-radius: 6px; padding: 5px 12px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.9rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    white-space: nowrap;
+  }
+
+  .hdr-btns { display: flex; gap: 8px; }
+  .icon-btn {
+    background: transparent; border: 1px solid var(--gray-dark);
+    border-radius: 6px; color: var(--gray);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.05em;
+    padding: 5px 11px; cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+    white-space: nowrap;
+  }
+  .icon-btn:hover { border-color: var(--white); color: var(--white); }
+  .icon-btn.danger:hover { border-color: var(--red); color: var(--red); }
+  .icon-btn.export { border-color: var(--gold-dim); color: var(--gold); }
+  .icon-btn.export:hover { border-color: var(--gold); }
+  .icon-btn.reverse { border-color: #2471a3; color: #5dade2; }
+  .icon-btn.reverse:hover { border-color: #5dade2; color: #aed6f1; background: rgba(93,173,226,0.08); }
+
+  .snake-dir-badge {
+    background: rgba(93,173,226,0.12);
+    border: 1px solid #2471a3;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #5dade2;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+    display: none;
+  }
+  .snake-dir-badge.visible { display: block; }
+
+  /* Clock */
+  .clock-wrap {
+    background: var(--green-deep); border-bottom: 1px solid var(--gray-dark);
+    padding: 12px 16px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  }
+  .clock-label {
+    font-size: 0.72rem; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--gray); font-weight: 600;
+  }
+  .clock-team { display: flex; align-items: center; gap: 10px; }
+  .pulse-dot {
+    width: 13px; height: 13px; border-radius: 50%; background: var(--gold);
+    animation: pulse 1.2s ease-in-out infinite; flex-shrink: 0;
+  }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(240,192,64,0.6); }
+    50% { box-shadow: 0 0 0 8px rgba(240,192,64,0); }
+  }
+  .clock-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.7rem; font-weight: 900;
+    color: var(--gold); text-transform: uppercase; letter-spacing: 0.04em;
+  }
+  .clock-sub { color: var(--gray); font-size: 0.82rem; margin-left: 2px; }
+  .override-notice {
+    margin-left: auto; background: rgba(240,192,64,0.12);
+    border: 1px solid var(--gold-dim); border-radius: 6px;
+    padding: 4px 10px; font-size: 0.75rem; color: var(--gold); font-weight: 600;
+    display: none;
+  }
+  .override-notice.visible { display: block; }
+
+  /* Body */
+  .draft-body {
+    display: grid; grid-template-columns: 1fr 340px; flex: 1; gap: 0;
+  }
+
+  /* Pick panel */
+  .pick-panel { padding: 16px; border-right: 1px solid var(--gray-dark); overflow-y: auto; }
+  .pick-panel h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--gray); margin-bottom: 12px;
+  }
+  .player-cards { display: flex; flex-direction: column; gap: 9px; }
+  .player-card {
+    background: var(--green-field); border: 1.5px solid var(--gray-dark);
+    border-radius: 10px; padding: 12px 16px;
+    display: flex; align-items: center; gap: 14px;
+    cursor: pointer; transition: border-color 0.15s, background 0.15s, transform 0.1s;
+    user-select: none;
+  }
+  .player-card:hover { border-color: var(--gold); background: #1f4a27; transform: translateX(3px); }
+  .player-card.lineman { border-left: 4px solid var(--lineman-pool); }
+  .player-rank {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.9rem; font-weight: 900; color: var(--gold);
+    min-width: 44px; text-align: center; line-height: 1;
+  }
+  .player-info { flex: 1; min-width: 0; }
+  .player-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.15rem; font-weight: 700;
+    color: var(--white); text-transform: uppercase;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .player-extra { font-size: 0.78rem; color: var(--gray); margin-top: 2px; }
+  .pos-badge {
+    display: inline-block; border-radius: 4px;
+    padding: 2px 7px; font-size: 0.72rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  .pos-badge.lineman-pos { color: #c39bd3; border: 1px solid var(--lineman-pool); }
+  .pos-badge.skill-pos { color: #7dcea0; border: 1px solid var(--green-mid); }
+
+  .empty-pool {
+    color: var(--gray); padding: 24px 16px; text-align: center;
+    font-size: 0.9rem; line-height: 1.5;
+  }
+  .draft-done-msg {
+    background: var(--green-field); border: 1px solid var(--gold-dim);
+    border-radius: 8px; padding: 14px 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem; font-weight: 600; color: var(--gold);
+    text-align: center; display: none;
+  }
+
+  /* Board panel */
+  .board-panel { display: flex; flex-direction: column; overflow: hidden; }
+  .board-header {
+    padding: 12px 14px 8px; border-bottom: 1px solid var(--gray-dark);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .board-header span {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.9rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em; color: var(--gray);
+  }
+  .board-scroll { flex: 1; overflow-y: auto; padding: 8px 10px; }
+  .board-scroll::-webkit-scrollbar { width: 4px; }
+  .board-scroll::-webkit-scrollbar-track { background: var(--green-deep); }
+  .board-scroll::-webkit-scrollbar-thumb { background: var(--gray-dark); border-radius: 2px; }
+
+  .board-round-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.76rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    padding: 7px 4px 3px; border-top: 1px solid var(--gray-dark); margin-top: 4px;
+  }
+  .board-round-label:first-child { border-top: none; margin-top: 0; }
+  .board-pick {
+    display: flex; align-items: center; gap: 8px;
+    padding: 6px 4px; border-bottom: 1px solid rgba(58,78,62,0.35);
+  }
+  .board-pick.cur-round { background: rgba(240,192,64,0.04); }
+  .bp-num { font-family: 'Barlow Condensed', sans-serif; font-size: 0.82rem; font-weight: 700; color: var(--gray); min-width: 26px; }
+  .bp-team { font-size: 0.75rem; font-weight: 600; color: var(--gray); min-width: 88px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bp-name { font-family: 'Barlow Condensed', sans-serif; font-size: 0.92rem; font-weight: 700; color: var(--white); flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bp-pos { font-size: 0.7rem; color: var(--gray); font-family: 'Barlow', sans-serif; font-weight: 400; }
+  .bp-rank { font-family: 'Barlow Condensed', sans-serif; font-size: 0.82rem; font-weight: 700; color: var(--gold-dim); min-width: 26px; text-align: right; }
+
+  /* Modal */
+  .modal-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.78); z-index: 200;
+    align-items: center; justify-content: center;
+  }
+  .modal-overlay.active { display: flex; }
+  .modal {
+    background: var(--green-field); border: 2px solid var(--gold);
+    border-radius: 12px; padding: 30px; max-width: 400px; width: 90%; text-align: center;
+  }
+  .modal h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.4rem; font-weight: 700; color: var(--gold);
+    text-transform: uppercase; margin-bottom: 8px;
+  }
+  .modal .modal-sub { color: var(--gray); font-size: 0.9rem; margin-bottom: 4px; }
+  .modal .modal-team { font-size: 1rem; color: var(--gold); font-weight: 600; margin-bottom: 14px; }
+  .modal .modal-player {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.9rem; font-weight: 900; color: var(--white); margin-bottom: 4px;
+  }
+  .modal .modal-meta { font-size: 0.82rem; color: var(--gold-dim); margin-bottom: 22px; }
+  .modal-btns { display: flex; gap: 10px; }
+  .btn-confirm {
+    flex: 1; background: var(--gold); color: var(--green-deep); border: none;
+    border-radius: 8px; font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; padding: 12px; cursor: pointer; transition: background 0.15s;
+  }
+  .btn-confirm:hover { background: #ffd060; }
+  .btn-cancel {
+    flex: 1; background: transparent; color: var(--gray);
+    border: 1px solid var(--gray-dark); border-radius: 8px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; padding: 12px; cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .btn-cancel:hover { border-color: var(--gray); color: var(--white); }
+
+  @media (max-width: 680px) {
+    .draft-body { grid-template-columns: 1fr; }
+    .board-panel { display: none; }
+    .pick-panel { border-right: none; }
+    .field-row { grid-template-columns: 1fr; }
+    .field-row.three { grid-template-columns: 1fr 1fr; }
+    .teams-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══ SETUP SCREEN ══ -->
+<div id="setup" class="screen active">
+  <div class="setup-logo">
+    <h1>⚑ Draft Board</h1>
+    <p>Bantam Football · Live Snake Draft</p>
+  </div>
+
+  <!-- CSV Import -->
+  <div class="setup-card">
+    <h2>Import Players (CSV)</h2>
+    <div class="csv-drop" id="csv-drop" onclick="document.getElementById('csv-file').click()">
+      <p><strong>Click to upload</strong> or drag &amp; drop a CSV file</p>
+      <p style="margin-top:4px">Optional — placeholder players used if skipped</p>
+      <input type="file" id="csv-file" accept=".csv,text/csv" style="display:none" onchange="handleCsvFile(this)">
+    </div>
+    <div class="csv-status" id="csv-status"></div>
+    <div class="csv-fmt">
+      Expected columns (header row required):<br>
+      <strong>rank</strong>, <strong>name</strong>, <strong>position</strong><br>
+      Optional: <em>notes</em>, <em>age</em>, <em>weight</em><br>
+      Example: <em>1, Smith John, RB</em><br>
+      Lineman positions: OL, DL, OT, OG, C, NT, DE
+    </div>
+  </div>
+
+  <!-- Draft Settings -->
+  <div class="setup-card">
+    <h2>Draft Settings</h2>
+    <div class="field-row three">
+      <div class="field">
+        <label>Teams (max 11)</label>
+        <input type="number" id="cfg-teams" min="2" max="11" value="8">
+      </div>
+      <div class="field">
+        <label>Rounds (max 14)</label>
+        <input type="number" id="cfg-rounds" min="1" max="14" value="14">
+      </div>
+      <div class="field">
+        <label>Total Players</label>
+        <input type="number" id="cfg-players" min="10" max="500" value="100" id="cfg-players">
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Lineman Count</label>
+        <input type="number" id="cfg-linemen" min="0" max="300" value="30">
+      </div>
+      <div class="field">
+        <label>Linemen ranked at</label>
+        <select id="cfg-linemen-rank">
+          <option value="bottom">Bottom of rankings</option>
+          <option value="top">Top of rankings</option>
+          <option value="spread">Spread throughout</option>
+        </select>
+      </div>
+    </div>
+    <div class="rule-legend">
+      <div class="rule-pill"><div class="rule-dot" style="background:var(--top-pool)"></div>Rounds 1–2, 7–14: Top available</div>
+      <div class="rule-pill"><div class="rule-dot" style="background:var(--bottom-pool)"></div>Rounds 3–4: Bottom available</div>
+      <div class="rule-pill"><div class="rule-dot" style="background:var(--lineman-pool)"></div>Rounds 5–6: Linemen only</div>
+    </div>
+  </div>
+
+  <!-- Team Names -->
+  <div class="setup-card">
+    <h2>Team Names</h2>
+    <div class="teams-grid" id="teams-grid"></div>
+  </div>
+
+  <button class="btn-primary" onclick="startDraft()">▶ Start Draft</button>
+</div>
+
+<!-- ══ DRAFT SCREEN ══ -->
+<div id="draft" class="screen">
+
+  <!-- Header -->
+  <div class="draft-header">
+    <div class="draft-title">⚑ Draft Board</div>
+    <div class="draft-controls">
+      <div class="round-badge">
+        <div class="lbl">Round</div>
+        <div class="val" id="hdr-round">1</div>
+      </div>
+      <div class="round-badge">
+        <div class="lbl">Pick</div>
+        <div class="val" id="hdr-pick">1</div>
+      </div>
+      <!-- Pool override -->
+      <div class="pool-override-wrap">
+        <label for="pool-override">Pool</label>
+        <select id="pool-override" onchange="onPoolOverride()">
+          <option value="auto">Auto</option>
+          <option value="top">Top</option>
+          <option value="bottom">Bottom</option>
+          <option value="lineman">Linemen</option>
+        </select>
+      </div>
+      <div class="pool-badge" id="hdr-pool"></div>
+      <div class="hdr-btns">
+        <button class="icon-btn export" onclick="exportCSV()">⬇ Export CSV</button>
+        <button class="icon-btn reverse" id="reverse-btn" onclick="reverseCurrentRound()" title="Flip the snake direction for the current round">⇄ Reverse Round</button>
+        <button class="icon-btn danger" onclick="confirmReset()">↺ Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Clock bar -->
+  <div class="clock-wrap">
+    <div class="clock-label">On the Clock</div>
+    <div class="clock-team">
+      <div class="pulse-dot" id="pulse-dot"></div>
+      <div class="clock-name" id="clock-name">—</div>
+      <div class="clock-sub" id="clock-sub"></div>
+    </div>
+    <div class="snake-dir-badge" id="snake-dir-badge"></div>
+    <div class="override-notice" id="override-notice">⚡ Pool Override Active</div>
+  </div>
+
+  <!-- Body -->
+  <div class="draft-body">
+
+    <!-- Pick window -->
+    <div class="pick-panel">
+      <h3 id="pick-panel-label">Available Players</h3>
+      <div class="player-cards" id="player-cards"></div>
+      <div class="draft-done-msg" id="draft-done-msg">🏆 Draft Complete!</div>
+    </div>
+
+    <!-- Board -->
+    <div class="board-panel">
+      <div class="board-header">
+        <span>Draft Board</span>
+        <span id="board-count" style="font-size:0.78rem;font-weight:400;color:var(--gray)"></span>
+      </div>
+      <div class="board-scroll" id="board-scroll"></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══ CONFIRM MODAL ══ -->
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <h3>Confirm Pick</h3>
+    <div class="modal-sub">Drafting for</div>
+    <div class="modal-team" id="modal-team"></div>
+    <div class="modal-player" id="modal-player"></div>
+    <div class="modal-meta" id="modal-meta"></div>
+    <div class="modal-btns">
+      <button class="btn-cancel" id="modal-cancel-btn">Cancel</button>
+      <button class="btn-confirm" id="modal-confirm-btn">Draft!</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ══════════════════════════════════════════
+//  CONSTANTS & STATE
+// ══════════════════════════════════════════
+const STORAGE_KEY = 'bantam_draft_v3';
+const LINEMAN_POSITIONS = new Set(['OL','DL','OT','OG','C','NT','DE']);
+const SKILL_POSITIONS = ['QB','RB','WR','TE','DB','LB','K','S','CB'];
+
+let state = null;
+let importedPlayers = null; // from CSV
+let pendingPickPlayerIndex = null; // FIX: no longer an object, just a number
+
+// ══════════════════════════════════════════
+//  HELPERS
+// ══════════════════════════════════════════
+function isLineman(pos) {
+  return LINEMAN_POSITIONS.has((pos || '').toUpperCase());
+}
+
+function getRoundType(round) {
+  if (round === 3 || round === 4) return 'bottom';
+  if (round === 5 || round === 6) return 'lineman';
+  return 'top';
+}
+
+function getEffectivePoolType(round) {
+  const sel = document.getElementById('pool-override');
+  const override = sel ? sel.value : 'auto';
+  return (override !== 'auto') ? override : getRoundType(round);
+}
+
+function getPoolLabel(type) {
+  if (type === 'bottom') return { text: 'Bottom Pool', bg: 'var(--bottom-pool)', color: '#000' };
+  if (type === 'lineman') return { text: 'Linemen Only', bg: 'var(--lineman-pool)', color: '#fff' };
+  return { text: 'Top Pool', bg: 'var(--top-pool)', color: '#000' };
+}
+
+function getPickInfo(pickNum, numTeams) {
+  const idx = pickNum - 1;
+  const round = Math.floor(idx / numTeams) + 1;
+  const posInRound = idx % numTeams; // 0-based position within the round
+
+  // Look up this round's starting direction from state.
+  // 'forward'  → round starts from Team 0 and goes to Team N-1
+  // 'reverse'  → round starts from Team N-1 and goes to Team 0
+  const dir = (state && state.roundDirections && state.roundDirections[round - 1]) || 'forward';
+  const teamIndex = (dir === 'reverse') ? (numTeams - 1 - posInRound) : posInRound;
+  return { round, teamIndex };
+}
+
+// Build the default alternating direction array for N rounds.
+// Round 1 = forward, Round 2 = reverse, Round 3 = forward, etc.
+function buildDefaultDirections(numRounds) {
+  return Array.from({ length: numRounds }, (_, i) => i % 2 === 0 ? 'forward' : 'reverse');
+}
+
+// Flip the snake direction for the current (or next unstarted) round.
+// Can be called at any time before the first pick of that round is made.
+function reverseCurrentRound() {
+  if (!state) return;
+  if (state.currentPick > state.totalPicks) return;
+
+  const { round } = getPickInfo(state.currentPick, state.numTeams);
+  const ri = round - 1;
+
+  // Only allow reversal if we are at the very first pick of this round
+  // (i.e. no picks have been made in this round yet).
+  const picksInRound = state.picks.filter(p => p.round === round).length;
+  if (picksInRound > 0) {
+    alert(`Round ${round} has already started (${picksInRound} pick${picksInRound > 1 ? 's' : ''} made). You can only reverse a round before its first pick.`);
+    return;
+  }
+
+  state.roundDirections[ri] = state.roundDirections[ri] === 'forward' ? 'reverse' : 'forward';
+  saveState();
+  renderDraft();
+}
+
+function getAvailablePlayers(players, poolType) {
+  const avail = players.filter(p => !p.drafted);
+  if (poolType === 'lineman') {
+    return avail.filter(p => isLineman(p.pos)).sort((a, b) => a.rank - b.rank);
+  }
+  if (poolType === 'bottom') {
+    return avail.sort((a, b) => b.rank - a.rank); // worst first
+  }
+  return avail.sort((a, b) => a.rank - b.rank); // best first
+}
+
+function getPickWindow(players, poolType) {
+  return getAvailablePlayers(players, poolType).slice(0, 5);
+}
+
+// ══════════════════════════════════════════
+//  PLAYER GENERATION
+// ══════════════════════════════════════════
+function generatePlayers(totalPlayers, linemanCount, linemanRank) {
+  const linemanSlots = new Set();
+  const lc = Math.min(linemanCount, totalPlayers);
+
+  if (linemanRank === 'bottom') {
+    for (let i = totalPlayers - lc; i < totalPlayers; i++) linemanSlots.add(i);
+  } else if (linemanRank === 'top') {
+    for (let i = 0; i < lc; i++) linemanSlots.add(i);
+  } else {
+    const step = lc > 0 ? Math.floor(totalPlayers / lc) : 0;
+    for (let i = 0; i < lc; i++) linemanSlots.add(Math.min(i * step, totalPlayers - 1));
+  }
+
+  const players = [];
+  const linPos = Array.from(LINEMAN_POSITIONS);
+  for (let i = 0; i < totalPlayers; i++) {
+    const isLin = linemanSlots.has(i);
+    const pos = isLin
+      ? linPos[Math.floor(Math.random() * linPos.length)]
+      : SKILL_POSITIONS[Math.floor(Math.random() * SKILL_POSITIONS.length)];
+    players.push({ rank: i + 1, name: `Player #${i + 1}`, pos, drafted: false, draftedBy: null, draftRound: null, draftPickNum: null, notes: '' });
+  }
+  return players;
+}
+
+// ══════════════════════════════════════════
+//  CSV IMPORT
+// ══════════════════════════════════════════
+const csvDrop = document.getElementById('csv-drop');
+csvDrop.addEventListener('dragover', e => { e.preventDefault(); csvDrop.classList.add('dragover'); });
+csvDrop.addEventListener('dragleave', () => csvDrop.classList.remove('dragover'));
+csvDrop.addEventListener('drop', e => {
+  e.preventDefault(); csvDrop.classList.remove('dragover');
+  const file = e.dataTransfer.files[0];
+  if (file) parseCSV(file);
+});
+
+function handleCsvFile(input) {
+  if (input.files[0]) parseCSV(input.files[0]);
+}
+
+function parseCSV(file) {
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const text = e.target.result;
+      const lines = text.split(/\r?\n/).filter(l => l.trim());
+      if (lines.length < 2) throw new Error('CSV must have a header row and at least one player.');
+
+      const header = lines[0].split(',').map(h => h.trim().toLowerCase().replace(/[^a-z0-9_]/g, ''));
+      const rankCol = header.findIndex(h => h === 'rank' || h === 'ranking' || h === 'number' || h === 'no');
+      const nameCol = header.findIndex(h => h === 'name' || h === 'playername' || h === 'player');
+      const posCol  = header.findIndex(h => h === 'position' || h === 'pos');
+      const notesCol = header.findIndex(h => h === 'notes' || h === 'note' || h === 'comment');
+      const ageCol  = header.findIndex(h => h === 'age');
+      const wtCol   = header.findIndex(h => h === 'weight' || h === 'wt');
+
+      if (nameCol === -1) throw new Error('CSV must have a "name" column.');
+      if (posCol === -1)  throw new Error('CSV must have a "position" column.');
+
+      const players = [];
+      for (let i = 1; i < lines.length; i++) {
+        const cols = lines[i].split(',').map(c => c.trim());
+        if (cols.every(c => !c)) continue;
+        const name = cols[nameCol] || `Player #${i}`;
+        const pos  = (cols[posCol] || 'RB').toUpperCase();
+        const rank = rankCol !== -1 ? (parseInt(cols[rankCol]) || i) : i;
+        const notes = notesCol !== -1 ? (cols[notesCol] || '') : '';
+        const age   = ageCol !== -1 ? (cols[ageCol] || '') : '';
+        const wt    = wtCol !== -1 ? (cols[wtCol] || '') : '';
+        players.push({ rank, name, pos, notes, age, wt, drafted: false, draftedBy: null, draftRound: null, draftPickNum: null });
+      }
+
+      // Sort by rank
+      players.sort((a, b) => a.rank - b.rank);
+      // Re-assign sequential ranks to avoid gaps
+      players.forEach((p, idx) => { p.rank = idx + 1; });
+
+      importedPlayers = players;
+
+      const linemanCount = players.filter(p => isLineman(p.pos)).length;
+      const statusEl = document.getElementById('csv-status');
+      statusEl.className = 'csv-status';
+      statusEl.textContent = `✓ Loaded ${players.length} players (${linemanCount} linemen). Fields auto-populated below.`;
+
+      // Auto-fill settings
+      document.getElementById('cfg-players').value = players.length;
+      document.getElementById('cfg-linemen').value = linemanCount;
+
+    } catch(err) {
+      const statusEl = document.getElementById('csv-status');
+      statusEl.className = 'csv-status error';
+      statusEl.textContent = '✗ ' + err.message;
+      importedPlayers = null;
+    }
+  };
+  reader.readAsText(file);
+}
+
+// ══════════════════════════════════════════
+//  SETUP UI
+// ══════════════════════════════════════════
+function buildTeamInputs() {
+  const n = Math.min(11, Math.max(2, parseInt(document.getElementById('cfg-teams').value) || 8));
+  const grid = document.getElementById('teams-grid');
+  // Preserve existing names
+  const existing = [];
+  grid.querySelectorAll('input').forEach(inp => existing.push(inp.value));
+  grid.innerHTML = '';
+  for (let i = 0; i < n; i++) {
+    const wrap = document.createElement('div');
+    wrap.className = 'team-input-wrap';
+    const savedName = existing[i] && existing[i] !== `Team ${i + 1}` ? existing[i] : `Team ${i + 1}`;
+    wrap.innerHTML = `<span class="team-num">${i + 1}</span>
+      <input type="text" placeholder="Team ${i + 1} name" value="${savedName}" id="team-name-${i}">`;
+    grid.appendChild(wrap);
+  }
+}
+document.getElementById('cfg-teams').addEventListener('input', buildTeamInputs);
+buildTeamInputs();
+
+// ══════════════════════════════════════════
+//  START DRAFT
+// ══════════════════════════════════════════
+function startDraft() {
+  const numTeams   = Math.min(11, Math.max(2, parseInt(document.getElementById('cfg-teams').value) || 8));
+  const numRounds  = Math.min(14, Math.max(1, parseInt(document.getElementById('cfg-rounds').value) || 14));
+  const linemanRank = document.getElementById('cfg-linemen-rank').value;
+
+  const teams = [];
+  for (let i = 0; i < numTeams; i++) {
+    const inp = document.getElementById(`team-name-${i}`);
+    teams.push(inp ? (inp.value.trim() || `Team ${i + 1}`) : `Team ${i + 1}`);
+  }
+
+  let players;
+  if (importedPlayers && importedPlayers.length > 0) {
+    players = importedPlayers.map(p => ({ ...p }));
+  } else {
+    const totalPlayers = Math.max(numTeams * numRounds, parseInt(document.getElementById('cfg-players').value) || 100);
+    const linemanCount = Math.min(totalPlayers, Math.max(0, parseInt(document.getElementById('cfg-linemen').value) || 30));
+    players = generatePlayers(totalPlayers, linemanCount, linemanRank);
+  }
+
+  state = {
+    numTeams, numRounds, teams, players,
+    currentPick: 1,
+    totalPicks: numTeams * numRounds,
+    picks: [],
+    roundDirections: buildDefaultDirections(numRounds)
+  };
+
+  saveState();
+  showDraftScreen();
+}
+
+// ══════════════════════════════════════════
+//  SAVE / LOAD
+// ══════════════════════════════════════════
+async function saveState() {
+  try { await window.storage.set(STORAGE_KEY, JSON.stringify(state), true); } catch(e) {}
+}
+async function loadState() {
+  try {
+    const r = await window.storage.get(STORAGE_KEY, true);
+    if (r && r.value) { state = JSON.parse(r.value); showDraftScreen(); return true; }
+  } catch(e) {}
+  return false;
+}
+
+// ══════════════════════════════════════════
+//  DRAFT SCREEN
+// ══════════════════════════════════════════
+function showDraftScreen() {
+  document.getElementById('setup').classList.remove('active');
+  document.getElementById('draft').classList.add('active');
+  renderDraft();
+  if (!window._poll) window._poll = setInterval(pollState, 3000);
+}
+
+async function pollState() {
+  try {
+    const r = await window.storage.get(STORAGE_KEY, true);
+    if (r && r.value) {
+      const remote = JSON.parse(r.value);
+      if (remote.currentPick !== state.currentPick) { state = remote; renderDraft(); }
+    }
+  } catch(e) {}
+}
+
+function onPoolOverride() { renderDraft(); }
+
+function renderDraft() {
+  if (!state) return;
+
+  const isDone = state.currentPick > state.totalPicks;
+  document.getElementById('draft-done-msg').style.display = isDone ? 'block' : 'none';
+  document.getElementById('pulse-dot').style.display = isDone ? 'none' : 'block';
+
+  const pickNum = isDone ? state.totalPicks : state.currentPick;
+  const { round, teamIndex } = getPickInfo(pickNum, state.numTeams);
+  const autoType = getRoundType(round);
+  const sel = document.getElementById('pool-override');
+  const overrideVal = sel ? sel.value : 'auto';
+  const effectiveType = (overrideVal !== 'auto') ? overrideVal : autoType;
+  const isOverride = overrideVal !== 'auto';
+
+  const poolInfo = getPoolLabel(effectiveType);
+
+  // Header
+  document.getElementById('hdr-round').textContent = isDone ? state.numRounds : round;
+  document.getElementById('hdr-pick').textContent = isDone ? state.totalPicks : state.currentPick;
+
+  const poolEl = document.getElementById('hdr-pool');
+  poolEl.textContent = poolInfo.text;
+  poolEl.style.background = poolInfo.bg;
+  poolEl.style.color = poolInfo.color;
+
+  // Override styling
+  if (sel) sel.className = isOverride ? 'override-active' : '';
+  const noticeEl = document.getElementById('override-notice');
+  noticeEl.className = 'override-notice' + (isOverride ? ' visible' : '');
+
+  // Snake direction badge + reverse button state
+  const dirBadge = document.getElementById('snake-dir-badge');
+  const reverseBtn = document.getElementById('reverse-btn');
+  if (!isDone) {
+    // Ensure roundDirections exists for loaded states
+    if (!state.roundDirections) state.roundDirections = buildDefaultDirections(state.numRounds);
+    const dir = state.roundDirections[round - 1] || 'forward';
+    const picksInRound = state.picks.filter(p => p.round === round).length;
+    const dirLabel = dir === 'forward'
+      ? `Round ${round}: 1→${state.numTeams} ▶`
+      : `Round ${round}: ${state.numTeams}→1 ◀`;
+    dirBadge.textContent = dirLabel;
+    dirBadge.className = 'snake-dir-badge visible';
+    if (reverseBtn) {
+      reverseBtn.disabled = picksInRound > 0;
+      reverseBtn.style.opacity = picksInRound > 0 ? '0.4' : '1';
+      reverseBtn.title = picksInRound > 0
+        ? `Round ${round} has started — cannot reverse`
+        : `Flip snake direction for Round ${round}`;
+    }
+  } else {
+    dirBadge.className = 'snake-dir-badge';
+    if (reverseBtn) { reverseBtn.disabled = true; reverseBtn.style.opacity = '0.4'; }
+  }
+
+  // Clock
+  document.getElementById('clock-name').textContent = isDone ? 'Draft Complete' : state.teams[teamIndex];
+  document.getElementById('clock-sub').textContent = isDone ? '' : `Pick ${state.currentPick} of ${state.totalPicks}`;
+
+  // Pick window
+  const cardsEl = document.getElementById('player-cards');
+  cardsEl.innerHTML = '';
+
+  if (!isDone) {
+    const labelMap = {
+      bottom: 'Choose from 5 Lowest Available',
+      lineman: 'Choose from 5 Available Linemen',
+      top: 'Choose from 5 Highest Available'
+    };
+    document.getElementById('pick-panel-label').textContent = labelMap[effectiveType];
+
+    const window5 = getPickWindow(state.players, effectiveType);
+    if (window5.length === 0) {
+      cardsEl.innerHTML = `<div class="empty-pool">No eligible players in this pool.<br>Try changing the Pool override above.</div>`;
+    } else {
+      window5.forEach(player => {
+        const isLin = isLineman(player.pos);
+        const card = document.createElement('div');
+        card.className = 'player-card' + (isLin ? ' lineman' : '');
+
+        const extra = [player.age ? `Age ${player.age}` : '', player.wt ? `${player.wt} lbs` : '', player.notes || '']
+          .filter(Boolean).join(' · ');
+
+        card.innerHTML = `
+          <div class="player-rank">${player.rank}</div>
+          <div class="player-info">
+            <div class="player-name">${escHtml(player.name)}</div>
+            <div class="player-extra">
+              <span class="pos-badge ${isLin ? 'lineman-pos' : 'skill-pos'}">${escHtml(player.pos)}</span>
+              ${extra ? `<span style="margin-left:6px">${escHtml(extra)}</span>` : ''}
+            </div>
+          </div>
+        `;
+        // FIX: capture playerIndex clearly, attach directly
+        const playerIdx = player.rank - 1;
+        card.addEventListener('click', () => openModal(playerIdx));
+        cardsEl.appendChild(card);
+      });
+    }
+  }
+
+  renderDraftBoard();
+}
+
+function escHtml(str) {
+  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function renderDraftBoard() {
+  const boardEl = document.getElementById('board-scroll');
+  boardEl.innerHTML = '';
+  const isDone = state.currentPick > state.totalPicks;
+  const currentRound = isDone
+    ? state.numRounds
+    : getPickInfo(state.currentPick, state.numTeams).round;
+
+  let lastRound = null;
+  state.picks.forEach(pk => {
+    if (pk.round !== lastRound) {
+      const lbl = document.createElement('div');
+      lbl.className = 'board-round-label';
+      const pi = getPoolLabel(pk.poolType || getRoundType(pk.round));
+      const dir = (state.roundDirections && state.roundDirections[pk.round - 1]) || 'forward';
+      const dirArrow = dir === 'forward' ? ' ▶' : ' ◀';
+      lbl.textContent = `Round ${pk.round}${dirArrow} — ${pi.text}`;
+      lbl.style.color = pi.bg;
+      boardEl.appendChild(lbl);
+      lastRound = pk.round;
+    }
+    const player = state.players[pk.playerRank - 1];
+    const row = document.createElement('div');
+    row.className = 'board-pick' + (pk.round === currentRound ? ' cur-round' : '');
+    row.innerHTML = `
+      <span class="bp-num">${pk.pickNum}</span>
+      <span class="bp-team">${escHtml(state.teams[pk.teamIndex])}</span>
+      <span class="bp-name">${escHtml(player.name)} <span class="bp-pos">${escHtml(player.pos)}</span></span>
+      <span class="bp-rank">#${pk.playerRank}</span>
+    `;
+    boardEl.appendChild(row);
+  });
+
+  document.getElementById('board-count').textContent = `${state.picks.length} / ${state.totalPicks}`;
+  setTimeout(() => { boardEl.scrollTop = boardEl.scrollHeight; }, 40);
+}
+
+// ══════════════════════════════════════════
+//  MODAL — FIX: pendingPickPlayerIndex is
+//  a plain number, never an object
+// ══════════════════════════════════════════
+function openModal(playerIndex) {
+  if (state.currentPick > state.totalPicks) return;
+  const player = state.players[playerIndex];
+  if (!player || player.drafted) return;
+
+  pendingPickPlayerIndex = playerIndex; // simple number
+
+  const { teamIndex } = getPickInfo(state.currentPick, state.numTeams);
+  document.getElementById('modal-team').textContent = state.teams[teamIndex];
+  document.getElementById('modal-player').textContent = player.name;
+
+  const extra = [player.age ? `Age ${player.age}` : '', player.wt ? `${player.wt} lbs` : '']
+    .filter(Boolean).join(' · ');
+  document.getElementById('modal-meta').textContent =
+    `Rank #${player.rank} · ${player.pos}${extra ? ' · ' + extra : ''}`;
+
+  document.getElementById('modal').classList.add('active');
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('active');
+  pendingPickPlayerIndex = null;
+}
+
+function confirmPick() {
+  // FIX: guard against null and use the plain index directly
+  if (pendingPickPlayerIndex === null || pendingPickPlayerIndex === undefined) return;
+
+  const playerIndex = pendingPickPlayerIndex;
+  closeModal(); // clears pendingPickPlayerIndex AFTER we've captured it above
+
+  const { round, teamIndex } = getPickInfo(state.currentPick, state.numTeams);
+
+  // Determine the effective pool type (respecting override)
+  const sel = document.getElementById('pool-override');
+  const overrideVal = sel ? sel.value : 'auto';
+  const poolType = overrideVal !== 'auto' ? overrideVal : getRoundType(round);
+
+  const player = state.players[playerIndex];
+  if (!player || player.drafted) return; // double-guard
+
+  player.drafted     = true;
+  player.draftedBy   = teamIndex;
+  player.draftRound  = round;
+  player.draftPickNum = state.currentPick;
+
+  state.picks.push({
+    pickNum: state.currentPick,
+    round,
+    poolType,
+    teamIndex,
+    playerRank: player.rank
+  });
+
+  state.currentPick++;
+  saveState();
+  renderDraft();
+}
+
+// Wire up modal buttons safely (no inline onclick to avoid stale closures)
+document.getElementById('modal-confirm-btn').addEventListener('click', confirmPick);
+document.getElementById('modal-cancel-btn').addEventListener('click', closeModal);
+// Click outside modal to dismiss
+document.getElementById('modal').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+
+// ══════════════════════════════════════════
+//  EXPORT CSV
+// ══════════════════════════════════════════
+function exportCSV() {
+  if (!state || state.picks.length === 0) {
+    alert('No picks have been made yet.');
+    return;
+  }
+
+  const rows = [['Pick', 'Round', 'Pool', 'Team', 'Player Name', 'Position', 'Rank', 'Age', 'Weight', 'Notes']];
+
+  state.picks.forEach(pk => {
+    const player = state.players[pk.playerRank - 1];
+    const poolLabel = getPoolLabel(pk.poolType || getRoundType(pk.round)).text;
+    rows.push([
+      pk.pickNum,
+      pk.round,
+      poolLabel,
+      state.teams[pk.teamIndex],
+      player.name,
+      player.pos,
+      player.rank,
+      player.age || '',
+      player.wt || '',
+      player.notes || ''
+    ]);
+  });
+
+  const csv = rows.map(r => r.map(cell => {
+    const s = String(cell);
+    return s.includes(',') || s.includes('"') || s.includes('\n') ? `"${s.replace(/"/g,'""')}"` : s;
+  }).join(',')).join('\r\n');
+
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'bantam_draft_results.csv';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ══════════════════════════════════════════
+//  RESET
+// ══════════════════════════════════════════
+function confirmReset() {
+  if (confirm('Reset the entire draft? This cannot be undone.')) {
+    if (window._poll) { clearInterval(window._poll); window._poll = null; }
+    try { window.storage.delete(STORAGE_KEY, true); } catch(e) {}
+    state = null;
+    importedPlayers = null;
+    pendingPickPlayerIndex = null;
+    document.getElementById('pool-override').value = 'auto';
+    const rb = document.getElementById('reverse-btn');
+    if (rb) { rb.disabled = false; rb.style.opacity = '1'; }
+    document.getElementById('snake-dir-badge').className = 'snake-dir-badge';
+    document.getElementById('draft').classList.remove('active');
+    document.getElementById('setup').classList.add('active');
+  }
+}
+
+// ══════════════════════════════════════════
+//  INIT
+// ══════════════════════════════════════════
+(async () => {
+  const resumed = await loadState();
+  if (!resumed) document.getElementById('setup').classList.add('active');
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bantam Football — Player Rankings</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --field-green: #1a4a2e;
+    --field-green-light: #2a6b42;
+    --chalk: #ffffff;
+    --gold: #e8b84b;
+    --gold-dark: #c49a2e;
+    --red: #c0392b;
+    --card-bg: #1e2d24;
+    --card-border: #2e4a38;
+    --text-primary: #f0f4f1;
+    --text-muted: #7ba98a;
+    --skill-color: #4fc3f7;
+    --lineman-color: #ff8a65;
+    --shadow: 0 4px 24px rgba(0,0,0,0.5);
+  }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--field-green);
+    background-image:
+      repeating-linear-gradient(90deg, transparent, transparent 79px, rgba(255,255,255,0.04) 79px, rgba(255,255,255,0.04) 80px),
+      repeating-linear-gradient(180deg, transparent, transparent 79px, rgba(255,255,255,0.04) 79px, rgba(255,255,255,0.04) 80px);
+    color: var(--text-primary);
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    background: linear-gradient(135deg, #0d2a1a 0%, #1a4a2e 60%, #0d2a1a 100%);
+    border-bottom: 3px solid var(--gold);
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .header-left { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+  .logo {
+    width: 40px; height: 40px;
+    background: var(--gold); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800; font-size: 16px; color: #0d2a1a; flex-shrink: 0;
+  }
+  .header-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800; font-size: 22px;
+    letter-spacing: 0.04em; color: var(--chalk); text-transform: uppercase;
+  }
+  .header-title span { color: var(--gold); }
+  .header-subtitle { font-size: 10px; color: var(--text-muted); letter-spacing: 0.08em; text-transform: uppercase; margin-top: 1px; }
+  .header-controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+
+  /* ── Division tabs — two rows to fit all 7 ── */
+  .division-tabs {
+    display: flex; flex-wrap: wrap; gap: 3px;
+    background: rgba(0,0,0,0.3); border-radius: 8px; padding: 3px;
+    max-width: 480px;
+  }
+  .division-tab {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700; font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 5px 10px; border: none; border-radius: 5px;
+    cursor: pointer; background: transparent; color: var(--text-muted); transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .division-tab.active { background: var(--gold); color: #0d2a1a; }
+  .division-tab:hover:not(.active) { color: var(--chalk); background: rgba(255,255,255,0.07); }
+
+  /* ── Buttons ── */
+  .btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase;
+    padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .btn-ghost { background: transparent; border: 1.5px solid var(--card-border); color: var(--text-muted); }
+  .btn-ghost:hover { border-color: var(--gold); color: var(--gold); }
+  .btn-primary { background: var(--gold); color: #0d2a1a; }
+  .btn-primary:hover { background: var(--gold-dark); }
+  .btn-save {
+    background: var(--gold); color: #0d2a1a;
+    display: flex; align-items: center; gap: 6px;
+    position: relative;
+  }
+  .btn-save:hover { background: var(--gold-dark); }
+  .btn-save.saving { background: rgba(232,184,75,0.4); color: var(--gold); cursor: wait; }
+  .btn-save.saved  { background: #2e7d32; color: #fff; }
+  .btn-save.error  { background: #c0392b; color: #fff; }
+
+  /* ── Cloud status bar ── */
+  .cloud-bar {
+    width: 100%;
+    background: rgba(0,0,0,0.35);
+    border-bottom: 1px solid var(--card-border);
+    padding: 6px 24px;
+    display: flex; align-items: center; gap: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px; letter-spacing: 0.04em;
+    color: var(--text-muted);
+  }
+  .cloud-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--text-muted); flex-shrink: 0;
+    transition: background 0.3s;
+  }
+  .cloud-dot.ok     { background: #4caf50; box-shadow: 0 0 6px rgba(76,175,80,0.5); }
+  .cloud-dot.saving { background: var(--gold); box-shadow: 0 0 6px rgba(232,184,75,0.5); animation: pulse 1s infinite; }
+  .cloud-dot.error  { background: #e53935; }
+  .cloud-dot.nokey  { background: #888; }
+  @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.3; } }
+
+  /* ── No-token warning banner ── */
+  .token-banner {
+    background: rgba(232,184,75,0.1);
+    border: 1px solid rgba(232,184,75,0.3);
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: var(--gold);
+    display: flex; align-items: flex-start; gap: 10px;
+    line-height: 1.5;
+  }
+  .token-banner a { color: var(--gold); }
+
+  /* ── Main ── */
+  .main { max-width: 1120px; margin: 0 auto; padding: 20px 18px; }
+  .toolbar {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 16px; gap: 10px; flex-wrap: wrap;
+  }
+  .view-toggle {
+    display: flex; gap: 3px;
+    background: rgba(0,0,0,0.25); border-radius: 8px; padding: 3px;
+  }
+  .view-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700; font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 5px 12px; border: none; border-radius: 5px;
+    cursor: pointer; background: transparent; color: var(--text-muted); transition: all 0.15s;
+  }
+  .view-btn.active { background: var(--field-green-light); color: var(--chalk); }
+  .view-btn:hover:not(.active) { color: var(--chalk); }
+
+  .stat-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+  .stat-pill {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 20px; display: flex; align-items: center; gap: 5px;
+  }
+  .stat-pill .dot { width: 6px; height: 6px; border-radius: 50%; }
+  .stat-pill.skill   { background: rgba(79,195,247,0.12); color: var(--skill-color); }
+  .stat-pill.skill .dot { background: var(--skill-color); }
+  .stat-pill.lineman { background: rgba(255,138,101,0.12); color: var(--lineman-color); }
+  .stat-pill.lineman .dot { background: var(--lineman-color); }
+  .stat-pill.total   { background: rgba(232,184,75,0.12); color: var(--gold); }
+  .stat-pill.total .dot { background: var(--gold); }
+
+  /* ── Drop indicator ── */
+  .drop-indicator {
+    height: 3px; background: var(--gold); border-radius: 2px;
+    margin: 0 12px; box-shadow: 0 0 8px rgba(232,184,75,0.6);
+    display: none; position: relative; z-index: 10;
+  }
+  .drop-indicator::before, .drop-indicator::after {
+    content: ''; position: absolute;
+    width: 9px; height: 9px; border-radius: 50%;
+    background: var(--gold); top: -3px;
+  }
+  .drop-indicator::before { left: -4px; }
+  .drop-indicator::after  { right: -4px; }
+  .drop-indicator.visible { display: block; }
+
+  /* ── Rankings panel ── */
+  .rankings-panel {
+    background: var(--card-bg); border: 1.5px solid var(--card-border);
+    border-radius: 12px; overflow: visible; box-shadow: var(--shadow);
+  }
+  .rankings-header {
+    display: grid;
+    grid-template-columns: 28px 60px 1fr 90px 100px 80px 72px;
+    align-items: center; padding: 9px 14px;
+    background: rgba(0,0,0,0.3); border-bottom: 1px solid var(--card-border);
+    border-radius: 12px 12px 0 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* ── Player rows ── */
+  .player-row-wrap { position: relative; }
+  .player-row {
+    display: grid;
+    grid-template-columns: 28px 60px 1fr 90px 100px 80px 72px;
+    align-items: center; padding: 9px 14px;
+    border-bottom: 1px solid rgba(46,74,56,0.45);
+    transition: background 0.1s; user-select: none; position: relative;
+  }
+  .player-row-wrap:last-child .player-row { border-bottom: none; }
+  .player-row.is-dragging { opacity: 0.3; }
+  .player-row:hover { background: rgba(42,107,66,0.15); }
+  .player-row:hover .drag-handle { opacity: 1; }
+
+  .drag-handle {
+    opacity: 0.25; cursor: grab;
+    display: flex; flex-direction: column; gap: 3px;
+    padding: 4px 2px; align-self: center; transition: opacity 0.15s;
+  }
+  .drag-handle:active { cursor: grabbing; }
+  .drag-handle span { display: block; width: 14px; height: 2px; background: var(--text-muted); border-radius: 1px; }
+
+  .rank-cell { display: flex; align-items: center; justify-content: center; }
+  .rank-badge {
+    width: 36px; height: 36px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 15px;
+    background: rgba(0,0,0,0.35); color: var(--text-muted);
+    border: 1.5px solid var(--card-border); cursor: pointer; transition: all 0.15s; flex-shrink: 0;
+  }
+  .rank-badge:hover { border-color: var(--gold); color: var(--gold); background: rgba(232,184,75,0.08); }
+  .rank-badge.top3 {
+    background: linear-gradient(135deg, #b8860b, var(--gold));
+    color: #0d2a1a; border-color: var(--gold);
+    box-shadow: 0 2px 10px rgba(232,184,75,0.35);
+  }
+  .rank-input {
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 2px solid var(--gold); background: #0d2a1a; color: var(--gold);
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 15px;
+    text-align: center; outline: none; box-shadow: 0 0 0 3px rgba(232,184,75,0.2);
+    -moz-appearance: textfield; display: none;
+  }
+  .rank-input::-webkit-outer-spin-button, .rank-input::-webkit-inner-spin-button { -webkit-appearance: none; }
+
+  .player-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .player-name {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 16px;
+    letter-spacing: 0.02em; color: var(--chalk); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .player-meta { font-size: 11px; color: var(--text-muted); }
+  .pos-badge {
+    display: inline-block; padding: 2px 6px; border-radius: 4px;
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 11px;
+    letter-spacing: 0.06em; text-transform: uppercase; margin-right: 3px;
+  }
+  .pos-badge.skill   { background: rgba(79,195,247,0.18); color: var(--skill-color); }
+  .pos-badge.lineman { background: rgba(255,138,101,0.18); color: var(--lineman-color); }
+
+  .col-center { text-align: center; font-family: 'Barlow Condensed', sans-serif; font-size: 14px; }
+  .col-muted  { color: var(--text-muted); }
+  .grade-wrap { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+  .grade-val  { font-weight: 700; font-size: 15px; }
+  .grade-bar  { width: 44px; height: 4px; background: var(--card-border); border-radius: 3px; overflow: hidden; }
+  .grade-fill { height: 100%; border-radius: 3px; }
+
+  .action-cell { display: flex; gap: 3px; justify-content: flex-end; }
+  .icon-btn {
+    width: 28px; height: 28px; border: none; border-radius: 5px;
+    background: transparent; color: var(--text-muted); cursor: pointer;
+    display: flex; align-items: center; justify-content: center; font-size: 13px; transition: all 0.13s;
+  }
+  .icon-btn:hover { background: rgba(255,255,255,0.08); color: var(--chalk); }
+  .icon-btn.del:hover { background: rgba(192,57,43,0.2); color: #e57373; }
+
+  /* ── Split view ── */
+  .split-view { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .split-panel {
+    background: var(--card-bg); border: 1.5px solid var(--card-border);
+    border-radius: 12px; overflow: visible; box-shadow: var(--shadow);
+  }
+  .split-panel-header {
+    padding: 10px 14px; display: flex; align-items: center; gap: 10px;
+    border-bottom: 1px solid var(--card-border); background: rgba(0,0,0,0.22);
+    border-radius: 12px 12px 0 0;
+  }
+  .split-panel-title { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .split-panel-title.skill   { color: var(--skill-color); }
+  .split-panel-title.lineman { color: var(--lineman-color); }
+  .split-panel-count { font-family: 'Barlow Condensed', sans-serif; font-size: 13px; color: var(--text-muted); margin-left: auto; }
+
+  .split-header {
+    display: grid; grid-template-columns: 28px 44px 1fr 60px 52px 44px;
+    align-items: center; padding: 7px 12px;
+    font-family: 'Barlow Condensed', sans-serif; font-size: 10px; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted);
+    border-bottom: 1px solid rgba(46,74,56,0.4); background: rgba(0,0,0,0.15);
+  }
+  .split-row-wrap { position: relative; }
+  .split-player-row {
+    display: grid; grid-template-columns: 28px 44px 1fr 60px 52px 44px;
+    align-items: center; padding: 8px 12px;
+    border-bottom: 1px solid rgba(46,74,56,0.35);
+    user-select: none; transition: background 0.1s; position: relative;
+  }
+  .split-row-wrap:last-child .split-player-row { border-bottom: none; }
+  .split-player-row.is-dragging { opacity: 0.3; }
+  .split-player-row:hover { background: rgba(42,107,66,0.15); }
+  .split-player-row:hover .drag-handle { opacity: 1; }
+
+  .split-rank-cell { position: relative; display: flex; align-items: center; justify-content: center; }
+  .split-rank {
+    width: 30px; height: 30px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 13px;
+    background: rgba(0,0,0,0.3); color: var(--text-muted);
+    border: 1.5px solid var(--card-border); cursor: pointer; transition: all 0.15s;
+  }
+  .split-rank:hover { border-color: var(--gold); color: var(--gold); }
+  .split-rank.top3 { background: linear-gradient(135deg,#b8860b,var(--gold)); color:#0d2a1a; border-color:var(--gold); }
+  .split-rank-input {
+    width: 30px; height: 30px; border-radius: 50%;
+    border: 2px solid var(--gold); background: #0d2a1a; color: var(--gold);
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 13px;
+    text-align: center; outline: none; box-shadow: 0 0 0 3px rgba(232,184,75,0.2);
+    -moz-appearance: textfield; display: none;
+  }
+  .split-rank-input::-webkit-outer-spin-button, .split-rank-input::-webkit-inner-spin-button { -webkit-appearance: none; }
+  .split-name { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:14px; color:var(--chalk); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .split-pos  { font-size:11px; color:var(--text-muted); }
+
+  .rank-cell { position: relative; display: flex; align-items: center; justify-content: center; }
+  .rank-hint {
+    position: absolute; bottom: calc(100% + 5px); left: 50%; transform: translateX(-50%);
+    background: #0d2a1a; border: 1px solid var(--gold); color: var(--gold);
+    font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.04em;
+    padding: 3px 8px; border-radius: 5px; white-space: nowrap; pointer-events: none; z-index: 50;
+    opacity: 0; transition: opacity 0.15s;
+  }
+  .rank-cell:hover .rank-hint, .split-rank-cell:hover .rank-hint { opacity: 1; }
+
+  /* ── Modal ── */
+  .modal-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.72);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 200; backdrop-filter: blur(4px);
+  }
+  .modal {
+    background: #1a2e22; border: 1.5px solid var(--card-border);
+    border-radius: 14px; width: 450px; max-width: 95vw;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.7); overflow: hidden;
+  }
+  .modal-header {
+    padding: 15px 20px; background: rgba(0,0,0,0.3);
+    border-bottom: 1px solid var(--card-border);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .modal-title { font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:19px; letter-spacing:0.04em; text-transform:uppercase; }
+  .modal-body  { padding: 18px 20px; display: flex; flex-direction: column; gap: 12px; }
+  .modal-footer { padding: 13px 20px; display: flex; gap: 9px; justify-content: flex-end; background: rgba(0,0,0,0.15); }
+  .form-group { display: flex; flex-direction: column; gap: 5px; }
+  .form-row   { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; }
+  .form-row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 11px; }
+  label {
+    font-family:'Barlow Condensed',sans-serif; font-size:11px; font-weight:700;
+    letter-spacing:0.08em; text-transform:uppercase; color:var(--text-muted);
+  }
+  input, select {
+    font-family:'Barlow',sans-serif; font-size:14px; padding: 8px 11px;
+    background: rgba(0,0,0,0.35); border: 1.5px solid var(--card-border);
+    border-radius: 7px; color: var(--chalk); outline: none;
+    transition: border-color 0.15s; width: 100%;
+  }
+  input:focus, select:focus { border-color: var(--gold); }
+  select option { background: #1a2e22; }
+
+  .empty-state { padding: 44px; text-align: center; color: var(--text-muted); }
+  .empty-title { font-family:'Barlow Condensed',sans-serif; font-size:17px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:6px; }
+
+  /* ── Toast ── */
+  .toast {
+    position: fixed; bottom: 22px; right: 22px;
+    background: var(--field-green-light); border: 1.5px solid var(--gold);
+    border-radius: 8px; padding: 10px 16px;
+    font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:13px; letter-spacing:0.04em;
+    color: var(--chalk); z-index: 300; box-shadow: var(--shadow);
+    animation: slideIn 0.2s ease;
+  }
+  @keyframes slideIn { from { transform: translateX(36px); opacity:0; } to { transform: translateX(0); opacity:1; } }
+
+  /* ── Spinner ── */
+  .spinner {
+    width: 13px; height: 13px; border: 2px solid rgba(0,0,0,0.3);
+    border-top-color: #0d2a1a; border-radius: 50%;
+    animation: spin 0.7s linear infinite; display: inline-block;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  @media (max-width: 740px) {
+    .split-view { grid-template-columns: 1fr; }
+    .rankings-header, .player-row { grid-template-columns: 28px 50px 1fr 70px 70px; }
+    .col-hide { display: none; }
+    header { padding: 10px 12px; }
+    .division-tabs { max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <div class="logo">BF</div>
+    <div>
+      <div class="header-title">Bantam <span>Rankings</span></div>
+      <div class="header-subtitle">Player Evaluation System</div>
+    </div>
+  </div>
+  <div class="header-controls">
+    <div class="division-tabs" id="divisionTabs"></div>
+    <button class="btn btn-ghost" onclick="importCSV()">↑ Import CSV</button>
+    <button class="btn btn-ghost" onclick="exportCSV()">↓ Export CSV</button>
+    <button class="btn btn-save" id="saveBtn" onclick="saveToGitHub()">
+      <span id="saveBtnIcon">☁</span>
+      <span id="saveBtnText">Save</span>
+    </button>
+    <button class="btn btn-primary" onclick="openAddModal()">+ Add Player</button>
+  </div>
+</header>
+
+<div class="cloud-bar">
+  <div class="cloud-dot" id="cloudDot"></div>
+  <span id="cloudStatus">Initializing…</span>
+</div>
+
+<div class="main">
+  <div id="tokenBanner" style="display:none;" class="token-banner">
+    ⚠️ <div>No GitHub token configured — rankings will not be saved to the cloud.
+    Open this file in a text editor, find <code>GITHUB_TOKEN</code> near the top of the &lt;script&gt; section, and paste in your Personal Access Token.
+    <a href="https://github.com/settings/tokens" target="_blank">Generate one at github.com/settings/tokens</a> (scope: <strong>repo</strong>).</div>
+  </div>
+
+  <div class="toolbar">
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+      <div class="view-toggle">
+        <button class="view-btn active" id="viewAll"   onclick="setView('all')">Overall</button>
+        <button class="view-btn"        id="viewSplit" onclick="setView('split')">Skill / Lineman</button>
+      </div>
+      <span style="font-size:11px;color:var(--text-muted);font-family:'Barlow Condensed',sans-serif;letter-spacing:0.04em;">
+        ☰ drag rows &nbsp;·&nbsp; click rank # to jump position
+      </span>
+    </div>
+    <div class="stat-pills" id="statPills"></div>
+  </div>
+
+  <div id="rankingsContainer"></div>
+</div>
+
+<!-- Add/Edit Modal -->
+<div class="modal-overlay" id="modal" style="display:none;" onclick="closeModalOutside(event)">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="modal-title" id="modalTitle">Add Player</span>
+      <button class="icon-btn" onclick="closeModal()" style="font-size:18px;">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-row">
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text" id="fieldFirst" placeholder="First" />
+        </div>
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" id="fieldLast" placeholder="Last" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Position</label>
+          <select id="fieldPosition">
+            <option value="">Select position</option>
+            <optgroup label="Skill">
+              <option>QB</option><option>RB</option><option>WR</option>
+              <option>TE</option><option>DB</option><option>LB</option><option>K/P</option>
+            </optgroup>
+            <optgroup label="Lineman">
+              <option>OL</option><option>DL</option><option>OT</option>
+              <option>OG</option><option>C</option><option>DE</option>
+              <option>DT</option><option>NT</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>League</label>
+          <select id="fieldDivision"></select>
+        </div>
+      </div>
+      <div class="form-row-3">
+        <div class="form-group">
+          <label>Rank</label>
+          <input type="number" id="fieldRank" placeholder="Auto" min="1" />
+        </div>
+        <div class="form-group">
+          <label>Weight (lbs)</label>
+          <input type="number" id="fieldWeight" placeholder="e.g. 115" min="60" max="300" />
+        </div>
+        <div class="form-group">
+          <label>Grade (1–10)</label>
+          <input type="number" id="fieldGrade" placeholder="e.g. 8.5" min="1" max="10" step="0.5" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Notes</label>
+        <input type="text" id="fieldNotes" placeholder="Optional scouting note" />
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-ghost" onclick="closeModal()">Cancel</button>
+      <button class="btn btn-primary" onclick="savePlayer()">Save Player</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" style="display:none;"></div>
+<input type="file" id="csvInput" accept=".csv" style="display:none;" onchange="handleCSVImport(event)">
+
+<script>
+// ════════════════════════════════════════════════════════════════════════════
+//  GITHUB CONFIG — paste your Personal Access Token below
+//  Generate at: https://github.com/settings/tokens  (scope: repo)
+// ════════════════════════════════════════════════════════════════════════════
+const GITHUB_TOKEN  = '';                    // ← PASTE YOUR TOKEN HERE
+const GITHUB_OWNER  = 'brianbevis';
+const GITHUB_REPO   = 'Bantamdraft';
+const GITHUB_FILE   = 'rankings-data.json'; // file stored in root of repo
+const GITHUB_BRANCH = 'main';               // change to 'master' if needed
+// ════════════════════════════════════════════════════════════════════════════
+
+// ─── Divisions ────────────────────────────────────────────────────────────────
+const DIVISIONS = ['JRT', 'Rookie', 'Minor', 'Major', '2-4 GFL', '5-6 GFL', '7-8 GFL'];
+
+// ─── Positions ────────────────────────────────────────────────────────────────
+const SKILL_POS   = new Set(['QB','RB','WR','TE','DB','LB','K/P']);
+const LINEMAN_POS = new Set(['OL','DL','OT','OG','C','DE','DT','NT']);
+
+function posType(pos) { return LINEMAN_POS.has(pos) ? 'lineman' : 'skill'; }
+function gradeColor(g) {
+  if (g >= 9)   return '#4fc3f7';
+  if (g >= 7.5) return '#81c784';
+  if (g >= 6)   return '#e8b84b';
+  return '#ef9a9a';
+}
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2,6); }
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ─── State ────────────────────────────────────────────────────────────────────
+const state = {
+  activeDivision: DIVISIONS[0],
+  view: 'all',
+  editId: null,
+  players: Object.fromEntries(DIVISIONS.map(d => [d, []])),
+  githubSha: null,   // current SHA of rankings-data.json (needed for updates)
+};
+
+// ─── Drag state ───────────────────────────────────────────────────────────────
+let drag = { active: false, type: null, srcIdx: null };
+
+// ─── Toast ────────────────────────────────────────────────────────────────────
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.className = 'toast'; t.textContent = msg; t.style.display = 'block';
+  clearTimeout(window._tt);
+  window._tt = setTimeout(() => { t.style.display = 'none'; }, 2400);
+}
+
+// ─── Cloud status ─────────────────────────────────────────────────────────────
+function setCloudStatus(state, msg) {
+  const dot = document.getElementById('cloudDot');
+  const txt = document.getElementById('cloudStatus');
+  dot.className = 'cloud-dot ' + state;
+  txt.textContent = msg;
+}
+
+// ─── GitHub API helpers ───────────────────────────────────────────────────────
+async function ghFetch(path, options = {}) {
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
+  const headers = {
+    'Authorization': `token ${GITHUB_TOKEN}`,
+    'Accept': 'application/vnd.github.v3+json',
+    'Content-Type': 'application/json',
+  };
+  const res = await fetch(url, { ...options, headers: { ...headers, ...(options.headers || {}) } });
+  return res;
+}
+
+async function loadFromGitHub() {
+  if (!GITHUB_TOKEN) {
+    document.getElementById('tokenBanner').style.display = 'flex';
+    setCloudStatus('nokey', 'No token — cloud save disabled. Using local session only.');
+    // Load sample data so the app is still usable
+    DIVISIONS.forEach(d => { state.players[d] = makeSample(d); });
+    render();
+    return;
+  }
+
+  setCloudStatus('saving', 'Loading rankings from GitHub…');
+  try {
+    const res = await ghFetch(GITHUB_FILE);
+    if (res.status === 404) {
+      // File doesn't exist yet — start fresh
+      setCloudStatus('ok', 'No saved data found — starting fresh. Add players and hit Save.');
+      render();
+      return;
+    }
+    if (!res.ok) throw new Error(`GitHub returned ${res.status}`);
+    const json = await res.json();
+    state.githubSha = json.sha;
+    const data = JSON.parse(atob(json.content.replace(/\n/g, '')));
+    // Merge loaded data; preserve any divisions not in file as empty
+    DIVISIONS.forEach(d => { state.players[d] = data.players?.[d] || []; });
+    const total = DIVISIONS.reduce((s,d) => s + state.players[d].length, 0);
+    setCloudStatus('ok', `Loaded ${total} players · Last saved: ${data.savedAt || 'unknown'}`);
+    render();
+  } catch (err) {
+    setCloudStatus('error', `Load failed: ${err.message}`);
+    render();
+  }
+}
+
+async function saveToGitHub() {
+  if (!GITHUB_TOKEN) {
+    showToast('No token configured — cannot save to GitHub');
+    return;
+  }
+
+  const btn = document.getElementById('saveBtn');
+  const icon = document.getElementById('saveBtnIcon');
+  const txt  = document.getElementById('saveBtnText');
+  btn.className = 'btn btn-save saving';
+  icon.innerHTML = '<span class="spinner"></span>';
+  txt.textContent = 'Saving…';
+  setCloudStatus('saving', 'Saving to GitHub…');
+
+  const payload = {
+    savedAt: new Date().toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' }),
+    players: state.players,
+  };
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2))));
+
+  const body = {
+    message: `Rankings update — ${payload.savedAt}`,
+    content,
+    branch: GITHUB_BRANCH,
+  };
+  if (state.githubSha) body.sha = state.githubSha;
+
+  try {
+    const res = await ghFetch(GITHUB_FILE, { method: 'PUT', body: JSON.stringify(body) });
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.message || res.status);
+    }
+    const json = await res.json();
+    state.githubSha = json.content.sha;
+    const total = DIVISIONS.reduce((s,d) => s + state.players[d].length, 0);
+    setCloudStatus('ok', `Saved ${total} players · ${payload.savedAt}`);
+    btn.className = 'btn btn-save saved';
+    icon.textContent = '✓';
+    txt.textContent = 'Saved';
+    setTimeout(() => {
+      btn.className = 'btn btn-save';
+      icon.textContent = '☁';
+      txt.textContent = 'Save';
+    }, 2500);
+  } catch (err) {
+    setCloudStatus('error', `Save failed: ${err.message}`);
+    btn.className = 'btn btn-save error';
+    icon.textContent = '✗';
+    txt.textContent = 'Failed';
+    setTimeout(() => {
+      btn.className = 'btn btn-save';
+      icon.textContent = '☁';
+      txt.textContent = 'Save';
+    }, 3000);
+    showToast(`Save failed: ${err.message}`);
+  }
+}
+
+// ─── Sample data (used only when no token / no saved file) ───────────────────
+function makeSample(div) {
+  const base = [
+    ['Marcus','Williams','RB',148,8.5],['Tyler','Johnson','QB',132,9.0],
+    ['Darius','Carter','WR',119,7.5], ['Isaiah','Brooks','OL',185,6.5],
+    ['Eli','Foster','DB',124,8.0],    ['Noah','Thompson','DL',198,7.0],
+    ['Caleb','Harris','LB',155,7.5],  ['Jordan','Mitchell','OT',210,6.0],
+  ];
+  const off = DIVISIONS.indexOf(div);
+  return base.slice(0, 4 + (off % 5)).map((p,i) => ({
+    id: `${div}-${i}-${uid()}`, first: p[0], last: p[1],
+    position: p[2], weight: p[3] + off*3, grade: p[4], notes: '', division: div,
+  }));
+}
+
+// ─── Render orchestrator ──────────────────────────────────────────────────────
+function render() {
+  renderTabs();
+  renderDivisionSelect();
+  renderStats();
+  state.view === 'all' ? renderAll() : renderSplit();
+}
+
+function renderTabs() {
+  document.getElementById('divisionTabs').innerHTML = DIVISIONS.map(d =>
+    `<button class="division-tab ${d === state.activeDivision ? 'active' : ''}"
+       onclick="switchDiv('${escHtml(d)}')">${escHtml(d)}</button>`
+  ).join('');
+}
+
+function renderDivisionSelect() {
+  const sel = document.getElementById('fieldDivision');
+  if (!sel) return;
+  const cur = sel.value || state.activeDivision;
+  sel.innerHTML = DIVISIONS.map(d =>
+    `<option value="${escHtml(d)}" ${d === cur ? 'selected' : ''}>${escHtml(d)}</option>`
+  ).join('');
+}
+
+function switchDiv(d) { state.activeDivision = d; render(); }
+
+function setView(v) {
+  state.view = v;
+  document.getElementById('viewAll').classList.toggle('active', v === 'all');
+  document.getElementById('viewSplit').classList.toggle('active', v === 'split');
+  render();
+}
+
+function renderStats() {
+  const pl = state.players[state.activeDivision] || [];
+  const sk = pl.filter(p => posType(p.position) === 'skill').length;
+  const li = pl.filter(p => posType(p.position) === 'lineman').length;
+  document.getElementById('statPills').innerHTML = `
+    <div class="stat-pill skill"><span class="dot"></span>${sk} Skill</div>
+    <div class="stat-pill lineman"><span class="dot"></span>${li} Lineman</div>
+    <div class="stat-pill total"><span class="dot"></span>${pl.length} Total</div>
+  `;
+}
+
+// ─── Overall view ─────────────────────────────────────────────────────────────
+function renderAll() {
+  const players = state.players[state.activeDivision] || [];
+  const c = document.getElementById('rankingsContainer');
+  if (!players.length) {
+    c.innerHTML = `<div class="rankings-panel"><div class="empty-state">
+      <div class="empty-title">No players in ${escHtml(state.activeDivision)} yet</div>
+      <p>Add players above or import a CSV.</p>
+    </div></div>`;
+    return;
+  }
+  c.innerHTML = `
+    <div class="rankings-panel">
+      <div class="rankings-header">
+        <div></div><div>Rank</div><div>Player</div>
+        <div class="col-center col-hide">Weight</div>
+        <div class="col-center">Grade</div>
+        <div class="col-center col-hide">Type</div>
+        <div></div>
+      </div>
+      ${players.map((p,i) => allRowHTML(p, i, players.length)).join('')}
+    </div>`;
+}
+
+function allRowHTML(p, i, total) {
+  const rank = i+1, gc = gradeColor(p.grade), fw = Math.round((p.grade/10)*100);
+  const pt = posType(p.position);
+  return `
+    <div class="player-row-wrap" id="wrap-all-${i}">
+      <div class="drop-indicator" id="di-all-${i}"></div>
+      <div class="player-row ${drag.active && drag.type==='all' && drag.srcIdx===i ? 'is-dragging' : ''}"
+           draggable="true" data-idx="${i}" data-list="all"
+           ondragstart="onDS(event,'all',${i})"
+           ondragover="onDO(event,'all',${i})"
+           ondragleave="onDL(event,'all',${i})"
+           ondrop="onDrop(event,'all',${i})"
+           ondragend="onDE()">
+        <div class="drag-handle" title="Drag to reorder"><span></span><span></span><span></span></div>
+        <div class="rank-cell" id="rc-all-${i}">
+          <div class="rank-hint">Click to set rank</div>
+          <div class="rank-badge ${rank<=3?'top3':''}" id="rb-all-${i}"
+               onclick="startRankEdit('all',${i},${total})" title="Click to change rank">${rank}</div>
+          <input class="rank-input" type="number" id="ri-all-${i}" min="1" max="${total}"
+                 onkeydown="rankKeyDown(event,'all',${i},${total})"
+                 onblur="cancelRankEdit('all',${i})" />
+        </div>
+        <div class="player-info">
+          <div class="player-name">${escHtml(p.first)} ${escHtml(p.last)}</div>
+          <div class="player-meta">
+            <span class="pos-badge ${pt}">${escHtml(p.position)}</span>
+            ${p.notes ? `<span title="${escHtml(p.notes)}">📋</span>` : ''}
+          </div>
+        </div>
+        <div class="col-center col-muted col-hide">${p.weight ? p.weight+' lbs' : '—'}</div>
+        <div class="col-center">
+          <div class="grade-wrap">
+            <div class="grade-val" style="color:${gc}">${p.grade||'—'}</div>
+            <div class="grade-bar"><div class="grade-fill" style="width:${fw}%;background:${gc};"></div></div>
+          </div>
+        </div>
+        <div class="col-center col-hide" style="font-family:'Barlow Condensed',sans-serif;font-size:13px;color:var(--text-muted);">
+          ${pt.charAt(0).toUpperCase()+pt.slice(1)}
+        </div>
+        <div class="action-cell">
+          <button class="icon-btn" title="Edit" onclick="openEditModal('${p.id}')">✏️</button>
+          <button class="icon-btn del" title="Remove" onclick="removePlayer('${p.id}')">🗑</button>
+        </div>
+      </div>
+      <div class="drop-indicator" id="di-all-${i}-bot"></div>
+    </div>`;
+}
+
+// ─── Split view ───────────────────────────────────────────────────────────────
+function renderSplit() {
+  const players = state.players[state.activeDivision] || [];
+  const skills  = players.filter(p => posType(p.position) === 'skill');
+  const linemen = players.filter(p => posType(p.position) === 'lineman');
+  document.getElementById('rankingsContainer').innerHTML = `
+    <div class="split-view">
+      <div class="split-panel">
+        <div class="split-panel-header">
+          <span class="split-panel-title skill">⚡ Skill</span>
+          <span class="split-panel-count">${skills.length} players</span>
+        </div>
+        <div class="split-header"><div></div><div>Rank</div><div>Player</div><div class="col-center">Pos</div><div class="col-center">Grade</div><div></div></div>
+        ${skills.length ? skills.map((p,i)=>splitRowHTML(p,i,'skill',skills.length)).join('')
+          : '<div class="empty-state" style="padding:22px;"><div class="empty-title" style="font-size:13px;">No skill players</div></div>'}
+      </div>
+      <div class="split-panel">
+        <div class="split-panel-header">
+          <span class="split-panel-title lineman">🛡 Lineman</span>
+          <span class="split-panel-count">${linemen.length} players</span>
+        </div>
+        <div class="split-header"><div></div><div>Rank</div><div>Player</div><div class="col-center">Pos</div><div class="col-center">Grade</div><div></div></div>
+        ${linemen.length ? linemen.map((p,i)=>splitRowHTML(p,i,'lineman',linemen.length)).join('')
+          : '<div class="empty-state" style="padding:22px;"><div class="empty-title" style="font-size:13px;">No linemen</div></div>'}
+      </div>
+    </div>`;
+}
+
+function splitRowHTML(p, i, listType, total) {
+  const rank = i+1, gc = gradeColor(p.grade);
+  return `
+    <div class="split-row-wrap" id="wrap-${listType}-${i}">
+      <div class="drop-indicator" id="di-${listType}-${i}"></div>
+      <div class="split-player-row ${drag.active && drag.type===listType && drag.srcIdx===i ? 'is-dragging' : ''}"
+           draggable="true" data-idx="${i}" data-list="${listType}"
+           ondragstart="onDS(event,'${listType}',${i})"
+           ondragover="onDO(event,'${listType}',${i})"
+           ondragleave="onDL(event,'${listType}',${i})"
+           ondrop="onDrop(event,'${listType}',${i})"
+           ondragend="onDE()">
+        <div class="drag-handle" title="Drag to reorder"><span></span><span></span><span></span></div>
+        <div class="split-rank-cell" id="src-${listType}-${i}">
+          <div class="rank-hint">Click to set rank</div>
+          <div class="split-rank ${rank<=3?'top3':''}" id="srb-${listType}-${i}"
+               onclick="startRankEdit('${listType}',${i},${total})" title="Click to change rank">${rank}</div>
+          <input class="split-rank-input" type="number" id="sri-${listType}-${i}" min="1" max="${total}"
+                 onkeydown="rankKeyDown(event,'${listType}',${i},${total})"
+                 onblur="cancelRankEdit('${listType}',${i})" />
+        </div>
+        <div>
+          <div class="split-name">${escHtml(p.first)} ${escHtml(p.last)}</div>
+          <div class="split-pos">${p.notes?'📋 ':''}</div>
+        </div>
+        <div class="col-center" style="font-family:'Barlow Condensed',sans-serif;font-size:13px;color:var(--text-muted);">${escHtml(p.position)}</div>
+        <div class="col-center grade-val" style="color:${gc};font-family:'Barlow Condensed',sans-serif;font-weight:700;">${p.grade||'—'}</div>
+        <div class="action-cell">
+          <button class="icon-btn" title="Edit" onclick="openEditModal('${p.id}')">✏️</button>
+        </div>
+      </div>
+      <div class="drop-indicator" id="di-${listType}-${i}-bot"></div>
+    </div>`;
+}
+
+// ─── Drag and Drop ────────────────────────────────────────────────────────────
+function onDS(e, listType, idx) {
+  drag = { active: true, type: listType, srcIdx: idx };
+  e.dataTransfer.effectAllowed = 'move';
+  setTimeout(render, 0);
+}
+function onDO(e, listType, idx) {
+  e.preventDefault();
+  if (!drag.active || drag.type !== listType) return;
+  e.dataTransfer.dropEffect = 'move';
+  const rect = e.currentTarget.getBoundingClientRect();
+  const above = e.clientY < rect.top + rect.height / 2;
+  clearIndicators();
+  const el = document.getElementById(above ? `di-${listType}-${idx}` : `di-${listType}-${idx}-bot`);
+  if (el) el.classList.add('visible');
+}
+function onDL(e, listType, idx) {
+  if (!e.relatedTarget || !e.currentTarget.contains(e.relatedTarget)) clearIndicators();
+}
+function clearIndicators() {
+  document.querySelectorAll('.drop-indicator.visible').forEach(el => el.classList.remove('visible'));
+}
+function onDrop(e, listType, targetIdx) {
+  e.preventDefault();
+  if (!drag.active || drag.type !== listType) { onDE(); return; }
+  clearIndicators();
+  const srcIdx = drag.srcIdx;
+  if (srcIdx === targetIdx) { onDE(); return; }
+  const rect  = e.currentTarget.getBoundingClientRect();
+  const above = e.clientY < rect.top + rect.height / 2;
+  const div   = state.activeDivision;
+  const all   = state.players[div];
+  if (listType === 'all') {
+    reorder(all, srcIdx, targetIdx, above);
+  } else {
+    const sub = all.filter(p => posType(p.position) === listType);
+    reorder(sub, srcIdx, targetIdx, above);
+    const subCopy = [...sub];
+    state.players[div] = all.map(p => posType(p.position) === listType ? subCopy.shift() : p);
+  }
+  drag = { active: false, type: null, srcIdx: null };
+  render();
+  showToast('Rankings updated — remember to Save ☁');
+}
+function reorder(arr, srcIdx, tgtIdx, above) {
+  const [item] = arr.splice(srcIdx, 1);
+  let ins = tgtIdx;
+  if (srcIdx < tgtIdx) ins--;
+  if (!above) ins++;
+  ins = Math.max(0, Math.min(arr.length, ins));
+  arr.splice(ins, 0, item);
+}
+function onDE() { clearIndicators(); drag = { active:false, type:null, srcIdx:null }; render(); }
+
+// ─── Rank editing ─────────────────────────────────────────────────────────────
+let rankEdit = null;
+
+function startRankEdit(listType, idx, total) {
+  if (rankEdit) cancelRankEdit(rankEdit.listType, rankEdit.idx);
+  rankEdit = { listType, idx };
+  const isSplit = listType !== 'all';
+  const badge = document.getElementById(isSplit ? `srb-${listType}-${idx}` : `rb-all-${idx}`);
+  const input = document.getElementById(isSplit ? `sri-${listType}-${idx}` : `ri-all-${idx}`);
+  if (!badge || !input) return;
+  badge.style.display = 'none'; input.style.display = 'flex';
+  input.value = idx + 1; input.select(); input.focus();
+}
+function cancelRankEdit(listType, idx) {
+  rankEdit = null;
+  const isSplit = listType !== 'all';
+  const badge = document.getElementById(isSplit ? `srb-${listType}-${idx}` : `rb-all-${idx}`);
+  const input = document.getElementById(isSplit ? `sri-${listType}-${idx}` : `ri-all-${idx}`);
+  if (badge) badge.style.display = ''; if (input) input.style.display = 'none';
+}
+function rankKeyDown(e, listType, idx, total) {
+  if (e.key === 'Escape') { cancelRankEdit(listType, idx); return; }
+  if (e.key !== 'Enter') return;
+  e.preventDefault();
+  const input = document.getElementById(listType !== 'all' ? `sri-${listType}-${idx}` : `ri-all-${idx}`);
+  if (!input) return;
+  let newRank = parseInt(input.value);
+  if (isNaN(newRank)) { cancelRankEdit(listType, idx); return; }
+  newRank = Math.max(1, Math.min(total, newRank));
+  const newIdx = newRank - 1;
+  if (newIdx === idx) { cancelRankEdit(listType, idx); return; }
+  const div = state.activeDivision;
+  const all = state.players[div];
+  if (listType === 'all') {
+    const [item] = all.splice(idx,1); all.splice(newIdx,0,item);
+  } else {
+    const sub = all.filter(p => posType(p.position) === listType);
+    const [item] = sub.splice(idx,1); sub.splice(newIdx,0,item);
+    const subCopy = [...sub];
+    state.players[div] = all.map(p => posType(p.position) === listType ? subCopy.shift() : p);
+  }
+  rankEdit = null; render();
+  showToast(`Moved to rank #${newRank} — remember to Save ☁`);
+}
+
+// ─── Add / Edit Modal ─────────────────────────────────────────────────────────
+function openAddModal() {
+  state.editId = null;
+  document.getElementById('modalTitle').textContent = 'Add Player';
+  document.getElementById('fieldFirst').value = '';
+  document.getElementById('fieldLast').value  = '';
+  document.getElementById('fieldPosition').value = '';
+  document.getElementById('fieldRank').value   = '';
+  document.getElementById('fieldWeight').value = '';
+  document.getElementById('fieldGrade').value  = '';
+  document.getElementById('fieldNotes').value  = '';
+  renderDivisionSelect();
+  document.getElementById('fieldDivision').value = state.activeDivision;
+  document.getElementById('modal').style.display = 'flex';
+  document.getElementById('fieldFirst').focus();
+}
+function openEditModal(id) {
+  const p = findPlayer(id); if (!p) return;
+  state.editId = id;
+  const div = p.division;
+  const idx = state.players[div].findIndex(x => x.id === id);
+  document.getElementById('modalTitle').textContent = 'Edit Player';
+  document.getElementById('fieldFirst').value    = p.first;
+  document.getElementById('fieldLast').value     = p.last;
+  document.getElementById('fieldPosition').value = p.position;
+  document.getElementById('fieldRank').value     = idx + 1;
+  document.getElementById('fieldWeight').value   = p.weight || '';
+  document.getElementById('fieldGrade').value    = p.grade  || '';
+  document.getElementById('fieldNotes').value    = p.notes  || '';
+  renderDivisionSelect();
+  document.getElementById('fieldDivision').value = div;
+  document.getElementById('modal').style.display = 'flex';
+}
+function closeModal() { document.getElementById('modal').style.display = 'none'; }
+function closeModalOutside(e) { if (e.target === document.getElementById('modal')) closeModal(); }
+
+function savePlayer() {
+  const first    = document.getElementById('fieldFirst').value.trim();
+  const last     = document.getElementById('fieldLast').value.trim();
+  const position = document.getElementById('fieldPosition').value;
+  const division = document.getElementById('fieldDivision').value;
+  const rankVal  = parseInt(document.getElementById('fieldRank').value) || null;
+  const weight   = parseInt(document.getElementById('fieldWeight').value) || 0;
+  const grade    = parseFloat(document.getElementById('fieldGrade').value) || 5.0;
+  const notes    = document.getElementById('fieldNotes').value.trim();
+  if (!first || !last || !position) { showToast('Name and position are required'); return; }
+
+  if (state.editId) {
+    for (const d of DIVISIONS) {
+      const idx = state.players[d].findIndex(p => p.id === state.editId);
+      if (idx < 0) continue;
+      const old     = state.players[d][idx];
+      const updated = { ...old, first, last, position, weight, grade, notes };
+      if (old.division !== division) {
+        state.players[d].splice(idx, 1);
+        updated.division = division;
+        if (!state.players[division]) state.players[division] = [];
+        const ins = rankVal ? Math.max(0, Math.min(state.players[division].length, rankVal-1)) : state.players[division].length;
+        state.players[division].splice(ins, 0, updated);
+      } else {
+        state.players[d][idx] = updated;
+        if (rankVal && rankVal-1 !== idx) {
+          const [item] = state.players[d].splice(idx,1);
+          const ins = Math.max(0, Math.min(state.players[d].length, rankVal-1));
+          state.players[d].splice(ins, 0, item);
+        }
+      }
+      break;
+    }
+    showToast('Player updated — remember to Save ☁');
+  } else {
+    const player = { id: uid(), first, last, position, division, weight, grade, notes };
+    if (!state.players[division]) state.players[division] = [];
+    const target = state.players[division];
+    if (rankVal) { const ins = Math.max(0, Math.min(target.length, rankVal-1)); target.splice(ins,0,player); }
+    else target.push(player);
+    showToast(`${first} ${last} added — remember to Save ☁`);
+  }
+  closeModal();
+  state.activeDivision = division;
+  render();
+}
+
+function findPlayer(id) {
+  for (const d of DIVISIONS) {
+    const p = (state.players[d]||[]).find(x => x.id === id);
+    if (p) return p;
+  }
+  return null;
+}
+function removePlayer(id) {
+  for (const d of DIVISIONS) {
+    const idx = (state.players[d]||[]).findIndex(p => p.id === id);
+    if (idx >= 0) {
+      const [p] = state.players[d].splice(idx,1);
+      showToast(`${p.first} ${p.last} removed — remember to Save ☁`);
+      render(); return;
+    }
+  }
+}
+
+// ─── CSV ──────────────────────────────────────────────────────────────────────
+function exportCSV() {
+  const div  = state.activeDivision;
+  const rows = [['rank','first','last','position','division','weight','grade','notes']];
+  (state.players[div]||[]).forEach((p,i) =>
+    rows.push([i+1, p.first, p.last, p.position, p.division, p.weight||'', p.grade||'', p.notes||''])
+  );
+  const blob = new Blob([rows.map(r=>r.join(',')).join('\n')], {type:'text/csv'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = `bantam-rankings-${div.replace(/\s/g,'-')}.csv`; a.click();
+  showToast(`${div} exported`);
+}
+function importCSV() { document.getElementById('csvInput').value=''; document.getElementById('csvInput').click(); }
+function handleCSVImport(e) {
+  const file = e.target.files[0]; if (!file) return;
+  const reader = new FileReader();
+  reader.onload = evt => {
+    const lines = evt.target.result.trim().split('\n');
+    const hdr   = lines[0].toLowerCase().split(',').map(h=>h.trim());
+    const fi    = f => hdr.indexOf(f);
+    const imported = [];
+    lines.slice(1).forEach(line => {
+      if (!line.trim()) return;
+      const cols = line.split(',');
+      const get  = f => (cols[fi(f)]||'').trim();
+      const div  = get('division') || state.activeDivision;
+      imported.push({ id:uid(), first:get('first'), last:get('last'),
+        position:get('position')||'RB', division:div,
+        weight:parseInt(get('weight'))||0, grade:parseFloat(get('grade'))||5, notes:get('notes')||'' });
+    });
+    const grouped = {};
+    imported.forEach(p => { (grouped[p.division]=grouped[p.division]||[]).push(p); });
+    Object.entries(grouped).forEach(([d,pl]) => { if (DIVISIONS.includes(d)) state.players[d]=pl; });
+    render();
+    showToast(`Imported ${imported.length} players — remember to Save ☁`);
+  };
+  reader.readAsText(file);
+}
+
+// ─── Init ─────────────────────────────────────────────────────────────────────
+loadFromGitHub();
+</script>
+</body>
+</html>

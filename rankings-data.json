@@ -4238,9 +4238,9 @@
         "teamRole": ""
       },
       {
-        "id": "mr9h8l9t13av",
-        "first": "Brantley",
-        "last": "Grace",
+        "id": "mr9h8l9tyiym",
+        "first": "Makhi",
+        "last": "Burnett",
         "suffix": "",
         "position": "OL",
         "division": "Major",
@@ -4328,9 +4328,9 @@
         "teamRole": ""
       },
       {
-        "id": "mr9h8l9tmo4a",
-        "first": "Nolan",
-        "last": "Halterman",
+        "id": "mr9h8l9tyk6d",
+        "first": "Ryder",
+        "last": "Whitaker",
         "suffix": "",
         "position": "OL",
         "division": "Major",
@@ -4373,9 +4373,9 @@
         "teamRole": ""
       },
       {
-        "id": "mr9h8l9t9bew",
-        "first": "Tucker",
-        "last": "Horton",
+        "id": "mr9h8l9t13av",
+        "first": "Brantley",
+        "last": "Grace",
         "suffix": "",
         "position": "OL",
         "division": "Major",
@@ -4433,9 +4433,9 @@
         "teamRole": ""
       },
       {
-        "id": "mr9h8l9t8h7i",
-        "first": "Braxton",
-        "last": "Gregson",
+        "id": "mr9h8l9tmo4a",
+        "first": "Nolan",
+        "last": "Halterman",
         "suffix": "",
         "position": "OL",
         "division": "Major",
@@ -4508,9 +4508,9 @@
         "teamRole": ""
       },
       {
-        "id": "mr9h8l9tbd56",
-        "first": "Raymond",
-        "last": "Cerna Jr",
+        "id": "mr9h8l9t9bew",
+        "first": "Tucker",
+        "last": "Horton",
         "suffix": "",
         "position": "OL",
         "division": "Major",
@@ -4523,14 +4523,14 @@
         "teamRole": ""
       },
       {
-        "id": "mr9h8l9tfbvk",
-        "first": "Maxwell",
-        "last": "Arnold",
+        "id": "mr9h8l9t8h7i",
+        "first": "Braxton",
+        "last": "Gregson",
         "suffix": "",
         "position": "OL",
         "division": "Major",
         "weight": 0,
-        "grade": 5,
+        "grade": 6,
         "notes": "",
         "email": "",
         "dob": "",
@@ -4568,9 +4568,9 @@
         "teamRole": ""
       },
       {
-        "id": "mr9h8l9tyiym",
-        "first": "Makhi",
-        "last": "Burnett",
+        "id": "mr9h8l9tbd56",
+        "first": "Raymond",
+        "last": "Cerna Jr",
         "suffix": "",
         "position": "OL",
         "division": "Major",
@@ -4853,14 +4853,14 @@
         "teamRole": ""
       },
       {
-        "id": "mr9h8l9t4j31",
-        "first": "Xavi",
-        "last": "Delgado",
+        "id": "mr9h8l9tfbvk",
+        "first": "Maxwell",
+        "last": "Arnold",
         "suffix": "",
         "position": "OL",
         "division": "Major",
         "weight": 0,
-        "grade": 6,
+        "grade": 5,
         "notes": "",
         "email": "",
         "dob": "",
@@ -4898,9 +4898,9 @@
         "teamRole": ""
       },
       {
-        "id": "mr9h8l9tfxmy",
-        "first": "Ryder",
-        "last": "Fletcher",
+        "id": "mr9h8l9t4j31",
+        "first": "Xavi",
+        "last": "Delgado",
         "suffix": "",
         "position": "OL",
         "division": "Major",
@@ -4943,9 +4943,9 @@
         "teamRole": ""
       },
       {
-        "id": "mr9h8l9tijv8",
-        "first": "Tristan",
-        "last": "Greenwald",
+        "id": "mr9h8l9tfxmy",
+        "first": "Ryder",
+        "last": "Fletcher",
         "suffix": "",
         "position": "OL",
         "division": "Major",
@@ -5843,6 +5843,21 @@
         "teamRole": ""
       },
       {
+        "id": "mr9h8l9tijv8",
+        "first": "Tristan",
+        "last": "Greenwald",
+        "suffix": "",
+        "position": "OL",
+        "division": "Major",
+        "weight": 0,
+        "grade": 6,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
         "id": "mr9h8l9t7slh",
         "first": "Gregory Jr",
         "last": "Werner",
@@ -5851,21 +5866,6 @@
         "division": "Major",
         "weight": 0,
         "grade": 5,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
-        "id": "mr9h8l9tyk6d",
-        "first": "Ryder",
-        "last": "Whitaker",
-        "suffix": "",
-        "position": "OL",
-        "division": "Major",
-        "weight": 0,
-        "grade": 6,
         "notes": "",
         "email": "",
         "dob": "",

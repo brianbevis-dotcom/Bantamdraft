@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 6, 2026, 12:13 PM",
+  "savedAt": "Jul 6, 2026, 12:19 PM",
   "players": {
     "JRT": [],
     "Rookie": [],
@@ -1617,11 +1617,11 @@
         "id": "major-110-davisyoder",
         "first": "Davis",
         "last": "Yoder",
-        "position": "",
+        "position": "RB",
         "division": "Major",
         "weight": 0,
         "grade": 5,
-        "notes": "Team: Purdue",
+        "notes": "",
         "schoolGrade": "6th",
         "team": "Purdue"
       }

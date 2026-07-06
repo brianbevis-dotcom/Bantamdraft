@@ -4,9 +4,9 @@
     "JRT": [],
     "Rookie": [
       {
-        "id": "mr9fpucveasz",
-        "first": "Warren",
-        "last": "Hodgson",
+        "id": "mr9fpucvyq7w",
+        "first": "Owen",
+        "last": "Fink",
         "suffix": "",
         "position": "RB",
         "division": "Rookie",
@@ -19,9 +19,9 @@
         "teamRole": ""
       },
       {
-        "id": "mr9fpucvyq7w",
-        "first": "Owen",
-        "last": "Fink",
+        "id": "mr9fpucveasz",
+        "first": "Warren",
+        "last": "Hodgson",
         "suffix": "",
         "position": "RB",
         "division": "Rookie",
@@ -1086,21 +1086,6 @@
     ],
     "Minor": [
       {
-        "id": "mr9foqzg1v6i",
-        "first": "Garrett",
-        "last": "Aliff",
-        "suffix": "",
-        "position": "RB",
-        "division": "Minor",
-        "weight": 0,
-        "grade": 3,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
         "id": "mr9foqzh1r7i",
         "first": "Colin",
         "last": "Ashley",
@@ -1119,6 +1104,21 @@
         "id": "mr9foqzhma7v",
         "first": "Lincoln",
         "last": "Bandy",
+        "suffix": "",
+        "position": "RB",
+        "division": "Minor",
+        "weight": 0,
+        "grade": 3,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
+        "id": "mr9foqzg1v6i",
+        "first": "Garrett",
+        "last": "Aliff",
         "suffix": "",
         "position": "RB",
         "division": "Minor",

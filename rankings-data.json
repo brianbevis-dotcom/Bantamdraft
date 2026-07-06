@@ -1,23 +1,7 @@
 {
-  "savedAt": "Jul 6, 2026, 12:38 PM",
+  "savedAt": "Jul 6, 2026, 12:47 PM",
   "players": {
-    "JRT": [
-      {
-        "id": "mr9fhimn5u3i",
-        "first": "Trent",
-        "last": "Beeson",
-        "suffix": "",
-        "position": "RB",
-        "division": "JRT",
-        "weight": 0,
-        "grade": 6,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      }
-    ],
+    "JRT": [],
     "Rookie": [
       {
         "id": "mr9fpucveasz",
@@ -3369,7 +3353,7 @@
       {
         "id": "mr9foqzhdxgq",
         "first": "Leo",
-        "last": "OâRiley",
+        "last": "OÃ¢ÂÂRiley",
         "suffix": "",
         "position": "RB",
         "division": "Minor",
@@ -3849,6 +3833,21 @@
         "teamRole": ""
       },
       {
+        "id": "mr9fjke0n5i2",
+        "first": "Carter",
+        "last": "Casse",
+        "suffix": "",
+        "position": "RB",
+        "division": "Major",
+        "weight": 0,
+        "grade": 6,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
         "id": "mr9fjke0af7p",
         "first": "Maxwell",
         "last": "Arnold",
@@ -4097,21 +4096,6 @@
         "division": "Major",
         "weight": 0,
         "grade": 5,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
-        "id": "mr9fjke0n5i2",
-        "first": "Carter",
-        "last": "Casse",
-        "suffix": "",
-        "position": "RB",
-        "division": "Major",
-        "weight": 0,
-        "grade": 6,
         "notes": "",
         "email": "",
         "dob": "",

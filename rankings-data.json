@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 8, 2026, 10:52 AM",
+  "savedAt": "Jul 8, 2026, 11:18 AM",
   "players": {
     "JRT": [
       {
@@ -154,6 +154,22 @@
         "position": "RB",
         "division": "JRT",
         "weight": 87,
+        "forty": "",
+        "grade": 6,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
+        "id": "mram4glhwral",
+        "first": "Austin",
+        "last": "lara",
+        "suffix": "",
+        "position": "RB",
+        "division": "JRT",
+        "weight": 0,
         "forty": "",
         "grade": 6,
         "notes": "",
@@ -5444,22 +5460,6 @@
         "weight": 0,
         "forty": "",
         "grade": 5,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
-        "id": "mram4glhwral",
-        "first": "Austin",
-        "last": "lara",
-        "suffix": "",
-        "position": "RB",
-        "division": "Major",
-        "weight": 0,
-        "forty": "",
-        "grade": 6,
         "notes": "",
         "email": "",
         "dob": "",

@@ -1,0 +1,3965 @@
+{
+  "lastUpdated": "2026-07-08T19:03:32.691Z",
+  "registrants": [
+    {
+      "id": "liam-adams-4th-",
+      "firstName": "Liam",
+      "lastName": "Adams",
+      "grade": "4th",
+      "weight": 81,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kamden-aiello-5th-",
+      "firstName": "Kamden",
+      "lastName": "Aiello",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "yemi-alewi-4th-",
+      "firstName": "YEMI",
+      "lastName": "ALEWI",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "garrett-aliff-3rd-",
+      "firstName": "Garrett",
+      "lastName": "Aliff",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "carter-allen-4th-",
+      "firstName": "Carter",
+      "lastName": "Allen",
+      "grade": "4th",
+      "weight": 80,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "atticus-apgar-4th-",
+      "firstName": "Atticus",
+      "lastName": "Apgar",
+      "grade": "4th",
+      "weight": 87,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "charlie-ariss-2nd-",
+      "firstName": "Charlie",
+      "lastName": "Ariss",
+      "grade": "2nd",
+      "weight": 74,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "maxwell-arnold-5th-",
+      "firstName": "Maxwell",
+      "lastName": "Arnold",
+      "grade": "5th",
+      "weight": 182,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "colin-ashley-3rd-",
+      "firstName": "Colin",
+      "lastName": "Ashley",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cole-atkinson-2nd-",
+      "firstName": "Cole",
+      "lastName": "Atkinson",
+      "grade": "2nd",
+      "weight": 60,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "blaine-atkinson-4th-",
+      "firstName": "Blaine",
+      "lastName": "Atkinson",
+      "grade": "4th",
+      "weight": 82,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "remington-axsom-2nd-",
+      "firstName": "Remington",
+      "lastName": "Axsom",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "liam-bailey-2nd-",
+      "firstName": "Liam",
+      "lastName": "Bailey",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "knox-baker-5th-",
+      "firstName": "Knox",
+      "lastName": "Baker",
+      "grade": "5th",
+      "weight": 103,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "lincoln-bandy-3rd-",
+      "firstName": "Lincoln",
+      "lastName": "Bandy",
+      "grade": "3rd",
+      "weight": 95,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jaxson-bare-6th-",
+      "firstName": "Jaxson",
+      "lastName": "Bare",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "benjamin-bauer-5th-",
+      "firstName": "Benjamin",
+      "lastName": "Bauer",
+      "grade": "5th",
+      "weight": 135,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "griffin-baxter-4th-",
+      "firstName": "Griffin",
+      "lastName": "Baxter",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "william-beasley-4th-",
+      "firstName": "William",
+      "lastName": "Beasley",
+      "grade": "4th",
+      "weight": 135,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tyler-beasley-5th-",
+      "firstName": "Tyler",
+      "lastName": "Beasley",
+      "grade": "5th",
+      "weight": 149,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "trent-beeson-6th-",
+      "firstName": "Trent",
+      "lastName": "Beeson",
+      "grade": "6th",
+      "weight": 93,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "owen-bell-4th-",
+      "firstName": "Owen",
+      "lastName": "Bell",
+      "grade": "4th",
+      "weight": 69,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "knox-bellinger-2nd-",
+      "firstName": "Knox",
+      "lastName": "Bellinger",
+      "grade": "2nd",
+      "weight": 62,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ryker-beltz-3rd-",
+      "firstName": "Ryker",
+      "lastName": "Beltz",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dalton-bennett-4th-",
+      "firstName": "Dalton",
+      "lastName": "Bennett",
+      "grade": "4th",
+      "weight": 89,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "julian-bevis-6th-",
+      "firstName": "Julian",
+      "lastName": "Bevis",
+      "grade": "6th",
+      "weight": 103,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jayce-biggerstaff-2nd-",
+      "firstName": "Jayce",
+      "lastName": "Biggerstaff",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "luke-bolt-4th-",
+      "firstName": "Luke",
+      "lastName": "Bolt",
+      "grade": "4th",
+      "weight": 81,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cole-brabender-6th-",
+      "firstName": "Cole",
+      "lastName": "Brabender",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "caiden-brake-4th-",
+      "firstName": "Caiden",
+      "lastName": "Brake",
+      "grade": "4th",
+      "weight": 64,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "eivin-brewer-6th-",
+      "firstName": "Eivin",
+      "lastName": "Brewer",
+      "grade": "6th",
+      "weight": 86,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "john-brewer-2nd-",
+      "firstName": "John",
+      "lastName": "Brewer",
+      "grade": "2nd",
+      "weight": 68,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "camden-brown-2nd-",
+      "firstName": "Camden",
+      "lastName": "Brown",
+      "grade": "2nd",
+      "weight": 67,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "koen-brumbaugh-4th-",
+      "firstName": "Koen",
+      "lastName": "Brumbaugh",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "zeke-bunch-5th-",
+      "firstName": "Zeke",
+      "lastName": "Bunch",
+      "grade": "5th",
+      "weight": 99,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "elijah-bunch-2nd-",
+      "firstName": "Elijah",
+      "lastName": "Bunch",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "silas-bunch-3rd-",
+      "firstName": "Silas",
+      "lastName": "Bunch",
+      "grade": "3rd",
+      "weight": 48,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "landon-burge-4th-",
+      "firstName": "Landon",
+      "lastName": "Burge",
+      "grade": "4th",
+      "weight": 64,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "makhi-burnett-6th-",
+      "firstName": "Makhi",
+      "lastName": "Burnett",
+      "grade": "6th",
+      "weight": 178,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jameson-burr-3rd-",
+      "firstName": "Jameson",
+      "lastName": "Burr",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brevyn-byrne-6th-",
+      "firstName": "Brevyn",
+      "lastName": "Byrne",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "waylon-cain-3rd-",
+      "firstName": "Waylon",
+      "lastName": "Cain",
+      "grade": "3rd",
+      "weight": 68,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ashton-calaway-1st-",
+      "firstName": "Ashton",
+      "lastName": "Calaway",
+      "grade": "1st",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "conley-calvert-5th-",
+      "firstName": "Conley",
+      "lastName": "Calvert",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "christian-calvert-6th-",
+      "firstName": "Christian",
+      "lastName": "Calvert",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "drew-canada-5th-",
+      "firstName": "Drew",
+      "lastName": "Canada",
+      "grade": "5th",
+      "weight": 83,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "charles-cantwell-6th-",
+      "firstName": "Charles",
+      "lastName": "Cantwell",
+      "grade": "6th",
+      "weight": 112,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "preston-carter-3rd-",
+      "firstName": "Preston",
+      "lastName": "Carter",
+      "grade": "3rd",
+      "weight": 48,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "bale-carter-4th-",
+      "firstName": "Bale",
+      "lastName": "Carter",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "elliott-cash-4th-",
+      "firstName": "Elliott",
+      "lastName": "Cash",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "carter-casse-6th-",
+      "firstName": "Carter",
+      "lastName": "Casse",
+      "grade": "6th",
+      "weight": 92,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brayden-casse-5th-",
+      "firstName": "Brayden",
+      "lastName": "Casse",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jase-cassetty-2nd-",
+      "firstName": "Jase",
+      "lastName": "Cassetty",
+      "grade": "2nd",
+      "weight": 59,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "samuel-catellier-3rd-",
+      "firstName": "Samuel",
+      "lastName": "Catellier",
+      "grade": "3rd",
+      "weight": 74,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "crew-cavanaugh-5th-",
+      "firstName": "Crew",
+      "lastName": "Cavanaugh",
+      "grade": "5th",
+      "weight": 92,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "rayden-cerna-4th-",
+      "firstName": "Rayden",
+      "lastName": "Cerna",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "maverick-cerna-3rd-",
+      "firstName": "Maverick",
+      "lastName": "Cerna",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "raymond-cerna-jr-6th-",
+      "firstName": "Raymond",
+      "lastName": "Cerna Jr",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "nolan-charnstrom-4th-",
+      "firstName": "Nolan",
+      "lastName": "Charnstrom",
+      "grade": "4th",
+      "weight": 80,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "colton-cheh-2nd-",
+      "firstName": "Colton",
+      "lastName": "Cheh",
+      "grade": "2nd",
+      "weight": 94,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "carter-clancy-4th-",
+      "firstName": "Carter",
+      "lastName": "Clancy",
+      "grade": "4th",
+      "weight": 86,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dylan-clem-5th-",
+      "firstName": "Dylan",
+      "lastName": "Clem",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jackson-clements-3rd-",
+      "firstName": "Jackson",
+      "lastName": "Clements",
+      "grade": "3rd",
+      "weight": 81,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jackson-cline-6th-",
+      "firstName": "Jackson",
+      "lastName": "Cline",
+      "grade": "6th",
+      "weight": 73,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "anderson-coffey-4th-",
+      "firstName": "Anderson",
+      "lastName": "Coffey",
+      "grade": "4th",
+      "weight": 87,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dallas-collins-4th-",
+      "firstName": "Dallas",
+      "lastName": "Collins",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "owen-colter-4th-",
+      "firstName": "Owen",
+      "lastName": "Colter",
+      "grade": "4th",
+      "weight": 97,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "anderson-cones-4th-",
+      "firstName": "Anderson",
+      "lastName": "Cones",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "emmett-connelly-6th-",
+      "firstName": "Emmett",
+      "lastName": "Connelly",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "casen-copeland-4th-",
+      "firstName": "Casen",
+      "lastName": "Copeland",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kash-coyle-4th-",
+      "firstName": "Kash",
+      "lastName": "Coyle",
+      "grade": "4th",
+      "weight": 78,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cayne-crawford-6th-",
+      "firstName": "Cayne",
+      "lastName": "Crawford",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jack-cronin-6th-",
+      "firstName": "Jack",
+      "lastName": "Cronin",
+      "grade": "6th",
+      "weight": 88,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "parish-crowell-jr-5th-",
+      "firstName": "Parish",
+      "lastName": "Crowell jr",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "owen-cummings-2nd-",
+      "firstName": "Owen",
+      "lastName": "Cummings",
+      "grade": "2nd",
+      "weight": 68,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "nathan-currier-3rd-",
+      "firstName": "Nathan",
+      "lastName": "Currier",
+      "grade": "3rd",
+      "weight": 77,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "isaac-dale-3rd-",
+      "firstName": "Isaac",
+      "lastName": "Dale",
+      "grade": "3rd",
+      "weight": 73,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tytus-darnell-5th-",
+      "firstName": "Tytus",
+      "lastName": "Darnell",
+      "grade": "5th",
+      "weight": 83,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "wallace-davis-2nd-",
+      "firstName": "Wallace",
+      "lastName": "Davis",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "graham-davis-2nd-",
+      "firstName": "Graham",
+      "lastName": "Davis",
+      "grade": "2nd",
+      "weight": 63,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "henry-davis-4th-",
+      "firstName": "Henry",
+      "lastName": "Davis",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "colin-davis-4th-",
+      "firstName": "Colin",
+      "lastName": "Davis",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "everett-day-5th-",
+      "firstName": "Everett",
+      "lastName": "Day",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "liam-dean-6th-",
+      "firstName": "Liam",
+      "lastName": "Dean",
+      "grade": "6th",
+      "weight": 100,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "xavi-delgado-6th-",
+      "firstName": "Xavi",
+      "lastName": "Delgado",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "sebastian-delgado-4th-",
+      "firstName": "Sebastian",
+      "lastName": "Delgado",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dillon-diaz-3rd-",
+      "firstName": "Dillon",
+      "lastName": "Diaz",
+      "grade": "3rd",
+      "weight": 100,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jack-dirksen-5th-",
+      "firstName": "Jack",
+      "lastName": "Dirksen",
+      "grade": "5th",
+      "weight": 91,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "grant-dirksen-6th-",
+      "firstName": "Grant",
+      "lastName": "Dirksen",
+      "grade": "6th",
+      "weight": 134,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jaxson-donley-3rd-",
+      "firstName": "Jaxson",
+      "lastName": "Donley",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "carter-downing-6th-",
+      "firstName": "Carter",
+      "lastName": "Downing",
+      "grade": "6th",
+      "weight": 168,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "aiden-due-4th-",
+      "firstName": "Aiden",
+      "lastName": "Due",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "judah-duke-2nd-",
+      "firstName": "Judah",
+      "lastName": "Duke",
+      "grade": "2nd",
+      "weight": 57,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dashiell-duncan-5th-",
+      "firstName": "Dashiell",
+      "lastName": "Duncan",
+      "grade": "5th",
+      "weight": 91,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "rhett-duncan-6th-",
+      "firstName": "Rhett",
+      "lastName": "Duncan",
+      "grade": "6th",
+      "weight": 138,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "aaron-dunlap-2nd-",
+      "firstName": "Aaron",
+      "lastName": "Dunlap",
+      "grade": "2nd",
+      "weight": 73,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "william-dunlap-4th-",
+      "firstName": "William",
+      "lastName": "Dunlap",
+      "grade": "4th",
+      "weight": 65,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "stetson-ebbert-4th-",
+      "firstName": "Stetson",
+      "lastName": "Ebbert",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brody-egenolf-2nd-",
+      "firstName": "Brody",
+      "lastName": "Egenolf",
+      "grade": "2nd",
+      "weight": 88,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dawson-erazmus-4th-",
+      "firstName": "Dawson",
+      "lastName": "Erazmus",
+      "grade": "4th",
+      "weight": 90,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "nathan-farrell-6th-",
+      "firstName": "Nathan",
+      "lastName": "Farrell",
+      "grade": "6th",
+      "weight": 180,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cameron-feltman-3rd-",
+      "firstName": "Cameron",
+      "lastName": "Feltman",
+      "grade": "3rd",
+      "weight": 64,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "beau-ferguson-5th-",
+      "firstName": "Beau",
+      "lastName": "Ferguson",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jones-ferrell-1st-8-4",
+      "firstName": "Jones",
+      "lastName": "Ferrell",
+      "grade": "1st",
+      "weight": 70,
+      "location": "8.4",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "decklyn-field-6th-",
+      "firstName": "Decklyn",
+      "lastName": "Field",
+      "grade": "6th",
+      "weight": 78,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tegan-fields-4th-",
+      "firstName": "Tegan",
+      "lastName": "Fields",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "owen-fink-2nd-",
+      "firstName": "Owen",
+      "lastName": "Fink",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "caiden-finlinson-4th-",
+      "firstName": "Caiden",
+      "lastName": "Finlinson",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "roman-fisher-3rd-",
+      "firstName": "Roman",
+      "lastName": "Fisher",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tyson-fletcher-3rd-",
+      "firstName": "Tyson",
+      "lastName": "Fletcher",
+      "grade": "3rd",
+      "weight": 62,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ryder-fletcher-6th-",
+      "firstName": "Ryder",
+      "lastName": "Fletcher",
+      "grade": "6th",
+      "weight": 101,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ridge-flory-3rd-",
+      "firstName": "Ridge",
+      "lastName": "Flory",
+      "grade": "3rd",
+      "weight": 67,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tyler-fountain-6th-",
+      "firstName": "Tyler",
+      "lastName": "Fountain",
+      "grade": "6th",
+      "weight": 83,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "benjamin-frazier-2nd-",
+      "firstName": "Benjamin",
+      "lastName": "Frazier",
+      "grade": "2nd",
+      "weight": 52,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cameron-frew-4th-",
+      "firstName": "Cameron",
+      "lastName": "Frew",
+      "grade": "4th",
+      "weight": 105,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "christian-garcia-4th-",
+      "firstName": "Christian",
+      "lastName": "Garcia",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "liam-gary-2nd-",
+      "firstName": "Liam",
+      "lastName": "Gary",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "gavin-geiersbach-4th-",
+      "firstName": "Gavin",
+      "lastName": "Geiersbach",
+      "grade": "4th",
+      "weight": 61,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jaxon-geissler-6th-",
+      "firstName": "Jaxon",
+      "lastName": "Geissler",
+      "grade": "6th",
+      "weight": 160,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "griffin-gillenwater-4th-",
+      "firstName": "Griffin",
+      "lastName": "Gillenwater",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "graham-gillenwater-2nd-",
+      "firstName": "Graham",
+      "lastName": "Gillenwater",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cj-gilliard-4th-",
+      "firstName": "CJ",
+      "lastName": "Gilliard",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jude-gilpin-6th-",
+      "firstName": "Jude",
+      "lastName": "Gilpin",
+      "grade": "6th",
+      "weight": 86,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "david-gilpin-3rd-",
+      "firstName": "David",
+      "lastName": "Gilpin",
+      "grade": "3rd",
+      "weight": 63,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "grayson-goodman-3rd-",
+      "firstName": "Grayson",
+      "lastName": "Goodman",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brantley-grace-6th-",
+      "firstName": "Brantley",
+      "lastName": "Grace",
+      "grade": "6th",
+      "weight": 193,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "omar-grant-jr-6th-",
+      "firstName": "Omar",
+      "lastName": "Grant Jr.",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "vincent-grantner-2nd-",
+      "firstName": "Vincent",
+      "lastName": "Grantner",
+      "grade": "2nd",
+      "weight": 69,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "owen-graves-3rd-",
+      "firstName": "Owen",
+      "lastName": "Graves",
+      "grade": "3rd",
+      "weight": 56,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "sawyer-green-3rd-",
+      "firstName": "Sawyer",
+      "lastName": "Green",
+      "grade": "3rd",
+      "weight": 78,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "hudson-green-5th-",
+      "firstName": "Hudson",
+      "lastName": "Green",
+      "grade": "5th",
+      "weight": 144,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tyson-greenwald-5th-",
+      "firstName": "Tyson",
+      "lastName": "Greenwald",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tristan-greenwald-6th-",
+      "firstName": "Tristan",
+      "lastName": "Greenwald",
+      "grade": "6th",
+      "weight": 183,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "braxton-gregson-6th-",
+      "firstName": "Braxton",
+      "lastName": "Gregson",
+      "grade": "6th",
+      "weight": 103,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dean-griffin-5th-",
+      "firstName": "Dean",
+      "lastName": "Griffin",
+      "grade": "5th",
+      "weight": 81,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "myles-griffo-3rd-",
+      "firstName": "Myles",
+      "lastName": "Griffo",
+      "grade": "3rd",
+      "weight": 71,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cameron-groom-3rd-",
+      "firstName": "Cameron",
+      "lastName": "Groom",
+      "grade": "3rd",
+      "weight": 61,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "alex-gudaitis-4th-",
+      "firstName": "Alex",
+      "lastName": "Gudaitis",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "nolan-halterman-6th-",
+      "firstName": "Nolan",
+      "lastName": "Halterman",
+      "grade": "6th",
+      "weight": 114,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "isaac-hamilton-5th-",
+      "firstName": "Isaac",
+      "lastName": "Hamilton",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "robby-haney-4th-",
+      "firstName": "Robby",
+      "lastName": "Haney",
+      "grade": "4th",
+      "weight": 138,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "mason-harmon-2nd-",
+      "firstName": "Mason",
+      "lastName": "Harmon",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "noah-harmon-3rd-",
+      "firstName": "Noah",
+      "lastName": "Harmon",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dax-harris-4th-",
+      "firstName": "Dax",
+      "lastName": "Harris",
+      "grade": "4th",
+      "weight": 157,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "luke-hart-5th-",
+      "firstName": "Luke",
+      "lastName": "Hart",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "fred-harvey-3rd-",
+      "firstName": "Fred",
+      "lastName": "Harvey",
+      "grade": "3rd",
+      "weight": 70,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "eric-harvey-6th-",
+      "firstName": "Eric",
+      "lastName": "Harvey",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "corbin-harwood-6th-",
+      "firstName": "Corbin",
+      "lastName": "Harwood",
+      "grade": "6th",
+      "weight": 146,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "asher-hasenour-6th-",
+      "firstName": "Asher",
+      "lastName": "Hasenour",
+      "grade": "6th",
+      "weight": 99,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kellen-hawk-6th-",
+      "firstName": "Kellen",
+      "lastName": "Hawk",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "parker-hawley-2nd-",
+      "firstName": "Parker",
+      "lastName": "Hawley",
+      "grade": "2nd",
+      "weight": 60,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "lincoln-hayes-3rd-",
+      "firstName": "Lincoln",
+      "lastName": "Hayes",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kellan-hedeen-3rd-",
+      "firstName": "Kellan",
+      "lastName": "Hedeen",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "liam-hemmer-4th-",
+      "firstName": "Liam",
+      "lastName": "Hemmer",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "lennox-hensley-2nd-",
+      "firstName": "Lennox",
+      "lastName": "Hensley",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "maddox-hensley-2nd-",
+      "firstName": "Maddox",
+      "lastName": "Hensley",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "boone-herndon-4th-",
+      "firstName": "Boone",
+      "lastName": "Herndon",
+      "grade": "4th",
+      "weight": 68,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jensen-herold-5th-",
+      "firstName": "Jensen",
+      "lastName": "Herold",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "louis-herold-3rd-",
+      "firstName": "Louis",
+      "lastName": "Herold",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tanner-hess-4th-",
+      "firstName": "Tanner",
+      "lastName": "Hess",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jackson-hinds-6th-",
+      "firstName": "Jackson",
+      "lastName": "Hinds",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "warren-hodgson-2nd-",
+      "firstName": "Warren",
+      "lastName": "Hodgson",
+      "grade": "2nd",
+      "weight": 69,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ty-hornsby-6th-",
+      "firstName": "Ty",
+      "lastName": "Hornsby",
+      "grade": "6th",
+      "weight": 98,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tucker-horton-6th-",
+      "firstName": "Tucker",
+      "lastName": "Horton",
+      "grade": "6th",
+      "weight": 154,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dillon-howe-2nd-",
+      "firstName": "Dillon",
+      "lastName": "Howe",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "miles-howell-6th-",
+      "firstName": "Miles",
+      "lastName": "Howell",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "peyton-huffman-2nd-",
+      "firstName": "Peyton",
+      "lastName": "Huffman",
+      "grade": "2nd",
+      "weight": 47,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "harry-hults-3rd-",
+      "firstName": "Harry",
+      "lastName": "Hults",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tj-insley-4th-",
+      "firstName": "TJ",
+      "lastName": "Insley",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "reece-jacobs-2nd-",
+      "firstName": "Reece",
+      "lastName": "Jacobs",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "grant-jacobs-4th-",
+      "firstName": "Grant",
+      "lastName": "Jacobs",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "luke-jenkins-3rd-",
+      "firstName": "Luke",
+      "lastName": "Jenkins",
+      "grade": "3rd",
+      "weight": 70,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tyson-jenkins-3rd-",
+      "firstName": "Tyson",
+      "lastName": "Jenkins",
+      "grade": "3rd",
+      "weight": 68,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "austin-jewell-5th-",
+      "firstName": "Austin",
+      "lastName": "Jewell",
+      "grade": "5th",
+      "weight": 80,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "beau-johnson-3rd-",
+      "firstName": "Beau",
+      "lastName": "Johnson",
+      "grade": "3rd",
+      "weight": 86,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ethan-johnston-6th-",
+      "firstName": "Ethan",
+      "lastName": "Johnston",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "austin-jones-6th-",
+      "firstName": "Austin",
+      "lastName": "Jones",
+      "grade": "6th",
+      "weight": 102,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dwight-jones-jr-3rd-",
+      "firstName": "Dwight",
+      "lastName": "Jones Jr",
+      "grade": "3rd",
+      "weight": 72,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jack-judge-6th-",
+      "firstName": "Jack",
+      "lastName": "Judge",
+      "grade": "6th",
+      "weight": 112,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tanner-justice-5th-",
+      "firstName": "Tanner",
+      "lastName": "Justice",
+      "grade": "5th",
+      "weight": 75,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "devansh-kandimalla-4th-",
+      "firstName": "Devansh",
+      "lastName": "Kandimalla",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "krew-keeler-6th-",
+      "firstName": "Krew",
+      "lastName": "Keeler",
+      "grade": "6th",
+      "weight": 86,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "samuel-kegeris-4th-",
+      "firstName": "Samuel",
+      "lastName": "Kegeris",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jetsen-keller-3rd-",
+      "firstName": "Jetsen",
+      "lastName": "Keller",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "james-kennedy-2nd-",
+      "firstName": "James",
+      "lastName": "Kennedy",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ezekiel-kimbowa-2nd-",
+      "firstName": "Ezekiel",
+      "lastName": "Kimbowa",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "parker-king-4th-",
+      "firstName": "Parker",
+      "lastName": "King",
+      "grade": "4th",
+      "weight": 84,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "wyatt-kinnett-5th-",
+      "firstName": "Wyatt",
+      "lastName": "Kinnett",
+      "grade": "5th",
+      "weight": 111,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "bennett-kirkpatrick-6th-",
+      "firstName": "Bennett",
+      "lastName": "Kirkpatrick",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "walter-knight-5th-",
+      "firstName": "Walter",
+      "lastName": "Knight",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jameson-koons-3rd-",
+      "firstName": "Jameson",
+      "lastName": "Koons",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "calvin-kraft-2nd-",
+      "firstName": "Calvin",
+      "lastName": "Kraft",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kole-kreutzberger-2nd-",
+      "firstName": "Kole",
+      "lastName": "Kreutzberger",
+      "grade": "2nd",
+      "weight": 55,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "carson-kruse-2nd-",
+      "firstName": "Carson",
+      "lastName": "Kruse",
+      "grade": "2nd",
+      "weight": 55,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "bowen-kuntz-4th-",
+      "firstName": "Bowen",
+      "lastName": "Kuntz",
+      "grade": "4th",
+      "weight": 82,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jaxson-lafree-4th-",
+      "firstName": "Jaxson",
+      "lastName": "LaFree",
+      "grade": "4th",
+      "weight": 74,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "mccoy-landis-3rd-",
+      "firstName": "McCoy",
+      "lastName": "Landis",
+      "grade": "3rd",
+      "weight": 74,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "creighton-landis-3rd-",
+      "firstName": "Creighton",
+      "lastName": "Landis",
+      "grade": "3rd",
+      "weight": 62,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "austin-lara-6th-",
+      "firstName": "Austin",
+      "lastName": "lara",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jasper-larson-6th-",
+      "firstName": "Jasper",
+      "lastName": "Larson",
+      "grade": "6th",
+      "weight": 71,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kingston-lear-5th-",
+      "firstName": "Kingston",
+      "lastName": "Lear",
+      "grade": "5th",
+      "weight": 131,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "maddox-lear-3rd-",
+      "firstName": "Maddox",
+      "lastName": "Lear",
+      "grade": "3rd",
+      "weight": 80,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "layton-leclair-3rd-",
+      "firstName": "Layton",
+      "lastName": "LeClair",
+      "grade": "3rd",
+      "weight": 86,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "easton-lepper-3rd-",
+      "firstName": "Easton",
+      "lastName": "Lepper",
+      "grade": "3rd",
+      "weight": 99,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "chandler-lew-3rd-",
+      "firstName": "Chandler",
+      "lastName": "Lew",
+      "grade": "3rd",
+      "weight": 86,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "charlie-lewis-3rd-",
+      "firstName": "Charlie",
+      "lastName": "Lewis",
+      "grade": "3rd",
+      "weight": 95,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "legend-lewis-4th-",
+      "firstName": "Legend",
+      "lastName": "Lewis",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "lincoln-lippert-2nd-",
+      "firstName": "Lincoln",
+      "lastName": "Lippert",
+      "grade": "2nd",
+      "weight": 66,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "nico-locke-5th-",
+      "firstName": "Nico",
+      "lastName": "Locke",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jace-long-4th-",
+      "firstName": "Jace",
+      "lastName": "Long",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "landon-long-2nd-",
+      "firstName": "Landon",
+      "lastName": "Long",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "isaiah-macdonald-4th-",
+      "firstName": "Isaiah",
+      "lastName": "MacDonald",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "mason-mandabach-3rd-",
+      "firstName": "Mason",
+      "lastName": "Mandabach",
+      "grade": "3rd",
+      "weight": 69,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brandon-mangus-4th-",
+      "firstName": "Brandon",
+      "lastName": "Mangus",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "shaun-martinez-jr-5th-",
+      "firstName": "Shaun",
+      "lastName": "Martinez Jr.",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "graham-mathews-3rd-",
+      "firstName": "Graham",
+      "lastName": "Mathews",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "xavier-matteson-5th-",
+      "firstName": "Xavier",
+      "lastName": "Matteson",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "clark-mayes-6th-",
+      "firstName": "Clark",
+      "lastName": "Mayes",
+      "grade": "6th",
+      "weight": 101,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "charlie-maze-3rd-",
+      "firstName": "Charlie",
+      "lastName": "Maze",
+      "grade": "3rd",
+      "weight": 67,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "declan-mcafee-6th-",
+      "firstName": "Declan",
+      "lastName": "McAfee",
+      "grade": "6th",
+      "weight": 136,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brooks-mcclurg-5th-",
+      "firstName": "Brooks",
+      "lastName": "McClurg",
+      "grade": "5th",
+      "weight": 108,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cullen-mccoy-4th-",
+      "firstName": "Cullen",
+      "lastName": "McCoy",
+      "grade": "4th",
+      "weight": 80,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "noah-mcgowan-4th-",
+      "firstName": "Noah",
+      "lastName": "Mcgowan",
+      "grade": "4th",
+      "weight": 72,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jameson-mcguire-3rd-",
+      "firstName": "Jameson",
+      "lastName": "McGuire",
+      "grade": "3rd",
+      "weight": 58,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "elliot-mcrae-2nd-",
+      "firstName": "Elliot",
+      "lastName": "Mcrae",
+      "grade": "2nd",
+      "weight": 80,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jack-metzger-5th-",
+      "firstName": "Jack",
+      "lastName": "Metzger",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "roman-milbourn-4th-",
+      "firstName": "Roman",
+      "lastName": "Milbourn",
+      "grade": "4th",
+      "weight": 69,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jackson-miller-2nd-",
+      "firstName": "Jackson",
+      "lastName": "Miller",
+      "grade": "2nd",
+      "weight": 57,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "grayson-miller-6th-",
+      "firstName": "Grayson",
+      "lastName": "Miller",
+      "grade": "6th",
+      "weight": 81,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jonah-miller-6th-",
+      "firstName": "Jonah",
+      "lastName": "Miller",
+      "grade": "6th",
+      "weight": 110,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "julian-mina-3rd-",
+      "firstName": "Julian",
+      "lastName": "Mina",
+      "grade": "3rd",
+      "weight": 51,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "luca-mina-3rd-",
+      "firstName": "Luca",
+      "lastName": "Mina",
+      "grade": "3rd",
+      "weight": 53,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tobias-minderman-4th-",
+      "firstName": "Tobias",
+      "lastName": "Minderman",
+      "grade": "4th",
+      "weight": 77,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "declan-mitchell-4th-",
+      "firstName": "Declan",
+      "lastName": "Mitchell",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "leviticus-moore-6th-",
+      "firstName": "Leviticus",
+      "lastName": "Moore",
+      "grade": "6th",
+      "weight": 86,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "calvin-moore-2nd-",
+      "firstName": "Calvin",
+      "lastName": "Moore",
+      "grade": "2nd",
+      "weight": 54,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ari-moore-6th-",
+      "firstName": "Ari",
+      "lastName": "Moore",
+      "grade": "6th",
+      "weight": 87,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "isaac-morning-3rd-",
+      "firstName": "Isaac",
+      "lastName": "Morning",
+      "grade": "3rd",
+      "weight": 76,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "julian-morrow-5th-",
+      "firstName": "Julian",
+      "lastName": "Morrow",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jagger-morrow-6th-",
+      "firstName": "Jagger",
+      "lastName": "Morrow",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "saint-mukinni-3rd-",
+      "firstName": "Saint",
+      "lastName": "Mukinni",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "titan-mukinni-4th-",
+      "firstName": "Titan",
+      "lastName": "Mukinni",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tycho-mullen-6th-",
+      "firstName": "Tycho",
+      "lastName": "Mullen",
+      "grade": "6th",
+      "weight": 105,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "colt-murphy-2nd-",
+      "firstName": "Colt",
+      "lastName": "Murphy",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "river-myers-6th-",
+      "firstName": "River",
+      "lastName": "Myers",
+      "grade": "6th",
+      "weight": 65,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "aiden-nash-3rd-",
+      "firstName": "Aiden",
+      "lastName": "Nash",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "valor-naue-2nd-",
+      "firstName": "Valor",
+      "lastName": "Naue",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "rockne-nelson-2nd-",
+      "firstName": "Rockne",
+      "lastName": "Nelson",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brent-neu-3rd-",
+      "firstName": "Brent",
+      "lastName": "Neu",
+      "grade": "3rd",
+      "weight": 60,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "bretton-newport-3rd-",
+      "firstName": "Bretton",
+      "lastName": "Newport",
+      "grade": "3rd",
+      "weight": 71,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "zander-newport-5th-",
+      "firstName": "Zander",
+      "lastName": "Newport",
+      "grade": "5th",
+      "weight": 83,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "landon-nungester-4th-",
+      "firstName": "Landon",
+      "lastName": "Nungester",
+      "grade": "4th",
+      "weight": 68,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "landon-o-brien-3rd-",
+      "firstName": "Landon",
+      "lastName": "O'Brien",
+      "grade": "3rd",
+      "weight": 88,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "mac-o-leary-4th-",
+      "firstName": "Mac",
+      "lastName": "O'Leary",
+      "grade": "4th",
+      "weight": 74,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "bo-o-leary-3rd-",
+      "firstName": "Bo",
+      "lastName": "O'Leary",
+      "grade": "3rd",
+      "weight": 76,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "leo-o-riley-4th-",
+      "firstName": "Leo",
+      "lastName": "O’Riley",
+      "grade": "4th",
+      "weight": 65,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jackson-oilar-5th-",
+      "firstName": "Jackson",
+      "lastName": "Oilar",
+      "grade": "5th",
+      "weight": 57,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "landon-olibo-5th-",
+      "firstName": "Landon",
+      "lastName": "Olibo",
+      "grade": "5th",
+      "weight": 93,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "arlo-oliver-4th-",
+      "firstName": "Arlo",
+      "lastName": "Oliver",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "grier-osborne-2nd-",
+      "firstName": "Grier",
+      "lastName": "Osborne",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "silas-overpeck-2nd-",
+      "firstName": "Silas",
+      "lastName": "Overpeck",
+      "grade": "2nd",
+      "weight": 55,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "anthony-pace-5th-",
+      "firstName": "Anthony",
+      "lastName": "Pace",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "haytham-palmer-3rd-",
+      "firstName": "Haytham",
+      "lastName": "Palmer",
+      "grade": "3rd",
+      "weight": 63,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "lilly-patterson-6th-",
+      "firstName": "Lilly",
+      "lastName": "Patterson",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "bryce-pav-6th-",
+      "firstName": "Bryce",
+      "lastName": "Pav",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "declan-pav-2nd-",
+      "firstName": "Declan",
+      "lastName": "Pav",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "parker-paxson-2nd-",
+      "firstName": "Parker",
+      "lastName": "Paxson",
+      "grade": "2nd",
+      "weight": 82,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "mason-payton-3rd-",
+      "firstName": "Mason",
+      "lastName": "Payton",
+      "grade": "3rd",
+      "weight": 66,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "asher-peak-3rd-",
+      "firstName": "Asher",
+      "lastName": "Peak",
+      "grade": "3rd",
+      "weight": 70,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "luke-pendleton-2nd-",
+      "firstName": "Luke",
+      "lastName": "Pendleton",
+      "grade": "2nd",
+      "weight": 55,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "henry-pendowski-6th-",
+      "firstName": "Henry",
+      "lastName": "Pendowski",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "harrison-pendowski-4th-",
+      "firstName": "Harrison",
+      "lastName": "Pendowski",
+      "grade": "4th",
+      "weight": 69,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "zane-perrey-3rd-",
+      "firstName": "Zane",
+      "lastName": "Perrey",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "christian-peterson-2nd-",
+      "firstName": "Christian",
+      "lastName": "Peterson",
+      "grade": "2nd",
+      "weight": 97,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tyson-peterson-4th-",
+      "firstName": "Tyson",
+      "lastName": "Peterson",
+      "grade": "4th",
+      "weight": 118,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "lennox-pflanzer-2nd-",
+      "firstName": "Lennox",
+      "lastName": "Pflanzer",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "roman-pflanzer-4th-",
+      "firstName": "Roman",
+      "lastName": "Pflanzer",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "owen-pharis-3rd-",
+      "firstName": "Owen",
+      "lastName": "Pharis",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "shepherd-phillips-3rd-",
+      "firstName": "Shepherd",
+      "lastName": "Phillips",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "gauge-pierce-5th-",
+      "firstName": "Gauge",
+      "lastName": "Pierce",
+      "grade": "5th",
+      "weight": 83,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "charles-cj-pitcock-4th-",
+      "firstName": "Charles (CJ)",
+      "lastName": "Pitcock",
+      "grade": "4th",
+      "weight": 93,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kaiden-pless-6th-",
+      "firstName": "Kaiden",
+      "lastName": "Pless",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kingston-poole-2nd-",
+      "firstName": "Kingston",
+      "lastName": "Poole",
+      "grade": "2nd",
+      "weight": 78,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "lincoln-powers-5th-",
+      "firstName": "Lincoln",
+      "lastName": "Powers",
+      "grade": "5th",
+      "weight": 122,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "leo-powers-2nd-",
+      "firstName": "Leo",
+      "lastName": "Powers",
+      "grade": "2nd",
+      "weight": 63,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "joey-primeau-4th-",
+      "firstName": "Joey",
+      "lastName": "Primeau",
+      "grade": "4th",
+      "weight": 73,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jace-prince-3rd-",
+      "firstName": "Jace",
+      "lastName": "Prince",
+      "grade": "3rd",
+      "weight": 61,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "hixon-prince-4th-",
+      "firstName": "Hixon",
+      "lastName": "Prince",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "clayton-pulse-3rd-",
+      "firstName": "Clayton",
+      "lastName": "Pulse",
+      "grade": "3rd",
+      "weight": 92,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dean-ramstrom-6th-",
+      "firstName": "Dean",
+      "lastName": "Ramstrom",
+      "grade": "6th",
+      "weight": 107,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "beau-ranard-5th-",
+      "firstName": "Beau",
+      "lastName": "Ranard",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "terry-ratliff-5th-",
+      "firstName": "Terry",
+      "lastName": "Ratliff",
+      "grade": "5th",
+      "weight": 141,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tatum-rayman-6th-",
+      "firstName": "Tatum",
+      "lastName": "Rayman",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kaden-rayman-3rd-",
+      "firstName": "Kaden",
+      "lastName": "Rayman",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cade-reagan-2nd-",
+      "firstName": "Cade",
+      "lastName": "Reagan",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cohen-redenbarger-2nd-",
+      "firstName": "Cohen",
+      "lastName": "Redenbarger",
+      "grade": "2nd",
+      "weight": 62,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "joe-reed-4th-",
+      "firstName": "Joe",
+      "lastName": "Reed",
+      "grade": "4th",
+      "weight": 94,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "nate-reed-4th-",
+      "firstName": "Nate",
+      "lastName": "Reed",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "malachi-rees-5th-",
+      "firstName": "Malachi",
+      "lastName": "Rees",
+      "grade": "5th",
+      "weight": 72,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "colton-reid-2nd-",
+      "firstName": "Colton",
+      "lastName": "Reid",
+      "grade": "2nd",
+      "weight": 72,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "michael-reynolds-iii-3rd-",
+      "firstName": "Michael",
+      "lastName": "Reynolds III",
+      "grade": "3rd",
+      "weight": 70,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "theo-riddick-4th-",
+      "firstName": "Theo",
+      "lastName": "Riddick",
+      "grade": "4th",
+      "weight": 74,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jeter-riley-4th-",
+      "firstName": "Jeter",
+      "lastName": "Riley",
+      "grade": "4th",
+      "weight": 74,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "rory-ritenour-4th-",
+      "firstName": "Rory",
+      "lastName": "Ritenour",
+      "grade": "4th",
+      "weight": 72,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brantley-ritter-5th-",
+      "firstName": "Brantley",
+      "lastName": "Ritter",
+      "grade": "5th",
+      "weight": 67,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ike-roberts-6th-",
+      "firstName": "Ike",
+      "lastName": "Roberts",
+      "grade": "6th",
+      "weight": 92,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "eli-roberts-4th-",
+      "firstName": "Eli",
+      "lastName": "Roberts",
+      "grade": "4th",
+      "weight": 75,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "luke-roberts-1st-",
+      "firstName": "Luke",
+      "lastName": "Roberts",
+      "grade": "1st",
+      "weight": 49,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "reece-roehling-6th-",
+      "firstName": "Reece",
+      "lastName": "Roehling",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "yadriel-roldan-5th-",
+      "firstName": "Yadriel",
+      "lastName": "Roldan",
+      "grade": "5th",
+      "weight": 104,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "carson-roller-3rd-",
+      "firstName": "Carson",
+      "lastName": "Roller",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cruz-rosales-3rd-",
+      "firstName": "Cruz",
+      "lastName": "Rosales",
+      "grade": "3rd",
+      "weight": 79,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cameron-rose-3rd-",
+      "firstName": "Cameron",
+      "lastName": "Rose",
+      "grade": "3rd",
+      "weight": 89,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jake-ruhana-4th-",
+      "firstName": "Jake",
+      "lastName": "Ruhana",
+      "grade": "4th",
+      "weight": 72,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "max-ruhana-2nd-",
+      "firstName": "Max",
+      "lastName": "Ruhana",
+      "grade": "2nd",
+      "weight": 58,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "nash-russell-4th-",
+      "firstName": "Nash",
+      "lastName": "Russell",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "leo-ryan-5th-",
+      "firstName": "Leo",
+      "lastName": "Ryan",
+      "grade": "5th",
+      "weight": 76,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "evan-sabelhaus-4th-",
+      "firstName": "Evan",
+      "lastName": "Sabelhaus",
+      "grade": "4th",
+      "weight": 63,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "britton-sanders-3rd-",
+      "firstName": "Britton",
+      "lastName": "Sanders",
+      "grade": "3rd",
+      "weight": 71,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "harris-sanders-6th-",
+      "firstName": "Harris",
+      "lastName": "Sanders",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "easton-scalf-5th-",
+      "firstName": "Easton",
+      "lastName": "Scalf",
+      "grade": "5th",
+      "weight": 66,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "charlie-schmaltz-6th-",
+      "firstName": "Charlie",
+      "lastName": "Schmaltz",
+      "grade": "6th",
+      "weight": 120,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cooper-schmaltz-2nd-",
+      "firstName": "Cooper",
+      "lastName": "Schmaltz",
+      "grade": "2nd",
+      "weight": 106,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "carter-schmaltz-4th-",
+      "firstName": "Carter",
+      "lastName": "Schmaltz",
+      "grade": "4th",
+      "weight": 118,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "mason-schneider-2nd-",
+      "firstName": "Mason",
+      "lastName": "Schneider",
+      "grade": "2nd",
+      "weight": 62,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "colton-schonegg-3rd-",
+      "firstName": "Colton",
+      "lastName": "Schonegg",
+      "grade": "3rd",
+      "weight": 70,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jon-sertich-4th-",
+      "firstName": "Jon",
+      "lastName": "Sertich",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cooper-sheets-5th-",
+      "firstName": "Cooper",
+      "lastName": "Sheets",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jack-shepherd-3rd-",
+      "firstName": "Jack",
+      "lastName": "Shepherd",
+      "grade": "3rd",
+      "weight": 93,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "xavier-shone-2nd-",
+      "firstName": "Xavier",
+      "lastName": "Shone",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tyberius-shosten-6th-",
+      "firstName": "Tyberius",
+      "lastName": "Shosten",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "aiden-sirosky-3rd-",
+      "firstName": "Aiden",
+      "lastName": "Sirosky",
+      "grade": "3rd",
+      "weight": 59,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "barrett-sitter-6th-",
+      "firstName": "Barrett",
+      "lastName": "Sitter",
+      "grade": "6th",
+      "weight": 135,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "bennett-sitter-5th-",
+      "firstName": "Bennett",
+      "lastName": "Sitter",
+      "grade": "5th",
+      "weight": 103,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "carter-smith-5th-",
+      "firstName": "Carter",
+      "lastName": "Smith",
+      "grade": "5th",
+      "weight": 134,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "elliot-smith-4th-",
+      "firstName": "Elliot",
+      "lastName": "Smith",
+      "grade": "4th",
+      "weight": 62,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "camden-smith-5th-",
+      "firstName": "Camden",
+      "lastName": "Smith",
+      "grade": "5th",
+      "weight": 76,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jaxton-smith-6th-",
+      "firstName": "Jaxton",
+      "lastName": "Smith",
+      "grade": "6th",
+      "weight": 126,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "banks-smith-5th-",
+      "firstName": "Banks",
+      "lastName": "Smith",
+      "grade": "5th",
+      "weight": 79,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "liam-smith-5th-",
+      "firstName": "Liam",
+      "lastName": "Smith",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "wesley-smith-3rd-",
+      "firstName": "WESLEY",
+      "lastName": "SMITH",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brody-smythe-5th-",
+      "firstName": "Brody",
+      "lastName": "Smythe",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "liam-snider-3rd-",
+      "firstName": "Liam",
+      "lastName": "Snider",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "atticus-spandau-4th-",
+      "firstName": "Atticus",
+      "lastName": "Spandau",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brett-spires-2nd-",
+      "firstName": "Brett",
+      "lastName": "Spires",
+      "grade": "2nd",
+      "weight": 54,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "idris-stark-5th-",
+      "firstName": "Idris",
+      "lastName": "Stark",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "mason-starnes-3rd-",
+      "firstName": "Mason",
+      "lastName": "Starnes",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "bryson-stevens-4th-",
+      "firstName": "Bryson",
+      "lastName": "Stevens",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "randon-stevenson-4th-",
+      "firstName": "Randon",
+      "lastName": "Stevenson",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "hendrix-stewart-3rd-",
+      "firstName": "Hendrix",
+      "lastName": "Stewart",
+      "grade": "3rd",
+      "weight": 72,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "andrew-stoner-5th-",
+      "firstName": "Andrew",
+      "lastName": "Stoner",
+      "grade": "5th",
+      "weight": 72,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "harrison-storm-3rd-",
+      "firstName": "Harrison",
+      "lastName": "Storm",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "owen-sullivan-5th-",
+      "firstName": "Owen",
+      "lastName": "Sullivan",
+      "grade": "5th",
+      "weight": 91,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "abram-surface-2nd-",
+      "firstName": "Abram",
+      "lastName": "Surface",
+      "grade": "2nd",
+      "weight": 86,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "barron-swift-3rd-",
+      "firstName": "Barron",
+      "lastName": "Swift",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "simon-szostak-3rd-",
+      "firstName": "Simon",
+      "lastName": "Szostak",
+      "grade": "3rd",
+      "weight": 77,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "theodore-tanner-2nd-",
+      "firstName": "Theodore",
+      "lastName": "Tanner",
+      "grade": "2nd",
+      "weight": 54,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "bryson-taylor-3rd-",
+      "firstName": "Bryson",
+      "lastName": "Taylor",
+      "grade": "3rd",
+      "weight": 87,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ramsey-thompson-3rd-",
+      "firstName": "Ramsey",
+      "lastName": "Thompson",
+      "grade": "3rd",
+      "weight": 71,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "connor-todd-5th-",
+      "firstName": "Connor",
+      "lastName": "Todd",
+      "grade": "5th",
+      "weight": 125,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "asher-tow-4th-",
+      "firstName": "Asher",
+      "lastName": "Tow",
+      "grade": "4th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "austin-treharne-5th-",
+      "firstName": "Austin",
+      "lastName": "Treharne",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "thomas-trent-5th-",
+      "firstName": "Thomas",
+      "lastName": "Trent",
+      "grade": "5th",
+      "weight": 134,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "grayson-tuggle-4th-",
+      "firstName": "Grayson",
+      "lastName": "Tuggle",
+      "grade": "4th",
+      "weight": 76,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cooper-umbarger-5th-",
+      "firstName": "Cooper",
+      "lastName": "Umbarger",
+      "grade": "5th",
+      "weight": 101,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "bryce-underhill-2nd-",
+      "firstName": "Bryce",
+      "lastName": "Underhill",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "gavin-utter-2nd-",
+      "firstName": "Gavin",
+      "lastName": "Utter",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "oliver-vaughn-4th-",
+      "firstName": "Oliver",
+      "lastName": "Vaughn",
+      "grade": "4th",
+      "weight": 106,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "isaac-vinson-4th-",
+      "firstName": "Isaac",
+      "lastName": "Vinson",
+      "grade": "4th",
+      "weight": 72,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brantley-vinson-2nd-",
+      "firstName": "Brantley",
+      "lastName": "Vinson",
+      "grade": "2nd",
+      "weight": 56,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "isaac-wagers-2nd-",
+      "firstName": "Isaac",
+      "lastName": "Wagers",
+      "grade": "2nd",
+      "weight": 71,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "brayden-wagner-6th-",
+      "firstName": "Brayden",
+      "lastName": "Wagner",
+      "grade": "6th",
+      "weight": 75,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "franklin-walls-5th-",
+      "firstName": "Franklin",
+      "lastName": "Walls",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "logan-waltz-3rd-",
+      "firstName": "Logan",
+      "lastName": "Waltz",
+      "grade": "3rd",
+      "weight": 86,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "eli-wampler-6th-",
+      "firstName": "Eli",
+      "lastName": "Wampler",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "benson-ward-5th-",
+      "firstName": "Benson",
+      "lastName": "Ward",
+      "grade": "5th",
+      "weight": 79,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "dylan-watkins-6th-",
+      "firstName": "Dylan",
+      "lastName": "Watkins",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "jase-weiss-6th-",
+      "firstName": "Jase",
+      "lastName": "Weiss",
+      "grade": "6th",
+      "weight": 92,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "gregory-jr-werner-5th-",
+      "firstName": "Gregory Jr",
+      "lastName": "Werner",
+      "grade": "5th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "tucker-wheeler-2nd-",
+      "firstName": "Tucker",
+      "lastName": "wheeler",
+      "grade": "2nd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "ryder-whitaker-6th-",
+      "firstName": "Ryder",
+      "lastName": "Whitaker",
+      "grade": "6th",
+      "weight": 137,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "oliver-white-5th-",
+      "firstName": "Oliver",
+      "lastName": "White",
+      "grade": "5th",
+      "weight": 82,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "hunter-willert-3rd-",
+      "firstName": "Hunter",
+      "lastName": "Willert",
+      "grade": "3rd",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "niles-williams-2nd-",
+      "firstName": "Niles",
+      "lastName": "Williams",
+      "grade": "2nd",
+      "weight": 68,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "anderson-williams-6th-",
+      "firstName": "Anderson",
+      "lastName": "Williams",
+      "grade": "6th",
+      "weight": 117,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "nolan-williams-6th-",
+      "firstName": "Nolan",
+      "lastName": "Williams",
+      "grade": "6th",
+      "weight": 95,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kyree-williams-4th-",
+      "firstName": "Kyree",
+      "lastName": "Williams",
+      "grade": "4th",
+      "weight": 89,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kasen-wilson-2nd-",
+      "firstName": "Kasen",
+      "lastName": "Wilson",
+      "grade": "2nd",
+      "weight": 69,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "nolan-wilson-3rd-",
+      "firstName": "Nolan",
+      "lastName": "Wilson",
+      "grade": "3rd",
+      "weight": 104,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "wyatt-wolf-3rd-",
+      "firstName": "Wyatt",
+      "lastName": "Wolf",
+      "grade": "3rd",
+      "weight": 60,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "nicholas-woods-jr-3rd-",
+      "firstName": "Nicholas",
+      "lastName": "Woods JR",
+      "grade": "3rd",
+      "weight": 93,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "kaeson-worland-4th-",
+      "firstName": "Kaeson",
+      "lastName": "Worland",
+      "grade": "4th",
+      "weight": 123,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "cameron-wright-4th-",
+      "firstName": "Cameron",
+      "lastName": "Wright",
+      "grade": "4th",
+      "weight": 67,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "owen-wright-4th-",
+      "firstName": "Owen",
+      "lastName": "Wright",
+      "grade": "4th",
+      "weight": 113,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "liam-yaden-2nd-",
+      "firstName": "Liam",
+      "lastName": "Yaden",
+      "grade": "2nd",
+      "weight": 65,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    },
+    {
+      "id": "davis-yoder-6th-",
+      "firstName": "Davis",
+      "lastName": "Yoder",
+      "grade": "6th",
+      "weight": null,
+      "location": "",
+      "checkedIn": false,
+      "checkedInAt": null
+    }
+  ]
+}

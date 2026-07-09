@@ -154,13 +154,13 @@
 
   .rankings-panel { background: var(--black-soft); border: 1.5px solid var(--black-border); border-radius: 12px; overflow: visible; box-shadow: var(--shadow); }
   .rankings-header {
-    display: grid; grid-template-columns: 28px 60px 1fr 90px 100px 80px 72px; align-items: center; padding: 9px 14px;
+    display: grid; grid-template-columns: 28px 60px 1fr 80px 70px 100px 80px 72px; align-items: center; padding: 9px 14px;
     background: rgba(0,0,0,0.35); border-bottom: 1px solid var(--black-border); border-radius: 12px 12px 0 0;
     font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray);
   }
   .player-row-wrap { position: relative; }
   .player-row {
-    display: grid; grid-template-columns: 28px 60px 1fr 90px 100px 80px 72px; align-items: center; padding: 9px 14px;
+    display: grid; grid-template-columns: 28px 60px 1fr 80px 70px 100px 80px 72px; align-items: center; padding: 9px 14px;
     border-bottom: 1px solid rgba(44,44,49,0.6); transition: background 0.1s; user-select: none; position: relative;
   }
   .player-row-wrap:last-child .player-row { border-bottom: none; }
@@ -222,9 +222,9 @@
   .split-panel-title.lineman { color: var(--red-bright); }
   .split-panel-count { font-family: 'Barlow Condensed', sans-serif; font-size: 13px; color: var(--gray); margin-left: auto; }
 
-  .split-header { display: grid; grid-template-columns: 28px 44px 1fr 60px 52px 44px; align-items: center; padding: 7px 12px; font-family: 'Barlow Condensed', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray); border-bottom: 1px solid rgba(44,44,49,0.55); background: rgba(0,0,0,0.2); }
+  .split-header { display: grid; grid-template-columns: 28px 44px 1fr 60px 52px 52px 44px; align-items: center; padding: 7px 12px; font-family: 'Barlow Condensed', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray); border-bottom: 1px solid rgba(44,44,49,0.55); background: rgba(0,0,0,0.2); }
   .split-row-wrap { position: relative; }
-  .split-player-row { display: grid; grid-template-columns: 28px 44px 1fr 60px 52px 44px; align-items: center; padding: 8px 12px; border-bottom: 1px solid rgba(44,44,49,0.5); user-select: none; transition: background 0.1s; position: relative; }
+  .split-player-row { display: grid; grid-template-columns: 28px 44px 1fr 60px 52px 52px 44px; align-items: center; padding: 8px 12px; border-bottom: 1px solid rgba(44,44,49,0.5); user-select: none; transition: background 0.1s; position: relative; }
   .split-row-wrap:last-child .split-player-row { border-bottom: none; }
   .split-player-row.is-dragging { opacity: 0.3; }
   .split-player-row:hover { background: rgba(200,16,46,0.08); }
@@ -256,12 +256,29 @@
   .empty-state { padding: 44px; text-align: center; color: var(--gray); }
   .empty-title { font-family:'Barlow Condensed',sans-serif; font-size:17px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:6px; }
 
+  .search-wrap { position: relative; flex: 1; min-width: 180px; max-width: 320px; }
+  .search-wrap input {
+    padding-left: 32px; padding-right: 28px; background: rgba(0,0,0,0.4); border: 1.5px solid var(--black-border);
+    border-radius: 20px; height: 34px; font-size: 13px;
+  }
+  .search-wrap input:focus { border-color: var(--red); }
+  .search-icon { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--gray); font-size: 13px; pointer-events: none; }
+  .search-clear {
+    position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: transparent; border: none;
+    color: var(--gray); cursor: pointer; font-size: 15px; line-height: 1; padding: 2px 4px; display: none;
+  }
+  .search-clear:hover { color: var(--white); }
+  .search-clear.visible { display: block; }
+  .search-results-header { padding: 10px 14px; font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gray); border-bottom: 1px solid var(--black-border); background: rgba(0,0,0,0.28); border-radius: 12px 12px 0 0; }
+  .search-div-badge { display: inline-block; padding: 1px 7px; border-radius: 10px; background: rgba(200,16,46,0.16); color: var(--red-bright); font-family: 'Barlow Condensed', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-left: 6px; }
+
   @media (max-width: 740px) {
     .split-view { grid-template-columns: 1fr; }
     .rankings-header, .player-row { grid-template-columns: 28px 50px 1fr 70px 70px; }
     .col-hide { display: none; }
     .app-header { padding: 10px 12px; }
     .division-tabs { max-width: 100%; }
+    .search-wrap { max-width: 100%; }
   }
 
   /* ══════════════════════════ DRAFT APP ══════════════════════════ */
@@ -467,9 +484,8 @@
 <div id="rankingsApp" class="app-screen active">
   <div class="main">
     <div id="tokenBanner" style="display:none;" class="token-banner">
-      ⚠️ <div>No GitHub token configured — rankings will not be saved to the cloud.
-      Open this file in a text editor, find <code>GITHUB_TOKEN</code> near the top of the &lt;script&gt; section, and paste in your Personal Access Token.
-      <a href="https://github.com/settings/tokens" target="_blank">Generate one at github.com/settings/tokens</a> (scope: <strong>repo</strong>).</div>
+      ⚠️ <div>No Cloudflare Worker configured — rankings will not be saved to the cloud.
+      Open this file in a text editor, find <code>WORKER_URL</code> near the top of the &lt;script&gt; section, and paste in your Worker's URL.</div>
     </div>
 
     <div class="rk-subheader">
@@ -490,6 +506,11 @@
         <div class="view-toggle">
           <button class="view-btn active" id="viewAll"   onclick="setView('all')">Overall</button>
           <button class="view-btn"        id="viewSplit" onclick="setView('split')">Skill / Lineman</button>
+        </div>
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="playerSearch" placeholder="Search player by name…" oninput="onSearchInput(this.value)">
+          <button class="search-clear" id="searchClearBtn" onclick="clearSearch()">×</button>
         </div>
         <span style="font-size:11px;color:var(--gray);font-family:'Barlow Condensed',sans-serif;letter-spacing:0.04em;">
           ☰ drag rows &nbsp;·&nbsp; click rank # to jump position
@@ -554,9 +575,15 @@
             <input type="number" id="fieldGrade" placeholder="e.g. 8.5" min="1" max="10" step="0.5" />
           </div>
         </div>
-        <div class="form-group">
-          <label>Notes</label>
-          <input type="text" id="fieldNotes" placeholder="Optional scouting note" />
+        <div class="form-row">
+          <div class="form-group">
+            <label>40 Time (sec)</label>
+            <input type="text" id="fieldForty" placeholder="e.g. 5.2" />
+          </div>
+          <div class="form-group">
+            <label>Notes</label>
+            <input type="text" id="fieldNotes" placeholder="Optional scouting note" />
+          </div>
         </div>
       </div>
       <div class="modal-footer">
@@ -601,7 +628,7 @@
     <div class="setup-card">
       <h2>Draft Settings</h2>
       <div class="field-row three">
-        <div class="field"><label>Teams (max 11)</label><input type="number" id="cfg-teams" min="2" max="11" value="8"></div>
+        <div class="field"><label>Teams (max 15)</label><input type="number" id="cfg-teams" min="2" max="15" value="8"></div>
         <div class="field"><label>Rounds (max 14)</label><input type="number" id="cfg-rounds" min="1" max="14" value="14"></div>
         <div class="field"><label>Total Players</label><input type="number" id="cfg-players" min="10" max="500" value="100"></div>
       </div>
@@ -614,6 +641,9 @@
             <option value="spread">Spread throughout</option>
           </select>
         </div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Division (for grade colors)</label><select id="cfg-division"></select></div>
       </div>
       <div class="rule-legend">
         <div class="rule-pill"><div class="rule-dot" style="background:var(--white)"></div>Rounds 1–2, 7–14: Top available</div>
@@ -767,12 +797,15 @@
 //    Regenerate it at the link above and paste the NEW value below before
 //    relying on this file — the old one should be treated as compromised.
 // ════════════════════════════════════════════════════════════════════════════
-const GITHUB_TOKEN  = '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';
-const GITHUB_OWNER  = 'brianbevis';
-const GITHUB_REPO   = 'Bantamdraft';
-const GITHUB_BRANCH = 'main';
+// The app no longer talks to GitHub directly or holds a GitHub token —
+// it calls a Cloudflare Worker proxy, which holds the real PAT server-side
+// as a Worker Secret (never shipped to any browser).
+const WORKER_URL    = 'https://trojnas-gh-proxy.brianbevis.workers.dev/'; // ← paste your Worker URL here
+const APP_KEY       = '';   // ← optional — only set this if you added an APP_KEY secret to the Worker
+const REPO_BRANCH   = 'main';
 const RANKINGS_FILE = 'rankings-data.json';
 const DRAFT_FILE    = 'draft-data.json';
+const CLOUD_ENABLED = !!WORKER_URL && !WORKER_URL.includes('YOUR-WORKER-NAME');
 // ════════════════════════════════════════════════════════════════════════════
 
 // ─── Shared helpers ─────────────────────────────────────────────────────────
@@ -838,12 +871,9 @@ function numToLetterGrade(g) {
 
 // ─── GitHub API ───────────────────────────────────────────────────────────────
 async function ghFetch(path, options = {}) {
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
-  const headers = {
-    'Authorization': `token ${GITHUB_TOKEN}`,
-    'Accept': 'application/vnd.github.v3+json',
-    'Content-Type': 'application/json',
-  };
+  const url = `${WORKER_URL}/gh/${path}`;
+  const headers = { 'Content-Type': 'application/json' };
+  if (APP_KEY) headers['X-App-Key'] = APP_KEY;
   return fetch(url, { ...options, headers: { ...headers, ...(options.headers || {}) } });
 }
 function setCloudStatus(s, msg) {
@@ -879,10 +909,18 @@ const SKILL_POS   = new Set(['QB','RB','WR','TE','DB','LB','K/P']);
 const LINEMAN_POS = new Set(['OL','DL','OT','OG','C','DE','DT','NT']);
 
 function posType(pos) { return LINEMAN_POS.has(pos) ? 'lineman' : 'skill'; }
-function gradeColor(g) {
-  if (g >= 9)   return '#ffffff';
-  if (g >= 7.5) return '#4caf6b';
-  if (g >= 6)   return '#e2b23c';
+const DIVISION_GRADE_BUCKETS = {
+  'Rookie': { 1: '#e2b23c', 2: '#4caf6b' },
+  'Minor':  { 3: '#e2b23c', 4: '#4caf6b' },
+  'Major':  { 5: '#e2b23c', 6: '#4caf6b' },
+};
+function gradeColor(g, division) {
+  const num = parseFloat(g);
+  const buckets = DIVISION_GRADE_BUCKETS[division];
+  if (buckets && buckets[num]) return buckets[num];
+  if (num >= 9)   return '#ffffff';
+  if (num >= 7.5) return '#4caf6b';
+  if (num >= 6)   return '#e2b23c';
   return '#e2374d';
 }
 
@@ -890,6 +928,7 @@ const state = {
   activeDivision: DIVISIONS[0],
   view: 'all',
   editId: null,
+  searchQuery: '',
   players: Object.fromEntries(DIVISIONS.map(d => [d, []])),
   githubSha: null,
 };
@@ -897,9 +936,9 @@ let drag = { active: false, type: null, srcIdx: null };
 
 // ─── GitHub load/save ────────────────────────────────────────────────────────
 async function loadRankingsFromGitHub() {
-  if (!GITHUB_TOKEN) {
+  if (!CLOUD_ENABLED) {
     document.getElementById('tokenBanner').style.display = 'flex';
-    setCloudStatus('nokey', 'No token — cloud save disabled. Using local session only.');
+    setCloudStatus('nokey', 'No Worker configured — cloud save disabled. Using local session only.');
     DIVISIONS.forEach(d => { state.players[d] = makeSample(d); });
     render();
     return;
@@ -927,7 +966,7 @@ async function loadRankingsFromGitHub() {
 }
 
 async function saveRankingsToGitHub() {
-  if (!GITHUB_TOKEN) { showToast('No token configured — cannot save to GitHub'); return; }
+  if (!CLOUD_ENABLED) { showToast('No Worker configured — cannot save to the cloud'); return; }
   const btn = document.getElementById('saveBtn');
   const icon = document.getElementById('saveBtnIcon');
   const txt  = document.getElementById('saveBtnText');
@@ -941,7 +980,7 @@ async function saveRankingsToGitHub() {
     players: state.players,
   };
   const content = btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2))));
-  const body = { message: `Rankings update — ${payload.savedAt}`, content, branch: GITHUB_BRANCH };
+  const body = { message: `Rankings update — ${payload.savedAt}`, content, branch: REPO_BRANCH };
   if (state.githubSha) body.sha = state.githubSha;
 
   try {
@@ -980,7 +1019,87 @@ function render() {
   renderTabs();
   renderDivisionSelect();
   renderStats();
-  state.view === 'all' ? renderAll() : renderSplit();
+  if (state.searchQuery.trim()) renderSearchResults();
+  else state.view === 'all' ? renderAll() : renderSplit();
+}
+function onSearchInput(val) {
+  state.searchQuery = val;
+  document.getElementById('searchClearBtn').classList.toggle('visible', !!val.trim());
+  render();
+}
+function clearSearch() {
+  state.searchQuery = '';
+  document.getElementById('playerSearch').value = '';
+  document.getElementById('searchClearBtn').classList.remove('visible');
+  render();
+}
+function getSearchResults(query) {
+  const q = query.trim().toLowerCase();
+  const results = [];
+  DIVISIONS.forEach(div => {
+    (state.players[div]||[]).forEach((p, idx) => {
+      const full = `${p.first} ${p.last}`.toLowerCase();
+      if (full.includes(q)) results.push({ p, div, idx });
+    });
+  });
+  return results;
+}
+function renderSearchResults() {
+  const results = getSearchResults(state.searchQuery);
+  const c = document.getElementById('rankingsContainer');
+  if (!results.length) {
+    c.innerHTML = `<div class="rankings-panel"><div class="empty-state">
+      <div class="empty-title">No players match "${escHtml(state.searchQuery)}"</div>
+      <p>Try a different spelling, or clear the search to browse by division.</p>
+    </div></div>`;
+    return;
+  }
+  c.innerHTML = `
+    <div class="rankings-panel">
+      <div class="search-results-header">${results.length} match${results.length===1?'':'es'} for "${escHtml(state.searchQuery)}"</div>
+      <div class="rankings-header">
+        <div></div><div>Rank</div><div>Player</div>
+        <div class="col-center col-hide">Weight</div>
+        <div class="col-center col-hide">40 Time</div>
+        <div class="col-center">Grade</div>
+        <div class="col-center col-hide">Type</div>
+        <div></div>
+      </div>
+      ${results.map(r => searchRowHTML(r)).join('')}
+    </div>`;
+}
+function searchRowHTML({ p, div, idx }) {
+  const rank = idx+1, gc = gradeColor(p.grade, div), fw = Math.round((p.grade/10)*100);
+  const pt = posType(p.position);
+  return `
+    <div class="player-row-wrap">
+      <div class="player-row">
+        <div class="drag-handle" style="opacity:0.12;cursor:default;"><span></span><span></span><span></span></div>
+        <div class="rank-cell"><div class="rank-badge ${rank<=3?'top3':''}" style="cursor:default;">${rank}</div></div>
+        <div class="player-info">
+          <div class="player-name">${escHtml(p.first)} ${escHtml(p.last)}<span class="search-div-badge">${escHtml(div)}</span></div>
+          <div class="player-meta">
+            <span class="pos-badge ${pt}">${escHtml(p.position)}</span>
+            ${p.notes ? `<span title="${escHtml(p.notes)}">📋</span>` : ''}
+          </div>
+        </div>
+        <div class="col-center col-muted col-hide">${p.weight ? p.weight+' lbs' : '—'}</div>
+        <div class="col-center col-muted col-hide">${p.forty ? p.forty+'s' : '—'}</div>
+        <div class="col-center">
+          <div class="grade-wrap">
+            <div class="grade-val" style="color:${gc}">${p.grade||'—'}</div>
+            <div class="grade-bar"><div class="grade-fill" style="width:${fw}%;background:${gc};"></div></div>
+          </div>
+        </div>
+        <div class="col-center col-hide" style="font-family:'Barlow Condensed',sans-serif;font-size:13px;color:var(--gray);">
+          ${pt.charAt(0).toUpperCase()+pt.slice(1)}
+        </div>
+        <div class="action-cell">
+          <button class="icon-btn" title="Edit" onclick="openEditModal('${p.id}')">✏️</button>
+          <button class="icon-btn del" title="Remove" onclick="removePlayer('${p.id}')">🗑</button>
+        </div>
+      </div>
+    </div>`;
 }
 function renderTabs() {
   document.getElementById('divisionTabs').innerHTML = DIVISIONS.map(d =>
@@ -1030,6 +1149,7 @@ function renderAll() {
       <div class="rankings-header">
         <div></div><div>Rank</div><div>Player</div>
         <div class="col-center col-hide">Weight</div>
+        <div class="col-center col-hide">40 Time</div>
         <div class="col-center">Grade</div>
         <div class="col-center col-hide">Type</div>
         <div></div>
@@ -1038,7 +1158,7 @@ function renderAll() {
     </div>`;
 }
 function allRowHTML(p, i, total) {
-  const rank = i+1, gc = gradeColor(p.grade), fw = Math.round((p.grade/10)*100);
+  const rank = i+1, gc = gradeColor(p.grade, p.division), fw = Math.round((p.grade/10)*100);
   const pt = posType(p.position);
   return `
     <div class="player-row-wrap" id="wrap-all-${i}">
@@ -1067,6 +1187,7 @@ function allRowHTML(p, i, total) {
           </div>
         </div>
         <div class="col-center col-muted col-hide">${p.weight ? p.weight+' lbs' : '—'}</div>
+        <div class="col-center col-muted col-hide">${p.forty ? p.forty+'s' : '—'}</div>
         <div class="col-center">
           <div class="grade-wrap">
             <div class="grade-val" style="color:${gc}">${p.grade||'—'}</div>
@@ -1097,7 +1218,7 @@ function renderSplit() {
           <span class="split-panel-title skill">⚡ Skill</span>
           <span class="split-panel-count">${skills.length} players</span>
         </div>
-        <div class="split-header"><div></div><div>Rank</div><div>Player</div><div class="col-center">Pos</div><div class="col-center">Grade</div><div></div></div>
+        <div class="split-header"><div></div><div>Rank</div><div>Player</div><div class="col-center">Pos</div><div class="col-center">40 Time</div><div class="col-center">Grade</div><div></div></div>
         ${skills.length ? skills.map((p,i)=>splitRowHTML(p,i,'skill',skills.length)).join('')
           : '<div class="empty-state" style="padding:22px;"><div class="empty-title" style="font-size:13px;">No skill players</div></div>'}
       </div>
@@ -1106,14 +1227,14 @@ function renderSplit() {
           <span class="split-panel-title lineman">🛡 Lineman</span>
           <span class="split-panel-count">${linemen.length} players</span>
         </div>
-        <div class="split-header"><div></div><div>Rank</div><div>Player</div><div class="col-center">Pos</div><div class="col-center">Grade</div><div></div></div>
+        <div class="split-header"><div></div><div>Rank</div><div>Player</div><div class="col-center">Pos</div><div class="col-center">40 Time</div><div class="col-center">Grade</div><div></div></div>
         ${linemen.length ? linemen.map((p,i)=>splitRowHTML(p,i,'lineman',linemen.length)).join('')
           : '<div class="empty-state" style="padding:22px;"><div class="empty-title" style="font-size:13px;">No linemen</div></div>'}
       </div>
     </div>`;
 }
 function splitRowHTML(p, i, listType, total) {
-  const rank = i+1, gc = gradeColor(p.grade);
+  const rank = i+1, gc = gradeColor(p.grade, p.division);
   return `
     <div class="split-row-wrap" id="wrap-${listType}-${i}">
       <div class="drop-indicator" id="di-${listType}-${i}"></div>
@@ -1138,6 +1259,7 @@ function splitRowHTML(p, i, listType, total) {
           <div class="split-pos">${p.notes?'📋 ':''}</div>
         </div>
         <div class="col-center" style="font-family:'Barlow Condensed',sans-serif;font-size:13px;color:var(--gray);">${escHtml(p.position)}</div>
+        <div class="col-center" style="font-family:'Barlow Condensed',sans-serif;font-size:12px;color:var(--gray);">${p.forty ? p.forty+'s' : '—'}</div>
         <div class="col-center grade-val" style="color:${gc};font-family:'Barlow Condensed',sans-serif;font-weight:700;">${p.grade||'—'}</div>
         <div class="action-cell">
           <button class="icon-btn" title="Edit" onclick="openEditModal('${p.id}')">✏️</button>
@@ -1255,6 +1377,7 @@ function openAddModal() {
   document.getElementById('fieldRank').value   = '';
   document.getElementById('fieldWeight').value = '';
   document.getElementById('fieldGrade').value  = '';
+  document.getElementById('fieldForty').value  = '';
   document.getElementById('fieldNotes').value  = '';
   renderDivisionSelect();
   document.getElementById('fieldDivision').value = state.activeDivision;
@@ -1273,6 +1396,7 @@ function openEditModal(id) {
   document.getElementById('fieldRank').value     = idx + 1;
   document.getElementById('fieldWeight').value   = p.weight || '';
   document.getElementById('fieldGrade').value    = p.grade  || '';
+  document.getElementById('fieldForty').value    = p.forty  || '';
   document.getElementById('fieldNotes').value    = p.notes  || '';
   renderDivisionSelect();
   document.getElementById('fieldDivision').value = div;
@@ -1289,6 +1413,7 @@ function savePlayer() {
   const rankVal  = parseInt(document.getElementById('fieldRank').value) || null;
   const weight   = parseInt(document.getElementById('fieldWeight').value) || 0;
   const grade    = parseFloat(document.getElementById('fieldGrade').value) || 5.0;
+  const forty    = document.getElementById('fieldForty').value.trim();
   const notes    = document.getElementById('fieldNotes').value.trim();
   if (!first || !last || !position) { showToast('Name and position are required'); return; }
 
@@ -1297,7 +1422,7 @@ function savePlayer() {
       const idx = state.players[d].findIndex(p => p.id === state.editId);
       if (idx < 0) continue;
       const old     = state.players[d][idx];
-      const updated = { ...old, first, last, position, weight, grade, notes };
+      const updated = { ...old, first, last, position, weight, grade, forty, notes };
       if (old.division !== division) {
         state.players[d].splice(idx, 1);
         updated.division = division;
@@ -1316,7 +1441,7 @@ function savePlayer() {
     }
     showToast('Player updated — remember to Save ☁');
   } else {
-    const player = { id: uid(), first, last, position, division, weight, grade, notes };
+    const player = { id: uid(), first, last, position, division, weight, grade, forty, notes };
     if (!state.players[division]) state.players[division] = [];
     const target = state.players[division];
     if (rankVal) { const ins = Math.max(0, Math.min(target.length, rankVal-1)); target.splice(ins,0,player); }
@@ -1349,9 +1474,9 @@ function removePlayer(id) {
 // ─── CSV ──────────────────────────────────────────────────────────────────────
 function exportCSV() {
   const div  = state.activeDivision;
-  const rows = [['rank','first','last','suffix','position','division','weight','grade','notes','email','dob','gender','teamRole']];
+  const rows = [['rank','first','last','suffix','position','division','weight','forty','grade','notes','email','dob','gender','teamRole']];
   (state.players[div]||[]).forEach((p,i) =>
-    rows.push([i+1, p.first, p.last, p.suffix||'', p.position, p.division, p.weight||'', p.grade||'', p.notes||'',
+    rows.push([i+1, p.first, p.last, p.suffix||'', p.position, p.division, p.weight||'', p.forty||'', p.grade||'', p.notes||'',
                p.email||'', p.dob||'', p.gender||'', p.teamRole||''])
   );
   downloadCSV(`bantam-rankings-${div.replace(/\s/g,'-')}.csv`, rows);
@@ -1373,6 +1498,7 @@ function handleCSVImport(e) {
         id: uid(), first, last, suffix: pickField(row,'suffix'),
         position: (pickField(row,'position','pos')||'RB').toUpperCase(), division: div,
         weight: parseInt(pickField(row,'weight','wt','lbs'))||0,
+        forty: pickField(row,'forty','40','fortytime'),
         grade: parseFloat(pickField(row,'grade','rating'))||5,
         notes: pickField(row,'notes','note','comment'),
         email: pickField(row,'email','emailaddress'),
@@ -1447,6 +1573,12 @@ function letterGradeColor(g) {
   const up = g.toUpperCase().trim();
   return GRADE_COLORS[up] || GRADE_COLORS[up.charAt(0)] || '#9a9a9f';
 }
+function resolveGradeColor(grade, division) {
+  if (grade === undefined || grade === null || grade === '') return null;
+  const num = parseFloat(grade);
+  if (!isNaN(num) && String(grade).trim() === String(num)) return gradeColor(num, division);
+  return letterGradeColor(String(grade));
+}
 
 // ════════════════════════════════════════════
 //  PLAYER GENERATION (placeholder / no-CSV path)
@@ -1472,9 +1604,15 @@ function generatePlayers(total, linemen, linemanRank) {
 // ════════════════════════════════════════════
 function populateLoadRankingsDivisionSelect() {
   const sel = document.getElementById('load-rankings-division');
-  if (!sel) return;
-  const cur = sel.value || state.activeDivision;
-  sel.innerHTML = DIVISIONS.map(d => `<option value="${escHtml(d)}" ${d===cur?'selected':''}>${escHtml(d)}</option>`).join('');
+  if (sel) {
+    const cur = sel.value || state.activeDivision;
+    sel.innerHTML = DIVISIONS.map(d => `<option value="${escHtml(d)}" ${d===cur?'selected':''}>${escHtml(d)}</option>`).join('');
+  }
+  const cfgSel = document.getElementById('cfg-division');
+  if (cfgSel) {
+    const cur2 = cfgSel.value || state.activeDivision;
+    cfgSel.innerHTML = DIVISIONS.map(d => `<option value="${escHtml(d)}" ${d===cur2?'selected':''}>${escHtml(d)}</option>`).join('');
+  }
 }
 function loadPlayersFromRankings() {
   const div = document.getElementById('load-rankings-division').value;
@@ -1482,8 +1620,8 @@ function loadPlayersFromRankings() {
   if (!list.length) { const st=document.getElementById('csv-status'); st.className='csv-status error'; st.textContent=`No ranked players in ${div} yet.`; return; }
   importedPlayers = list.map((p,i) => ({
     rank: i+1, first: p.first, last: p.last, suffix: p.suffix||'',
-    pos: (p.position||'RB').toUpperCase(), weight: p.weight||'', height:'', forty:'',
-    grade: numToLetterGrade(p.grade), probowl:false, notes: p.notes||'',
+    pos: (p.position||'RB').toUpperCase(), weight: p.weight||'', height:'', forty: p.forty||'',
+    grade: p.grade!=null ? p.grade : '', probowl:false, notes: p.notes||'',
     email: p.email||'', dob: p.dob||'', gender: p.gender||'', teamRole: p.teamRole||'',
     drafted:false, draftedBy:null, draftRound:null, draftPickNum:null
   }));
@@ -1493,6 +1631,8 @@ function loadPlayersFromRankings() {
   st.textContent = `✓ Loaded ${importedPlayers.length} players from Rankings → ${div} (${lc} linemen).`;
   document.getElementById('cfg-players').value = importedPlayers.length;
   document.getElementById('cfg-linemen').value = lc;
+  const cfgSel = document.getElementById('cfg-division');
+  if (cfgSel) cfgSel.value = div;
 }
 
 // ════════════════════════════════════════════
@@ -1566,7 +1706,7 @@ function parseDraftCSV(file) {
 //  SETUP UI
 // ════════════════════════════════════════════
 function buildTeamInputs() {
-  const n=Math.min(11,Math.max(2,parseInt(document.getElementById('cfg-teams').value)||8));
+  const n=Math.min(15,Math.max(2,parseInt(document.getElementById('cfg-teams').value)||8));
   const grid=document.getElementById('teams-grid');
   const existing=[]; grid.querySelectorAll('input').forEach(i=>existing.push(i.value));
   grid.innerHTML='';
@@ -1584,9 +1724,10 @@ buildTeamInputs();
 //  START DRAFT
 // ════════════════════════════════════════════
 function startDraft() {
-  const numTeams  = Math.min(11,Math.max(2,parseInt(document.getElementById('cfg-teams').value)||8));
+  const numTeams  = Math.min(15,Math.max(2,parseInt(document.getElementById('cfg-teams').value)||8));
   const numRounds = Math.min(14,Math.max(1,parseInt(document.getElementById('cfg-rounds').value)||14));
   const linemanRank = document.getElementById('cfg-linemen-rank').value;
+  const division = document.getElementById('cfg-division').value || DIVISIONS[0];
   const teams=[];
   for(let i=0;i<numTeams;i++){const inp=document.getElementById(`team-name-${i}`);teams.push(inp?(inp.value.trim()||`Team ${i+1}`):`Team ${i+1}`);}
   let players;
@@ -1596,7 +1737,7 @@ function startDraft() {
     const lc=Math.min(total,Math.max(0,parseInt(document.getElementById('cfg-linemen').value)||30));
     players=generatePlayers(total,lc,linemanRank);
   }
-  draftState={numTeams,numRounds,teams,players,currentPick:1,totalPicks:numTeams*numRounds,picks:[],roundDirections:buildDefaultDirections(numRounds)};
+  draftState={numTeams,numRounds,teams,players,division,currentPick:1,totalPicks:numTeams*numRounds,picks:[],roundDirections:buildDefaultDirections(numRounds)};
   saveDraftToGitHub(); showDraftScreen();
 }
 
@@ -1605,12 +1746,12 @@ function startDraft() {
 //  so this works standalone on GitHub Pages / SportsEngine iframe)
 // ════════════════════════════════════════════
 async function saveDraftToGitHub() {
-  if (!GITHUB_TOKEN || !draftState) return;
+  if (!CLOUD_ENABLED || !draftState) return;
   setCloudStatus('saving', 'Saving draft to GitHub…');
   try {
     const payload = { savedAt: new Date().toLocaleString('en-US',{dateStyle:'medium',timeStyle:'short'}), draftState };
     const content = btoa(unescape(encodeURIComponent(JSON.stringify(payload,null,2))));
-    const body = { message: `Draft update — ${payload.savedAt}`, content, branch: GITHUB_BRANCH };
+    const body = { message: `Draft update — ${payload.savedAt}`, content, branch: REPO_BRANCH };
     if (draftGithubSha) body.sha = draftGithubSha;
     const res = await ghFetch(DRAFT_FILE, { method:'PUT', body:JSON.stringify(body) });
     if (!res.ok) { const err = await res.json().catch(()=>({})); throw new Error(err.message || res.status); }
@@ -1622,7 +1763,7 @@ async function saveDraftToGitHub() {
   }
 }
 async function loadDraftFromGitHub() {
-  if (!GITHUB_TOKEN) return false;
+  if (!CLOUD_ENABLED) return false;
   try {
     const res = await ghFetch(DRAFT_FILE);
     if (res.status === 404) return false;
@@ -1635,7 +1776,7 @@ async function loadDraftFromGitHub() {
   return false;
 }
 async function pollDraftFromGitHub() {
-  if (!GITHUB_TOKEN || !draftState) return;
+  if (!CLOUD_ENABLED || !draftState) return;
   try {
     const res = await ghFetch(DRAFT_FILE);
     if (!res.ok) return;
@@ -1653,9 +1794,9 @@ async function pollDraftFromGitHub() {
   } catch (e) {}
 }
 async function deleteDraftFromGitHub() {
-  if (!GITHUB_TOKEN || !draftGithubSha) return;
+  if (!CLOUD_ENABLED || !draftGithubSha) return;
   try {
-    await ghFetch(DRAFT_FILE, { method:'DELETE', body: JSON.stringify({ message:'Draft reset', sha: draftGithubSha, branch: GITHUB_BRANCH }) });
+    await ghFetch(DRAFT_FILE, { method:'DELETE', body: JSON.stringify({ message:'Draft reset', sha: draftGithubSha, branch: REPO_BRANCH }) });
   } catch (e) {}
   draftGithubSha = null;
 }
@@ -1766,17 +1907,18 @@ function renderDraft() {
 // ════════════════════════════════════════════
 function buildPlayerCard(player) {
   const isLin=isLineman(player.pos);
-  const gc=player.grade?letterGradeColor(player.grade):null;
+  const gc=resolveGradeColor(player.grade, draftState.division);
   const card=document.createElement('div');
   const classes=['player-card'];
   if(isLin) classes.push('lineman');
   if(player.probowl) classes.push('probowl-card');
   card.className=classes.join(' ');
 
-  const stats=[];
-  if(player.weight) stats.push({lbl:'Weight',val:player.weight+(String(player.weight).includes('lb')?'':' lbs')});
+  const stats=[
+    {lbl:'Weight',  val: player.weight ? player.weight+(String(player.weight).includes('lb')?'':' lbs') : '—'},
+    {lbl:'40 Time', val: player.forty || '—'},
+  ];
   if(player.height) stats.push({lbl:'Height',val:player.height});
-  if(player.forty)  stats.push({lbl:'40 Time',val:player.forty});
 
   card.innerHTML=`
     <div class="card-rank-col">
@@ -1790,9 +1932,9 @@ function buildPlayerCard(player) {
       </div>
       <div class="card-pos-row">
         <span class="dpos-badge ${isLin?'lineman-pos':'skill-pos'}">${escHtml(player.pos)}</span>
-        ${gc?`<span class="grade-badge" style="color:${gc};border-color:${gc}">${escHtml(player.grade)}</span>`:''}
+        <span class="grade-badge" style="color:${gc||'var(--gray)'};border-color:${gc||'var(--black-border)'}">${escHtml(player.grade)||'—'}</span>
       </div>
-      ${stats.length>0?`<div class="card-stats">${stats.map(s=>`<div class="stat-item"><div class="stat-lbl">${s.lbl}</div><div class="stat-val">${escHtml(s.val)}</div></div>`).join('')}</div>`:''}
+      <div class="card-stats">${stats.map(s=>`<div class="stat-item"><div class="stat-lbl">${s.lbl}</div><div class="stat-val">${escHtml(s.val)}</div></div>`).join('')}</div>
       ${player.notes?`<div class="card-notes">${escHtml(player.notes)}</div>`:''}
     </div>
   `;
@@ -1828,7 +1970,7 @@ function renderDraftBoard() {
       <span class="bp-name">
         ${player.probowl?'<span class="bp-star">★</span>':''}${escHtml(fullName(player))}
         <span class="bp-pos">${escHtml(player.pos)}</span>
-        ${player.grade?`<span class="bp-pos" style="color:${letterGradeColor(player.grade)||'var(--gray)'}">${escHtml(player.grade)}</span>`:''}
+        ${player.grade?`<span class="bp-pos" style="color:${resolveGradeColor(player.grade, draftState.division)||'var(--gray)'}">${escHtml(player.grade)}</span>`:''}
       </span>
       ${pk.traded?'<span class="bp-trade-badge">TRADE</span>':''}
       <span class="bp-rank">#${pk.playerRank}</span>

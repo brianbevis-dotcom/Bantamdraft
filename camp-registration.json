@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T19:04:01.147Z",
+  "lastUpdated": "2026-07-09T17:42:32.377Z",
   "registrants": [
     {
       "id": "liam-adams-4th-",
@@ -728,8 +728,8 @@
       "grade": "6th",
       "weight": 88,
       "location": "",
-      "checkedIn": false,
-      "checkedInAt": null
+      "checkedIn": true,
+      "checkedInAt": "2026-07-09T17:42:32.377Z"
     },
     {
       "id": "parish-crowell-jr-5th-",

@@ -2340,14 +2340,14 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 7,
+        "draftRound": 5,
+        "draftPickNum": 40
       }
     ],
     "division": "Major",
-    "currentPick": 40,
+    "currentPick": 41,
     "totalPicks": 112,
     "picks": [
       {
@@ -2660,6 +2660,14 @@
         "poolType": "lineman",
         "teamIndex": 6,
         "playerRank": 108,
+        "traded": false
+      },
+      {
+        "pickNum": 40,
+        "round": 5,
+        "poolType": "lineman",
+        "teamIndex": 7,
+        "playerRank": 111,
         "traded": false
       }
     ],

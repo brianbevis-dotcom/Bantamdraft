@@ -31,7 +31,7 @@
         "gender": "",
         "teamRole": "",
         "drafted": true,
-        "draftedBy": 0,
+        "draftedBy": 7,
         "draftRound": 1,
         "draftPickNum": 1
       },
@@ -2354,9 +2354,9 @@
         "pickNum": 1,
         "round": 1,
         "poolType": "top",
-        "teamIndex": 0,
+        "teamIndex": 7,
         "playerRank": 1,
-        "traded": false
+        "traded": true
       },
       {
         "pickNum": 2,

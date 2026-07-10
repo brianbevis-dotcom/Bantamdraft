@@ -514,7 +514,7 @@
         "gender": "",
         "teamRole": "",
         "drafted": true,
-        "draftedBy": 7,
+        "draftedBy": 2,
         "draftRound": 8,
         "draftPickNum": 64
       },
@@ -2858,9 +2858,9 @@
         "pickNum": 64,
         "round": 8,
         "poolType": "top",
-        "teamIndex": 7,
+        "teamIndex": 2,
         "playerRank": 24,
-        "traded": false
+        "traded": true
       }
     ],
     "roundDirections": [

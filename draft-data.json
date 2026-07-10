@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 10, 2026, 5:11 PM",
+  "savedAt": "Jul 10, 2026, 5:12 PM",
   "draftState": {
     "numTeams": 8,
     "numRounds": 14,
@@ -2612,7 +2612,7 @@
       "reverse",
       "reverse",
       "forward",
-      "forward",
+      "reverse",
       "reverse",
       "forward",
       "reverse",

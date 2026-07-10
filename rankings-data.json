@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 9, 2026 at 9:24 PM",
+  "savedAt": "Jul 9, 2026, 9:29 PM",
   "players": {
     "JRT": [
       {
@@ -236,6 +236,22 @@
         "weight": 111,
         "forty": "",
         "grade": 5,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
+        "id": "mram4glhw6u4",
+        "first": "Ryder",
+        "last": "Whitaker",
+        "suffix": "",
+        "position": "OL",
+        "division": "JRT",
+        "weight": 0,
+        "forty": "",
+        "grade": 6,
         "notes": "",
         "email": "",
         "dob": "",
@@ -4634,22 +4650,6 @@
         "weight": 83,
         "forty": "6.9",
         "grade": 5,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
-        "id": "mram4glhw6u4",
-        "first": "Ryder",
-        "last": "Whitaker",
-        "suffix": "",
-        "position": "OL",
-        "division": "Major",
-        "weight": 0,
-        "forty": "",
-        "grade": 6,
         "notes": "",
         "email": "",
         "dob": "",

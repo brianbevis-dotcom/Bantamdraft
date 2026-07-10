@@ -687,6 +687,7 @@
           <button class="dicon-btn export" onclick="exportStatsCSV()">⬇ Export Stats</button>
           <button class="dicon-btn undo-btn" id="undo-btn" onclick="undoLastPick()" disabled>↩ Undo</button>
           <button class="dicon-btn trade-btn" onclick="openTradeModal()">⇄ Trade</button>
+          <button class="dicon-btn" onclick="openAssignModal()" style="border-color:#2e7d4f;color:#8fd6a8;">🎯 Assign Pick</button>
           <button class="dicon-btn" onclick="openManageModal()" style="border-color:#7fb3d3;color:#a9cce3;">✎ Manage</button>
           <button class="dicon-btn reverse" id="reverse-btn" onclick="reverseCurrentRound()">⇅ Reverse</button>
           <button class="dicon-btn danger" onclick="confirmReset()">↺ Reset</button>
@@ -755,6 +756,31 @@
       <div class="modal-btns" style="margin-top:18px">
         <button class="btn-cancel" id="trade-cancel-btn">Cancel</button>
         <button class="btn-confirm" id="trade-confirm-btn">Confirm Trade</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MANUAL ASSIGN MODAL ══ -->
+  <div class="dmodal-overlay" id="modal-assign">
+    <div class="dmodal wide">
+      <h3>Manually Assign Pick</h3>
+      <p style="color:var(--gray);font-size:.83rem;margin-bottom:16px">Give any available player to any team for any round — useful for entering picks that happened outside the app, or fixing mistakes. This fills that team's pick slot for the chosen round.</p>
+      <div class="trade-section">
+        <label>Round</label>
+        <select class="trade-select" id="assign-round-select" onchange="onAssignRoundOrTeamChange()"></select>
+      </div>
+      <div class="trade-section">
+        <label>Team</label>
+        <select class="trade-select" id="assign-team-select" onchange="onAssignRoundOrTeamChange()"></select>
+      </div>
+      <div class="trade-section">
+        <label>Player</label>
+        <select class="trade-select" id="assign-player-select"></select>
+      </div>
+      <div class="csv-status" id="assign-status" style="margin-top:-4px;"></div>
+      <div class="modal-btns" style="margin-top:14px">
+        <button class="btn-cancel" id="assign-cancel-btn">Cancel</button>
+        <button class="btn-confirm" id="assign-confirm-btn">Assign Pick</button>
       </div>
     </div>
   </div>
@@ -1973,6 +1999,7 @@ function renderDraftBoard() {
         ${player.grade?`<span class="bp-pos" style="color:${resolveGradeColor(player.grade, draftState.division)||'var(--gray)'}">${escHtml(player.grade)}</span>`:''}
       </span>
       ${pk.traded?'<span class="bp-trade-badge">TRADE</span>':''}
+      ${pk.manual?'<span class="bp-trade-badge" style="background:rgba(76,175,107,.15);border-color:#2e7d4f;color:#8fd6a8;">MANUAL</span>':''}
       <span class="bp-rank">#${pk.playerRank}</span>
     `;
     boardEl.appendChild(row);
@@ -1998,6 +2025,12 @@ function openPickModal(playerIndex) {
 }
 function closePickModal(){document.getElementById('modal-pick').classList.remove('active');pendingPickIdx=null;}
 
+function recomputeCurrentPick() {
+  let p = 1;
+  while (p <= draftState.totalPicks && draftState.picks.some(pk => pk.pickNum === p)) p++;
+  draftState.currentPick = p;
+}
+
 function confirmPick() {
   if(pendingPickIdx===null||pendingPickIdx===undefined) return;
   const playerIndex=pendingPickIdx;
@@ -2010,7 +2043,7 @@ function confirmPick() {
   if(!player||player.drafted) return;
   player.drafted=true; player.draftedBy=teamIndex; player.draftRound=round; player.draftPickNum=draftState.currentPick;
   draftState.picks.push({pickNum:draftState.currentPick,round,poolType,teamIndex,playerRank:player.rank,traded:false});
-  draftState.currentPick++;
+  recomputeCurrentPick();
   saveDraftToGitHub(); renderDraft();
 }
 document.getElementById('pick-confirm-btn').addEventListener('click',confirmPick);
@@ -2057,6 +2090,69 @@ document.getElementById('trade-cancel-btn').addEventListener('click',closeTradeM
 document.getElementById('modal-trade').addEventListener('click',function(e){if(e.target===this)closeTradeModal();});
 
 // ════════════════════════════════════════════
+//  MANUAL ASSIGN MODAL — assign any available player to any team
+//  for any round; fills that team's pick slot for the chosen round
+//  regardless of where the draft's sequential pointer currently is.
+// ════════════════════════════════════════════
+function openAssignModal() {
+  if(!draftState) return;
+  const roundSel=document.getElementById('assign-round-select');
+  roundSel.innerHTML=Array.from({length:draftState.numRounds},(_,i)=>`<option value="${i+1}">Round ${i+1}</option>`).join('');
+  const teamSel=document.getElementById('assign-team-select');
+  teamSel.innerHTML=draftState.teams.map((t,i)=>`<option value="${i}">${escHtml(t)}</option>`).join('');
+  populateAssignPlayerSelect();
+  document.getElementById('assign-status').className='csv-status';
+  document.getElementById('assign-status').textContent='';
+  document.getElementById('modal-assign').classList.add('active');
+  onAssignRoundOrTeamChange();
+}
+function populateAssignPlayerSelect() {
+  const sel=document.getElementById('assign-player-select');
+  const avail=draftState.players.filter(p=>!p.drafted).sort((a,b)=>a.rank-b.rank);
+  if(!avail.length){ sel.innerHTML='<option value="">No available players</option>'; return; }
+  sel.innerHTML=avail.map(p=>`<option value="${p.rank}">#${p.rank} ${escHtml(fullName(p))} (${escHtml(p.pos)})</option>`).join('');
+}
+function onAssignRoundOrTeamChange() {
+  if(!draftState) return;
+  const round=parseInt(document.getElementById('assign-round-select').value);
+  const teamIndex=parseInt(document.getElementById('assign-team-select').value);
+  const existing=draftState.picks.find(pk=>pk.round===round&&pk.teamIndex===teamIndex);
+  const st=document.getElementById('assign-status');
+  if(existing){
+    const p=draftState.players[existing.playerRank-1];
+    st.className='csv-status error';
+    st.textContent=`⚠ ${draftState.teams[teamIndex]} already has a Round ${round} pick (${fullName(p)}). Remove it via Manage first to reassign.`;
+  } else {
+    st.className='csv-status';
+    st.textContent='';
+  }
+}
+function closeAssignModal(){document.getElementById('modal-assign').classList.remove('active');}
+function confirmAssign() {
+  const round=parseInt(document.getElementById('assign-round-select').value);
+  const teamIndex=parseInt(document.getElementById('assign-team-select').value);
+  const playerRank=parseInt(document.getElementById('assign-player-select').value);
+  if(!round||isNaN(teamIndex)||!playerRank){ alert('Please choose a round, team, and player.'); return; }
+  const existing=draftState.picks.find(pk=>pk.round===round&&pk.teamIndex===teamIndex);
+  if(existing){ alert(`${draftState.teams[teamIndex]} already has a pick in Round ${round}. Remove it via Manage first.`); return; }
+  const player=draftState.players[playerRank-1];
+  if(!player||player.drafted){ alert('That player is no longer available.'); return; }
+  if(!draftState.roundDirections) draftState.roundDirections=buildDefaultDirections(draftState.numRounds);
+  const dir=draftState.roundDirections[round-1]||'forward';
+  const posInRound = dir==='reverse' ? (draftState.numTeams-1-teamIndex) : teamIndex;
+  const pickNum=(round-1)*draftState.numTeams+posInRound+1;
+  player.drafted=true; player.draftedBy=teamIndex; player.draftRound=round; player.draftPickNum=pickNum;
+  draftState.picks.push({pickNum,round,poolType:getRoundType(round),teamIndex,playerRank:player.rank,traded:false,manual:true});
+  recomputeCurrentPick();
+  closeAssignModal();
+  saveDraftToGitHub(); renderDraft();
+  showToast(`${fullName(player)} manually assigned to ${draftState.teams[teamIndex]} — Round ${round}`);
+}
+document.getElementById('assign-confirm-btn').addEventListener('click',confirmAssign);
+document.getElementById('assign-cancel-btn').addEventListener('click',closeAssignModal);
+document.getElementById('modal-assign').addEventListener('click',function(e){if(e.target===this)closeAssignModal();});
+
+// ════════════════════════════════════════════
 //  MANAGE MODAL
 // ════════════════════════════════════════════
 function openManageModal() {
@@ -2078,7 +2174,7 @@ function buildManageList() {
     row.innerHTML=`
       <div class="mp-info">
         <div class="mp-name">${player.probowl?'<span class="mp-star">★</span>':''}${escHtml(fullName(player))}</div>
-        <div class="mp-meta">Pick ${pk.pickNum} · R${pk.round} · ${escHtml(draftState.teams[pk.teamIndex])} · #${pk.playerRank} ${player.pos}${pk.traded?' · TRADE':''}</div>
+        <div class="mp-meta">Pick ${pk.pickNum} · R${pk.round} · ${escHtml(draftState.teams[pk.teamIndex])} · #${pk.playerRank} ${player.pos}${pk.traded?' · TRADE':''}${pk.manual?' · MANUAL':''}</div>
       </div>
       <button class="manage-action-btn remove-btn" onclick="openRemoveModal(${pk.pickNum})">Return to Pool</button>
     `;
@@ -2148,7 +2244,7 @@ function exportStatsCSV() {
   draftState.picks.forEach(pk=>{
     const player=draftState.players[pk.playerRank-1];
     const poolLabel=getPoolLabel(pk.poolType||getRoundType(pk.round)).text;
-    rows.push([pk.pickNum,pk.round,poolLabel+(pk.traded?' (TRADE)':''),draftState.teams[pk.teamIndex],'Player',
+    rows.push([pk.pickNum,pk.round,poolLabel+(pk.traded?' (TRADE)':'')+(pk.manual?' (MANUAL)':''),draftState.teams[pk.teamIndex],'Player',
                player.first||'',player.last||'',player.suffix||'',player.pos,player.rank,
                player.grade||'',player.weight||'',player.height||'',player.forty||'',player.probowl?'Yes':'',
                player.notes||'',player.email||'',player.dob||'',player.gender||'']);

@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 10, 2026, 7:49 AM",
+  "savedAt": "Jul 10, 2026, 7:51 AM",
   "players": {
     "JRT": [
       {
@@ -4729,22 +4729,6 @@
         "teamRole": ""
       },
       {
-        "id": "mram4glhe7e4",
-        "first": "Xavier",
-        "last": "Matteson",
-        "suffix": "",
-        "position": "RB",
-        "division": "Major",
-        "weight": 110,
-        "forty": "",
-        "grade": 5,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
         "id": "mram4glhqwxc",
         "first": "Tyson",
         "last": "Greenwald",
@@ -4753,6 +4737,22 @@
         "division": "Major",
         "weight": 0,
         "forty": "6.9",
+        "grade": 5,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
+        "id": "mram4glhe7e4",
+        "first": "Xavier",
+        "last": "Matteson",
+        "suffix": "",
+        "position": "RB",
+        "division": "Major",
+        "weight": 110,
+        "forty": "",
         "grade": 5,
         "notes": "",
         "email": "",

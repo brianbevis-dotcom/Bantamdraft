@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 10, 2026, 5:17 PM",
+  "savedAt": "Jul 10, 2026, 7:21 PM",
   "players": {
     "JRT": [
       {
@@ -300,22 +300,6 @@
         "weight": 112,
         "forty": "",
         "grade": 6,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
-        "id": "mram4glhizfw",
-        "first": "Lincoln",
-        "last": "Powers",
-        "suffix": "",
-        "position": "OL",
-        "division": "JRT",
-        "weight": 122,
-        "forty": "",
-        "grade": 5,
         "notes": "",
         "email": "",
         "dob": "",
@@ -4777,6 +4761,22 @@
         "teamRole": ""
       },
       {
+        "id": "mrf9y6lqmk43",
+        "first": "Grant",
+        "last": "Dirksen",
+        "suffix": "",
+        "position": "OL",
+        "division": "Major",
+        "weight": 134,
+        "forty": "7",
+        "grade": 6,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
         "id": "mrf9y6lppt5f",
         "first": "Bryce",
         "last": "Pav",
@@ -5897,22 +5897,6 @@
         "teamRole": ""
       },
       {
-        "id": "mrf9y6lq33q5",
-        "first": "Emmett",
-        "last": "Connelly",
-        "suffix": "",
-        "position": "OL",
-        "division": "Major",
-        "weight": 233,
-        "forty": "10",
-        "grade": 6,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
         "id": "mrf9y6lqilpe",
         "first": "Jasper",
         "last": "Larson",
@@ -6073,22 +6057,6 @@
         "teamRole": ""
       },
       {
-        "id": "mrf9y6lqmk43",
-        "first": "Grant",
-        "last": "Dirksen",
-        "suffix": "",
-        "position": "OL",
-        "division": "Major",
-        "weight": 134,
-        "forty": "7",
-        "grade": 6,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
         "id": "mrf9y6lqut3w",
         "first": "Rhett",
         "last": "Duncan",
@@ -6162,6 +6130,22 @@
         "weight": 119,
         "forty": "6.7",
         "grade": 6,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
+        "id": "mram4glhizfw",
+        "first": "Lincoln",
+        "last": "Powers",
+        "suffix": "",
+        "position": "OL",
+        "division": "Major",
+        "weight": 122,
+        "forty": "",
+        "grade": 5,
         "notes": "",
         "email": "",
         "dob": "",
@@ -6429,7 +6413,7 @@
         "first": "Connor",
         "last": "Todd",
         "suffix": "",
-        "position": "OL",
+        "position": "RB",
         "division": "Major",
         "weight": 125,
         "forty": "7.6",
@@ -6450,6 +6434,22 @@
         "weight": 0,
         "forty": "",
         "grade": 5,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
+        "id": "mrf9y6lq33q5",
+        "first": "Emmett",
+        "last": "Connelly",
+        "suffix": "",
+        "position": "RB",
+        "division": "Major",
+        "weight": 233,
+        "forty": "10",
+        "grade": 6,
         "notes": "",
         "email": "",
         "dob": "",

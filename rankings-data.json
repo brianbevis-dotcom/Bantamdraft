@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 10, 2026, 7:21 PM",
+  "savedAt": "Jul 10, 2026, 7:22 PM",
   "players": {
     "JRT": [
       {
@@ -5753,6 +5753,22 @@
         "teamRole": ""
       },
       {
+        "id": "mrf9y6lq33q5",
+        "first": "Emmett",
+        "last": "Connelly",
+        "suffix": "",
+        "position": "RB",
+        "division": "Major",
+        "weight": 233,
+        "forty": "10",
+        "grade": 6,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
         "id": "mrf9y6lqfk3s",
         "first": "Gauge",
         "last": "Pierce",
@@ -6033,22 +6049,6 @@
         "division": "Major",
         "weight": 104,
         "forty": "",
-        "grade": 5,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
-        "id": "mrf9y6lqnu57",
-        "first": "Kingston",
-        "last": "Lear",
-        "suffix": "",
-        "position": "RB",
-        "division": "Major",
-        "weight": 131,
-        "forty": "9.1",
         "grade": 5,
         "notes": "",
         "email": "",
@@ -6409,14 +6409,14 @@
         "teamRole": ""
       },
       {
-        "id": "mrf9y6lqrsci",
-        "first": "Connor",
-        "last": "Todd",
+        "id": "mrf9y6lqnu57",
+        "first": "Kingston",
+        "last": "Lear",
         "suffix": "",
         "position": "RB",
         "division": "Major",
-        "weight": 125,
-        "forty": "7.6",
+        "weight": 131,
+        "forty": "9.1",
         "grade": 5,
         "notes": "",
         "email": "",
@@ -6441,15 +6441,15 @@
         "teamRole": ""
       },
       {
-        "id": "mrf9y6lq33q5",
-        "first": "Emmett",
-        "last": "Connelly",
+        "id": "mrf9y6lqrsci",
+        "first": "Connor",
+        "last": "Todd",
         "suffix": "",
         "position": "RB",
         "division": "Major",
-        "weight": 233,
-        "forty": "10",
-        "grade": 6,
+        "weight": 125,
+        "forty": "7.6",
+        "grade": 5,
         "notes": "",
         "email": "",
         "dob": "",

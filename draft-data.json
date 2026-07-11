@@ -1080,10 +1080,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 7,
+        "draftRound": 14,
+        "draftPickNum": 105
       },
       {
         "rank": 52,
@@ -2347,7 +2347,7 @@
       }
     ],
     "division": "Major",
-    "currentPick": 105,
+    "currentPick": 106,
     "totalPicks": 112,
     "picks": [
       {
@@ -3180,6 +3180,14 @@
         "poolType": "top",
         "teamIndex": 7,
         "playerRank": 49,
+        "traded": false
+      },
+      {
+        "pickNum": 105,
+        "round": 14,
+        "poolType": "top",
+        "teamIndex": 7,
+        "playerRank": 51,
         "traded": false
       }
     ],

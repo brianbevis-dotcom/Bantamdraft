@@ -1017,8 +1017,8 @@
         "teamRole": "",
         "drafted": true,
         "draftedBy": 0,
-        "draftRound": 10,
-        "draftPickNum": 60
+        "draftRound": 11,
+        "draftPickNum": 61
       },
       {
         "rank": 49,
@@ -1036,10 +1036,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 0,
+        "draftRound": 10,
+        "draftPickNum": 60
       },
       {
         "rank": 50,
@@ -1736,7 +1736,7 @@
       }
     ],
     "division": "Rookie",
-    "currentPick": 61,
+    "currentPick": 62,
     "totalPicks": 84,
     "picks": [
       {
@@ -2226,6 +2226,14 @@
       {
         "pickNum": 60,
         "round": 10,
+        "poolType": "top",
+        "teamIndex": 0,
+        "playerRank": 49,
+        "traded": false
+      },
+      {
+        "pickNum": 61,
+        "round": 11,
         "poolType": "top",
         "teamIndex": 0,
         "playerRank": 48,

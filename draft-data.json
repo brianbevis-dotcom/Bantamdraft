@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 11, 2026, 9:17 AM",
+  "savedAt": "Jul 11, 2026, 9:26 AM",
   "draftState": {
     "numTeams": 8,
     "numRounds": 14,
@@ -51,10 +51,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 1,
+        "draftRound": 1,
+        "draftPickNum": 2
       },
       {
         "rank": 3,
@@ -72,10 +72,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 4,
+        "draftRound": 1,
+        "draftPickNum": 5
       },
       {
         "rank": 4,
@@ -93,10 +93,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 3,
+        "draftRound": 1,
+        "draftPickNum": 4
       },
       {
         "rank": 5,
@@ -114,10 +114,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 4,
+        "draftRound": 2,
+        "draftPickNum": 12
       },
       {
         "rank": 6,
@@ -135,10 +135,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 2,
+        "draftRound": 1,
+        "draftPickNum": 3
       },
       {
         "rank": 7,
@@ -156,10 +156,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 4,
+        "draftRound": 3,
+        "draftPickNum": 20
       },
       {
         "rank": 8,
@@ -177,10 +177,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 7,
+        "draftRound": 1,
+        "draftPickNum": 8
       },
       {
         "rank": 9,
@@ -198,10 +198,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 5,
+        "draftRound": 1,
+        "draftPickNum": 6
       },
       {
         "rank": 10,
@@ -219,10 +219,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 5,
+        "draftRound": 2,
+        "draftPickNum": 11
       },
       {
         "rank": 11,
@@ -240,10 +240,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 6,
+        "draftRound": 1,
+        "draftPickNum": 7
       },
       {
         "rank": 12,
@@ -261,10 +261,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 3,
+        "draftRound": 2,
+        "draftPickNum": 13
       },
       {
         "rank": 13,
@@ -282,10 +282,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 6,
+        "draftRound": 2,
+        "draftPickNum": 10
       },
       {
         "rank": 14,
@@ -303,10 +303,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 7,
+        "draftRound": 2,
+        "draftPickNum": 9
       },
       {
         "rank": 15,
@@ -324,10 +324,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 2,
+        "draftRound": 2,
+        "draftPickNum": 14
       },
       {
         "rank": 16,
@@ -345,10 +345,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 0,
+        "draftRound": 2,
+        "draftPickNum": 16
       },
       {
         "rank": 17,
@@ -366,10 +366,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 1,
+        "draftRound": 2,
+        "draftPickNum": 15
       },
       {
         "rank": 18,
@@ -1857,10 +1857,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 7,
+        "draftRound": 3,
+        "draftPickNum": 17
       },
       {
         "rank": 89,
@@ -1920,10 +1920,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 1,
+        "draftRound": 3,
+        "draftPickNum": 23
       },
       {
         "rank": 92,
@@ -2368,7 +2368,7 @@
       }
     ],
     "division": "Major",
-    "currentPick": 2,
+    "currentPick": 18,
     "totalPicks": 112,
     "picks": [
       {
@@ -2378,12 +2378,158 @@
         "teamIndex": 0,
         "playerRank": 1,
         "traded": false
+      },
+      {
+        "pickNum": 2,
+        "round": 1,
+        "poolType": "top",
+        "teamIndex": 1,
+        "playerRank": 2,
+        "traded": false
+      },
+      {
+        "pickNum": 3,
+        "round": 1,
+        "poolType": "top",
+        "teamIndex": 2,
+        "playerRank": 6,
+        "traded": false
+      },
+      {
+        "pickNum": 4,
+        "round": 1,
+        "poolType": "top",
+        "teamIndex": 3,
+        "playerRank": 4,
+        "traded": false
+      },
+      {
+        "pickNum": 5,
+        "round": 1,
+        "poolType": "top",
+        "teamIndex": 4,
+        "playerRank": 3,
+        "traded": false
+      },
+      {
+        "pickNum": 6,
+        "round": 1,
+        "poolType": "top",
+        "teamIndex": 5,
+        "playerRank": 9,
+        "traded": false
+      },
+      {
+        "pickNum": 7,
+        "round": 1,
+        "poolType": "top",
+        "teamIndex": 6,
+        "playerRank": 11,
+        "traded": false
+      },
+      {
+        "pickNum": 8,
+        "round": 1,
+        "poolType": "top",
+        "teamIndex": 7,
+        "playerRank": 8,
+        "traded": false
+      },
+      {
+        "pickNum": 9,
+        "round": 2,
+        "poolType": "top",
+        "teamIndex": 7,
+        "playerRank": 14,
+        "traded": false
+      },
+      {
+        "pickNum": 10,
+        "round": 2,
+        "poolType": "top",
+        "teamIndex": 6,
+        "playerRank": 13,
+        "traded": false
+      },
+      {
+        "pickNum": 11,
+        "round": 2,
+        "poolType": "top",
+        "teamIndex": 5,
+        "playerRank": 10,
+        "traded": false
+      },
+      {
+        "pickNum": 12,
+        "round": 2,
+        "poolType": "top",
+        "teamIndex": 4,
+        "playerRank": 5,
+        "traded": false
+      },
+      {
+        "pickNum": 13,
+        "round": 2,
+        "poolType": "top",
+        "teamIndex": 3,
+        "playerRank": 12,
+        "traded": false
+      },
+      {
+        "pickNum": 14,
+        "round": 2,
+        "poolType": "top",
+        "teamIndex": 2,
+        "playerRank": 15,
+        "traded": false
+      },
+      {
+        "pickNum": 15,
+        "round": 2,
+        "poolType": "top",
+        "teamIndex": 1,
+        "playerRank": 17,
+        "traded": false
+      },
+      {
+        "pickNum": 16,
+        "round": 2,
+        "poolType": "top",
+        "teamIndex": 0,
+        "playerRank": 16,
+        "traded": false
+      },
+      {
+        "pickNum": 17,
+        "round": 3,
+        "poolType": "lineman",
+        "teamIndex": 7,
+        "playerRank": 88,
+        "traded": false
+      },
+      {
+        "pickNum": 20,
+        "round": 3,
+        "poolType": "bottom",
+        "teamIndex": 4,
+        "playerRank": 7,
+        "traded": false,
+        "manual": true
+      },
+      {
+        "pickNum": 23,
+        "round": 3,
+        "poolType": "bottom",
+        "teamIndex": 1,
+        "playerRank": 91,
+        "traded": false,
+        "manual": true
       }
     ],
     "roundDirections": [
       "forward",
       "reverse",
-      "forward",
+      "reverse",
       "reverse",
       "forward",
       "reverse",

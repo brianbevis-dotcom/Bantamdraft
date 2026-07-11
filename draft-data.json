@@ -3774,10 +3774,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 0,
+        "draftRound": 3,
+        "draftPickNum": 29
       },
       {
         "rank": 180,
@@ -3802,7 +3802,7 @@
       }
     ],
     "division": "Minor",
-    "currentPick": 29,
+    "currentPick": 30,
     "totalPicks": 196,
     "picks": [
       {
@@ -4032,6 +4032,14 @@
         "poolType": "top",
         "teamIndex": 0,
         "playerRank": 27,
+        "traded": false
+      },
+      {
+        "pickNum": 29,
+        "round": 3,
+        "poolType": "bottom",
+        "teamIndex": 0,
+        "playerRank": 179,
         "traded": false
       }
     ],

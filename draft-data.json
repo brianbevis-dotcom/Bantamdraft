@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 11, 2026, 9:26 AM",
+  "savedAt": "Jul 11, 2026, 9:28 AM",
   "draftState": {
     "numTeams": 8,
     "numRounds": 14,
@@ -1878,10 +1878,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 5,
+        "draftRound": 3,
+        "draftPickNum": 19
       },
       {
         "rank": 90,
@@ -1899,10 +1899,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 2,
+        "draftRound": 3,
+        "draftPickNum": 22
       },
       {
         "rank": 91,
@@ -1941,10 +1941,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 3,
+        "draftRound": 3,
+        "draftPickNum": 21
       },
       {
         "rank": 93,
@@ -1983,10 +1983,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 6,
+        "draftRound": 3,
+        "draftPickNum": 18
       },
       {
         "rank": 95,
@@ -2368,7 +2368,7 @@
       }
     ],
     "division": "Major",
-    "currentPick": 18,
+    "currentPick": 24,
     "totalPicks": 112,
     "picks": [
       {
@@ -2524,6 +2524,38 @@
         "playerRank": 91,
         "traded": false,
         "manual": true
+      },
+      {
+        "pickNum": 18,
+        "round": 3,
+        "poolType": "lineman",
+        "teamIndex": 6,
+        "playerRank": 94,
+        "traded": false
+      },
+      {
+        "pickNum": 19,
+        "round": 3,
+        "poolType": "lineman",
+        "teamIndex": 5,
+        "playerRank": 89,
+        "traded": false
+      },
+      {
+        "pickNum": 21,
+        "round": 3,
+        "poolType": "lineman",
+        "teamIndex": 3,
+        "playerRank": 92,
+        "traded": false
+      },
+      {
+        "pickNum": 22,
+        "round": 3,
+        "poolType": "lineman",
+        "teamIndex": 2,
+        "playerRank": 90,
+        "traded": false
       }
     ],
     "roundDirections": [

@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 11, 2026, 12:00 PM",
+  "savedAt": "Jul 11, 2026, 12:03 PM",
   "draftState": {
     "numTeams": 14,
     "numRounds": 14,
@@ -2955,10 +2955,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 10,
+        "draftRound": 12,
+        "draftPickNum": 158
       },
       {
         "rank": 141,
@@ -2997,10 +2997,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 6,
+        "draftRound": 13,
+        "draftPickNum": 175
       },
       {
         "rank": 143,
@@ -3060,10 +3060,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 11,
+        "draftRound": 13,
+        "draftPickNum": 180
       },
       {
         "rank": 146,
@@ -3102,10 +3102,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 12,
+        "draftRound": 13,
+        "draftPickNum": 181
       },
       {
         "rank": 148,
@@ -3165,10 +3165,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 9,
+        "draftRound": 13,
+        "draftPickNum": 178
       },
       {
         "rank": 151,
@@ -3186,10 +3186,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 8,
+        "draftRound": 13,
+        "draftPickNum": 177
       },
       {
         "rank": 152,
@@ -3207,10 +3207,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 7,
+        "draftRound": 13,
+        "draftPickNum": 176
       },
       {
         "rank": 153,
@@ -3802,7 +3802,7 @@
       }
     ],
     "division": "Minor",
-    "currentPick": 158,
+    "currentPick": 169,
     "totalPicks": 196,
     "picks": [
       {
@@ -5238,6 +5238,68 @@
         "poolType": "top",
         "teamIndex": 13,
         "playerRank": 146,
+        "traded": false,
+        "manual": true
+      },
+      {
+        "pickNum": 181,
+        "round": 13,
+        "poolType": "top",
+        "teamIndex": 12,
+        "playerRank": 147,
+        "traded": false,
+        "manual": true
+      },
+      {
+        "pickNum": 180,
+        "round": 13,
+        "poolType": "top",
+        "teamIndex": 11,
+        "playerRank": 145,
+        "traded": false,
+        "manual": true
+      },
+      {
+        "pickNum": 158,
+        "round": 12,
+        "poolType": "top",
+        "teamIndex": 10,
+        "playerRank": 140,
+        "traded": false
+      },
+      {
+        "pickNum": 178,
+        "round": 13,
+        "poolType": "top",
+        "teamIndex": 9,
+        "playerRank": 150,
+        "traded": false,
+        "manual": true
+      },
+      {
+        "pickNum": 177,
+        "round": 13,
+        "poolType": "top",
+        "teamIndex": 8,
+        "playerRank": 151,
+        "traded": false,
+        "manual": true
+      },
+      {
+        "pickNum": 176,
+        "round": 13,
+        "poolType": "top",
+        "teamIndex": 7,
+        "playerRank": 152,
+        "traded": false,
+        "manual": true
+      },
+      {
+        "pickNum": 175,
+        "round": 13,
+        "poolType": "top",
+        "teamIndex": 6,
+        "playerRank": 142,
         "traded": false,
         "manual": true
       }

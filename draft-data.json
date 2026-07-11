@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 11, 2026, 8:31 AM",
+  "savedAt": "Jul 11, 2026, 8:32 AM",
   "draftState": {
     "numTeams": 6,
     "numRounds": 14,
@@ -1100,7 +1100,7 @@
         "gender": "",
         "teamRole": "",
         "drafted": true,
-        "draftedBy": 5,
+        "draftedBy": 0,
         "draftRound": 6,
         "draftPickNum": 31
       },
@@ -1993,9 +1993,9 @@
         "pickNum": 31,
         "round": 6,
         "poolType": "lineman",
-        "teamIndex": 5,
+        "teamIndex": 0,
         "playerRank": 52,
-        "traded": false
+        "traded": true
       },
       {
         "pickNum": 32,

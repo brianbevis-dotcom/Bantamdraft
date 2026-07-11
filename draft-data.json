@@ -729,10 +729,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 7,
+        "draftRound": 6,
+        "draftPickNum": 78
       },
       {
         "rank": 35,
@@ -4385,6 +4385,15 @@
         "teamIndex": 1,
         "playerRank": 31,
         "traded": false
+      },
+      {
+        "pickNum": 78,
+        "round": 6,
+        "poolType": "lineman",
+        "teamIndex": 7,
+        "playerRank": 34,
+        "traded": false,
+        "manual": true
       }
     ],
     "roundDirections": [

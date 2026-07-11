@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 11, 2026, 11:08 AM",
+  "savedAt": "Jul 11, 2026, 11:09 AM",
   "draftState": {
     "numTeams": 14,
     "numRounds": 14,
@@ -960,10 +960,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 12,
+        "draftRound": 7,
+        "draftPickNum": 97
       },
       {
         "rank": 46,
@@ -4500,6 +4500,15 @@
         "poolType": "top",
         "teamIndex": 13,
         "playerRank": 33,
+        "traded": false,
+        "manual": true
+      },
+      {
+        "pickNum": 97,
+        "round": 7,
+        "poolType": "top",
+        "teamIndex": 12,
+        "playerRank": 45,
         "traded": false,
         "manual": true
       }

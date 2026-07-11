@@ -932,7 +932,7 @@
         "gender": "",
         "teamRole": "",
         "drafted": true,
-        "draftedBy": 4,
+        "draftedBy": 1,
         "draftRound": 6,
         "draftPickNum": 32
       },
@@ -2001,9 +2001,9 @@
         "pickNum": 32,
         "round": 6,
         "poolType": "lineman",
-        "teamIndex": 4,
+        "teamIndex": 1,
         "playerRank": 44,
-        "traded": false
+        "traded": true
       },
       {
         "pickNum": 34,

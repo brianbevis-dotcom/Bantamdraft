@@ -319,8 +319,8 @@
   #draftApp .dbtn-primary:active { transform: translateY(0); }
   #draftApp .dbtn-primary.small { width: auto; font-size: .85rem; padding: 8px 16px; margin-top: 0; }
 
-  #draftApp #draft-live { display: flex; flex-direction: column; min-height: calc(100vh - 70px); }
-  #draftApp .draft-header { background: var(--black-soft); border-bottom: 2px solid var(--red-dark); padding: 9px 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  #draftApp #draft-live { display: flex; flex-direction: column; height: calc(100vh - 70px); overflow: hidden; }
+  #draftApp .draft-header { background: var(--black-soft); border-bottom: 2px solid var(--red-dark); padding: 9px 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; flex-shrink: 0; }
   #draftApp .draft-title { font-family: 'Barlow Condensed', sans-serif; font-weight: 900; font-size: 1.25rem; color: var(--red-bright); text-transform: uppercase; letter-spacing: .06em; display: flex; align-items: center; gap: 8px; }
   #draftApp .draft-title svg { width: 26px; height: 26px; }
   #draftApp .draft-controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
@@ -353,7 +353,7 @@
   #draftApp .override-notice { background: rgba(200,16,46,.14); border: 1px solid var(--red-dark); border-radius: 6px; padding: 3px 9px; font-size: .72rem; color: var(--red-bright); font-weight: 600; display: none; }
   #draftApp .override-notice.visible { display: block; }
 
-  #draftApp .clock-wrap { background: var(--black); border-bottom: 1px solid var(--black-border); padding: 10px 14px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  #draftApp .clock-wrap { background: var(--black); border-bottom: 1px solid var(--black-border); padding: 10px 14px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; flex-shrink: 0; }
   #draftApp .clock-label { font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; color: var(--gray); font-weight: 600; }
   #draftApp .clock-team { display: flex; align-items: center; gap: 9px; }
   #draftApp .pulse-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--red); animation: dpulse 1.2s ease-in-out infinite; flex-shrink: 0; }
@@ -405,6 +405,13 @@
   #draftApp .board-pick:hover { background: rgba(200,16,46,.06); }
   #draftApp .board-pick.cur-round { background: rgba(200,16,46,.05); }
   #draftApp .board-pick.traded { opacity: .7; }
+  #draftApp .board-pick-empty { cursor: default; border: 1px dashed var(--black-border); border-radius: 6px; margin-bottom: 3px; flex-wrap: wrap; }
+  #draftApp .board-pick-empty:hover { background: rgba(255,255,255,.03); }
+  #draftApp .board-pick-empty.drop-target { border-color: var(--red); border-style: solid; background: rgba(200,16,46,.1); }
+  #draftApp .board-pick-empty.on-deck { border-color: var(--red-bright); border-style: solid; box-shadow: 0 0 0 1px var(--red-bright) inset; }
+  #draftApp .bp-empty-slot { color: var(--gray-dim); font-size: .72rem; font-style: italic; flex: 1; }
+  #draftApp .board-slot-select { background: var(--black); border: 1px solid var(--black-border); border-radius: 4px; color: var(--white); font-family: 'Barlow', sans-serif; font-size: .68rem; padding: 2px 4px; max-width: 130px; }
+  #draftApp .board-slot-select:focus { outline: none; border-color: var(--red); }
   #draftApp .bp-num { font-family: 'Barlow Condensed', sans-serif; font-size: .8rem; font-weight: 700; color: var(--gray); min-width: 24px; }
   #draftApp .bp-team { font-size: .73rem; font-weight: 600; color: var(--gray); min-width: 84px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   #draftApp .bp-name { font-family: 'Barlow Condensed', sans-serif; font-size: .9rem; font-weight: 700; color: var(--white); flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -1939,6 +1946,13 @@ function buildPlayerCard(player) {
   if(isLin) classes.push('lineman');
   if(player.probowl) classes.push('probowl-card');
   card.className=classes.join(' ');
+  card.draggable = true;
+  card.addEventListener('dragstart', e => {
+    e.dataTransfer.setData('text/plain', String(player.rank));
+    e.dataTransfer.effectAllowed = 'move';
+    card.style.opacity = '0.4';
+  });
+  card.addEventListener('dragend', () => { card.style.opacity = ''; });
 
   const stats=[
     {lbl:'Weight',  val: player.weight ? player.weight+(String(player.weight).includes('lb')?'':' lbs') : '—'},
@@ -1968,44 +1982,104 @@ function buildPlayerCard(player) {
 }
 
 // ════════════════════════════════════════════
-//  RENDER DRAFT BOARD
+//  RENDER DRAFT BOARD — shows every round's full slate of slots up front;
+//  empty slots accept a dragged player card or an inline dropdown pick.
 // ════════════════════════════════════════════
 function renderDraftBoard() {
   const boardEl=document.getElementById('board-scroll');
   boardEl.innerHTML='';
+  if(!draftState.roundDirections) draftState.roundDirections=buildDefaultDirections(draftState.numRounds);
   const isDone=draftState.currentPick>draftState.totalPicks;
-  const currentRound=isDone?draftState.numRounds:getPickInfo(draftState.currentPick,draftState.numTeams).round;
-  let lastRound=null;
-  draftState.picks.forEach(pk=>{
-    if(pk.round!==lastRound){
-      const lbl=document.createElement('div');
-      lbl.className='board-round-label';
-      const pi=getPoolLabel(pk.poolType||getRoundType(pk.round));
-      const dir=(draftState.roundDirections&&draftState.roundDirections[pk.round-1])||'forward';
-      lbl.textContent=`Round ${pk.round}${dir==='forward'?' ▶':' ◀'} — ${pi.text}`;
-      lbl.style.color=pi.bg;
-      boardEl.appendChild(lbl);
-      lastRound=pk.round;
+  const onDeckPickNum = isDone ? -1 : draftState.currentPick;
+  const currentRound = isDone ? draftState.numRounds : getPickInfo(draftState.currentPick,draftState.numTeams).round;
+  let onDeckEl=null;
+
+  for (let round=1; round<=draftState.numRounds; round++) {
+    const poolType = getRoundType(round);
+    const pi = getPoolLabel(poolType);
+    const dir = draftState.roundDirections[round-1] || 'forward';
+    const lbl=document.createElement('div');
+    lbl.className='board-round-label';
+    lbl.textContent=`Round ${round}${dir==='forward'?' ▶':' ◀'} — ${pi.text}`;
+    lbl.style.color=pi.bg;
+    boardEl.appendChild(lbl);
+
+    for (let posInRound=0; posInRound<draftState.numTeams; posInRound++) {
+      const teamIndex = dir==='reverse' ? (draftState.numTeams-1-posInRound) : posInRound;
+      const pickNum = (round-1)*draftState.numTeams + posInRound + 1;
+      const pk = draftState.picks.find(p=>p.pickNum===pickNum);
+      const row=document.createElement('div');
+
+      if (pk) {
+        const player=draftState.players[pk.playerRank-1];
+        row.className='board-pick'+(round===currentRound?' cur-round':'')+(pk.traded?' traded':'');
+        row.innerHTML=`
+          <span class="bp-num">${pk.pickNum}</span>
+          <span class="bp-team">${escHtml(draftState.teams[pk.teamIndex])}</span>
+          <span class="bp-name">
+            ${player.probowl?'<span class="bp-star">★</span>':''}${escHtml(fullName(player))}
+            <span class="bp-pos">${escHtml(player.pos)}</span>
+            ${player.grade?`<span class="bp-pos" style="color:${resolveGradeColor(player.grade, draftState.division)||'var(--gray)'}">${escHtml(player.grade)}</span>`:''}
+          </span>
+          ${pk.traded?'<span class="bp-trade-badge">TRADE</span>':''}
+          ${pk.manual?'<span class="bp-trade-badge" style="background:rgba(76,175,107,.15);border-color:#2e7d4f;color:#8fd6a8;">MANUAL</span>':''}
+          <span class="bp-rank">#${pk.playerRank}</span>
+        `;
+      } else {
+        const isOnDeck = pickNum===onDeckPickNum;
+        row.className='board-pick board-pick-empty'+(round===currentRound?' cur-round':'')+(isOnDeck?' on-deck':'');
+        row.innerHTML=`
+          <span class="bp-num">${pickNum}</span>
+          <span class="bp-team">${escHtml(draftState.teams[teamIndex])}</span>
+          <span class="bp-empty-slot">${isOnDeck?'on the clock…':'— empty —'}</span>
+          <select class="board-slot-select" onfocus="populateSlotSelect(this)" onchange="onSlotSelectChange(this, ${pickNum})">
+            <option value="">Assign player…</option>
+          </select>
+        `;
+        row.addEventListener('dragover', e => { e.preventDefault(); row.classList.add('drop-target'); });
+        row.addEventListener('dragleave', () => { row.classList.remove('drop-target'); });
+        row.addEventListener('drop', e => {
+          e.preventDefault();
+          row.classList.remove('drop-target');
+          const rank = e.dataTransfer.getData('text/plain');
+          if (rank) assignPlayerToSlot(pickNum, parseInt(rank));
+        });
+        if (isOnDeck) onDeckEl = row;
+      }
+      boardEl.appendChild(row);
     }
-    const player=draftState.players[pk.playerRank-1];
-    const row=document.createElement('div');
-    row.className='board-pick'+(pk.round===currentRound?' cur-round':'')+(pk.traded?' traded':'');
-    row.innerHTML=`
-      <span class="bp-num">${pk.pickNum}</span>
-      <span class="bp-team">${escHtml(draftState.teams[pk.teamIndex])}</span>
-      <span class="bp-name">
-        ${player.probowl?'<span class="bp-star">★</span>':''}${escHtml(fullName(player))}
-        <span class="bp-pos">${escHtml(player.pos)}</span>
-        ${player.grade?`<span class="bp-pos" style="color:${resolveGradeColor(player.grade, draftState.division)||'var(--gray)'}">${escHtml(player.grade)}</span>`:''}
-      </span>
-      ${pk.traded?'<span class="bp-trade-badge">TRADE</span>':''}
-      ${pk.manual?'<span class="bp-trade-badge" style="background:rgba(76,175,107,.15);border-color:#2e7d4f;color:#8fd6a8;">MANUAL</span>':''}
-      <span class="bp-rank">#${pk.playerRank}</span>
-    `;
-    boardEl.appendChild(row);
-  });
+  }
   document.getElementById('board-count').textContent=`${draftState.picks.length} / ${draftState.totalPicks}`;
-  setTimeout(()=>{boardEl.scrollTop=boardEl.scrollHeight;},40);
+  setTimeout(()=>{ if(onDeckEl) onDeckEl.scrollIntoView({block:'center'}); },40);
+}
+
+// ════════════════════════════════════════════
+//  SLOT-LEVEL MANUAL ASSIGNMENT (drag-and-drop or inline dropdown)
+// ════════════════════════════════════════════
+function populateSlotSelect(sel) {
+  if (sel.dataset.populated) return;
+  sel.dataset.populated = '1';
+  const avail=draftState.players.filter(p=>!p.drafted).sort((a,b)=>a.rank-b.rank);
+  sel.innerHTML='<option value="">Assign player…</option>' +
+    avail.map(p=>`<option value="${p.rank}">#${p.rank} ${escHtml(fullName(p))} (${escHtml(p.pos)})</option>`).join('');
+}
+function onSlotSelectChange(sel, pickNum) {
+  const rank=parseInt(sel.value);
+  if(!rank) return;
+  assignPlayerToSlot(pickNum, rank);
+}
+function assignPlayerToSlot(pickNum, playerRank) {
+  if(!draftState) return;
+  const existing = draftState.picks.find(pk=>pk.pickNum===pickNum);
+  if (existing) { alert('That slot is already filled.'); return; }
+  const {round, teamIndex} = getPickInfo(pickNum, draftState.numTeams);
+  const player = draftState.players[playerRank-1];
+  if (!player || player.drafted) { alert('That player is no longer available.'); return; }
+  player.drafted=true; player.draftedBy=teamIndex; player.draftRound=round; player.draftPickNum=pickNum;
+  draftState.picks.push({pickNum, round, poolType:getRoundType(round), teamIndex, playerRank:player.rank, traded:false, manual:true});
+  recomputeCurrentPick();
+  saveDraftToGitHub(); renderDraft();
+  showToast(`${fullName(player)} assigned to ${draftState.teams[teamIndex]} — Round ${round}`);
 }
 
 // ════════════════════════════════════════════
@@ -2135,18 +2209,12 @@ function confirmAssign() {
   if(!round||isNaN(teamIndex)||!playerRank){ alert('Please choose a round, team, and player.'); return; }
   const existing=draftState.picks.find(pk=>pk.round===round&&pk.teamIndex===teamIndex);
   if(existing){ alert(`${draftState.teams[teamIndex]} already has a pick in Round ${round}. Remove it via Manage first.`); return; }
-  const player=draftState.players[playerRank-1];
-  if(!player||player.drafted){ alert('That player is no longer available.'); return; }
   if(!draftState.roundDirections) draftState.roundDirections=buildDefaultDirections(draftState.numRounds);
   const dir=draftState.roundDirections[round-1]||'forward';
   const posInRound = dir==='reverse' ? (draftState.numTeams-1-teamIndex) : teamIndex;
   const pickNum=(round-1)*draftState.numTeams+posInRound+1;
-  player.drafted=true; player.draftedBy=teamIndex; player.draftRound=round; player.draftPickNum=pickNum;
-  draftState.picks.push({pickNum,round,poolType:getRoundType(round),teamIndex,playerRank:player.rank,traded:false,manual:true});
-  recomputeCurrentPick();
   closeAssignModal();
-  saveDraftToGitHub(); renderDraft();
-  showToast(`${fullName(player)} manually assigned to ${draftState.teams[teamIndex]} — Round ${round}`);
+  assignPlayerToSlot(pickNum, playerRank);
 }
 document.getElementById('assign-confirm-btn').addEventListener('click',confirmAssign);
 document.getElementById('assign-cancel-btn').addEventListener('click',closeAssignModal);

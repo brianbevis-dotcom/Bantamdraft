@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T17:42:32.377Z",
+  "lastUpdated": "2026-07-13T17:35:02.066Z",
   "registrants": [
     {
       "id": "liam-adams-4th-",
@@ -3248,8 +3248,8 @@
       "grade": "2nd",
       "weight": 62,
       "location": "",
-      "checkedIn": false,
-      "checkedInAt": null
+      "checkedIn": true,
+      "checkedInAt": "2026-07-13T17:35:02.066Z"
     },
     {
       "id": "colton-schonegg-3rd-",

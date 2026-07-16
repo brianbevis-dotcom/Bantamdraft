@@ -831,7 +831,7 @@
 // The app no longer talks to GitHub directly or holds a GitHub token —
 // it calls a Cloudflare Worker proxy, which holds the real PAT server-side
 // as a Worker Secret (never shipped to any browser).
-const WORKER_URL    = 'https://trojnas-gh-proxy.brianbevis.workers.dev/'; // ← paste your Worker URL here
+const WORKER_URL    = 'https://trojnas-gh-proxy.brianbevis.workers.dev'; // ← paste your Worker URL here
 const APP_KEY       = '';   // ← optional — only set this if you added an APP_KEY secret to the Worker
 const REPO_BRANCH   = 'main';
 const RANKINGS_FILE = 'flag-rankings-data.json';

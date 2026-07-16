@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 11, 2026, 10:32 AM",
+  "savedAt": "Jul 16, 2026, 11:59 AM",
   "players": {
     "JRT": [
       {
@@ -426,6 +426,22 @@
         "position": "RB",
         "division": "JRT",
         "weight": 101,
+        "forty": "",
+        "grade": 5,
+        "notes": "",
+        "email": "",
+        "dob": "",
+        "gender": "",
+        "teamRole": ""
+      },
+      {
+        "id": "mrf9y6lqqycx",
+        "first": "Drew",
+        "last": "Canada",
+        "suffix": "",
+        "position": "RB",
+        "division": "JRT",
+        "weight": 83,
         "forty": "",
         "grade": 5,
         "notes": "",
@@ -5090,22 +5106,6 @@
         "weight": 73,
         "forty": "6.9",
         "grade": 6,
-        "notes": "",
-        "email": "",
-        "dob": "",
-        "gender": "",
-        "teamRole": ""
-      },
-      {
-        "id": "mrf9y6lqqycx",
-        "first": "Drew",
-        "last": "Canada",
-        "suffix": "",
-        "position": "RB",
-        "division": "Major",
-        "weight": 83,
-        "forty": "",
-        "grade": 5,
         "notes": "",
         "email": "",
         "dob": "",

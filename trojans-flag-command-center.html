@@ -902,7 +902,8 @@ function numToLetterGrade(g) {
 
 // ─── GitHub API ───────────────────────────────────────────────────────────────
 async function ghFetch(path, options = {}) {
-  const url = `${WORKER_URL}/gh/${path}`;
+  const base = WORKER_URL.replace(/\/+$/, ''); // strip any trailing slash(es) to avoid a double "//gh/" path
+  const url = `${base}/gh/${path}`;
   const headers = { 'Content-Type': 'application/json' };
   if (APP_KEY) headers['X-App-Key'] = APP_KEY;
   return fetch(url, { ...options, headers: { ...headers, ...(options.headers || {}) } });

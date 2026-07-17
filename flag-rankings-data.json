@@ -1,5 +1,5 @@
 {
-  "savedAt": "Jul 17, 2026, 7:43 AM",
+  "savedAt": "Jul 17, 2026, 7:47 AM",
   "players": {
     "K/1": [],
     "2-4": [
@@ -1047,11 +1047,11 @@
         "first": "Emily",
         "last": "Cary",
         "suffix": "",
-        "position": "SKILL",
+        "position": "FLEX",
         "division": "5-6",
         "league": "",
-        "weight": 0,
-        "forty": "",
+        "weight": 65,
+        "forty": "7.1",
         "grade": 5,
         "notes": "",
         "email": "",
@@ -1064,7 +1064,7 @@
         "first": "Isla",
         "last": "Gandolph",
         "suffix": "",
-        "position": "SKILL",
+        "position": "FLEX",
         "division": "5-6",
         "league": "",
         "weight": 0,

@@ -1521,11 +1521,14 @@ function handleCSVImport(e) {
   reader.onload = evt => {
     const { rows } = parseCSVRows(evt.target.result);
     const imported = [];
+    let unmatchedDiv = 0;
     rows.forEach(row => {
       const first = pickField(row,'firstname','first','fname');
       const last  = pickField(row,'lastname','last','lname');
       if (!first && !last) return;
-      const div = pickField(row,'division','gradelevel') || state.activeDivision;
+      let div = pickField(row,'division','gradelevel');
+      if (div && !DIVISIONS.includes(div)) { unmatchedDiv++; div = ''; }
+      if (!div) div = state.activeDivision;
       imported.push({
         id: uid(), first, last, suffix: pickField(row,'suffix'),
         position: (pickField(row,'position','pos')||'RB').toUpperCase(), division: div,
@@ -1542,9 +1545,12 @@ function handleCSVImport(e) {
     });
     const grouped = {};
     imported.forEach(p => { (grouped[p.division]=grouped[p.division]||[]).push(p); });
-    Object.entries(grouped).forEach(([d,pl]) => { if (DIVISIONS.includes(d)) state.players[d]=pl; });
+    Object.entries(grouped).forEach(([d,pl]) => { state.players[d]=pl; });
     render();
-    showToast(`Imported ${imported.length} players — remember to Save ☁`);
+    const note = unmatchedDiv > 0
+      ? ` — ${unmatchedDiv} row(s) had a division value that didn't match ${DIVISIONS.join('/')}, so they were placed in the ${state.activeDivision} tab.`
+      : '';
+    showToast(`Imported ${imported.length} players — remember to Save ☁${note}`);
   };
   reader.readAsText(file);
 }

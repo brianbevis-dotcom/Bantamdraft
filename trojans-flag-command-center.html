@@ -845,25 +845,6 @@ function escHtml(s) {
 }
 function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2,6); }
 
-// Normalizes a division label for fuzzy comparison: lowercases, strips the
-// word "grade", strips ordinal suffixes (1st/2nd/3rd/4th -> 1/2/3/4), then
-// strips all remaining punctuation/spacing. "5th-6th" and "5-6" both become
-// "56" so they match even though they're written differently.
-function normDivKey(s) {
-  return String(s||'').toLowerCase()
-    .replace(/kindergarten/g,'k')
-    .replace(/grades?/g,'')
-    .replace(/(\d+)(st|nd|rd|th)\b/g,'$1')
-    .replace(/[^a-z0-9]/g,'');
-}
-const DIVISION_KEY_MAP = Object.fromEntries(DIVISIONS.map(d => [normDivKey(d), d]));
-function matchDivision(raw) {
-  if (!raw) return '';
-  const exact = DIVISIONS.find(d => d.toLowerCase() === String(raw).toLowerCase());
-  if (exact) return exact;
-  return DIVISION_KEY_MAP[normDivKey(raw)] || '';
-}
-
 function splitCsvLine(line) {
   const out = []; let cur = ''; let inQ = false;
   for (let i = 0; i < line.length; i++) {
@@ -958,6 +939,25 @@ function switchApp(tab) {
 // Edit this list to match your actual flag football divisions.
 const DIVISIONS = ['K/1', '2-4', '5-6', '7-8'];
 const FLAG_POS = new Set(['QB','RB','WR','C','RUSH','S','FLEX']);
+
+// Normalizes a division label for fuzzy comparison: lowercases, strips the
+// word "grade", strips ordinal suffixes (1st/2nd/3rd/4th -> 1/2/3/4), then
+// strips all remaining punctuation/spacing. "5th-6th" and "5-6" both become
+// "56" so they match even though they're written differently.
+function normDivKey(s) {
+  return String(s||'').toLowerCase()
+    .replace(/kindergarten/g,'k')
+    .replace(/grades?/g,'')
+    .replace(/(\d+)(st|nd|rd|th)\b/g,'$1')
+    .replace(/[^a-z0-9]/g,'');
+}
+const DIVISION_KEY_MAP = Object.fromEntries(DIVISIONS.map(d => [normDivKey(d), d]));
+function matchDivision(raw) {
+  if (!raw) return '';
+  const exact = DIVISIONS.find(d => d.toLowerCase() === String(raw).toLowerCase());
+  if (exact) return exact;
+  return DIVISION_KEY_MAP[normDivKey(raw)] || '';
+}
 const DIVISION_GRADE_BUCKETS = {};
 function gradeColor(g, division) {
   const num = parseFloat(g);

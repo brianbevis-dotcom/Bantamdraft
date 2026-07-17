@@ -845,6 +845,25 @@ function escHtml(s) {
 }
 function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2,6); }
 
+// Normalizes a division label for fuzzy comparison: lowercases, strips the
+// word "grade", strips ordinal suffixes (1st/2nd/3rd/4th -> 1/2/3/4), then
+// strips all remaining punctuation/spacing. "5th-6th" and "5-6" both become
+// "56" so they match even though they're written differently.
+function normDivKey(s) {
+  return String(s||'').toLowerCase()
+    .replace(/kindergarten/g,'k')
+    .replace(/grades?/g,'')
+    .replace(/(\d+)(st|nd|rd|th)\b/g,'$1')
+    .replace(/[^a-z0-9]/g,'');
+}
+const DIVISION_KEY_MAP = Object.fromEntries(DIVISIONS.map(d => [normDivKey(d), d]));
+function matchDivision(raw) {
+  if (!raw) return '';
+  const exact = DIVISIONS.find(d => d.toLowerCase() === String(raw).toLowerCase());
+  if (exact) return exact;
+  return DIVISION_KEY_MAP[normDivKey(raw)] || '';
+}
+
 function splitCsvLine(line) {
   const out = []; let cur = ''; let inQ = false;
   for (let i = 0; i < line.length; i++) {
@@ -1521,13 +1540,15 @@ function handleCSVImport(e) {
   reader.onload = evt => {
     const { rows } = parseCSVRows(evt.target.result);
     const imported = [];
-    let unmatchedDiv = 0;
+    let unmatchedDiv = 0, fuzzyMatched = 0;
     rows.forEach(row => {
       const first = pickField(row,'firstname','first','fname');
       const last  = pickField(row,'lastname','last','lname');
       if (!first && !last) return;
-      let div = pickField(row,'division','gradelevel');
-      if (div && !DIVISIONS.includes(div)) { unmatchedDiv++; div = ''; }
+      const rawDiv = pickField(row,'division','gradelevel');
+      let div = matchDivision(rawDiv);
+      if (rawDiv && div && div !== rawDiv) fuzzyMatched++;
+      if (rawDiv && !div) unmatchedDiv++;
       if (!div) div = state.activeDivision;
       imported.push({
         id: uid(), first, last, suffix: pickField(row,'suffix'),
@@ -1547,9 +1568,9 @@ function handleCSVImport(e) {
     imported.forEach(p => { (grouped[p.division]=grouped[p.division]||[]).push(p); });
     Object.entries(grouped).forEach(([d,pl]) => { state.players[d]=pl; });
     render();
-    const note = unmatchedDiv > 0
-      ? ` — ${unmatchedDiv} row(s) had a division value that didn't match ${DIVISIONS.join('/')}, so they were placed in the ${state.activeDivision} tab.`
-      : '';
+    let note = '';
+    if (fuzzyMatched > 0) note += ` — matched ${fuzzyMatched} row(s) to a division by fuzzy name match.`;
+    if (unmatchedDiv > 0) note += ` — ${unmatchedDiv} row(s) had a division value that didn't match ${DIVISIONS.join('/')}, so they were placed in the ${state.activeDivision} tab.`;
     showToast(`Imported ${imported.length} players — remember to Save ☁${note}`);
   };
   reader.readAsText(file);

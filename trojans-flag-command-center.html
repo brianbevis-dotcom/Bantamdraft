@@ -628,7 +628,7 @@
       <div class="csv-status" id="csv-status"></div>
       <div class="csv-fmt">
         Required: <strong>first name</strong>, <strong>last name</strong>, <strong>position</strong><br>
-        Also read: <em>rank, suffix, weight, forty, grade, probowl (yes/1/true), notes,
+        Also read: <em>rank, suffix, weight, forty (or "40 Time"), grade, probowl (yes/1/true), notes,
         email, date of birth, gender, team role, league</em><br>
         Positions: QB, RB, WR, C, RUSH, S, FLEX (or your own — any value is accepted)<br>
         Header names are flexible — "First Name", "first", "DOB", "Date of Birth" all work.
@@ -1525,13 +1525,13 @@ function handleCSVImport(e) {
       const first = pickField(row,'firstname','first','fname');
       const last  = pickField(row,'lastname','last','lname');
       if (!first && !last) return;
-      const div = pickField(row,'division','gradelevel','grade level') || state.activeDivision;
+      const div = pickField(row,'division','gradelevel') || state.activeDivision;
       imported.push({
         id: uid(), first, last, suffix: pickField(row,'suffix'),
         position: (pickField(row,'position','pos')||'RB').toUpperCase(), division: div,
         league: pickField(row,'league'),
-        weight: parseInt(pickField(row,'weight','wt','lbs'))||0,
-        forty: pickField(row,'forty','40','fortytime'),
+        weight: parseInt(pickField(row,'weight','wt','lbs','weightlbs'))||0,
+        forty: pickField(row,'forty','40','fortytime','40time','40yd','40yard','speed'),
         grade: parseFloat(pickField(row,'grade','rating'))||5,
         notes: pickField(row,'notes','note','comment'),
         email: pickField(row,'email','emailaddress'),
@@ -1675,9 +1675,9 @@ function parseDraftCSV(file) {
           rank: parseInt(pickField(row,'rank','ranking','number','no')) || (i+1),
           first, last, suffix: pickField(row,'suffix'),
           pos: pos.toUpperCase(),
-          weight: pickField(row,'weight','wt','lbs'),
+          weight: pickField(row,'weight','wt','lbs','weightlbs'),
           height: pickField(row,'height','ht'),
-          forty:  pickField(row,'forty','40','fortytime'),
+          forty:  pickField(row,'forty','40','fortytime','40time','40yd','40yard','speed'),
           grade:  pickField(row,'grade','rating'),
           probowl,
           notes:  pickField(row,'notes','note','comment'),

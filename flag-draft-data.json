@@ -953,10 +953,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 2,
+        "draftRound": 5,
+        "draftPickNum": 27
       },
       {
         "rank": 44,
@@ -1557,6 +1557,14 @@
         "round": 5,
         "teamIndex": 4,
         "playerRank": 47,
+        "traded": false,
+        "manual": true
+      },
+      {
+        "pickNum": 27,
+        "round": 5,
+        "teamIndex": 2,
+        "playerRank": 43,
         "traded": false,
         "manual": true
       }

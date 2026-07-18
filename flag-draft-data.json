@@ -203,10 +203,10 @@
         "dob": "",
         "gender": "",
         "teamRole": "",
-        "drafted": false,
-        "draftedBy": null,
-        "draftRound": null,
-        "draftPickNum": null
+        "drafted": true,
+        "draftedBy": 0,
+        "draftRound": 3,
+        "draftPickNum": 9
       },
       {
         "rank": 10,
@@ -652,7 +652,16 @@
     "division": "7-8",
     "currentPick": 1,
     "totalPicks": 56,
-    "picks": [],
+    "picks": [
+      {
+        "pickNum": 9,
+        "round": 3,
+        "teamIndex": 0,
+        "playerRank": 9,
+        "traded": false,
+        "manual": true
+      }
+    ],
     "roundDirections": [
       "forward",
       "reverse",

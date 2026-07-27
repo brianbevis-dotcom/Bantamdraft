@@ -2,7 +2,7 @@
  "season": 2026,
  "league": "Center Grove Bantam Football League",
  "title": "2026 Tower Duty Schedule",
- "status": "Tackle Tower Duty",
+ "status": "Tackle Football Tower",
  "timezone": "America/Indiana/Indianapolis",
  "arriveEarlyMinutes": 15,
  "durationMinutes": 60,
@@ -24,115 +24,115 @@
  ],
  "coaches": {
   "Major Indiana": {
-   "name": "Halterman",
+   "name": "",
    "email": ""
   },
   "Major Michigan State": {
-   "name": "Hamilton",
+   "name": "",
    "email": ""
   },
   "Major Northwestern": {
-   "name": "Lidy",
+   "name": "",
    "email": ""
   },
   "Major Ohio State": {
-   "name": "Hornsby",
+   "name": "",
    "email": ""
   },
   "Major Oregon": {
-   "name": "Sitter",
+   "name": "",
    "email": ""
   },
   "Major Penn State": {
-   "name": "Howell",
+   "name": "",
    "email": ""
   },
   "Major Purdue": {
-   "name": "Dirksen",
+   "name": "",
    "email": ""
   },
   "Major Wisconsin": {
-   "name": "Ferguson",
+   "name": "",
    "email": ""
   },
   "Minor Illinois": {
-   "name": "Wood",
+   "name": "",
    "email": ""
   },
   "Minor Indiana": {
-   "name": "Clancy",
+   "name": "",
    "email": ""
   },
   "Minor Iowa": {
-   "name": "Adams",
+   "name": "",
    "email": ""
   },
   "Minor Michigan": {
-   "name": "Pulse",
+   "name": "",
    "email": ""
   },
   "Minor Michigan State": {
-   "name": "Sanders",
+   "name": "",
    "email": ""
   },
   "Minor Minnesota": {
-   "name": "Bunch",
+   "name": "",
    "email": ""
   },
   "Minor Northwestern": {
-   "name": "Harvey",
+   "name": "",
    "email": ""
   },
   "Minor Ohio State": {
-   "name": "Rose",
+   "name": "",
    "email": ""
   },
   "Minor Oregon": {
-   "name": "Lewis",
+   "name": "",
    "email": ""
   },
   "Minor Penn State": {
-   "name": "Tuggle",
+   "name": "",
    "email": ""
   },
   "Minor Purdue": {
-   "name": "Green",
+   "name": "",
    "email": ""
   },
   "Minor UCLA": {
-   "name": "Reed",
+   "name": "",
    "email": ""
   },
   "Minor Washington": {
-   "name": "Feltman",
+   "name": "",
    "email": ""
   },
   "Minor Wisconsin": {
-   "name": "Flory",
+   "name": "",
    "email": ""
   },
   "Rookie Indiana": {
-   "name": "Williams",
+   "name": "",
    "email": ""
   },
   "Rookie Michigan": {
-   "name": "Bellinger",
+   "name": "",
    "email": ""
   },
   "Rookie Nebraska": {
-   "name": "Reagan",
+   "name": "",
    "email": ""
   },
   "Rookie Ohio State": {
-   "name": "Ward",
+   "name": "",
    "email": ""
   },
   "Rookie Penn State": {
-   "name": "Egenolf",
+   "name": "",
    "email": ""
   },
   "Rookie Purdue": {
-   "name": "Dirksen",
+   "name": "",
    "email": ""
   }
  },

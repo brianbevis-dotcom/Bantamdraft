@@ -24,35 +24,35 @@
  ],
  "coaches": {
   "Major Indiana": {
-   "name": "Halterman",
+   "name": "",
    "email": ""
   },
   "Major Michigan State": {
-   "name": "Hamilton",
+   "name": "",
    "email": ""
   },
   "Major Northwestern": {
-   "name": "Lidy",
+   "name": "",
    "email": ""
   },
   "Major Ohio State": {
-   "name": "Hornsby",
+   "name": "",
    "email": ""
   },
   "Major Oregon": {
-   "name": "Sitter",
+   "name": "",
    "email": ""
   },
   "Major Penn State": {
-   "name": "Howell",
+   "name": "",
    "email": ""
   },
   "Major Purdue": {
-   "name": "Dirksen",
+   "name": "",
    "email": ""
   },
   "Major Wisconsin": {
-   "name": "Ferguson",
+   "name": "",
    "email": ""
   },
   "Minor Illinois": {
@@ -1023,7 +1023,7 @@
    "home": "Michigan State",
    "away": "Purdue",
    "towerDivision": "Major",
-   "towerTeam": "Oregon"
+   "towerTeam": "Wisconsin"
   },
   {
    "id": "G075",
@@ -1071,7 +1071,7 @@
    "home": "Ohio State",
    "away": "Penn State",
    "towerDivision": "Major",
-   "towerTeam": "Wisconsin"
+   "towerTeam": "Oregon"
   },
   {
    "id": "G079",
@@ -1671,7 +1671,7 @@
    "home": "Michigan State",
    "away": "Ohio State",
    "towerDivision": "Major",
-   "towerTeam": "Penn State"
+   "towerTeam": "Oregon"
   },
   {
    "id": "G129",
@@ -1719,7 +1719,7 @@
    "home": "Purdue",
    "away": "Northwestern",
    "towerDivision": "Major",
-   "towerTeam": "Oregon"
+   "towerTeam": "Penn State"
   },
   {
    "id": "G133",

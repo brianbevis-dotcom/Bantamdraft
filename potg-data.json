@@ -141,6 +141,26 @@
         "Jack Dirksen",
         "Jude Gilpin"
       ]
+    },
+    {
+      "id": "potg_1785260076943_b014ba",
+      "gameId": "game_1785257634908_6_2xg1",
+      "timestamp": "2026-07-28T17:34:36.943Z",
+      "division": "Major",
+      "date": "2026-08-05",
+      "team": "Majors>Michigan State Majors",
+      "opponent": "Majors>Oregon Majors",
+      "ownPlayers": [
+        "Cole Brabender",
+        "Jack Judge",
+        "Nico Locke"
+      ],
+      "opponentPlayers": [
+        "Anderson Williams",
+        "Barrett Sitter",
+        "Kellen Hawk",
+        "Zeke Bunch"
+      ]
     }
   ]
 }

@@ -1,135 +1,8 @@
 {
   "divisions": {
-    "Junior Trojans": [
-      {
-        "name": "Center Grove Junior Trojans",
-        "players": [
-          {
-            "name": "Ari Moore",
-            "position": ""
-          },
-          {
-            "name": "Jase Weiss",
-            "position": ""
-          },
-          {
-            "name": "Maxwell Arnold",
-            "position": ""
-          },
-          {
-            "name": "Wyatt Kinnett",
-            "position": ""
-          },
-          {
-            "name": "Trent Beeson",
-            "position": ""
-          },
-          {
-            "name": "Austin lara",
-            "position": ""
-          },
-          {
-            "name": "Conley Calvert",
-            "position": ""
-          },
-          {
-            "name": "Brooks McClurg",
-            "position": ""
-          },
-          {
-            "name": "Carter Casse",
-            "position": ""
-          },
-          {
-            "name": "Jonah Miller",
-            "position": ""
-          },
-          {
-            "name": "Raymond Cerna Jr",
-            "position": ""
-          },
-          {
-            "name": "Tycho Mullen",
-            "position": ""
-          },
-          {
-            "name": "Cayne Crawford",
-            "position": ""
-          },
-          {
-            "name": "Carter Downing",
-            "position": ""
-          },
-          {
-            "name": "Zander Newport",
-            "position": ""
-          },
-          {
-            "name": "Nathan Farrell",
-            "position": ""
-          },
-          {
-            "name": "Charlie Schmaltz",
-            "position": ""
-          },
-          {
-            "name": "Hudson Green",
-            "position": ""
-          },
-          {
-            "name": "Jaxton Smith",
-            "position": ""
-          },
-          {
-            "name": "Braxton Gregson",
-            "position": ""
-          },
-          {
-            "name": "Idris Stark",
-            "position": ""
-          },
-          {
-            "name": "Cooper Umbarger",
-            "position": ""
-          },
-          {
-            "name": "Jensen Herold",
-            "position": ""
-          },
-          {
-            "name": "Franklin Walls",
-            "position": ""
-          },
-          {
-            "name": "Ryder Whitaker",
-            "position": ""
-          },
-          {
-            "name": "Tyler Beasley",
-            "position": ""
-          },
-          {
-            "name": "Tanner Justice",
-            "position": ""
-          },
-          {
-            "name": "Krew Keeler",
-            "position": ""
-          },
-          {
-            "name": "Charles Cantwell",
-            "position": ""
-          },
-          {
-            "name": "Drew Canada",
-            "position": ""
-          }
-        ]
-      }
-    ],
     "Major": [
       {
-        "name": "Wisconsin",
+        "name": "Major>Wisconsin",
         "players": [
           {
             "name": "Beau Ferguson",
@@ -190,7 +63,7 @@
         ]
       },
       {
-        "name": "Oregon",
+        "name": "Major>Oregon",
         "players": [
           {
             "name": "Barrett Sitter",
@@ -251,7 +124,7 @@
         ]
       },
       {
-        "name": "Indiana",
+        "name": "Major>Indiana",
         "players": [
           {
             "name": "Nolan Halterman",
@@ -304,7 +177,7 @@
         ]
       },
       {
-        "name": "Northwestern",
+        "name": "Major>Northwestern",
         "players": [
           {
             "name": "Malachi Rees",
@@ -365,7 +238,7 @@
         ]
       },
       {
-        "name": "Purdue",
+        "name": "Major>Purdue",
         "players": [
           {
             "name": "Grant Dirksen",
@@ -426,7 +299,7 @@
         ]
       },
       {
-        "name": "Penn State",
+        "name": "Major>Penn State",
         "players": [
           {
             "name": "Miles Howell",
@@ -487,7 +360,7 @@
         ]
       },
       {
-        "name": "Michigan State",
+        "name": "Major>Michigan State",
         "players": [
           {
             "name": "Isaac Hamilton",
@@ -548,7 +421,7 @@
         ]
       },
       {
-        "name": "Ohio State",
+        "name": "Major>Ohio State",
         "players": [
           {
             "name": "Ty Hornsby",
@@ -609,9 +482,797 @@
         ]
       }
     ],
+    "Minor": [
+      {
+        "name": "Minor>Indiana",
+        "players": [
+          {
+            "name": "Carter Clancy",
+            "position": ""
+          },
+          {
+            "name": "Isaac Vinson",
+            "position": ""
+          },
+          {
+            "name": "Landon Burge",
+            "position": ""
+          },
+          {
+            "name": "Colton Schonegg",
+            "position": ""
+          },
+          {
+            "name": "Liam Hemmer",
+            "position": ""
+          },
+          {
+            "name": "Tegan Fields",
+            "position": ""
+          },
+          {
+            "name": "Landon O'Brien",
+            "position": ""
+          },
+          {
+            "name": "Gavin Geiersbach",
+            "position": ""
+          },
+          {
+            "name": "McCoy Landis",
+            "position": ""
+          },
+          {
+            "name": "Isaiah MacDonald",
+            "position": ""
+          },
+          {
+            "name": "Landon Nungester",
+            "position": ""
+          },
+          {
+            "name": "Creighton Landis",
+            "position": ""
+          },
+          {
+            "name": "Zaidyn Earl",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Wisconsin",
+        "players": [
+          {
+            "name": "Luke Bolt",
+            "position": ""
+          },
+          {
+            "name": "Brent Neu",
+            "position": ""
+          },
+          {
+            "name": "Owen Wright",
+            "position": ""
+          },
+          {
+            "name": "Jace Long",
+            "position": ""
+          },
+          {
+            "name": "Carter Schmaltz",
+            "position": ""
+          },
+          {
+            "name": "Anderson Coffey",
+            "position": ""
+          },
+          {
+            "name": "Barron Swift",
+            "position": ""
+          },
+          {
+            "name": "Caiden Finlinson",
+            "position": ""
+          },
+          {
+            "name": "Jameson Koons",
+            "position": ""
+          },
+          {
+            "name": "Aiden Nash",
+            "position": ""
+          },
+          {
+            "name": "Ridge Flory",
+            "position": ""
+          },
+          {
+            "name": "Parker King",
+            "position": ""
+          },
+          {
+            "name": "Crosby Hammond",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Illinois",
+        "players": [
+          {
+            "name": "Dawson Erazmus",
+            "position": ""
+          },
+          {
+            "name": "Tanner Hess",
+            "position": ""
+          },
+          {
+            "name": "Anderson Cones",
+            "position": ""
+          },
+          {
+            "name": "Ramsey Thompson",
+            "position": ""
+          },
+          {
+            "name": "Robby Haney",
+            "position": ""
+          },
+          {
+            "name": "Nicholas Woods JR",
+            "position": ""
+          },
+          {
+            "name": "Nathan Currier",
+            "position": ""
+          },
+          {
+            "name": "Nolan Charnstrom",
+            "position": ""
+          },
+          {
+            "name": "William Dunlap",
+            "position": ""
+          },
+          {
+            "name": "Noah Mcgowan",
+            "position": ""
+          },
+          {
+            "name": "Kellan Hedeen",
+            "position": ""
+          },
+          {
+            "name": "Legend Lewis",
+            "position": ""
+          },
+          {
+            "name": "Colin Ashley",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Ohio State",
+        "players": [
+          {
+            "name": "Cameron Rose",
+            "position": ""
+          },
+          {
+            "name": "Michael Reynolds III",
+            "position": ""
+          },
+          {
+            "name": "Jaxson Donley",
+            "position": ""
+          },
+          {
+            "name": "Tobias Minderman",
+            "position": ""
+          },
+          {
+            "name": "Oliver Vaughn",
+            "position": ""
+          },
+          {
+            "name": "Charles (CJ) Pitcock",
+            "position": ""
+          },
+          {
+            "name": "Kash Coyle",
+            "position": ""
+          },
+          {
+            "name": "Lincoln Bandy",
+            "position": ""
+          },
+          {
+            "name": "Alex Gudaitis",
+            "position": ""
+          },
+          {
+            "name": "Joey Primeau",
+            "position": ""
+          },
+          {
+            "name": "Stetson Ebbert",
+            "position": ""
+          },
+          {
+            "name": "Saint Mukinni",
+            "position": ""
+          },
+          {
+            "name": "Titan Mukinni",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Iowa",
+        "players": [
+          {
+            "name": "Liam Adams",
+            "position": ""
+          },
+          {
+            "name": "Jaxson LaFree",
+            "position": ""
+          },
+          {
+            "name": "Waylon Cain",
+            "position": ""
+          },
+          {
+            "name": "Hunter Willert",
+            "position": ""
+          },
+          {
+            "name": "Nolan Wilson",
+            "position": ""
+          },
+          {
+            "name": "Atticus Apgar",
+            "position": ""
+          },
+          {
+            "name": "Beau Johnson",
+            "position": ""
+          },
+          {
+            "name": "Owen Bell",
+            "position": ""
+          },
+          {
+            "name": "Louis Herold",
+            "position": ""
+          },
+          {
+            "name": "Mason Payton",
+            "position": ""
+          },
+          {
+            "name": "Grayson Goodman",
+            "position": ""
+          },
+          {
+            "name": "Samuel Kegeris",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Penn State",
+        "players": [
+          {
+            "name": "CJ Gilliard",
+            "position": ""
+          },
+          {
+            "name": "Grant Jacobs",
+            "position": ""
+          },
+          {
+            "name": "Aiden Due",
+            "position": ""
+          },
+          {
+            "name": "Asher Tow",
+            "position": ""
+          },
+          {
+            "name": "YEMI ALEWI",
+            "position": ""
+          },
+          {
+            "name": "Grayson Tuggle",
+            "position": ""
+          },
+          {
+            "name": "Koen Brumbaugh",
+            "position": ""
+          },
+          {
+            "name": "Chandler Lew",
+            "position": ""
+          },
+          {
+            "name": "Devansh Kandimalla",
+            "position": ""
+          },
+          {
+            "name": "Eli Roberts",
+            "position": ""
+          },
+          {
+            "name": "Samuel Catellier",
+            "position": ""
+          },
+          {
+            "name": "Bretton Newport",
+            "position": ""
+          },
+          {
+            "name": "Jameson Burr",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Purdue",
+        "players": [
+          {
+            "name": "Sawyer Green",
+            "position": ""
+          },
+          {
+            "name": "Hendrix Stewart",
+            "position": ""
+          },
+          {
+            "name": "Preston Carter",
+            "position": ""
+          },
+          {
+            "name": "Jace Prince",
+            "position": ""
+          },
+          {
+            "name": "Nash Russell",
+            "position": ""
+          },
+          {
+            "name": "Logan Waltz",
+            "position": ""
+          },
+          {
+            "name": "Dalton Bennett",
+            "position": ""
+          },
+          {
+            "name": "Mason Mandabach",
+            "position": ""
+          },
+          {
+            "name": "Griffin Gillenwater",
+            "position": ""
+          },
+          {
+            "name": "Atticus Spandau",
+            "position": ""
+          },
+          {
+            "name": "Elliott Cash",
+            "position": ""
+          },
+          {
+            "name": "Shepherd Phillips",
+            "position": ""
+          },
+          {
+            "name": "Zane Perrey",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Michigan",
+        "players": [
+          {
+            "name": "Clayton Pulse",
+            "position": ""
+          },
+          {
+            "name": "Carson Roller",
+            "position": ""
+          },
+          {
+            "name": "Luke Jenkins",
+            "position": ""
+          },
+          {
+            "name": "Haytham Palmer",
+            "position": ""
+          },
+          {
+            "name": "Rayden Cerna",
+            "position": ""
+          },
+          {
+            "name": "Luca Mina",
+            "position": ""
+          },
+          {
+            "name": "Henry Davis",
+            "position": ""
+          },
+          {
+            "name": "Julian Mina",
+            "position": ""
+          },
+          {
+            "name": "Maverick Cerna",
+            "position": ""
+          },
+          {
+            "name": "TJ Insley",
+            "position": ""
+          },
+          {
+            "name": "Charlie Maze",
+            "position": ""
+          },
+          {
+            "name": "Noah Harmon",
+            "position": ""
+          },
+          {
+            "name": "Kyree Williams",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Michigan State",
+        "players": [
+          {
+            "name": "Theo Riddick",
+            "position": ""
+          },
+          {
+            "name": "Owen Pharis",
+            "position": ""
+          },
+          {
+            "name": "Myles Griffo",
+            "position": ""
+          },
+          {
+            "name": "Aiden Sirosky",
+            "position": ""
+          },
+          {
+            "name": "Dax Harris",
+            "position": ""
+          },
+          {
+            "name": "Layton LeClair",
+            "position": ""
+          },
+          {
+            "name": "Britton Sanders",
+            "position": ""
+          },
+          {
+            "name": "Jackson Clements",
+            "position": ""
+          },
+          {
+            "name": "Tyson Jenkins",
+            "position": ""
+          },
+          {
+            "name": "Cruz Rosales",
+            "position": ""
+          },
+          {
+            "name": "Bale Carter",
+            "position": ""
+          },
+          {
+            "name": "Wesley Smith",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>UCLA",
+        "players": [
+          {
+            "name": "Joe Reed",
+            "position": ""
+          },
+          {
+            "name": "Rory Ritenour",
+            "position": ""
+          },
+          {
+            "name": "Bowen Kuntz",
+            "position": ""
+          },
+          {
+            "name": "Cameron Groom",
+            "position": ""
+          },
+          {
+            "name": "Kaeson Worland",
+            "position": ""
+          },
+          {
+            "name": "Jake Ruhana",
+            "position": ""
+          },
+          {
+            "name": "Jack Shepherd",
+            "position": ""
+          },
+          {
+            "name": "Kaden Rayman",
+            "position": ""
+          },
+          {
+            "name": "Boone Herndon",
+            "position": ""
+          },
+          {
+            "name": "Bryson Taylor",
+            "position": ""
+          },
+          {
+            "name": "Dallas Collins",
+            "position": ""
+          },
+          {
+            "name": "Harrison Pendowski",
+            "position": ""
+          },
+          {
+            "name": "Owen Colter",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Northwestern",
+        "players": [
+          {
+            "name": "Bryson Stevens",
+            "position": ""
+          },
+          {
+            "name": "Evan Sabelhaus",
+            "position": ""
+          },
+          {
+            "name": "Fred Harvey",
+            "position": ""
+          },
+          {
+            "name": "Roman Pflanzer",
+            "position": ""
+          },
+          {
+            "name": "William Beasley",
+            "position": ""
+          },
+          {
+            "name": "Hixon Prince",
+            "position": ""
+          },
+          {
+            "name": "Cullen McCoy",
+            "position": ""
+          },
+          {
+            "name": "Roman Fisher",
+            "position": ""
+          },
+          {
+            "name": "David Gilpin",
+            "position": ""
+          },
+          {
+            "name": "Caiden Brake",
+            "position": ""
+          },
+          {
+            "name": "Sebastian Delgado",
+            "position": ""
+          },
+          {
+            "name": "Liam Snider",
+            "position": ""
+          },
+          {
+            "name": "Randon Stevenson",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Oregon",
+        "players": [
+          {
+            "name": "Carter Allen",
+            "position": ""
+          },
+          {
+            "name": "Graham Mathews",
+            "position": ""
+          },
+          {
+            "name": "Owen Graves",
+            "position": ""
+          },
+          {
+            "name": "Asher Peak",
+            "position": ""
+          },
+          {
+            "name": "Colin Davis",
+            "position": ""
+          },
+          {
+            "name": "Charlie Lewis",
+            "position": ""
+          },
+          {
+            "name": "Maddox Lear",
+            "position": ""
+          },
+          {
+            "name": "Jeter Riley",
+            "position": ""
+          },
+          {
+            "name": "Isaac Dale",
+            "position": ""
+          },
+          {
+            "name": "Jetsen Keller",
+            "position": ""
+          },
+          {
+            "name": "Brandon Mangus",
+            "position": ""
+          },
+          {
+            "name": "Easton Lepper",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Minnesota",
+        "players": [
+          {
+            "name": "Cameron Wright",
+            "position": ""
+          },
+          {
+            "name": "Casen Copeland",
+            "position": ""
+          },
+          {
+            "name": "Dwight Jones Jr",
+            "position": ""
+          },
+          {
+            "name": "Isaac Morning",
+            "position": ""
+          },
+          {
+            "name": "Cameron Frew",
+            "position": ""
+          },
+          {
+            "name": "Harrison Storm",
+            "position": ""
+          },
+          {
+            "name": "Ryker Beltz",
+            "position": ""
+          },
+          {
+            "name": "Lincoln Hayes",
+            "position": ""
+          },
+          {
+            "name": "Wyatt Wolf",
+            "position": ""
+          },
+          {
+            "name": "Silas Bunch",
+            "position": ""
+          },
+          {
+            "name": "Leo O’Riley",
+            "position": ""
+          },
+          {
+            "name": "Dillon Diaz",
+            "position": ""
+          },
+          {
+            "name": "Arlo Oliver",
+            "position": ""
+          }
+        ]
+      },
+      {
+        "name": "Minor>Washington",
+        "players": [
+          {
+            "name": "Jon Sertich",
+            "position": ""
+          },
+          {
+            "name": "Griffin Baxter",
+            "position": ""
+          },
+          {
+            "name": "Roman Milbourn",
+            "position": ""
+          },
+          {
+            "name": "Jameson McGuire",
+            "position": ""
+          },
+          {
+            "name": "Tyson Peterson",
+            "position": ""
+          },
+          {
+            "name": "Cameron Feltman",
+            "position": ""
+          },
+          {
+            "name": "Bo O'Leary",
+            "position": ""
+          },
+          {
+            "name": "Mac O'Leary",
+            "position": ""
+          },
+          {
+            "name": "Tyson Fletcher",
+            "position": ""
+          },
+          {
+            "name": "Declan Mitchell",
+            "position": ""
+          },
+          {
+            "name": "Blaine Atkinson",
+            "position": ""
+          },
+          {
+            "name": "Mason Starnes",
+            "position": ""
+          },
+          {
+            "name": "Garrett Aliff",
+            "position": ""
+          }
+        ]
+      }
+    ],
     "Rookie": [
       {
-        "name": "Indiana",
+        "name": "Rookie>Indiana",
         "players": [
           {
             "name": "Niles Williams",
@@ -668,7 +1329,7 @@
         ]
       },
       {
-        "name": "Purdue",
+        "name": "Rookie>Purdue",
         "players": [
           {
             "name": "Henry Dirksen",
@@ -733,7 +1394,7 @@
         ]
       },
       {
-        "name": "Penn State",
+        "name": "Rookie>Penn State",
         "players": [
           {
             "name": "Brody Egenolf",
@@ -790,7 +1451,7 @@
         ]
       },
       {
-        "name": "Ohio State",
+        "name": "Rookie>Ohio State",
         "players": [
           {
             "name": "Sutton Ward",
@@ -843,15 +1504,11 @@
           {
             "name": "Jones Ferrell",
             "position": ""
-          },
-          {
-            "name": "Weston Peak",
-            "position": ""
           }
         ]
       },
       {
-        "name": "Nebraska",
+        "name": "Rookie>Nebraska",
         "players": [
           {
             "name": "Cade Reagan",
@@ -908,15 +1565,11 @@
           {
             "name": "Micah Kelly",
             "position": ""
-          },
-          {
-            "name": "Ezekiel Sodrel",
-            "position": ""
           }
         ]
       },
       {
-        "name": "Michigan",
+        "name": "Rookie>Michigan",
         "players": [
           {
             "name": "Knox Bellinger",
@@ -972,810 +1625,6 @@
           },
           {
             "name": "Samuel Schwab",
-            "position": ""
-          }
-        ]
-      }
-    ],
-    "Minor": [
-      {
-        "name": "Indiana",
-        "players": [
-          {
-            "name": "Carter Clancy",
-            "position": ""
-          },
-          {
-            "name": "Isaac Vinson",
-            "position": ""
-          },
-          {
-            "name": "Landon Burge",
-            "position": ""
-          },
-          {
-            "name": "Colton Schonegg",
-            "position": ""
-          },
-          {
-            "name": "Liam Hemmer",
-            "position": ""
-          },
-          {
-            "name": "Tegan Fields",
-            "position": ""
-          },
-          {
-            "name": "Landon O'Brien",
-            "position": ""
-          },
-          {
-            "name": "Gavin Geiersbach",
-            "position": ""
-          },
-          {
-            "name": "McCoy Landis",
-            "position": ""
-          },
-          {
-            "name": "Isaiah MacDonald",
-            "position": ""
-          },
-          {
-            "name": "Landon Nungester",
-            "position": ""
-          },
-          {
-            "name": "Creighton Landis",
-            "position": ""
-          },
-          {
-            "name": "Zaidyn Earl",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Wisconsin",
-        "players": [
-          {
-            "name": "Luke Bolt",
-            "position": ""
-          },
-          {
-            "name": "Brent Neu",
-            "position": ""
-          },
-          {
-            "name": "Owen Wright",
-            "position": ""
-          },
-          {
-            "name": "Jace Long",
-            "position": ""
-          },
-          {
-            "name": "Carter Schmaltz",
-            "position": ""
-          },
-          {
-            "name": "Anderson Coffey",
-            "position": ""
-          },
-          {
-            "name": "Barron Swift",
-            "position": ""
-          },
-          {
-            "name": "Caiden Finlinson",
-            "position": ""
-          },
-          {
-            "name": "Jameson Koons",
-            "position": ""
-          },
-          {
-            "name": "Aiden Nash",
-            "position": ""
-          },
-          {
-            "name": "Ridge Flory",
-            "position": ""
-          },
-          {
-            "name": "Parker King",
-            "position": ""
-          },
-          {
-            "name": "Crosby Hammond",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Illinois",
-        "players": [
-          {
-            "name": "Dawson Erazmus",
-            "position": ""
-          },
-          {
-            "name": "Tanner Hess",
-            "position": ""
-          },
-          {
-            "name": "Anderson Cones",
-            "position": ""
-          },
-          {
-            "name": "Ramsey Thompson",
-            "position": ""
-          },
-          {
-            "name": "Robby Haney",
-            "position": ""
-          },
-          {
-            "name": "Nicholas Woods JR",
-            "position": ""
-          },
-          {
-            "name": "Nathan Currier",
-            "position": ""
-          },
-          {
-            "name": "Nolan Charnstrom",
-            "position": ""
-          },
-          {
-            "name": "William Dunlap",
-            "position": ""
-          },
-          {
-            "name": "Noah Mcgowan",
-            "position": ""
-          },
-          {
-            "name": "Kellan Hedeen",
-            "position": ""
-          },
-          {
-            "name": "Legend Lewis",
-            "position": ""
-          },
-          {
-            "name": "Colin Ashley",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Ohio State",
-        "players": [
-          {
-            "name": "Cameron Rose",
-            "position": ""
-          },
-          {
-            "name": "Michael Reynolds III",
-            "position": ""
-          },
-          {
-            "name": "Jaxson Donley",
-            "position": ""
-          },
-          {
-            "name": "Tobias Minderman",
-            "position": ""
-          },
-          {
-            "name": "Oliver Vaughn",
-            "position": ""
-          },
-          {
-            "name": "Charles (CJ) Pitcock",
-            "position": ""
-          },
-          {
-            "name": "Kash Coyle",
-            "position": ""
-          },
-          {
-            "name": "Lincoln Bandy",
-            "position": ""
-          },
-          {
-            "name": "Alex Gudaitis",
-            "position": ""
-          },
-          {
-            "name": "Joey Primeau",
-            "position": ""
-          },
-          {
-            "name": "Stetson Ebbert",
-            "position": ""
-          },
-          {
-            "name": "Saint Mukinni",
-            "position": ""
-          },
-          {
-            "name": "Titan Mukinni",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Iowa",
-        "players": [
-          {
-            "name": "Liam Adams",
-            "position": ""
-          },
-          {
-            "name": "Jaxson LaFree",
-            "position": ""
-          },
-          {
-            "name": "Waylon Cain",
-            "position": ""
-          },
-          {
-            "name": "Hunter Willert",
-            "position": ""
-          },
-          {
-            "name": "Nolan Wilson",
-            "position": ""
-          },
-          {
-            "name": "Atticus Apgar",
-            "position": ""
-          },
-          {
-            "name": "Beau Johnson",
-            "position": ""
-          },
-          {
-            "name": "Owen Bell",
-            "position": ""
-          },
-          {
-            "name": "Louis Herold",
-            "position": ""
-          },
-          {
-            "name": "Mason Payton",
-            "position": ""
-          },
-          {
-            "name": "Grayson Goodman",
-            "position": ""
-          },
-          {
-            "name": "Samuel Kegeris",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Penn State",
-        "players": [
-          {
-            "name": "CJ Gilliard",
-            "position": ""
-          },
-          {
-            "name": "Grant Jacobs",
-            "position": ""
-          },
-          {
-            "name": "Aiden Due",
-            "position": ""
-          },
-          {
-            "name": "Asher Tow",
-            "position": ""
-          },
-          {
-            "name": "YEMI ALEWI",
-            "position": ""
-          },
-          {
-            "name": "Grayson Tuggle",
-            "position": ""
-          },
-          {
-            "name": "Koen Brumbaugh",
-            "position": ""
-          },
-          {
-            "name": "Chandler Lew",
-            "position": ""
-          },
-          {
-            "name": "Devansh Kandimalla",
-            "position": ""
-          },
-          {
-            "name": "Eli Roberts",
-            "position": ""
-          },
-          {
-            "name": "Samuel Catellier",
-            "position": ""
-          },
-          {
-            "name": "Bretton Newport",
-            "position": ""
-          },
-          {
-            "name": "Jameson Burr",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Purdue",
-        "players": [
-          {
-            "name": "Sawyer Green",
-            "position": ""
-          },
-          {
-            "name": "Hendrix Stewart",
-            "position": ""
-          },
-          {
-            "name": "Preston Carter",
-            "position": ""
-          },
-          {
-            "name": "Jace Prince",
-            "position": ""
-          },
-          {
-            "name": "Nash Russell",
-            "position": ""
-          },
-          {
-            "name": "Logan Waltz",
-            "position": ""
-          },
-          {
-            "name": "Dalton Bennett",
-            "position": ""
-          },
-          {
-            "name": "Mason Mandabach",
-            "position": ""
-          },
-          {
-            "name": "Griffin Gillenwater",
-            "position": ""
-          },
-          {
-            "name": "Atticus Spandau",
-            "position": ""
-          },
-          {
-            "name": "Elliott Cash",
-            "position": ""
-          },
-          {
-            "name": "Shepherd Phillips",
-            "position": ""
-          },
-          {
-            "name": "Zane Perrey",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Michigan",
-        "players": [
-          {
-            "name": "Clayton Pulse",
-            "position": ""
-          },
-          {
-            "name": "Carson Roller",
-            "position": ""
-          },
-          {
-            "name": "Luke Jenkins",
-            "position": ""
-          },
-          {
-            "name": "Haytham Palmer",
-            "position": ""
-          },
-          {
-            "name": "Rayden Cerna",
-            "position": ""
-          },
-          {
-            "name": "Luca Mina",
-            "position": ""
-          },
-          {
-            "name": "Henry Davis",
-            "position": ""
-          },
-          {
-            "name": "Julian Mina",
-            "position": ""
-          },
-          {
-            "name": "Maverick Cerna",
-            "position": ""
-          },
-          {
-            "name": "TJ Insley",
-            "position": ""
-          },
-          {
-            "name": "Charlie Maze",
-            "position": ""
-          },
-          {
-            "name": "Noah Harmon",
-            "position": ""
-          },
-          {
-            "name": "Kyree Williams",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Michigan State",
-        "players": [
-          {
-            "name": "Theo Riddick",
-            "position": ""
-          },
-          {
-            "name": "Owen Pharis",
-            "position": ""
-          },
-          {
-            "name": "Myles Griffo",
-            "position": ""
-          },
-          {
-            "name": "Aiden Sirosky",
-            "position": ""
-          },
-          {
-            "name": "Dax Harris",
-            "position": ""
-          },
-          {
-            "name": "Layton LeClair",
-            "position": ""
-          },
-          {
-            "name": "Britton Sanders",
-            "position": ""
-          },
-          {
-            "name": "Jackson Clements",
-            "position": ""
-          },
-          {
-            "name": "Tyson Jenkins",
-            "position": ""
-          },
-          {
-            "name": "Cruz Rosales",
-            "position": ""
-          },
-          {
-            "name": "Bale Carter",
-            "position": ""
-          },
-          {
-            "name": "Wesley Smith",
-            "position": ""
-          },
-          {
-            "name": "Simon Szostak",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "UCLA",
-        "players": [
-          {
-            "name": "Joe Reed",
-            "position": ""
-          },
-          {
-            "name": "Rory Ritenour",
-            "position": ""
-          },
-          {
-            "name": "Bowen Kuntz",
-            "position": ""
-          },
-          {
-            "name": "Cameron Groom",
-            "position": ""
-          },
-          {
-            "name": "Kaeson Worland",
-            "position": ""
-          },
-          {
-            "name": "Jake Ruhana",
-            "position": ""
-          },
-          {
-            "name": "Jack Shepherd",
-            "position": ""
-          },
-          {
-            "name": "Kaden Rayman",
-            "position": ""
-          },
-          {
-            "name": "Boone Herndon",
-            "position": ""
-          },
-          {
-            "name": "Bryson Taylor",
-            "position": ""
-          },
-          {
-            "name": "Dallas Collins",
-            "position": ""
-          },
-          {
-            "name": "Harrison Pendowski",
-            "position": ""
-          },
-          {
-            "name": "Owen Colter",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Northwestern",
-        "players": [
-          {
-            "name": "Bryson Stevens",
-            "position": ""
-          },
-          {
-            "name": "Evan Sabelhaus",
-            "position": ""
-          },
-          {
-            "name": "Fred Harvey",
-            "position": ""
-          },
-          {
-            "name": "Roman Pflanzer",
-            "position": ""
-          },
-          {
-            "name": "William Beasley",
-            "position": ""
-          },
-          {
-            "name": "Hixon Prince",
-            "position": ""
-          },
-          {
-            "name": "Cullen McCoy",
-            "position": ""
-          },
-          {
-            "name": "Roman Fisher",
-            "position": ""
-          },
-          {
-            "name": "David Gilpin",
-            "position": ""
-          },
-          {
-            "name": "Caiden Brake",
-            "position": ""
-          },
-          {
-            "name": "Sebastian Delgado",
-            "position": ""
-          },
-          {
-            "name": "Liam Snider",
-            "position": ""
-          },
-          {
-            "name": "Randon Stevenson",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Oregon",
-        "players": [
-          {
-            "name": "Carter Allen",
-            "position": ""
-          },
-          {
-            "name": "Graham Mathews",
-            "position": ""
-          },
-          {
-            "name": "Owen Graves",
-            "position": ""
-          },
-          {
-            "name": "Asher Peak",
-            "position": ""
-          },
-          {
-            "name": "Colin Davis",
-            "position": ""
-          },
-          {
-            "name": "Charlie Lewis",
-            "position": ""
-          },
-          {
-            "name": "Maddox Lear",
-            "position": ""
-          },
-          {
-            "name": "Jeter Riley",
-            "position": ""
-          },
-          {
-            "name": "Isaac Dale",
-            "position": ""
-          },
-          {
-            "name": "Jetsen Keller",
-            "position": ""
-          },
-          {
-            "name": "Brandon Mangus",
-            "position": ""
-          },
-          {
-            "name": "Easton Lepper",
-            "position": ""
-          },
-          {
-            "name": "Nicholas Allen",
-            "position": ""
-          },
-          {
-            "name": "Glenn Graves",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Minnesota",
-        "players": [
-          {
-            "name": "Cameron Wright",
-            "position": ""
-          },
-          {
-            "name": "Casen Copeland",
-            "position": ""
-          },
-          {
-            "name": "Dwight Jones Jr",
-            "position": ""
-          },
-          {
-            "name": "Isaac Morning",
-            "position": ""
-          },
-          {
-            "name": "Cameron Frew",
-            "position": ""
-          },
-          {
-            "name": "Harrison Storm",
-            "position": ""
-          },
-          {
-            "name": "Ryker Beltz",
-            "position": ""
-          },
-          {
-            "name": "Lincoln Hayes",
-            "position": ""
-          },
-          {
-            "name": "Wyatt Wolf",
-            "position": ""
-          },
-          {
-            "name": "Silas Bunch",
-            "position": ""
-          },
-          {
-            "name": "Leo O’Riley",
-            "position": ""
-          },
-          {
-            "name": "Dillon Diaz",
-            "position": ""
-          },
-          {
-            "name": "Arlo Oliver",
-            "position": ""
-          }
-        ]
-      },
-      {
-        "name": "Washington",
-        "players": [
-          {
-            "name": "Jon Sertich",
-            "position": ""
-          },
-          {
-            "name": "Griffin Baxter",
-            "position": ""
-          },
-          {
-            "name": "Roman Milbourn",
-            "position": ""
-          },
-          {
-            "name": "Jameson McGuire",
-            "position": ""
-          },
-          {
-            "name": "Tyson Peterson",
-            "position": ""
-          },
-          {
-            "name": "Cameron Feltman",
-            "position": ""
-          },
-          {
-            "name": "Bo O'Leary",
-            "position": ""
-          },
-          {
-            "name": "Mac O'Leary",
-            "position": ""
-          },
-          {
-            "name": "Tyson Fletcher",
-            "position": ""
-          },
-          {
-            "name": "Declan Mitchell",
-            "position": ""
-          },
-          {
-            "name": "Blaine Atkinson",
-            "position": ""
-          },
-          {
-            "name": "Mason Starnes",
-            "position": ""
-          },
-          {
-            "name": "Garrett Aliff",
-            "position": ""
-          },
-          {
-            "name": "Benny Sertich",
             "position": ""
           }
         ]

@@ -17,6 +17,25 @@
         "Bryce Underhill",
         "Colt Murphy"
       ]
+    },
+    {
+      "id": "potg_1785259024383_lerhwn",
+      "gameId": "game_1785205269760_9_s3jt",
+      "timestamp": "2026-07-28T17:17:04.384Z",
+      "division": "Rookie",
+      "date": "2026-08-01",
+      "team": "Rookie>Ohio State",
+      "opponent": "Rookie>Indiana",
+      "ownPlayers": [
+        "Bryce Underhill",
+        "Colt Murphy",
+        "Elliot Mcrae"
+      ],
+      "opponentPlayers": [
+        "Brantley Vinson",
+        "Charlie Ariss",
+        "Cruz Chavis"
+      ]
     }
   ]
 }

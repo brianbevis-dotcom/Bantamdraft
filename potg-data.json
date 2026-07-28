@@ -76,6 +76,29 @@
         "Eli Wampler",
         "Jasper Larson"
       ]
+    },
+    {
+      "id": "potg_1785259601473_2rdayo",
+      "gameId": "game_1785257634908_21_by2x",
+      "timestamp": "2026-07-28T17:26:41.473Z",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team": "Majors>Oregon Majors",
+      "opponent": "Majors>Ohio State Majors",
+      "ownPlayers": [
+        "Anderson Williams",
+        "Barrett Sitter",
+        "Cooper Sheets",
+        "Kellen Hawk",
+        "Zeke Bunch"
+      ],
+      "opponentPlayers": [
+        "Brevyn Byrne",
+        "Dean Ramstrom",
+        "Decklyn Field",
+        "Ty Hornsby",
+        "Xavier Matteson"
+      ]
     }
   ]
 }

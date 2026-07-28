@@ -55,6 +55,27 @@
         "Lincoln Franklin",
         "Luke Pendleton"
       ]
+    },
+    {
+      "id": "potg_1785259097080_vixs7l",
+      "gameId": "game_1785258146330_21_pcz5",
+      "timestamp": "2026-07-28T17:18:17.080Z",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team": "Majors>Oregon Majors",
+      "opponent": "Majors>Ohio State Majors",
+      "ownPlayers": [
+        "Anderson Williams",
+        "Austin Jewell",
+        "Barrett Sitter",
+        "Bennett Sitter"
+      ],
+      "opponentPlayers": [
+        "Brevyn Byrne",
+        "Connor Todd",
+        "Eli Wampler",
+        "Jasper Larson"
+      ]
     }
   ]
 }

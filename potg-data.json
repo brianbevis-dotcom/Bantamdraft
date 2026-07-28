@@ -1,3 +1,22 @@
 {
-  "nominations": []
+  "nominations": [
+    {
+      "id": "potg_1785258992734_q5gygg",
+      "gameId": "game_1785205269760_9_s3jt",
+      "timestamp": "2026-07-28T17:16:32.734Z",
+      "division": "Rookie",
+      "date": "2026-08-01",
+      "team": "Rookie>Indiana",
+      "opponent": "Rookie>Ohio State",
+      "ownPlayers": [
+        "Jackson Miller",
+        "James Kennedy",
+        "Niles Williams"
+      ],
+      "opponentPlayers": [
+        "Bryce Underhill",
+        "Colt Murphy"
+      ]
+    }
+  ]
 }

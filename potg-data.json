@@ -99,6 +99,27 @@
         "Ty Hornsby",
         "Xavier Matteson"
       ]
+    },
+    {
+      "id": "potg_1785259979296_1gv0br",
+      "gameId": "game_1785258146330_26_knni",
+      "timestamp": "2026-07-28T17:32:59.297Z",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team": "Majors>Penn State Majors",
+      "opponent": "Majors>Michigan State Majors",
+      "ownPlayers": [
+        "Henry Pendowski",
+        "Jackson Hinds",
+        "Leo Ryan",
+        "Miles Howell"
+      ],
+      "opponentPlayers": [
+        "Cole Brabender",
+        "Jack Judge",
+        "Makhi Burnett",
+        "Nico Locke"
+      ]
     }
   ]
 }

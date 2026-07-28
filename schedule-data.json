@@ -3359,6 +3359,1126 @@
       "team1": "Rookie > Purdue Rookie",
       "team2": "Rookie > Indiana Rookie",
       "label": ""
+    },
+    {
+      "id": "game_1785258146330_1_pii5",
+      "division": "Major",
+      "date": "2026-08-05",
+      "team1": "Majors > Indiana",
+      "team2": "Majors > Purdue Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_2_znqv",
+      "division": "Major",
+      "date": "2026-08-15",
+      "team1": "Majors > Indiana",
+      "team2": "Majors > Purdue Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_3_8dum",
+      "division": "Major",
+      "date": "2026-08-26",
+      "team1": "Majors > Indiana",
+      "team2": "Majors > Northwestern",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_4_m88y",
+      "division": "Major",
+      "date": "2026-08-29",
+      "team1": "Majors > Indiana",
+      "team2": "Majors > Michigan State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_5_ba2s",
+      "division": "Major",
+      "date": "2026-09-12",
+      "team1": "Majors > Indiana",
+      "team2": "Majors > Penn State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_6_c2np",
+      "division": "Major",
+      "date": "2026-08-05",
+      "team1": "Majors > Michigan State Majors",
+      "team2": "Majors > Oregon Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_7_l8v8",
+      "division": "Major",
+      "date": "2026-08-08",
+      "team1": "Majors > Michigan State Majors",
+      "team2": "Majors > Northwestern",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_8_gf8o",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team1": "Majors > Michigan State Majors",
+      "team2": "Majors > Purdue Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_9_mq3b",
+      "division": "Major",
+      "date": "2026-09-02",
+      "team1": "Majors > Michigan State Majors",
+      "team2": "Majors > Wisconsin Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_10_k2kg",
+      "division": "Major",
+      "date": "2026-09-12",
+      "team1": "Majors > Michigan State Majors",
+      "team2": "Majors > Ohio State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_11_t4nv",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team1": "Majors > Northwestern",
+      "team2": "Majors > Wisconsin Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_12_tmx6",
+      "division": "Major",
+      "date": "2026-08-12",
+      "team1": "Majors > Northwestern",
+      "team2": "Majors > Indiana",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_13_w09u",
+      "division": "Major",
+      "date": "2026-08-15",
+      "team1": "Majors > Northwestern",
+      "team2": "Majors > Ohio State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_14_qcva",
+      "division": "Major",
+      "date": "2026-08-29",
+      "team1": "Majors > Northwestern",
+      "team2": "Majors > Ohio State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_15_w6r7",
+      "division": "Major",
+      "date": "2026-09-09",
+      "team1": "Majors > Northwestern",
+      "team2": "Majors > Wisconsin Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_16_8d7k",
+      "division": "Major",
+      "date": "2026-08-05",
+      "team1": "Majors > Ohio State Majors",
+      "team2": "Majors > Penn State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_17_qne3",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team1": "Majors > Ohio State Majors",
+      "team2": "Majors > Penn State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_18_1snp",
+      "division": "Major",
+      "date": "2026-08-26",
+      "team1": "Majors > Ohio State Majors",
+      "team2": "Majors > Oregon Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_19_9ef7",
+      "division": "Major",
+      "date": "2026-09-02",
+      "team1": "Majors > Ohio State Majors",
+      "team2": "Majors > Indiana",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_20_a2e7",
+      "division": "Major",
+      "date": "2026-09-09",
+      "team1": "Majors > Ohio State Majors",
+      "team2": "Majors > Purdue Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_21_pcz5",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team1": "Majors > Oregon Majors",
+      "team2": "Majors > Ohio State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_22_cogr",
+      "division": "Major",
+      "date": "2026-08-15",
+      "team1": "Majors > Oregon Majors",
+      "team2": "Majors > Michigan State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_23_l89r",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team1": "Majors > Oregon Majors",
+      "team2": "Majors > Northwestern",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_24_6yyh",
+      "division": "Major",
+      "date": "2026-08-29",
+      "team1": "Majors > Oregon Majors",
+      "team2": "Majors > Penn State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_25_84q7",
+      "division": "Major",
+      "date": "2026-09-09",
+      "team1": "Majors > Oregon Majors",
+      "team2": "Majors > Indiana",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_26_knni",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team1": "Majors > Penn State Majors",
+      "team2": "Majors > Michigan State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_27_if17",
+      "division": "Major",
+      "date": "2026-08-12",
+      "team1": "Majors > Penn State Majors",
+      "team2": "Majors > Wisconsin Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_28_km2u",
+      "division": "Major",
+      "date": "2026-08-26",
+      "team1": "Majors > Penn State Majors",
+      "team2": "Majors > Wisconsin Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_29_upwd",
+      "division": "Major",
+      "date": "2026-09-02",
+      "team1": "Majors > Penn State Majors",
+      "team2": "Majors > Northwestern",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_30_imsf",
+      "division": "Major",
+      "date": "2026-09-09",
+      "team1": "Majors > Penn State Majors",
+      "team2": "Majors > Michigan State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_31_y73l",
+      "division": "Major",
+      "date": "2026-08-08",
+      "team1": "Majors > Purdue Majors",
+      "team2": "Majors > Penn State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_32_on95",
+      "division": "Major",
+      "date": "2026-08-12",
+      "team1": "Majors > Purdue Majors",
+      "team2": "Majors > Michigan State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_33_4er9",
+      "division": "Major",
+      "date": "2026-08-19",
+      "team1": "Majors > Purdue Majors",
+      "team2": "Majors > Oregon Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_34_0t3m",
+      "division": "Major",
+      "date": "2026-09-02",
+      "team1": "Majors > Purdue Majors",
+      "team2": "Majors > Oregon Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_35_vz4a",
+      "division": "Major",
+      "date": "2026-09-12",
+      "team1": "Majors > Purdue Majors",
+      "team2": "Majors > Northwestern",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_36_vhlw",
+      "division": "Major",
+      "date": "2026-08-08",
+      "team1": "Majors > Wisconsin Majors",
+      "team2": "Majors > Indiana",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_37_podz",
+      "division": "Major",
+      "date": "2026-08-19",
+      "team1": "Majors > Wisconsin Majors",
+      "team2": "Majors > Ohio State Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_38_uumu",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team1": "Majors > Wisconsin Majors",
+      "team2": "Majors > Indiana",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_39_19si",
+      "division": "Major",
+      "date": "2026-08-29",
+      "team1": "Majors > Wisconsin Majors",
+      "team2": "Majors > Purdue Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_40_3wxg",
+      "division": "Major",
+      "date": "2026-09-12",
+      "team1": "Majors > Wisconsin Majors",
+      "team2": "Majors > Oregon Majors",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_41_4jbg",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team1": "Minors > Illinois",
+      "team2": "Minors > Washington",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_42_nm0a",
+      "division": "Minor",
+      "date": "2026-08-10",
+      "team1": "Minors > Illinois",
+      "team2": "Minors > Wisconsin",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_43_7zd3",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team1": "Minors > Illinois",
+      "team2": "Minors > Northwestern",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_44_n8tr",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team1": "Minors > Illinois",
+      "team2": "Minors > Purdue",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_45_7u5s",
+      "division": "Minor",
+      "date": "2026-09-08",
+      "team1": "Minors > Illinois",
+      "team2": "Minors > Penn State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_46_ws3z",
+      "division": "Minor",
+      "date": "2026-08-05",
+      "team1": "Minors > Indiana",
+      "team2": "Minors > Iowa",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_47_xivt",
+      "division": "Minor",
+      "date": "2026-08-19",
+      "team1": "Minors > Indiana",
+      "team2": "Minors > Michigan State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_48_2qox",
+      "division": "Minor",
+      "date": "2026-08-25",
+      "team1": "Minors > Indiana",
+      "team2": "Minors > UCLA",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_49_9vbv",
+      "division": "Minor",
+      "date": "2026-09-08",
+      "team1": "Minors > Indiana",
+      "team2": "Minors > Washington",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_50_nc9e",
+      "division": "Minor",
+      "date": "2026-09-12",
+      "team1": "Minors > Indiana",
+      "team2": "Minors > Northwestern",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_51_sutv",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team1": "Minors > Iowa",
+      "team2": "Minors > Ohio State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_52_wz8a",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team1": "Minors > Iowa",
+      "team2": "Minors > Purdue",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_53_oju2",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team1": "Minors > Iowa",
+      "team2": "Minors > Washington",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_54_hgt5",
+      "division": "Minor",
+      "date": "2026-08-18",
+      "team1": "Minors > Iowa",
+      "team2": "Minors > Penn State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_55_nkrc",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team1": "Minors > Iowa",
+      "team2": "Minors > Northwestern",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_56_dxhv",
+      "division": "Minor",
+      "date": "2026-08-04",
+      "team1": "Minors > Michigan",
+      "team2": "Minors > UCLA",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_57_v86d",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team1": "Minors > Michigan",
+      "team2": "Minors > Oregon",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_58_1bro",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team1": "Minors > Michigan",
+      "team2": "Minors > Iowa",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_59_t3g8",
+      "division": "Minor",
+      "date": "2026-08-26",
+      "team1": "Minors > Michigan",
+      "team2": "Minors > Northwestern",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_60_kvb4",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team1": "Minors > Michigan",
+      "team2": "Minors > Michigan State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_61_map3",
+      "division": "Minor",
+      "date": "2026-08-04",
+      "team1": "Minors > Michigan State",
+      "team2": "Minors > Minnesota",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_62_stiq",
+      "division": "Minor",
+      "date": "2026-08-11",
+      "team1": "Minors > Michigan State",
+      "team2": "Minors > Penn State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_63_4n0r",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team1": "Minors > Michigan State",
+      "team2": "Minors > Illinois",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_64_hlza",
+      "division": "Minor",
+      "date": "2026-08-25",
+      "team1": "Minors > Michigan State",
+      "team2": "Minors > Washington",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_65_jasr",
+      "division": "Minor",
+      "date": "2026-09-01",
+      "team1": "Minors > Michigan State",
+      "team2": "Minors > Oregon",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_66_psdc",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team1": "Minors > Minnesota",
+      "team2": "Minors > Michigan",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_67_656o",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team1": "Minors > Minnesota",
+      "team2": "Minors > UCLA",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_68_kz1r",
+      "division": "Minor",
+      "date": "2026-08-12",
+      "team1": "Minors > Minnesota",
+      "team2": "Minors > Illinois",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_69_8x6z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team1": "Minors > Minnesota",
+      "team2": "Minors > Wisconsin",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_70_d53u",
+      "division": "Minor",
+      "date": "2026-09-08",
+      "team1": "Minors > Minnesota",
+      "team2": "Minors > Iowa",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_71_pltv",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team1": "Minors > Northwestern",
+      "team2": "Minors > Oregon",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_72_xfmd",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team1": "Minors > Northwestern",
+      "team2": "Minors > Michigan State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_73_uxrb",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team1": "Minors > Northwestern",
+      "team2": "Minors > Purdue",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_74_wmvq",
+      "division": "Minor",
+      "date": "2026-08-19",
+      "team1": "Minors > Northwestern",
+      "team2": "Minors > Minnesota",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_75_0da1",
+      "division": "Minor",
+      "date": "2026-08-31",
+      "team1": "Minors > Northwestern",
+      "team2": "Minors > Ohio State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_76_u93x",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team1": "Minors > Ohio State",
+      "team2": "Minors > Illinois",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_77_dti1",
+      "division": "Minor",
+      "date": "2026-08-10",
+      "team1": "Minors > Ohio State",
+      "team2": "Minors > Minnesota",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_78_0zdw",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team1": "Minors > Ohio State",
+      "team2": "Minors > Michigan State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_79_6cye",
+      "division": "Minor",
+      "date": "2026-08-24",
+      "team1": "Minors > Ohio State",
+      "team2": "Minors > Michigan",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_80_89gf",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team1": "Minors > Ohio State",
+      "team2": "Minors > Indiana",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_81_21hw",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team1": "Minors > Oregon",
+      "team2": "Minors > Indiana",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_82_8vqs",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team1": "Minors > Oregon",
+      "team2": "Minors > Purdue",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_83_p7vv",
+      "division": "Minor",
+      "date": "2026-08-25",
+      "team1": "Minors > Oregon",
+      "team2": "Minors > Illinois",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_84_9a44",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team1": "Minors > Oregon",
+      "team2": "Minors > Minnesota",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146330_85_992n",
+      "division": "Minor",
+      "date": "2026-09-12",
+      "team1": "Minors > Oregon",
+      "team2": "Minors > Iowa",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_86_4sl4",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team1": "Minors > Penn State",
+      "team2": "Minors > Minnesota",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_87_d4yq",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team1": "Minors > Penn State",
+      "team2": "Minors > Indiana",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_88_jzsg",
+      "division": "Minor",
+      "date": "2026-08-25",
+      "team1": "Minors > Penn State",
+      "team2": "Minors > Wisconsin",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_89_zalw",
+      "division": "Minor",
+      "date": "2026-09-01",
+      "team1": "Minors > Penn State",
+      "team2": "Minors > Michigan",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_90_n8w3",
+      "division": "Minor",
+      "date": "2026-09-12",
+      "team1": "Minors > Penn State",
+      "team2": "Minors > Ohio State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_91_g3lw",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team1": "Minors > Purdue",
+      "team2": "Minors > Michigan State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_92_7qfw",
+      "division": "Minor",
+      "date": "2026-08-11",
+      "team1": "Minors > Purdue",
+      "team2": "Minors > Indiana",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_93_6hla",
+      "division": "Minor",
+      "date": "2026-08-18",
+      "team1": "Minors > Purdue",
+      "team2": "Minors > UCLA",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_94_gyqo",
+      "division": "Minor",
+      "date": "2026-09-01",
+      "team1": "Minors > Purdue",
+      "team2": "Minors > Wisconsin",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_95_dgfm",
+      "division": "Minor",
+      "date": "2026-09-12",
+      "team1": "Minors > Purdue",
+      "team2": "Minors > Michigan",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_96_ysoj",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team1": "Minors > UCLA",
+      "team2": "Minors > Penn State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_97_8f1k",
+      "division": "Minor",
+      "date": "2026-08-11",
+      "team1": "Minors > UCLA",
+      "team2": "Minors > Iowa",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_98_2xn4",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team1": "Minors > UCLA",
+      "team2": "Minors > Ohio State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_99_unil",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team1": "Minors > UCLA",
+      "team2": "Minors > Washington",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_100_pyej",
+      "division": "Minor",
+      "date": "2026-09-01",
+      "team1": "Minors > UCLA",
+      "team2": "Minors > Illinois",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_101_j1lb",
+      "division": "Minor",
+      "date": "2026-08-04",
+      "team1": "Minors > Washington",
+      "team2": "Minors > Purdue",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_102_mpkw",
+      "division": "Minor",
+      "date": "2026-08-11",
+      "team1": "Minors > Washington",
+      "team2": "Minors > Northwestern",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_103_hiup",
+      "division": "Minor",
+      "date": "2026-08-18",
+      "team1": "Minors > Washington",
+      "team2": "Minors > Oregon",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_104_yz8m",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team1": "Minors > Washington",
+      "team2": "Minors > Penn State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_105_timw",
+      "division": "Minor",
+      "date": "2026-09-12",
+      "team1": "Minors > Washington",
+      "team2": "Minors > Wisconsin",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_106_n723",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team1": "Minors > Wisconsin",
+      "team2": "Minors > Indiana",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_107_g945",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team1": "Minors > Wisconsin",
+      "team2": "Minors > Michigan",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_108_egkz",
+      "division": "Minor",
+      "date": "2026-08-18",
+      "team1": "Minors > Wisconsin",
+      "team2": "Minors > Ohio State",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_109_4c3y",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team1": "Minors > Wisconsin",
+      "team2": "Minors > UCLA",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_110_oqjm",
+      "division": "Minor",
+      "date": "2026-09-08",
+      "team1": "Minors > Wisconsin",
+      "team2": "Minors > Oregon",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_111_5lxm",
+      "division": "Rookie",
+      "date": "2026-08-01",
+      "team1": "Rookie > Indiana Rookie",
+      "team2": "Rookie > Ohio State Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_112_5la3",
+      "division": "Rookie",
+      "date": "2026-08-08",
+      "team1": "Rookie > Indiana Rookie",
+      "team2": "Rookie > Penn State Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_113_ml7w",
+      "division": "Rookie",
+      "date": "2026-08-15",
+      "team1": "Rookie > Indiana Rookie",
+      "team2": "Rookie > Michigan Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_114_4ncc",
+      "division": "Rookie",
+      "date": "2026-08-17",
+      "team1": "Rookie > Indiana Rookie",
+      "team2": "Rookie > Purdue Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_115_0v11",
+      "division": "Rookie",
+      "date": "2026-08-24",
+      "team1": "Rookie > Indiana Rookie",
+      "team2": "Rookie > Nebraska Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_116_9wty",
+      "division": "Rookie",
+      "date": "2026-08-04",
+      "team1": "Rookie > Michigan Rookie",
+      "team2": "Rookie > Penn State Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_117_9x0l",
+      "division": "Rookie",
+      "date": "2026-08-08",
+      "team1": "Rookie > Michigan Rookie",
+      "team2": "Rookie > Purdue Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_118_t98j",
+      "division": "Rookie",
+      "date": "2026-08-17",
+      "team1": "Rookie > Michigan Rookie",
+      "team2": "Rookie > Ohio State Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_119_va27",
+      "division": "Rookie",
+      "date": "2026-08-24",
+      "team1": "Rookie > Michigan Rookie",
+      "team2": "Rookie > Penn State Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_120_un3d",
+      "division": "Rookie",
+      "date": "2026-08-29",
+      "team1": "Rookie > Michigan Rookie",
+      "team2": "Rookie > Indiana Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_121_ar45",
+      "division": "Rookie",
+      "date": "2026-08-22",
+      "team1": "Rookie > Nebraska Rookie",
+      "team2": "Rookie > Ohio State Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_122_1q7y",
+      "division": "Rookie",
+      "date": "2026-08-29",
+      "team1": "Rookie > Nebraska Rookie",
+      "team2": "Rookie > Purdue Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_123_ec0u",
+      "division": "Rookie",
+      "date": "2026-08-31",
+      "team1": "Rookie > Nebraska Rookie",
+      "team2": "Rookie > Michigan Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_124_03as",
+      "division": "Rookie",
+      "date": "2026-09-08",
+      "team1": "Rookie > Nebraska Rookie",
+      "team2": "Rookie > Indiana Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_125_sp1g",
+      "division": "Rookie",
+      "date": "2026-09-14",
+      "team1": "Rookie > Nebraska Rookie",
+      "team2": "Rookie > Michigan Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_126_phwt",
+      "division": "Rookie",
+      "date": "2026-08-08",
+      "team1": "Rookie > Ohio State Rookie",
+      "team2": "Rookie > Nebraska Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_127_ymul",
+      "division": "Rookie",
+      "date": "2026-08-15",
+      "team1": "Rookie > Ohio State Rookie",
+      "team2": "Rookie > Penn State Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_128_y5g6",
+      "division": "Rookie",
+      "date": "2026-08-24",
+      "team1": "Rookie > Ohio State Rookie",
+      "team2": "Rookie > Purdue Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_129_slht",
+      "division": "Rookie",
+      "date": "2026-08-31",
+      "team1": "Rookie > Ohio State Rookie",
+      "team2": "Rookie > Indiana Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_130_inqg",
+      "division": "Rookie",
+      "date": "2026-09-12",
+      "team1": "Rookie > Ohio State Rookie",
+      "team2": "Rookie > Michigan Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_131_fc0v",
+      "division": "Rookie",
+      "date": "2026-08-10",
+      "team1": "Rookie > Penn State Rookie",
+      "team2": "Rookie > Nebraska Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_132_secf",
+      "division": "Rookie",
+      "date": "2026-08-22",
+      "team1": "Rookie > Penn State Rookie",
+      "team2": "Rookie > Indiana Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_133_uw1t",
+      "division": "Rookie",
+      "date": "2026-08-29",
+      "team1": "Rookie > Penn State Rookie",
+      "team2": "Rookie > Ohio State Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_134_32v2",
+      "division": "Rookie",
+      "date": "2026-09-12",
+      "team1": "Rookie > Penn State Rookie",
+      "team2": "Rookie > Nebraska Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_135_vmvd",
+      "division": "Rookie",
+      "date": "2026-09-14",
+      "team1": "Rookie > Penn State Rookie",
+      "team2": "Rookie > Purdue Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_136_ojhl",
+      "division": "Rookie",
+      "date": "2026-08-10",
+      "team1": "Rookie > Purdue Rookie",
+      "team2": "Rookie > Ohio State Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_137_q8ug",
+      "division": "Rookie",
+      "date": "2026-08-15",
+      "team1": "Rookie > Purdue Rookie",
+      "team2": "Rookie > Nebraska Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_138_61rx",
+      "division": "Rookie",
+      "date": "2026-08-22",
+      "team1": "Rookie > Purdue Rookie",
+      "team2": "Rookie > Michigan Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_139_wcto",
+      "division": "Rookie",
+      "date": "2026-08-31",
+      "team1": "Rookie > Purdue Rookie",
+      "team2": "Rookie > Penn State Rookie",
+      "label": ""
+    },
+    {
+      "id": "game_1785258146331_140_ew64",
+      "division": "Rookie",
+      "date": "2026-09-12",
+      "team1": "Rookie > Purdue Rookie",
+      "team2": "Rookie > Indiana Rookie",
+      "label": ""
     }
   ]
 }

@@ -36,6 +36,25 @@
         "Charlie Ariss",
         "Cruz Chavis"
       ]
+    },
+    {
+      "id": "potg_1785259061082_9okzn4",
+      "gameId": "game_1785205269760_8_8d9q",
+      "timestamp": "2026-07-28T17:17:41.082Z",
+      "division": "Rookie",
+      "date": "2026-08-01",
+      "team": "Rookie>Michigan",
+      "opponent": "Rookie>Nebraska",
+      "ownPlayers": [
+        "Knox Bellinger",
+        "Liam Gary",
+        "Liam Yaden"
+      ],
+      "opponentPlayers": [
+        "Grier Osborne",
+        "Lincoln Franklin",
+        "Luke Pendleton"
+      ]
     }
   ]
 }

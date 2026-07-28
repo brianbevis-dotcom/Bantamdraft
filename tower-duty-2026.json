@@ -5,7 +5,7 @@
  "status": "DRAFT — tackle divisions only",
  "timezone": "America/Indiana/Indianapolis",
  "arriveEarlyMinutes": 15,
- "durationMinutes": 90,
+ "durationMinutes": 60,
  "venue": {
   "name": "Center Grove Bantam Football Complex",
   "address": ""
@@ -1671,7 +1671,7 @@
    "home": "Michigan State",
    "away": "Ohio State",
    "towerDivision": "Major",
-   "towerTeam": "Penn State"
+   "towerTeam": "Oregon"
   },
   {
    "id": "G129",
@@ -1719,7 +1719,7 @@
    "home": "Purdue",
    "away": "Northwestern",
    "towerDivision": "Major",
-   "towerTeam": "Oregon"
+   "towerTeam": "Penn State"
   },
   {
    "id": "G133",

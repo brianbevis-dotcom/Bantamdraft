@@ -161,6 +161,28 @@
         "Kellen Hawk",
         "Zeke Bunch"
       ]
+    },
+    {
+      "id": "potg_1785260174437_yxk1lo",
+      "gameId": "game_1785258146330_13_w09u",
+      "timestamp": "2026-07-28T17:36:14.437Z",
+      "division": "Major",
+      "date": "2026-08-15",
+      "team": "Majors>Northwestern",
+      "opponent": "Majors>Ohio State Majors",
+      "ownPlayers": [
+        "Brody Smythe",
+        "Christian Calvert",
+        "Ike Roberts",
+        "Jack Cronin",
+        "Shaun Martinez Jr."
+      ],
+      "opponentPlayers": [
+        "Brevyn Byrne",
+        "Decklyn Field",
+        "Nolan Williams",
+        "Ty Hornsby"
+      ]
     }
   ]
 }

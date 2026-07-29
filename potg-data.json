@@ -183,6 +183,29 @@
         "Nolan Williams",
         "Ty Hornsby"
       ]
+    },
+    {
+      "id": "potg_1785346603020_o8stmg",
+      "gameId": "game_1785257634908_26_33ot",
+      "timestamp": "2026-07-29T17:36:43.020Z",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team": "Michigan State",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Brayden Casse",
+        "Isaac Hamilton",
+        "Leviticus Moore",
+        "Cole Brabender",
+        "Nico Locke"
+      ],
+      "opponentPlayers": [
+        "Eivin Brewer",
+        "Leo Ryan",
+        "Jackson Hinds",
+        "Tyler Fountain",
+        "Henry Pendowski"
+      ]
     }
   ]
 }

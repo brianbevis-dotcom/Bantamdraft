@@ -6,51 +6,75 @@
         "players": [
           {
             "name": "Nolan Halterman",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": "6"
           },
           {
             "name": "Bryce Pav",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": "6"
           },
           {
             "name": "Julian Bevis",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": "6"
           },
           {
             "name": "Rhett Duncan",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": "6"
           },
           {
             "name": "Xavi Delgado",
-            "position": ""
+            "position": "",
+            "jersey": "94",
+            "grade": "6"
           },
           {
             "name": "Gregory Jr Werner",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": "5"
           },
           {
             "name": "Jaxson Bare",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": "5"
           },
           {
             "name": "Omar Grant Jr.",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": "6"
           },
           {
             "name": "Dean Griffin",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": "5"
           },
           {
             "name": "Austin Treharne",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": "5"
           },
           {
             "name": "Liam Dean",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": "6"
           },
           {
             "name": "Beau Ranard",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": "5"
           }
         ]
       },
@@ -59,59 +83,87 @@
         "players": [
           {
             "name": "Isaac Hamilton",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Jack Judge",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Cole Brabender",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Makhi Burnett",
-            "position": ""
+            "position": "",
+            "jersey": "94",
+            "grade": ""
           },
           {
             "name": "Corbin Harwood",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Jaxon Geissler",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Dashiell Duncan",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Leviticus Moore",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Nico Locke",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Benson Ward",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Everett Day",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Brayden Casse",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Bennett Kirkpatrick",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Kaiden Pless",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           }
         ]
       },
@@ -120,59 +172,87 @@
         "players": [
           {
             "name": "Malachi Rees",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Jack Cronin",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Christian Calvert",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Brody Smythe",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Brantley Grace",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Thomas Trent",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Kingston Lear",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Ike Roberts",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Shaun Martinez Jr.",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Asher Hasenour",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Eric Harvey",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Jagger Morrow",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Julian Morrow",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Camden Smith",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           }
         ]
       },
@@ -181,59 +261,87 @@
         "players": [
           {
             "name": "Ty Hornsby",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Xavier Matteson",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Brevyn Byrne",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Eli Wampler",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Terry Ratliff",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Jasper Larson",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Connor Todd",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Nolan Williams",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Decklyn Field",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Dean Ramstrom",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Tyberius Shosten",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Ryder Fletcher",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Liam Smith",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Knox Baker",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           }
         ]
       },
@@ -242,59 +350,87 @@
         "players": [
           {
             "name": "Barrett Sitter",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Bennett Sitter",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Kellen Hawk",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Zeke Bunch",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Anderson Williams",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Cooper Sheets",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Banks Smith",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Walter Knight",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Dylan Watkins",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Clark Mayes",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Austin Jewell",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Dylan Clem",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Emmett Connelly",
-            "position": ""
+            "position": "",
+            "jersey": "94",
+            "grade": ""
           },
           {
             "name": "Gauge Pierce",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           }
         ]
       },
@@ -303,59 +439,87 @@
         "players": [
           {
             "name": "Miles Howell",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Jackson Hinds",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Lincoln Powers",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Lilly Patterson",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Carter Smith",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Tyler Fountain",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Jackson Oilar",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Leo Ryan",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Eivin Brewer",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Henry Pendowski",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Reece Roehling",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Brantley Ritter",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Kamden Aiello",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Ethan Johnston",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           }
         ]
       },
@@ -364,59 +528,87 @@
         "players": [
           {
             "name": "Grant Dirksen",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Jack Dirksen",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Davis Yoder",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Jude Gilpin",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Benjamin Bauer",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Anthony Pace",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "River Myers",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Owen Sullivan",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Tytus Darnell",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Grayson Miller",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Austin Jones",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Oliver White",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Brayden Wagner",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Parish Crowell Jr",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           }
         ]
       },
@@ -425,59 +617,87 @@
         "players": [
           {
             "name": "Beau Ferguson",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": "5"
           },
           {
             "name": "Tyson Greenwald",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Tristan Greenwald",
-            "position": ""
+            "position": "",
+            "jersey": "94",
+            "grade": ""
           },
           {
             "name": "Tucker Horton",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Declan McAfee",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Easton Scalf",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Luke Hart",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Jackson Cline",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Jack Metzger",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Yadriel Roldan",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Crew Cavanaugh",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Harris Sanders",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Tatum Rayman",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Andrew Stoner",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           }
         ]
       }
@@ -488,55 +708,81 @@
         "players": [
           {
             "name": "Dawson Erazmus",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Tanner Hess",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Anderson Cones",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Ramsey Thompson",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Robby Haney",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Nicholas Woods JR",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Nathan Currier",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Nolan Charnstrom",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "William Dunlap",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Noah Mcgowan",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Kellan Hedeen",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Legend Lewis",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Colin Ashley",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           }
         ]
       },
@@ -545,55 +791,81 @@
         "players": [
           {
             "name": "Carter Clancy",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Isaac Vinson",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Landon Burge",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Colton Schonegg",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Liam Hemmer",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Tegan Fields",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Landon O'Brien",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Gavin Geiersbach",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "McCoy Landis",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Isaiah MacDonald",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Landon Nungester",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Creighton Landis",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Zaidyn Earl",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           }
         ]
       },
@@ -602,51 +874,75 @@
         "players": [
           {
             "name": "Liam Adams",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Jaxson LaFree",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Waylon Cain",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Hunter Willert",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Nolan Wilson",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Atticus Apgar",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Beau Johnson",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Owen Bell",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Louis Herold",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Mason Payton",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Grayson Goodman",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Samuel Kegeris",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           }
         ]
       },
@@ -655,55 +951,81 @@
         "players": [
           {
             "name": "Clayton Pulse",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Carson Roller",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Luke Jenkins",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Haytham Palmer",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Rayden Cerna",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Luca Mina",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Henry Davis",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Julian Mina",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Maverick Cerna",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "TJ Insley",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Charlie Maze",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Noah Harmon",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Kyree Williams",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           }
         ]
       },
@@ -712,51 +1034,75 @@
         "players": [
           {
             "name": "Theo Riddick",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Owen Pharis",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Myles Griffo",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Aiden Sirosky",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Dax Harris",
-            "position": ""
+            "position": "",
+            "jersey": "94",
+            "grade": ""
           },
           {
             "name": "Layton LeClair",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Britton Sanders",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Jackson Clements",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Tyson Jenkins",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Cruz Rosales",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Bale Carter",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Wesley Smith",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           }
         ]
       },
@@ -765,55 +1111,81 @@
         "players": [
           {
             "name": "Cameron Wright",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Casen Copeland",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Dwight Jones Jr",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Isaac Morning",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Cameron Frew",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Harrison Storm",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Ryker Beltz",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Lincoln Hayes",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Wyatt Wolf",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Silas Bunch",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Leo O’Riley",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Dillon Diaz",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Arlo Oliver",
-            "position": ""
+            "position": "",
+            "jersey": "94",
+            "grade": ""
           }
         ]
       },
@@ -822,55 +1194,81 @@
         "players": [
           {
             "name": "Bryson Stevens",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Evan Sabelhaus",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Fred Harvey",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Roman Pflanzer",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "William Beasley",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Hixon Prince",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Cullen McCoy",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Roman Fisher",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "David Gilpin",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Caiden Brake",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Sebastian Delgado",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Liam Snider",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Randon Stevenson",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           }
         ]
       },
@@ -879,55 +1277,81 @@
         "players": [
           {
             "name": "Cameron Rose",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Michael Reynolds III",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Jaxson Donley",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Tobias Minderman",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Oliver Vaughn",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Charles (CJ) Pitcock",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Kash Coyle",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Lincoln Bandy",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Alex Gudaitis",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Joey Primeau",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Stetson Ebbert",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Saint Mukinni",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Titan Mukinni",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           }
         ]
       },
@@ -936,51 +1360,75 @@
         "players": [
           {
             "name": "Carter Allen",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Graham Mathews",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Owen Graves",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Asher Peak",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Colin Davis",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Charlie Lewis",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Maddox Lear",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Jeter Riley",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Isaac Dale",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Jetsen Keller",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Brandon Mangus",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Easton Lepper",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           }
         ]
       },
@@ -989,55 +1437,81 @@
         "players": [
           {
             "name": "CJ Gilliard",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Grant Jacobs",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Aiden Due",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Asher Tow",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "YEMI ALEWI",
-            "position": ""
+            "position": "",
+            "jersey": "94",
+            "grade": ""
           },
           {
             "name": "Grayson Tuggle",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Koen Brumbaugh",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Chandler Lew",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Devansh Kandimalla",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Eli Roberts",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Samuel Catellier",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Bretton Newport",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Jameson Burr",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           }
         ]
       },
@@ -1046,55 +1520,81 @@
         "players": [
           {
             "name": "Sawyer Green",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Hendrix Stewart",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Preston Carter",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Jace Prince",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Nash Russell",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Logan Waltz",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Dalton Bennett",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Mason Mandabach",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Griffin Gillenwater",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Atticus Spandau",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Elliott Cash",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Shepherd Phillips",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Zane Perrey",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           }
         ]
       },
@@ -1103,55 +1603,81 @@
         "players": [
           {
             "name": "Joe Reed",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Rory Ritenour",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Bowen Kuntz",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Cameron Groom",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Kaeson Worland",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Jake Ruhana",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Jack Shepherd",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Kaden Rayman",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Boone Herndon",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Bryson Taylor",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Dallas Collins",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Harrison Pendowski",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Owen Colter",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           }
         ]
       },
@@ -1160,55 +1686,81 @@
         "players": [
           {
             "name": "Jon Sertich",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Griffin Baxter",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Roman Milbourn",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Jameson McGuire",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Tyson Peterson",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Cameron Feltman",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Bo O'Leary",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Mac O'Leary",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Tyson Fletcher",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Declan Mitchell",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Blaine Atkinson",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Mason Starnes",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Garrett Aliff",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           }
         ]
       },
@@ -1217,55 +1769,81 @@
         "players": [
           {
             "name": "Luke Bolt",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Brent Neu",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Owen Wright",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Jace Long",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Carter Schmaltz",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Anderson Coffey",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Barron Swift",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Caiden Finlinson",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Jameson Koons",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Aiden Nash",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Ridge Flory",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Parker King",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Crosby Hammond",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           }
         ]
       }
@@ -1276,55 +1854,81 @@
         "players": [
           {
             "name": "Niles Williams",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Brantley Vinson",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Rockne Nelson",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Peyton Huffman",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Parker Paxson",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Cruz Chavis",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Vincent Grantner",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Reece Jacobs",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "James Kennedy",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Valor Naue",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Charlie Ariss",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "William Dugger",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Jackson Miller",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           }
         ]
       },
@@ -1333,59 +1937,87 @@
         "players": [
           {
             "name": "Knox Bellinger",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Brett Spires",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Liam Gary",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Tucker wheeler",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Cooper Schmaltz",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Aaron Dunlap",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "EJ Bunch",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Calvin Kraft",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Kingston Poole",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Mason Harmon",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Liam Yaden",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Silas Overpeck",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Joseph Greenwald",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Samuel Schwab",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           }
         ]
       },
@@ -1394,59 +2026,87 @@
         "players": [
           {
             "name": "Cade Reagan",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Parker Hawley",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Camden Brown",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Abram Surface",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Colton Cheh",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Grier Osborne",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Warren Hodgson",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Mason Schneider",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Cole Atkinson",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Luke Pendleton",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Ashton Calaway",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Lincoln Franklin",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Calvin Moore",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Micah Kelly",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           }
         ]
       },
@@ -1455,55 +2115,81 @@
         "players": [
           {
             "name": "Sutton Ward",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "John Brewer",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Leo Powers",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Remington Axsom",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Elliot Mcrae",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Graham Gillenwater",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Xavier Shone",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Lincoln Lippert",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Wallace Davis",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Bryce Underhill",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Colt Murphy",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Cohen Redenbarger",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           },
           {
             "name": "Jones Ferrell",
-            "position": ""
+            "position": "",
+            "jersey": "",
+            "grade": ""
           }
         ]
       },
@@ -1512,55 +2198,81 @@
         "players": [
           {
             "name": "Brody Egenolf",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Judah Duke",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Graham Davis",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Owen Fink",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Landon Long",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Isaac Wagers",
-            "position": ""
+            "position": "",
+            "jersey": "94",
+            "grade": ""
           },
           {
             "name": "Liam Bailey",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           },
           {
             "name": "Theodore Tanner",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Kasen Wilson",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Benjamin Frazier",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Gavin Utter",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Lennox Pflanzer",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Carson Kruse",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           }
         ]
       },
@@ -1569,63 +2281,93 @@
         "players": [
           {
             "name": "Henry Dirksen",
-            "position": ""
+            "position": "",
+            "jersey": "1",
+            "grade": ""
           },
           {
             "name": "Ezekiel Kimbowa",
-            "position": ""
+            "position": "",
+            "jersey": "5",
+            "grade": ""
           },
           {
             "name": "Dillon Howe",
-            "position": ""
+            "position": "",
+            "jersey": "15",
+            "grade": ""
           },
           {
             "name": "Lennox Hensley",
-            "position": ""
+            "position": "",
+            "jersey": "51",
+            "grade": ""
           },
           {
             "name": "Maddox Hensley",
-            "position": ""
+            "position": "",
+            "jersey": "58",
+            "grade": ""
           },
           {
             "name": "Christian Peterson",
-            "position": ""
+            "position": "",
+            "jersey": "70",
+            "grade": ""
           },
           {
             "name": "Declan Pav",
-            "position": ""
+            "position": "",
+            "jersey": "91",
+            "grade": ""
           },
           {
             "name": "Max Ruhana",
-            "position": ""
+            "position": "",
+            "jersey": "10",
+            "grade": ""
           },
           {
             "name": "Jayce Biggerstaff",
-            "position": ""
+            "position": "",
+            "jersey": "3",
+            "grade": ""
           },
           {
             "name": "Owen Cummings",
-            "position": ""
+            "position": "",
+            "jersey": "48",
+            "grade": ""
           },
           {
             "name": "Jase Cassetty",
-            "position": ""
+            "position": "",
+            "jersey": "32",
+            "grade": ""
           },
           {
             "name": "Colton Reid",
-            "position": ""
+            "position": "",
+            "jersey": "77",
+            "grade": ""
           },
           {
             "name": "Luke Roberts",
-            "position": ""
+            "position": "",
+            "jersey": "2",
+            "grade": ""
           },
           {
             "name": "Kole Kreutzberger",
-            "position": ""
+            "position": "",
+            "jersey": "94",
+            "grade": ""
           },
           {
             "name": "Ethan LeClair",
-            "position": ""
+            "position": "",
+            "jersey": "30",
+            "grade": ""
           }
         ]
       }

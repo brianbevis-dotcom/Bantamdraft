@@ -397,12 +397,6 @@
             "grade": "5th"
           },
           {
-            "name": "Dylan Watkins",
-            "position": "",
-            "jersey": "77",
-            "grade": "6th"
-          },
-          {
             "name": "Clark Mayes",
             "position": "",
             "jersey": "32",
@@ -431,6 +425,12 @@
             "position": "",
             "jersey": "1",
             "grade": "5th"
+          },
+          {
+            "name": "Dylan Watkins",
+            "position": "",
+            "jersey": "70",
+            "grade": "6th"
           }
         ]
       },

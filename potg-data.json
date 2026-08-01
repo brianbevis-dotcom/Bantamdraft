@@ -96,6 +96,26 @@
         "Jack Metzger",
         "Tyson Greenwald"
       ]
+    },
+    {
+      "id": "potg_1785628441130_3bh3b7",
+      "gameId": "game_1785257634909_71_f0q0",
+      "timestamp": "2026-08-01T23:54:01.130Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Oregon",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Carter Allen",
+        "Brandon Mangus",
+        "Charlie Lewis",
+        "Colin Davis"
+      ],
+      "opponentPlayers": [
+        "Evan Sabelhaus",
+        "Cullen McCoy",
+        "Liam Snider"
+      ]
     }
   ]
 }

@@ -1,3 +1,24 @@
 {
-  "nominations": []
+  "nominations": [
+    {
+      "id": "potg_1785612438723_68jhk2",
+      "gameId": "game_1785257634908_26_33ot",
+      "timestamp": "2026-08-01T19:27:18.723Z",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team": "Michigan State",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Cole Brabender",
+        "Nico Locke",
+        "Makhi Burnett"
+      ],
+      "opponentPlayers": [
+        "Miles Howell",
+        "Leo Ryan",
+        "Jackson Hinds",
+        "Lilly Patterson"
+      ]
+    }
+  ]
 }

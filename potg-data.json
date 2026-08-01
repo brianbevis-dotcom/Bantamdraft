@@ -38,6 +38,26 @@
         "Cameron Wright",
         "Cameron Frew"
       ]
+    },
+    {
+      "id": "potg_1785625559336_daux2b",
+      "gameId": "game_1785257634908_21_by2x",
+      "timestamp": "2026-08-01T23:05:59.336Z",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team": "Oregon",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Banks Smith",
+        "Anderson Williams",
+        "Barrett Sitter",
+        "Cooper Sheets"
+      ],
+      "opponentPlayers": [
+        "Decklyn Field",
+        "Xavier Matteson",
+        "Brevyn Byrne"
+      ]
     }
   ]
 }

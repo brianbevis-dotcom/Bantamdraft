@@ -58,6 +58,24 @@
         "Xavier Matteson",
         "Brevyn Byrne"
       ]
+    },
+    {
+      "id": "potg_1785626009000_7wb8fy",
+      "gameId": "game_1785206262349_9_29bn",
+      "timestamp": "2026-08-01T23:13:29.000Z",
+      "division": "Rookie",
+      "date": "2026-08-01",
+      "team": "Ohio State",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Leo Powers",
+        "Graham Gillenwater"
+      ],
+      "opponentPlayers": [
+        "Niles Williams",
+        "Brantley Vinson",
+        "Parker Paxson"
+      ]
     }
   ]
 }

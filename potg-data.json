@@ -245,6 +245,25 @@
         "Brandon Mangus",
         "Isaac Dale"
       ]
+    },
+    {
+      "id": "potg_1785607050934_zou6jq",
+      "gameId": "game_1785257634909_96_pezd",
+      "timestamp": "2026-08-01T17:57:30.934Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "UCLA",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Joe Reed",
+        "Kaeson Worland"
+      ],
+      "opponentPlayers": [
+        "CJ Gilliard",
+        "Grant Jacobs",
+        "Samuel Catellier",
+        "Devansh Kandimalla"
+      ]
     }
   ]
 }

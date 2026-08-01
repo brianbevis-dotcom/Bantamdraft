@@ -225,6 +225,26 @@
         "John Brewer",
         "Graham Gillenwater"
       ]
+    },
+    {
+      "id": "potg_1785606422377_vymyde",
+      "gameId": "game_1785257634909_71_f0q0",
+      "timestamp": "2026-08-01T17:47:02.377Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Northwestern",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Cullen McCoy",
+        "Caiden Brake",
+        "Bryson Stevens",
+        "William Beasley"
+      ],
+      "opponentPlayers": [
+        "Carter Allen",
+        "Brandon Mangus",
+        "Isaac Dale"
+      ]
     }
   ]
 }

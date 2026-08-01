@@ -206,6 +206,25 @@
         "Tyler Fountain",
         "Henry Pendowski"
       ]
+    },
+    {
+      "id": "potg_1785596910952_izwdlm",
+      "gameId": "game_1785205269760_9_s3jt",
+      "timestamp": "2026-08-01T15:08:30.952Z",
+      "division": "Rookie",
+      "date": "2026-08-01",
+      "team": "Indiana",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Niles Williams",
+        "Brantley Vinson",
+        "Cruz Chavis"
+      ],
+      "opponentPlayers": [
+        "Leo Powers",
+        "John Brewer",
+        "Graham Gillenwater"
+      ]
     }
   ]
 }

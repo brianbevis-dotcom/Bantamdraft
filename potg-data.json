@@ -19,6 +19,25 @@
         "Jackson Hinds",
         "Lilly Patterson"
       ]
+    },
+    {
+      "id": "potg_1785623658063_hjbb13",
+      "gameId": "game_1785257634909_66_2343",
+      "timestamp": "2026-08-01T22:34:18.063Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Michigan",
+      "opponent": "Minnesota",
+      "ownPlayers": [
+        "Carson Roller",
+        "Clayton Pulse",
+        "Henry Davis",
+        "Rayden Cerna"
+      ],
+      "opponentPlayers": [
+        "Cameron Wright",
+        "Cameron Frew"
+      ]
     }
   ]
 }

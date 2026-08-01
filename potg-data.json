@@ -116,6 +116,26 @@
         "Cullen McCoy",
         "Liam Snider"
       ]
+    },
+    {
+      "id": "potg_1785628791086_t7n5zf",
+      "gameId": "game_1785257634909_71_f0q0",
+      "timestamp": "2026-08-01T23:59:51.086Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Oregon",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Carter Allen",
+        "Brandon Mangus",
+        "Charlie Lewis",
+        "Colin Davis"
+      ],
+      "opponentPlayers": [
+        "Cullen McCoy",
+        "William Beasley",
+        "Hixon Prince"
+      ]
     }
   ]
 }

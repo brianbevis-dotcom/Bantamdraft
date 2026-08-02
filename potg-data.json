@@ -136,6 +136,25 @@
         "William Beasley",
         "Hixon Prince"
       ]
+    },
+    {
+      "id": "potg_1785628887856_shej6a",
+      "gameId": "game_1785257634909_71_f0q0",
+      "timestamp": "2026-08-02T00:01:27.857Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Oregon",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Carter Allen",
+        "Brandon Mangus",
+        "Charlie Lewis",
+        "Colin Davis"
+      ],
+      "opponentPlayers": [
+        "Cullen McCoy",
+        "William Beasley"
+      ]
     }
   ]
 }

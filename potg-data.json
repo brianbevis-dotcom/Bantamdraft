@@ -155,6 +155,25 @@
         "Cullen McCoy",
         "William Beasley"
       ]
+    },
+    {
+      "id": "potg_1785634869061_bf21j2",
+      "gameId": "game_1785257634909_71_f0q0",
+      "timestamp": "2026-08-02T01:41:09.061Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Oregon",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Carter Allen",
+        "Brandon Mangus",
+        "Charlie Lewis",
+        "Colin Davis"
+      ],
+      "opponentPlayers": [
+        "Cullen McCoy",
+        "William Beasley"
+      ]
     }
   ]
 }

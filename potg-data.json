@@ -212,6 +212,23 @@
         "Tyson Greenwald",
         "Tucker Horton"
       ]
+    },
+    {
+      "id": "potg_1785694375350_p0c3s0",
+      "gameId": "game_1785257634909_91_172e",
+      "timestamp": "2026-08-02T18:12:55.350Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Purdue",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Dalton Bennett",
+        "Sawyer Green"
+      ],
+      "opponentPlayers": [
+        "Theo Riddick",
+        "Britton Sanders"
+      ]
     }
   ]
 }

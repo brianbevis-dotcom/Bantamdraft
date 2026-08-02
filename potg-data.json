@@ -193,6 +193,25 @@
         "Carter Clancy",
         "Isaac Vinson"
       ]
+    },
+    {
+      "id": "potg_1785680521603_eu7z2s",
+      "gameId": "game_1785257634908_11_yw0y",
+      "timestamp": "2026-08-02T14:22:01.603Z",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team": "Northwestern",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Jack Cronin",
+        "Christian Calvert",
+        "Brantley Grace"
+      ],
+      "opponentPlayers": [
+        "Jackson Cline",
+        "Tyson Greenwald",
+        "Tucker Horton"
+      ]
     }
   ]
 }

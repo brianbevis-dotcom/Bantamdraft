@@ -229,6 +229,25 @@
         "Theo Riddick",
         "Britton Sanders"
       ]
+    },
+    {
+      "id": "potg_1785703139474_meym9z",
+      "gameId": "game_1785257634908_41_d01b",
+      "timestamp": "2026-08-02T20:38:59.474Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Washington",
+      "opponent": "Illinois",
+      "ownPlayers": [
+        "Cameron Feltman",
+        "Mac O'Leary",
+        "Griffin Baxter",
+        "Tyson Peterson"
+      ],
+      "opponentPlayers": [
+        "Tanner Hess",
+        "Nathan Currier"
+      ]
     }
   ]
 }

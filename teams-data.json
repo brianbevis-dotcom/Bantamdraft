@@ -1033,76 +1033,10 @@
         "name": "Michigan State",
         "players": [
           {
-            "name": "Theo Riddick",
+            "name": "Simon Szostak",
             "position": "",
-            "jersey": "2",
-            "grade": "4th"
-          },
-          {
-            "name": "Owen Pharis",
-            "position": "",
-            "jersey": "3",
-            "grade": "3rd"
-          },
-          {
-            "name": "Myles Griffo",
-            "position": "",
-            "jersey": "10",
-            "grade": "3rd"
-          },
-          {
-            "name": "Aiden Sirosky",
-            "position": "",
-            "jersey": "1",
-            "grade": "3rd"
-          },
-          {
-            "name": "Dax Harris",
-            "position": "",
-            "jersey": "94",
-            "grade": "4th"
-          },
-          {
-            "name": "Layton LeClair",
-            "position": "",
-            "jersey": "30",
-            "grade": "3rd"
-          },
-          {
-            "name": "Britton Sanders",
-            "position": "",
-            "jersey": "15",
-            "grade": "3rd"
-          },
-          {
-            "name": "Jackson Clements",
-            "position": "",
-            "jersey": "58",
-            "grade": "3rd"
-          },
-          {
-            "name": "Tyson Jenkins",
-            "position": "",
-            "jersey": "32",
-            "grade": "3rd"
-          },
-          {
-            "name": "Cruz Rosales",
-            "position": "",
-            "jersey": "70",
-            "grade": "3rd"
-          },
-          {
-            "name": "Bale Carter",
-            "position": "",
-            "jersey": "51",
-            "grade": "4th"
-          },
-          {
-            "name": "Wesley Smith",
-            "position": "",
-            "jersey": "5",
-            "grade": "3rd"
+            "jersey": "48",
+            "grade": "3"
           }
         ]
       },

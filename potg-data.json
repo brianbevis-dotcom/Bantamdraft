@@ -283,6 +283,26 @@
       "opponentPlayers": [
         "Niles Williams"
       ]
+    },
+    {
+      "id": "potg_1785848884173_egmlds",
+      "gameId": "game_1785257634909_51_d336",
+      "timestamp": "2026-08-04T13:08:04.173Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Iowa",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Mason Payton",
+        "Owen Bell",
+        "Nolan Wilson",
+        "Atticus Apgar"
+      ],
+      "opponentPlayers": [
+        "Cameron Rose",
+        "Titan Mukinni",
+        "Oliver Vaughn"
+      ]
     }
   ]
 }

@@ -420,6 +420,24 @@
         "Knox Bellinger",
         "Aaron Dunlap"
       ]
+    },
+    {
+      "id": "potg_1785897887375_eqeb09",
+      "gameId": "game_1785258146330_56_dxhv",
+      "timestamp": "2026-08-05T02:44:47.375Z",
+      "division": "Minor",
+      "date": "2026-08-04",
+      "team": "Michigan",
+      "opponent": "UCLA",
+      "ownPlayers": [
+        "Luca Mina",
+        "Carson Roller",
+        "Clayton Pulse",
+        "Rayden Cerna"
+      ],
+      "opponentPlayers": [
+        "Joe Reed"
+      ]
     }
   ]
 }

@@ -380,6 +380,26 @@
         "Grant Jacobs",
         "Devansh Kandimalla"
       ]
+    },
+    {
+      "id": "potg_1785893627680_itros2",
+      "gameId": "game_1785205269760_15_pwxa",
+      "timestamp": "2026-08-05T01:33:47.680Z",
+      "division": "Rookie",
+      "date": "2026-08-03",
+      "team": "Penn State",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Judah Duke",
+        "Theodore Tanner",
+        "Graham Davis",
+        "Brody Egenolf"
+      ],
+      "opponentPlayers": [
+        "Brett Spires",
+        "Knox Bellinger",
+        "Aaron Dunlap"
+      ]
     }
   ]
 }

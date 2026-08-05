@@ -491,6 +491,24 @@
         "Griffin Baxter",
         "Tyson Peterson"
       ]
+    },
+    {
+      "id": "potg_1785937658798_dryba2",
+      "gameId": null,
+      "timestamp": "2026-08-05T13:47:38.798Z",
+      "division": "Minor",
+      "date": "2026-08-04",
+      "team": "Minnesota",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Leo O’Riley",
+        "Cameron Wright",
+        "Ryker Beltz"
+      ],
+      "opponentPlayers": [
+        "Theo Riddick",
+        "Britton Sanders"
+      ]
     }
   ]
 }

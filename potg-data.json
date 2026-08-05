@@ -342,6 +342,24 @@
         "Grant Jacobs",
         "Samuel Catellier"
       ]
+    },
+    {
+      "id": "potg_1785893176097_yrnuh2",
+      "gameId": "game_1785257634909_56_2vtd",
+      "timestamp": "2026-08-05T01:26:16.097Z",
+      "division": "Minor",
+      "date": "2026-08-04",
+      "team": "UCLA",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Boone Herndon",
+        "Joe Reed"
+      ],
+      "opponentPlayers": [
+        "Luca Mina",
+        "Clayton Pulse",
+        "Rayden Cerna"
+      ]
     }
   ]
 }

@@ -454,6 +454,23 @@
         "Cameron Wright",
         "Casen Copeland"
       ]
+    },
+    {
+      "id": "potg_1785929824167_zck0nk",
+      "gameId": "game_1785258146331_91_g3lw",
+      "timestamp": "2026-08-05T11:37:04.167Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Purdue",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Dalton Bennett",
+        "Sawyer Green"
+      ],
+      "opponentPlayers": [
+        "Theo Riddick",
+        "Britton Sanders"
+      ]
     }
   ]
 }

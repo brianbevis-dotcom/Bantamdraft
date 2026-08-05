@@ -509,6 +509,23 @@
         "Theo Riddick",
         "Britton Sanders"
       ]
+    },
+    {
+      "id": "potg_1785937704318_3m9pcp",
+      "gameId": null,
+      "timestamp": "2026-08-05T13:48:24.318Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Minnesota",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Cameron Wright",
+        "Ryker Beltz"
+      ],
+      "opponentPlayers": [
+        "Clayton Pulse",
+        "Rayden Cerna"
+      ]
     }
   ]
 }

@@ -438,6 +438,22 @@
       "opponentPlayers": [
         "Joe Reed"
       ]
+    },
+    {
+      "id": "potg_1785909339873_v8cvy2",
+      "gameId": "game_1785257634909_61_ac5h",
+      "timestamp": "2026-08-05T05:55:39.873Z",
+      "division": "Minor",
+      "date": "2026-08-04",
+      "team": "Michigan State",
+      "opponent": "Minnesota",
+      "ownPlayers": [
+        "Theo Riddick"
+      ],
+      "opponentPlayers": [
+        "Cameron Wright",
+        "Casen Copeland"
+      ]
     }
   ]
 }

@@ -400,6 +400,26 @@
         "Knox Bellinger",
         "Aaron Dunlap"
       ]
+    },
+    {
+      "id": "potg_1785896045290_9hfdh2",
+      "gameId": "game_1785206262349_15_30fb",
+      "timestamp": "2026-08-05T02:14:05.290Z",
+      "division": "Rookie",
+      "date": "2026-08-03",
+      "team": "Penn State",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Judah Duke",
+        "Theodore Tanner",
+        "Graham Davis",
+        "Brody Egenolf"
+      ],
+      "opponentPlayers": [
+        "Brett Spires",
+        "Knox Bellinger",
+        "Aaron Dunlap"
+      ]
     }
   ]
 }

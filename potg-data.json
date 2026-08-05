@@ -471,6 +471,26 @@
         "Theo Riddick",
         "Britton Sanders"
       ]
+    },
+    {
+      "id": "potg_1785929890879_4ozd48",
+      "gameId": "game_1785257634909_101_74ca",
+      "timestamp": "2026-08-05T11:38:10.879Z",
+      "division": "Minor",
+      "date": "2026-08-04",
+      "team": "Purdue",
+      "opponent": "Washington",
+      "ownPlayers": [
+        "Hendrix Stewart",
+        "Dalton Bennett",
+        "Elliott Cash",
+        "Sawyer Green"
+      ],
+      "opponentPlayers": [
+        "Jon Sertich",
+        "Griffin Baxter",
+        "Tyson Peterson"
+      ]
     }
   ]
 }

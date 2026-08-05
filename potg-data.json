@@ -303,6 +303,25 @@
         "Titan Mukinni",
         "Oliver Vaughn"
       ]
+    },
+    {
+      "id": "potg_1785892439638_enog6n",
+      "gameId": "game_1785257634909_116_n1fb",
+      "timestamp": "2026-08-05T01:13:59.639Z",
+      "division": "Rookie",
+      "date": "2026-08-04",
+      "team": "Michigan",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Brett Spires",
+        "Knox Bellinger",
+        "EJ Bunch",
+        "Aaron Dunlap"
+      ],
+      "opponentPlayers": [
+        "Liam Bailey",
+        "Brody Egenolf"
+      ]
     }
   ]
 }

@@ -360,6 +360,26 @@
         "Clayton Pulse",
         "Rayden Cerna"
       ]
+    },
+    {
+      "id": "potg_1785893241098_ln7ctj",
+      "gameId": "game_1785257634909_96_pezd",
+      "timestamp": "2026-08-05T01:27:21.098Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "UCLA",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Jake Ruhana",
+        "Boone Herndon",
+        "Joe Reed",
+        "Kaeson Worland"
+      ],
+      "opponentPlayers": [
+        "CJ Gilliard",
+        "Grant Jacobs",
+        "Devansh Kandimalla"
+      ]
     }
   ]
 }

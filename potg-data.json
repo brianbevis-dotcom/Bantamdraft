@@ -526,6 +526,23 @@
         "Clayton Pulse",
         "Rayden Cerna"
       ]
+    },
+    {
+      "id": "potg_1785938105301_ti4eax",
+      "gameId": "game_1785257634909_101_74ca",
+      "timestamp": "2026-08-05T13:55:05.301Z",
+      "division": "Minor",
+      "date": "2026-08-04",
+      "team": "Washington",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Mac O'Leary",
+        "Jon Sertich",
+        "Blaine Atkinson"
+      ],
+      "opponentPlayers": [
+        "Sawyer Green"
+      ]
     }
   ]
 }

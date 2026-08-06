@@ -583,6 +583,26 @@
         "Jack Judge",
         "Makhi Burnett"
       ]
+    },
+    {
+      "id": "potg_1785988659157_krzql5",
+      "gameId": "game_1785257634908_6_2xg1",
+      "timestamp": "2026-08-06T03:57:39.157Z",
+      "division": "Major",
+      "date": "2026-08-05",
+      "team": "Michigan State",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Isaac Hamilton",
+        "Cole Brabender",
+        "Nico Locke",
+        "Jack Judge"
+      ],
+      "opponentPlayers": [
+        "Austin Jewell",
+        "Zeke Bunch",
+        "Kellen Hawk"
+      ]
     }
   ]
 }

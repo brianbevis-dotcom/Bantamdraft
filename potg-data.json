@@ -563,6 +563,26 @@
         "Eivin Brewer",
         "Leo Ryan"
       ]
+    },
+    {
+      "id": "potg_1785982129846_dhgw69",
+      "gameId": "game_1785257634908_6_2xg1",
+      "timestamp": "2026-08-06T02:08:49.846Z",
+      "division": "Major",
+      "date": "2026-08-05",
+      "team": "Oregon",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Zeke Bunch",
+        "Clark Mayes",
+        "Anderson Williams",
+        "Barrett Sitter"
+      ],
+      "opponentPlayers": [
+        "Nico Locke",
+        "Jack Judge",
+        "Makhi Burnett"
+      ]
     }
   ]
 }

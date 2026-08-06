@@ -623,6 +623,25 @@
         "Davis Yoder",
         "Grant Dirksen"
       ]
+    },
+    {
+      "id": "potg_1786034461599_1ihxha",
+      "gameId": "game_1785257634908_1_65a2",
+      "timestamp": "2026-08-06T16:41:01.599Z",
+      "division": "Major",
+      "date": "2026-08-05",
+      "team": "Purdue",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Jude Gilpin",
+        "Davis Yoder",
+        "Grant Dirksen"
+      ],
+      "opponentPlayers": [
+        "Omar Grant Jr.",
+        "Julian Bevis",
+        "Rhett Duncan"
+      ]
     }
   ]
 }

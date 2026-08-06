@@ -543,6 +543,26 @@
       "opponentPlayers": [
         "Sawyer Green"
       ]
+    },
+    {
+      "id": "potg_1785981170559_353vh1",
+      "gameId": "game_1785257634908_16_fw88",
+      "timestamp": "2026-08-06T01:52:50.559Z",
+      "division": "Major",
+      "date": "2026-08-05",
+      "team": "Ohio State",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Nolan Williams",
+        "Ty Hornsby",
+        "Brevyn Byrne",
+        "Eli Wampler"
+      ],
+      "opponentPlayers": [
+        "Miles Howell",
+        "Eivin Brewer",
+        "Leo Ryan"
+      ]
     }
   ]
 }

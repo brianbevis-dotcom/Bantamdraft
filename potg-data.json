@@ -603,6 +603,26 @@
         "Zeke Bunch",
         "Kellen Hawk"
       ]
+    },
+    {
+      "id": "potg_1786014066901_1gg27z",
+      "gameId": "game_1785257634908_1_65a2",
+      "timestamp": "2026-08-06T11:01:06.901Z",
+      "division": "Major",
+      "date": "2026-08-05",
+      "team": "Indiana",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Austin Treharne",
+        "Omar Grant Jr.",
+        "Bryce Pav",
+        "Julian Bevis"
+      ],
+      "opponentPlayers": [
+        "Jude Gilpin",
+        "Davis Yoder",
+        "Grant Dirksen"
+      ]
     }
   ]
 }

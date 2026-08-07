@@ -642,6 +642,26 @@
         "Julian Bevis",
         "Rhett Duncan"
       ]
+    },
+    {
+      "id": "potg_1786144805109_9dg896",
+      "gameId": "game_1785258146330_46_ws3z",
+      "timestamp": "2026-08-07T23:20:05.109Z",
+      "division": "Minor",
+      "date": "2026-08-05",
+      "team": "Indiana",
+      "opponent": "Iowa",
+      "ownPlayers": [
+        "Gavin Geiersbach",
+        "Carter Clancy",
+        "Isaac Vinson",
+        "Tegan Fields"
+      ],
+      "opponentPlayers": [
+        "Liam Adams",
+        "Mason Payton",
+        "Nolan Wilson"
+      ]
     }
   ]
 }

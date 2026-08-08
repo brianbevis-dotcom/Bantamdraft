@@ -662,6 +662,26 @@
         "Mason Payton",
         "Nolan Wilson"
       ]
+    },
+    {
+      "id": "potg_1786213148332_89cdga",
+      "gameId": "game_1785205269760_29_icb0",
+      "timestamp": "2026-08-08T18:19:08.333Z",
+      "division": "Rookie",
+      "date": "2026-08-08",
+      "team": "Penn State",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Judah Duke",
+        "Liam Bailey",
+        "Graham Davis",
+        "Brody Egenolf"
+      ],
+      "opponentPlayers": [
+        "Niles Williams",
+        "Brantley Vinson",
+        "Cruz Chavis"
+      ]
     }
   ]
 }

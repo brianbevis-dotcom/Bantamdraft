@@ -756,6 +756,26 @@
         "Christian Calvert",
         "Brody Smythe"
       ]
+    },
+    {
+      "id": "potg_1786223424643_ougz6c",
+      "gameId": "game_1785258146330_57_v86d",
+      "timestamp": "2026-08-08T21:10:24.643Z",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team": "Oregon",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Carter Allen",
+        "Graham Mathews",
+        "Maddox Lear",
+        "Colin Davis"
+      ],
+      "opponentPlayers": [
+        "Carson Roller",
+        "Clayton Pulse",
+        "Maverick Cerna"
+      ]
     }
   ]
 }

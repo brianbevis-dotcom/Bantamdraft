@@ -737,6 +737,25 @@
         "Parker Hawley",
         "Colton Cheh"
       ]
+    },
+    {
+      "id": "potg_1786218575088_2dltmd",
+      "gameId": null,
+      "timestamp": "2026-08-08T19:49:35.088Z",
+      "division": "Major",
+      "date": "2026-08-08",
+      "team": "Michigan State",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Isaac Hamilton",
+        "Cole Brabender",
+        "Nico Locke"
+      ],
+      "opponentPlayers": [
+        "Jack Cronin",
+        "Christian Calvert",
+        "Brody Smythe"
+      ]
     }
   ]
 }

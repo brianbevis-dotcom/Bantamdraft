@@ -794,6 +794,26 @@
         "Ezekiel Kimbowa",
         "Max Ruhana"
       ]
+    },
+    {
+      "id": "potg_1786227002059_055okk",
+      "gameId": "game_1785257634909_67_rq0c",
+      "timestamp": "2026-08-08T22:10:02.059Z",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team": "UCLA",
+      "opponent": "Minnesota",
+      "ownPlayers": [
+        "Rory Ritenour",
+        "Jake Ruhana",
+        "Boone Herndon",
+        "Joe Reed"
+      ],
+      "opponentPlayers": [
+        "Leo O’Riley",
+        "Cameron Wright",
+        "Cameron Frew"
+      ]
     }
   ]
 }

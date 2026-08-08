@@ -717,6 +717,26 @@
       "opponentPlayers": [
         "Miles Howell"
       ]
+    },
+    {
+      "id": "potg_1786217167671_bipf7b",
+      "gameId": "game_1785257634909_126_hnyi",
+      "timestamp": "2026-08-08T19:26:07.671Z",
+      "division": "Rookie",
+      "date": "2026-08-08",
+      "team": "Ohio State",
+      "opponent": "Nebraska",
+      "ownPlayers": [
+        "Wallace Davis",
+        "Xavier Shone",
+        "Weston Peak",
+        "John Brewer"
+      ],
+      "opponentPlayers": [
+        "Cade Reagan",
+        "Parker Hawley",
+        "Colton Cheh"
+      ]
     }
   ]
 }

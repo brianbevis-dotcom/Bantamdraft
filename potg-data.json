@@ -776,6 +776,24 @@
         "Clayton Pulse",
         "Maverick Cerna"
       ]
+    },
+    {
+      "id": "potg_1786223657616_8yto0u",
+      "gameId": null,
+      "timestamp": "2026-08-08T21:14:17.616Z",
+      "division": "Rookie",
+      "date": "2026-08-08",
+      "team": "Michigan",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Brett Spires",
+        "Knox Bellinger",
+        "Aaron Dunlap"
+      ],
+      "opponentPlayers": [
+        "Ezekiel Kimbowa",
+        "Max Ruhana"
+      ]
     }
   ]
 }

@@ -682,6 +682,26 @@
         "Brantley Vinson",
         "Cruz Chavis"
       ]
+    },
+    {
+      "id": "potg_1786214597804_2j8tai",
+      "gameId": "game_1785258146331_117_9x0l",
+      "timestamp": "2026-08-08T18:43:17.804Z",
+      "division": "Rookie",
+      "date": "2026-08-08",
+      "team": "Purdue",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Jayce Biggerstaff",
+        "Dillon Howe",
+        "Christian Peterson",
+        "Declan Pav"
+      ],
+      "opponentPlayers": [
+        "Brett Spires",
+        "Knox Bellinger",
+        "Aaron Dunlap"
+      ]
     }
   ]
 }

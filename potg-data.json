@@ -702,6 +702,21 @@
         "Knox Bellinger",
         "Aaron Dunlap"
       ]
+    },
+    {
+      "id": "potg_1786214857689_w3kgc9",
+      "gameId": "game_1785258146330_31_y73l",
+      "timestamp": "2026-08-08T18:47:37.689Z",
+      "division": "Major",
+      "date": "2026-08-08",
+      "team": "Purdue",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Davis Yoder"
+      ],
+      "opponentPlayers": [
+        "Miles Howell"
+      ]
     }
   ]
 }

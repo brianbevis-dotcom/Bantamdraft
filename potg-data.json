@@ -832,6 +832,25 @@
         "Maddox Lear",
         "Charlie Lewis"
       ]
+    },
+    {
+      "id": "potg_1786308860421_9cforx",
+      "gameId": "game_1785257634909_67_rq0c",
+      "timestamp": "2026-08-09T20:54:20.422Z",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team": "Minor>Minnesota",
+      "opponent": "Minor>UCLA",
+      "ownPlayers": [
+        "Cameron Frew",
+        "Cameron Wright",
+        "Leo O’Riley"
+      ],
+      "opponentPlayers": [
+        "Boone Herndon",
+        "Joe Reed",
+        "Rory Ritenour"
+      ]
     }
   ]
 }

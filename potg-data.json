@@ -851,6 +851,26 @@
         "Joe Reed",
         "Rory Ritenour"
       ]
+    },
+    {
+      "id": "potg_1786319829696_radrg3",
+      "gameId": "game_1785258146330_52_wz8a",
+      "timestamp": "2026-08-09T23:57:09.696Z",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team": "Iowa",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Mason Payton",
+        "Nolan Wilson",
+        "Jaxson LaFree",
+        "Atticus Apgar"
+      ],
+      "opponentPlayers": [
+        "Hendrix Stewart",
+        "Dalton Bennett",
+        "Sawyer Green"
+      ]
     }
   ]
 }

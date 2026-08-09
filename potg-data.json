@@ -871,6 +871,25 @@
         "Dalton Bennett",
         "Sawyer Green"
       ]
+    },
+    {
+      "id": "potg_1786319870692_mj1jzx",
+      "gameId": "game_1785257634909_46_q0uu",
+      "timestamp": "2026-08-09T23:57:50.692Z",
+      "division": "Minor",
+      "date": "2026-08-05",
+      "team": "Indiana",
+      "opponent": "Iowa",
+      "ownPlayers": [
+        "Gavin Geiersbach",
+        "Isaac Vinson",
+        "Tegan Fields"
+      ],
+      "opponentPlayers": [
+        "Mason Payton",
+        "Nolan Wilson",
+        "Hunter Willert"
+      ]
     }
   ]
 }

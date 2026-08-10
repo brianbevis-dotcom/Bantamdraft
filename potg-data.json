@@ -909,6 +909,26 @@
         "Bryce Pav",
         "Rhett Duncan"
       ]
+    },
+    {
+      "id": "potg_1786359228881_l1u5l8",
+      "gameId": "game_1785258146330_36_vhlw",
+      "timestamp": "2026-08-10T10:53:48.881Z",
+      "division": "Major",
+      "date": "2026-08-08",
+      "team": "Indiana",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Omar Grant Jr.",
+        "Bryce Pav",
+        "Julian Bevis",
+        "Rhett Duncan"
+      ],
+      "opponentPlayers": [
+        "Tyson Greenwald",
+        "Yadriel Roldan",
+        "Tristan Greenwald"
+      ]
     }
   ]
 }

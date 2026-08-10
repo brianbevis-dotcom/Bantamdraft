@@ -890,6 +890,25 @@
         "Nolan Wilson",
         "Hunter Willert"
       ]
+    },
+    {
+      "id": "potg_1786324070843_679g70",
+      "gameId": "game_1785257634908_36_rynk",
+      "timestamp": "2026-08-10T01:07:50.843Z",
+      "division": "Major",
+      "date": "2026-08-08",
+      "team": "Wisconsin",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Jackson Cline",
+        "Jack Metzger",
+        "Yadriel Roldan"
+      ],
+      "opponentPlayers": [
+        "Omar Grant Jr.",
+        "Bryce Pav",
+        "Rhett Duncan"
+      ]
     }
   ]
 }

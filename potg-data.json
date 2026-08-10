@@ -944,6 +944,26 @@
       "opponentPlayers": [
         "Phil Johnson"
       ]
+    },
+    {
+      "id": "potg_1786386300594_ou8e4o",
+      "gameId": "game_1785257634909_52_hdlm",
+      "timestamp": "2026-08-10T18:25:00.594Z",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team": "Purdue",
+      "opponent": "Iowa",
+      "ownPlayers": [
+        "Griffin Gillenwater",
+        "Hendrix Stewart",
+        "Dalton Bennett",
+        "Sawyer Green"
+      ],
+      "opponentPlayers": [
+        "Liam Adams",
+        "Jaxson LaFree",
+        "Atticus Apgar"
+      ]
     }
   ]
 }

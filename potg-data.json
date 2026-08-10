@@ -929,6 +929,21 @@
         "Yadriel Roldan",
         "Tristan Greenwald"
       ]
+    },
+    {
+      "id": "potg_1786386212882_9kgbbq",
+      "gameId": "game_1785258146330_57_v86d",
+      "timestamp": "2026-08-10T18:23:32.882Z",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team": "Michigan",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Luca Mina"
+      ],
+      "opponentPlayers": [
+        "Phil Johnson"
+      ]
     }
   ]
 }

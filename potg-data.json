@@ -1004,6 +1004,26 @@
         "John Brewer",
         "Elliot Mcrae"
       ]
+    },
+    {
+      "id": "potg_1786417421942_5yejlj",
+      "gameId": "game_1785205269760_35_ji45",
+      "timestamp": "2026-08-11T03:03:41.942Z",
+      "division": "Rookie",
+      "date": "2026-08-10",
+      "team": "Nebraska",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Cade Reagan",
+        "Parker Hawley",
+        "Mason Schneider",
+        "Colton Cheh"
+      ],
+      "opponentPlayers": [
+        "Judah Duke",
+        "Liam Bailey",
+        "Brody Egenolf"
+      ]
     }
   ]
 }

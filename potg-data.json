@@ -964,6 +964,26 @@
         "Jaxson LaFree",
         "Atticus Apgar"
       ]
+    },
+    {
+      "id": "potg_1786413819266_oxpd6p",
+      "gameId": "game_1785206262349_35_djld",
+      "timestamp": "2026-08-11T02:03:39.266Z",
+      "division": "Rookie",
+      "date": "2026-08-10",
+      "team": "Penn State",
+      "opponent": "Nebraska",
+      "ownPlayers": [
+        "Judah Duke",
+        "Carson Kruse",
+        "Graham Davis",
+        "Brody Egenolf"
+      ],
+      "opponentPlayers": [
+        "Cade Reagan",
+        "Cole Atkinson",
+        "Colton Cheh"
+      ]
     }
   ]
 }

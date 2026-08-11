@@ -984,6 +984,26 @@
         "Cole Atkinson",
         "Colton Cheh"
       ]
+    },
+    {
+      "id": "potg_1786417319860_3y9uoj",
+      "gameId": "game_1785258146331_126_phwt",
+      "timestamp": "2026-08-11T03:01:59.860Z",
+      "division": "Rookie",
+      "date": "2026-08-08",
+      "team": "Nebraska",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Cade Reagan",
+        "Parker Hawley",
+        "Camden Brown",
+        "Colton Cheh"
+      ],
+      "opponentPlayers": [
+        "Weston Peak",
+        "John Brewer",
+        "Elliot Mcrae"
+      ]
     }
   ]
 }

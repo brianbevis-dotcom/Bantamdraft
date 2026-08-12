@@ -1102,6 +1102,25 @@
         "Dillon Howe",
         "Declan Pav"
       ]
+    },
+    {
+      "id": "potg_1786544162341_t02pt8",
+      "gameId": null,
+      "timestamp": "2026-08-12T14:16:02.341Z",
+      "division": "Rookie",
+      "date": "2026-08-10",
+      "team": "Purdue",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Max Ruhana",
+        "Ethan LeClair",
+        "Declan Pav"
+      ],
+      "opponentPlayers": [
+        "Wallace Davis",
+        "John Brewer",
+        "Graham Gillenwater"
+      ]
     }
   ]
 }

@@ -1082,6 +1082,26 @@
         "Cameron Wright",
         "Cameron Frew"
       ]
+    },
+    {
+      "id": "potg_1786543929421_pm5o0a",
+      "gameId": null,
+      "timestamp": "2026-08-12T14:12:09.421Z",
+      "division": "Rookie",
+      "date": "2026-08-10",
+      "team": "Ohio State",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Wallace Davis",
+        "Weston Peak",
+        "Leo Powers",
+        "John Brewer"
+      ],
+      "opponentPlayers": [
+        "Ezekiel Kimbowa",
+        "Dillon Howe",
+        "Declan Pav"
+      ]
     }
   ]
 }

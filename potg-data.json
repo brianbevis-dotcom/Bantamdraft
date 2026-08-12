@@ -1063,6 +1063,25 @@
         "Owen Bell",
         "Atticus Apgar"
       ]
+    },
+    {
+      "id": "potg_1786535712446_wmi31r",
+      "gameId": null,
+      "timestamp": "2026-08-12T11:55:12.446Z",
+      "division": "Minor",
+      "date": "2026-08-10",
+      "team": "Ohio State",
+      "opponent": "Minnesota",
+      "ownPlayers": [
+        "Kash Coyle",
+        "Cameron Rose",
+        "Joey Primeau",
+        "Stetson Ebbert"
+      ],
+      "opponentPlayers": [
+        "Cameron Wright",
+        "Cameron Frew"
+      ]
     }
   ]
 }

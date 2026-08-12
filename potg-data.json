@@ -1024,6 +1024,25 @@
         "Liam Bailey",
         "Brody Egenolf"
       ]
+    },
+    {
+      "id": "potg_1786535582917_ox1ay9",
+      "gameId": null,
+      "timestamp": "2026-08-12T11:53:02.917Z",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team": "Ohio State",
+      "opponent": "Illinois",
+      "ownPlayers": [
+        "Kash Coyle",
+        "Cameron Rose",
+        "Joey Primeau",
+        "Stetson Ebbert"
+      ],
+      "opponentPlayers": [
+        "Tanner Hess",
+        "Dawson Erazmus"
+      ]
     }
   ]
 }

@@ -1043,6 +1043,26 @@
         "Tanner Hess",
         "Dawson Erazmus"
       ]
+    },
+    {
+      "id": "potg_1786535637150_w35wc6",
+      "gameId": null,
+      "timestamp": "2026-08-12T11:53:57.150Z",
+      "division": "Minor",
+      "date": "2026-08-01",
+      "team": "Ohio State",
+      "opponent": "Iowa",
+      "ownPlayers": [
+        "Kash Coyle",
+        "Cameron Rose",
+        "Joey Primeau",
+        "Stetson Ebbert"
+      ],
+      "opponentPlayers": [
+        "Liam Adams",
+        "Owen Bell",
+        "Atticus Apgar"
+      ]
     }
   ]
 }

@@ -1121,6 +1121,26 @@
         "John Brewer",
         "Graham Gillenwater"
       ]
+    },
+    {
+      "id": "potg_1786585489312_n31rmf",
+      "gameId": "game_1785257634908_27_l350",
+      "timestamp": "2026-08-13T01:44:49.312Z",
+      "division": "Major",
+      "date": "2026-08-12",
+      "team": "Penn State",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Jackson Hinds",
+        "Henry Pendowski",
+        "Lincoln Powers",
+        "Lilly Patterson"
+      ],
+      "opponentPlayers": [
+        "Beau Ferguson",
+        "Tyson Greenwald",
+        "Tucker Horton"
+      ]
     }
   ]
 }

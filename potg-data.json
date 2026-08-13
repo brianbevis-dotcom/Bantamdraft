@@ -1200,6 +1200,22 @@
         "Cameron Rose",
         "Joey Primeau"
       ]
+    },
+    {
+      "id": "potg_1786635187405_07w63b",
+      "gameId": "game_1785258146330_68_kz1r",
+      "timestamp": "2026-08-13T15:33:07.405Z",
+      "division": "Minor",
+      "date": "2026-08-12",
+      "team": "Minnesota",
+      "opponent": "Illinois",
+      "ownPlayers": [
+        "Cameron Wright"
+      ],
+      "opponentPlayers": [
+        "Nicholas Woods JR",
+        "Dawson Erazmus"
+      ]
     }
   ]
 }

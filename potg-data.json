@@ -1161,6 +1161,26 @@
         "Grant Dirksen",
         "Anthony Pace"
       ]
+    },
+    {
+      "id": "potg_1786590515285_d3ssoj",
+      "gameId": null,
+      "timestamp": "2026-08-13T03:08:35.285Z",
+      "division": "Major",
+      "date": "2026-08-08",
+      "team": "Michigan State",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Isaac Hamilton",
+        "Cole Brabender",
+        "Nico Locke",
+        "Makhi Burnett"
+      ],
+      "opponentPlayers": [
+        "Jack Cronin",
+        "Ike Roberts",
+        "Christian Calvert"
+      ]
     }
   ]
 }

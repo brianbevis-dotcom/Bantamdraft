@@ -1141,6 +1141,26 @@
         "Tyson Greenwald",
         "Tucker Horton"
       ]
+    },
+    {
+      "id": "potg_1786590303578_j1ctqr",
+      "gameId": null,
+      "timestamp": "2026-08-13T03:05:03.578Z",
+      "division": "Major",
+      "date": "2026-08-12",
+      "team": "Michigan State",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Isaac Hamilton",
+        "Cole Brabender",
+        "Nico Locke",
+        "Jack Judge"
+      ],
+      "opponentPlayers": [
+        "Davis Yoder",
+        "Grant Dirksen",
+        "Anthony Pace"
+      ]
     }
   ]
 }

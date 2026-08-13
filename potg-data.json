@@ -1181,6 +1181,25 @@
         "Ike Roberts",
         "Christian Calvert"
       ]
+    },
+    {
+      "id": "potg_1786635114357_8nihub",
+      "gameId": "game_1785257634909_77_xcjn",
+      "timestamp": "2026-08-13T15:31:54.357Z",
+      "division": "Minor",
+      "date": "2026-08-10",
+      "team": "Minnesota",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Cameron Wright",
+        "Ryker Beltz",
+        "Cameron Frew"
+      ],
+      "opponentPlayers": [
+        "Kash Coyle",
+        "Cameron Rose",
+        "Joey Primeau"
+      ]
     }
   ]
 }

@@ -1255,6 +1255,24 @@
         "Cole Brabender",
         "Jack Judge"
       ]
+    },
+    {
+      "id": "potg_1786806063631_ddx2f9",
+      "gameId": "game_1785257634909_73_tgyq",
+      "timestamp": "2026-08-15T15:01:03.631Z",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team": "Northwestern",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Cullen McCoy",
+        "Fred Harvey",
+        "William Beasley"
+      ],
+      "opponentPlayers": [
+        "Elliott Cash",
+        "Nash Russell"
+      ]
     }
   ]
 }

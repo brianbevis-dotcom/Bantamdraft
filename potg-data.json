@@ -1447,6 +1447,26 @@
         "Carter Clancy",
         "Isaac Vinson"
       ]
+    },
+    {
+      "id": "potg_1786829745469_p0sh5j",
+      "gameId": "game_1785258146330_81_21hw",
+      "timestamp": "2026-08-15T21:35:45.469Z",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team": "Indiana",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Gavin Geiersbach",
+        "Carter Clancy",
+        "Isaac Vinson",
+        "Tegan Fields"
+      ],
+      "opponentPlayers": [
+        "Carter Allen",
+        "Charlie Lewis",
+        "Phil Johnson"
+      ]
     }
   ]
 }

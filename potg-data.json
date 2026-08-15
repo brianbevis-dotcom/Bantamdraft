@@ -1349,6 +1349,25 @@
         "Kellen Hawk",
         "Barrett Sitter"
       ]
+    },
+    {
+      "id": "potg_1786823403327_6y9y87",
+      "gameId": "game_1785258146330_27_if17",
+      "timestamp": "2026-08-15T19:50:03.327Z",
+      "division": "Major",
+      "date": "2026-08-12",
+      "team": "Penn State",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Miles Howell",
+        "Jackson Hinds",
+        "Lilly Patterson"
+      ],
+      "opponentPlayers": [
+        "Jackson Cline",
+        "Jack Metzger",
+        "Tyson Greenwald"
+      ]
     }
   ]
 }

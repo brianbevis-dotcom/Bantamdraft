@@ -1368,6 +1368,26 @@
         "Jack Metzger",
         "Tyson Greenwald"
       ]
+    },
+    {
+      "id": "potg_1786824172176_bi2030",
+      "gameId": "game_1785257634909_107_vxuw",
+      "timestamp": "2026-08-15T20:02:52.176Z",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team": "Michigan",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Luca Mina",
+        "Carson Roller",
+        "Clayton Pulse",
+        "Kyree Williams"
+      ],
+      "opponentPlayers": [
+        "Brent Neu",
+        "Anderson Coffey",
+        "Luke Bolt"
+      ]
     }
   ]
 }

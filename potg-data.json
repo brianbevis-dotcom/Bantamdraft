@@ -1292,6 +1292,25 @@
         "Theo Riddick",
         "Bale Carter"
       ]
+    },
+    {
+      "id": "potg_1786812678593_507vwq",
+      "gameId": "game_1785258146331_137_q8ug",
+      "timestamp": "2026-08-15T16:51:18.593Z",
+      "division": "Rookie",
+      "date": "2026-08-15",
+      "team": "Purdue",
+      "opponent": "Nebraska",
+      "ownPlayers": [
+        "Jayce Biggerstaff",
+        "Max Ruhana",
+        "Dillon Howe",
+        "Declan Pav"
+      ],
+      "opponentPlayers": [
+        "Cade Reagan",
+        "Colton Cheh"
+      ]
     }
   ]
 }

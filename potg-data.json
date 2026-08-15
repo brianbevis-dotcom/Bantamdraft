@@ -1273,6 +1273,25 @@
         "Elliott Cash",
         "Nash Russell"
       ]
+    },
+    {
+      "id": "potg_1786806128504_4nl43i",
+      "gameId": "game_1785258146330_72_xfmd",
+      "timestamp": "2026-08-15T15:02:08.504Z",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team": "Northwestern",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Cullen McCoy",
+        "Bryson Stevens",
+        "William Beasley",
+        "Hixon Prince"
+      ],
+      "opponentPlayers": [
+        "Theo Riddick",
+        "Bale Carter"
+      ]
     }
   ]
 }

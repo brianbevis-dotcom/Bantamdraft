@@ -1330,6 +1330,25 @@
         "Cameron Rose",
         "Joey Primeau"
       ]
+    },
+    {
+      "id": "potg_1786818881259_4hji82",
+      "gameId": null,
+      "timestamp": "2026-08-15T18:34:41.259Z",
+      "division": "Major",
+      "date": "2026-08-15",
+      "team": "Michigan State",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Brayden Casse",
+        "Cole Brabender",
+        "Jack Judge"
+      ],
+      "opponentPlayers": [
+        "Austin Jewell",
+        "Kellen Hawk",
+        "Barrett Sitter"
+      ]
     }
   ]
 }

@@ -1467,6 +1467,26 @@
         "Charlie Lewis",
         "Phil Johnson"
       ]
+    },
+    {
+      "id": "potg_1786830927035_t2216h",
+      "gameId": "game_1785257634908_13_fvq3",
+      "timestamp": "2026-08-15T21:55:27.035Z",
+      "division": "Major",
+      "date": "2026-08-15",
+      "team": "Northwestern",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Jack Cronin",
+        "Christian Calvert",
+        "Brody Smythe",
+        "Brantley Grace"
+      ],
+      "opponentPlayers": [
+        "Decklyn Field",
+        "Ty Hornsby",
+        "Brevyn Byrne"
+      ]
     }
   ]
 }

@@ -1388,6 +1388,25 @@
         "Anderson Coffey",
         "Luke Bolt"
       ]
+    },
+    {
+      "id": "potg_1786827084294_75fq0s",
+      "gameId": "game_1785257634909_86_ytns",
+      "timestamp": "2026-08-15T20:51:24.294Z",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team": "Penn State",
+      "opponent": "Minnesota",
+      "ownPlayers": [
+        "CJ Gilliard",
+        "Koen Brumbaugh",
+        "Devansh Kandimalla"
+      ],
+      "opponentPlayers": [
+        "Cameron Wright",
+        "Casen Copeland",
+        "Cameron Frew"
+      ]
     }
   ]
 }

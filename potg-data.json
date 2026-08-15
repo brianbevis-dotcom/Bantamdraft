@@ -1311,6 +1311,25 @@
         "Cade Reagan",
         "Colton Cheh"
       ]
+    },
+    {
+      "id": "potg_1786817619573_xxc8pj",
+      "gameId": "game_1785257634909_98_4fxv",
+      "timestamp": "2026-08-15T18:13:39.573Z",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team": "UCLA",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Rory Ritenour",
+        "Jake Ruhana",
+        "Joe Reed"
+      ],
+      "opponentPlayers": [
+        "Kash Coyle",
+        "Cameron Rose",
+        "Joey Primeau"
+      ]
     }
   ]
 }

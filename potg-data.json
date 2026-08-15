@@ -1236,6 +1236,25 @@
         "Omar Grant Jr.",
         "Bryce Pav"
       ]
+    },
+    {
+      "id": "potg_1786778548240_ggh7if",
+      "gameId": "game_1785257634908_7_fddp",
+      "timestamp": "2026-08-15T07:22:28.240Z",
+      "division": "Major",
+      "date": "2026-08-08",
+      "team": "Northwestern",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Ike Roberts",
+        "Asher Hasenour",
+        "Brody Smythe",
+        "Brantley Grace"
+      ],
+      "opponentPlayers": [
+        "Cole Brabender",
+        "Jack Judge"
+      ]
     }
   ]
 }

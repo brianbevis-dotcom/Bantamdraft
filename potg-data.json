@@ -1560,6 +1560,25 @@
         "William Beasley",
         "Hixon Prince"
       ]
+    },
+    {
+      "id": "potg_1786904770521_5rufxc",
+      "gameId": "game_1785258146330_22_cogr",
+      "timestamp": "2026-08-16T18:26:10.521Z",
+      "division": "Major",
+      "date": "2026-08-15",
+      "team": "Oregon",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Kellen Hawk",
+        "Barrett Sitter",
+        "Cooper Sheets"
+      ],
+      "opponentPlayers": [
+        "Cole Brabender",
+        "Nico Locke",
+        "Jack Judge"
+      ]
     }
   ]
 }

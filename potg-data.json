@@ -1540,6 +1540,26 @@
         "Liam Adams",
         "Atticus Apgar"
       ]
+    },
+    {
+      "id": "potg_1786889119212_zbdmon",
+      "gameId": "game_1785258146330_73_uxrb",
+      "timestamp": "2026-08-16T14:05:19.212Z",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team": "Purdue",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Hendrix Stewart",
+        "Dalton Bennett",
+        "Nash Russell",
+        "Sawyer Green"
+      ],
+      "opponentPlayers": [
+        "Cullen McCoy",
+        "William Beasley",
+        "Hixon Prince"
+      ]
     }
   ]
 }

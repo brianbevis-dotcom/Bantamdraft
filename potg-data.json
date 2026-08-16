@@ -1579,6 +1579,24 @@
         "Nico Locke",
         "Jack Judge"
       ]
+    },
+    {
+      "id": "potg_1786921620507_nprbqc",
+      "gameId": null,
+      "timestamp": "2026-08-16T23:07:00.507Z",
+      "division": "Rookie",
+      "date": "2026-08-15",
+      "team": "Ohio State",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Wallace Davis",
+        "Xavier Shone",
+        "Weston Peak",
+        "Leo Powers"
+      ],
+      "opponentPlayers": [
+        "Brody Egenolf"
+      ]
     }
   ]
 }

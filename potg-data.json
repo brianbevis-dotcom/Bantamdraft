@@ -1523,6 +1523,23 @@
         "Julian Bevis",
         "Rhett Duncan"
       ]
+    },
+    {
+      "id": "potg_1786848064276_vk0ups",
+      "gameId": "game_1785258146330_53_oju2",
+      "timestamp": "2026-08-16T02:41:04.276Z",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team": "Washington",
+      "opponent": "Iowa",
+      "ownPlayers": [
+        "Jon Sertich",
+        "Tyson Peterson"
+      ],
+      "opponentPlayers": [
+        "Liam Adams",
+        "Atticus Apgar"
+      ]
     }
   ]
 }

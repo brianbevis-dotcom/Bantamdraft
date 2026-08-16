@@ -1505,6 +1505,24 @@
         "Knox Bellinger",
         "Aaron Dunlap"
       ]
+    },
+    {
+      "id": "potg_1786847932692_et3txt",
+      "gameId": "game_1785258146330_2_znqv",
+      "timestamp": "2026-08-16T02:38:52.692Z",
+      "division": "Major",
+      "date": "2026-08-15",
+      "team": "Purdue",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Jude Gilpin",
+        "Grant Dirksen"
+      ],
+      "opponentPlayers": [
+        "Omar Grant Jr.",
+        "Julian Bevis",
+        "Rhett Duncan"
+      ]
     }
   ]
 }

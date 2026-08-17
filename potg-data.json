@@ -1617,6 +1617,26 @@
         "Tytus Darnell",
         "Grant Dirksen"
       ]
+    },
+    {
+      "id": "potg_1786986852238_jilr5e",
+      "gameId": "game_1785258146330_53_oju2",
+      "timestamp": "2026-08-17T17:14:12.238Z",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team": "Iowa",
+      "opponent": "Washington",
+      "ownPlayers": [
+        "Mason Payton",
+        "Nolan Wilson",
+        "Jaxson LaFree",
+        "Atticus Apgar"
+      ],
+      "opponentPlayers": [
+        "Bo O'Leary",
+        "Griffin Baxter",
+        "Tyson Peterson"
+      ]
     }
   ]
 }

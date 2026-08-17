@@ -1597,6 +1597,26 @@
       "opponentPlayers": [
         "Brody Egenolf"
       ]
+    },
+    {
+      "id": "potg_1786930169183_xdy4o8",
+      "gameId": "game_1785257634908_2_35lz",
+      "timestamp": "2026-08-17T01:29:29.183Z",
+      "division": "Major",
+      "date": "2026-08-15",
+      "team": "Indiana",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Dean Griffin",
+        "Omar Grant Jr.",
+        "Julian Bevis",
+        "Rhett Duncan"
+      ],
+      "opponentPlayers": [
+        "Jude Gilpin",
+        "Tytus Darnell",
+        "Grant Dirksen"
+      ]
     }
   ]
 }

@@ -1637,6 +1637,24 @@
         "Griffin Baxter",
         "Tyson Peterson"
       ]
+    },
+    {
+      "id": "potg_1787018069531_v8yrn6",
+      "gameId": "game_1785205269760_57_b4xn",
+      "timestamp": "2026-08-18T01:54:29.531Z",
+      "division": "Rookie",
+      "date": "2026-08-17",
+      "team": "Michigan",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Brett Spires",
+        "Calvin Kraft"
+      ],
+      "opponentPlayers": [
+        "Wallace Davis",
+        "Xavier Shone",
+        "John Brewer"
+      ]
     }
   ]
 }

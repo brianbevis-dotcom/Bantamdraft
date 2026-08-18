@@ -1655,6 +1655,26 @@
         "Xavier Shone",
         "John Brewer"
       ]
+    },
+    {
+      "id": "potg_1787018703783_ti8g3v",
+      "gameId": null,
+      "timestamp": "2026-08-18T02:05:03.783Z",
+      "division": "Rookie",
+      "date": "2026-08-17",
+      "team": "Ohio State",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Wallace Davis",
+        "Xavier Shone",
+        "John Brewer",
+        "Graham Gillenwater"
+      ],
+      "opponentPlayers": [
+        "Brett Spires",
+        "Knox Bellinger",
+        "Cooper Schmaltz"
+      ]
     }
   ]
 }

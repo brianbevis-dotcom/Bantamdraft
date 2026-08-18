@@ -1675,6 +1675,24 @@
         "Knox Bellinger",
         "Cooper Schmaltz"
       ]
+    },
+    {
+      "id": "potg_1787052801307_mbrnui",
+      "gameId": "game_1785257634909_113_wysf",
+      "timestamp": "2026-08-18T11:33:21.307Z",
+      "division": "Rookie",
+      "date": "2026-08-15",
+      "team": "Indiana",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Niles Williams",
+        "Brantley Vinson",
+        "Reece Jacobs"
+      ],
+      "opponentPlayers": [
+        "Brett Spires",
+        "Knox Bellinger"
+      ]
     }
   ]
 }

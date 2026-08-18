@@ -1693,6 +1693,23 @@
         "Brett Spires",
         "Knox Bellinger"
       ]
+    },
+    {
+      "id": "potg_1787052886289_e58j68",
+      "gameId": "game_1785205269760_58_7h1i",
+      "timestamp": "2026-08-18T11:34:46.289Z",
+      "division": "Rookie",
+      "date": "2026-08-17",
+      "team": "Indiana",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Niles Williams"
+      ],
+      "opponentPlayers": [
+        "Jayce Biggerstaff",
+        "Dillon Howe",
+        "Declan Pav"
+      ]
     }
   ]
 }

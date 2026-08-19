@@ -1786,6 +1786,26 @@
         "Leo Powers",
         "John Brewer"
       ]
+    },
+    {
+      "id": "potg_1787156169604_vgxvr1",
+      "gameId": "game_1785258146330_67_656o",
+      "timestamp": "2026-08-19T16:16:09.604Z",
+      "division": "Minor",
+      "date": "2026-08-08",
+      "team": "UCLA",
+      "opponent": "Minnesota",
+      "ownPlayers": [
+        "Rory Ritenour",
+        "Jake Ruhana",
+        "Boone Herndon",
+        "Joe Reed"
+      ],
+      "opponentPlayers": [
+        "Leo O’Riley",
+        "Cameron Wright",
+        "Cameron Frew"
+      ]
     }
   ]
 }

@@ -1747,6 +1747,26 @@
         "Carter Allen",
         "Charlie Lewis"
       ]
+    },
+    {
+      "id": "potg_1787110332992_7ktob7",
+      "gameId": "game_1785257634909_103_44v3",
+      "timestamp": "2026-08-19T03:32:12.992Z",
+      "division": "Minor",
+      "date": "2026-08-18",
+      "team": "Oregon",
+      "opponent": "Washington",
+      "ownPlayers": [
+        "Graham Mathews",
+        "Maddox Lear",
+        "Charlie Lewis",
+        "Phil Johnson"
+      ],
+      "opponentPlayers": [
+        "Jon Sertich",
+        "Griffin Baxter",
+        "Tyson Peterson"
+      ]
     }
   ]
 }

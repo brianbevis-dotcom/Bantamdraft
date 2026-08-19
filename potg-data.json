@@ -1728,6 +1728,25 @@
       "opponentPlayers": [
         "Sawyer Green"
       ]
+    },
+    {
+      "id": "potg_1787107883627_ho1cjf",
+      "gameId": "game_1785257634909_103_44v3",
+      "timestamp": "2026-08-19T02:51:23.627Z",
+      "division": "Minor",
+      "date": "2026-08-18",
+      "team": "Washington",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Bo O'Leary",
+        "Mac O'Leary",
+        "Tyson Peterson",
+        "Blaine Atkinson"
+      ],
+      "opponentPlayers": [
+        "Carter Allen",
+        "Charlie Lewis"
+      ]
     }
   ]
 }

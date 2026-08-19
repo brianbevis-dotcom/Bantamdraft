@@ -1767,6 +1767,25 @@
         "Griffin Baxter",
         "Tyson Peterson"
       ]
+    },
+    {
+      "id": "potg_1787144674025_gqt0vy",
+      "gameId": "game_1785257634909_127_uonp",
+      "timestamp": "2026-08-19T13:04:34.026Z",
+      "division": "Rookie",
+      "date": "2026-08-15",
+      "team": "Penn State",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Liam Bailey",
+        "Graham Davis",
+        "Brody Egenolf"
+      ],
+      "opponentPlayers": [
+        "Lincoln Lippert",
+        "Leo Powers",
+        "John Brewer"
+      ]
     }
   ]
 }

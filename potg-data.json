@@ -1806,6 +1806,26 @@
         "Cameron Wright",
         "Cameron Frew"
       ]
+    },
+    {
+      "id": "potg_1787156312765_5kbefe",
+      "gameId": "game_1785258146331_98_2xn4",
+      "timestamp": "2026-08-19T16:18:32.765Z",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team": "UCLA",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Rory Ritenour",
+        "Jake Ruhana",
+        "Boone Herndon",
+        "Joe Reed"
+      ],
+      "opponentPlayers": [
+        "Kash Coyle",
+        "Cameron Rose",
+        "Joey Primeau"
+      ]
     }
   ]
 }

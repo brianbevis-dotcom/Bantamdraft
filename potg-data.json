@@ -1710,6 +1710,24 @@
         "Dillon Howe",
         "Declan Pav"
       ]
+    },
+    {
+      "id": "potg_1787102862975_aw8c7t",
+      "gameId": "game_1785257634909_93_1t8i",
+      "timestamp": "2026-08-19T01:27:42.975Z",
+      "division": "Minor",
+      "date": "2026-08-18",
+      "team": "UCLA",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Rory Ritenour",
+        "Jake Ruhana",
+        "Boone Herndon",
+        "Joe Reed"
+      ],
+      "opponentPlayers": [
+        "Sawyer Green"
+      ]
     }
   ]
 }

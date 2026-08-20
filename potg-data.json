@@ -1826,6 +1826,26 @@
         "Cameron Rose",
         "Joey Primeau"
       ]
+    },
+    {
+      "id": "potg_1787188774178_akbopr",
+      "gameId": "game_1785258146330_33_4er9",
+      "timestamp": "2026-08-20T01:19:34.178Z",
+      "division": "Major",
+      "date": "2026-08-19",
+      "team": "Oregon",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Banks Smith",
+        "Kellen Hawk",
+        "Anderson Williams",
+        "Cooper Sheets"
+      ],
+      "opponentPlayers": [
+        "Jude Gilpin",
+        "Jack Dirksen",
+        "Grant Dirksen"
+      ]
     }
   ]
 }

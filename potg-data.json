@@ -1846,6 +1846,26 @@
         "Jack Dirksen",
         "Grant Dirksen"
       ]
+    },
+    {
+      "id": "potg_1787189302856_0ikjkt",
+      "gameId": "game_1785257634909_74_0fvv",
+      "timestamp": "2026-08-20T01:28:22.856Z",
+      "division": "Minor",
+      "date": "2026-08-19",
+      "team": "Northwestern",
+      "opponent": "Minnesota",
+      "ownPlayers": [
+        "Cullen McCoy",
+        "Bryson Stevens",
+        "William Beasley",
+        "Hixon Prince"
+      ],
+      "opponentPlayers": [
+        "Silas Bunch",
+        "Harrison Storm",
+        "Arlo Oliver"
+      ]
     }
   ]
 }

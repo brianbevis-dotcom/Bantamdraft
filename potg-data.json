@@ -1944,6 +1944,22 @@
         "Tyson Greenwald",
         "Tristan Greenwald"
       ]
+    },
+    {
+      "id": "potg_1787324217151_vfh3yd",
+      "gameId": "game_1785258146330_54_hgt5",
+      "timestamp": "2026-08-21T14:56:57.151Z",
+      "division": "Minor",
+      "date": "2026-08-18",
+      "team": "Iowa",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Liam Adams"
+      ],
+      "opponentPlayers": [
+        "CJ Gilliard",
+        "Devansh Kandimalla"
+      ]
     }
   ]
 }

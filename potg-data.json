@@ -1904,6 +1904,26 @@
         "Leo Ryan",
         "Jackson Hinds"
       ]
+    },
+    {
+      "id": "potg_1787316582005_6awam5",
+      "gameId": "game_1785257634908_13_fvq3",
+      "timestamp": "2026-08-21T12:49:42.005Z",
+      "division": "Major",
+      "date": "2026-08-15",
+      "team": "Ohio State",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Decklyn Field",
+        "Xavier Matteson",
+        "Ty Hornsby",
+        "Brevyn Byrne"
+      ],
+      "opponentPlayers": [
+        "Jack Cronin",
+        "Christian Calvert",
+        "Brantley Grace"
+      ]
     }
   ]
 }

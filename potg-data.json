@@ -1885,6 +1885,25 @@
         "Kellen Hawk",
         "Bennett Sitter"
       ]
+    },
+    {
+      "id": "potg_1787316341173_tcfeio",
+      "gameId": "game_1785257634908_16_fw88",
+      "timestamp": "2026-08-21T12:45:41.173Z",
+      "division": "Major",
+      "date": "2026-08-05",
+      "team": "Ohio State",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Decklyn Field",
+        "Ty Hornsby",
+        "Brevyn Byrne"
+      ],
+      "opponentPlayers": [
+        "Miles Howell",
+        "Leo Ryan",
+        "Jackson Hinds"
+      ]
     }
   ]
 }

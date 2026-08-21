@@ -1979,6 +1979,21 @@
         "Ty Hornsby",
         "Brevyn Byrne"
       ]
+    },
+    {
+      "id": "potg_1787355643691_r198ym",
+      "gameId": null,
+      "timestamp": "2026-08-21T23:40:43.691Z",
+      "division": "Major",
+      "date": "2026-08-19",
+      "team": "Purdue",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Jack Dirksen"
+      ],
+      "opponentPlayers": [
+        "Kellen Hawk"
+      ]
     }
   ]
 }

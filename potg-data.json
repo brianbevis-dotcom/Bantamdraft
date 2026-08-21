@@ -1924,6 +1924,26 @@
         "Christian Calvert",
         "Brantley Grace"
       ]
+    },
+    {
+      "id": "potg_1787316650974_sv90jk",
+      "gameId": "game_1785258146330_37_podz",
+      "timestamp": "2026-08-21T12:50:50.974Z",
+      "division": "Major",
+      "date": "2026-08-19",
+      "team": "Ohio State",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Decklyn Field",
+        "Xavier Matteson",
+        "Ty Hornsby",
+        "Brevyn Byrne"
+      ],
+      "opponentPlayers": [
+        "Beau Ferguson",
+        "Tyson Greenwald",
+        "Tristan Greenwald"
+      ]
     }
   ]
 }

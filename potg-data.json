@@ -1960,6 +1960,25 @@
         "CJ Gilliard",
         "Devansh Kandimalla"
       ]
+    },
+    {
+      "id": "potg_1787337421881_q8ll8o",
+      "gameId": "game_1785257634908_37_j28e",
+      "timestamp": "2026-08-21T18:37:01.881Z",
+      "division": "Major",
+      "date": "2026-08-19",
+      "team": "Wisconsin",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Beau Ferguson",
+        "Tyson Greenwald",
+        "Tristan Greenwald"
+      ],
+      "opponentPlayers": [
+        "Nolan Williams",
+        "Ty Hornsby",
+        "Brevyn Byrne"
+      ]
     }
   ]
 }

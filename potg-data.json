@@ -1866,6 +1866,25 @@
         "Harrison Storm",
         "Arlo Oliver"
       ]
+    },
+    {
+      "id": "potg_1787316255009_y5as8l",
+      "gameId": "game_1785257634908_21_by2x",
+      "timestamp": "2026-08-21T12:44:15.009Z",
+      "division": "Major",
+      "date": "2026-08-01",
+      "team": "Ohio State",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Decklyn Field",
+        "Xavier Matteson",
+        "Brevyn Byrne"
+      ],
+      "opponentPlayers": [
+        "Zeke Bunch",
+        "Kellen Hawk",
+        "Bennett Sitter"
+      ]
     }
   ]
 }

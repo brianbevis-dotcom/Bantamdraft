@@ -2111,6 +2111,26 @@
         "Joe Reed",
         "Kaeson Worland"
       ]
+    },
+    {
+      "id": "potg_1787425953542_44d7s5",
+      "gameId": "game_1785258146330_8_gf8o",
+      "timestamp": "2026-08-22T19:12:33.542Z",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team": "Michigan State",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Isaac Hamilton",
+        "Cole Brabender",
+        "Nico Locke",
+        "Jack Judge"
+      ],
+      "opponentPlayers": [
+        "Jude Gilpin",
+        "Tytus Darnell",
+        "Grant Dirksen"
+      ]
     }
   ]
 }

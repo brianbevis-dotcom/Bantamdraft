@@ -1994,6 +1994,26 @@
       "opponentPlayers": [
         "Kellen Hawk"
       ]
+    },
+    {
+      "id": "potg_1787416191272_u79546",
+      "gameId": "game_1785257634909_99_4jnq",
+      "timestamp": "2026-08-22T16:29:51.272Z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team": "UCLA",
+      "opponent": "Washington",
+      "ownPlayers": [
+        "Rory Ritenour",
+        "Jake Ruhana",
+        "Joe Reed",
+        "Kaeson Worland"
+      ],
+      "opponentPlayers": [
+        "Jon Sertich",
+        "Griffin Baxter",
+        "Tyson Peterson"
+      ]
     }
   ]
 }

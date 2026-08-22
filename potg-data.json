@@ -2190,6 +2190,24 @@
         "Dean Ramstrom",
         "Brevyn Byrne"
       ]
+    },
+    {
+      "id": "potg_1787442716466_f6l50d",
+      "gameId": "game_1785258146330_43_7zd3",
+      "timestamp": "2026-08-22T23:51:56.466Z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team": "Northwestern",
+      "opponent": "Illinois",
+      "ownPlayers": [
+        "Evan Sabelhaus",
+        "Cullen McCoy"
+      ],
+      "opponentPlayers": [
+        "Noah Mcgowan",
+        "Ramsey Thompson",
+        "Colin Ashley"
+      ]
     }
   ]
 }

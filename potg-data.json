@@ -2071,6 +2071,26 @@
         "Boone Herndon",
         "Joe Reed"
       ]
+    },
+    {
+      "id": "potg_1787422328903_hpzvw8",
+      "gameId": "game_1785258146330_82_8vqs",
+      "timestamp": "2026-08-22T18:12:08.903Z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team": "Purdue",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Hendrix Stewart",
+        "Dalton Bennett",
+        "Nash Russell",
+        "Sawyer Green"
+      ],
+      "opponentPlayers": [
+        "Carter Allen",
+        "Charlie Lewis",
+        "Phil Johnson"
+      ]
     }
   ]
 }

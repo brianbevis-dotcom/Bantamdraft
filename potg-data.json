@@ -2014,6 +2014,25 @@
         "Griffin Baxter",
         "Tyson Peterson"
       ]
+    },
+    {
+      "id": "potg_1787417698660_kzpb8z",
+      "gameId": "game_1785205269761_73_ru18",
+      "timestamp": "2026-08-22T16:54:58.660Z",
+      "division": "Rookie",
+      "date": "2026-08-22",
+      "team": "Michigan",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Knox Bellinger",
+        "Silas Overpeck",
+        "Calvin Kraft"
+      ],
+      "opponentPlayers": [
+        "Ezekiel Kimbowa",
+        "Max Ruhana",
+        "Dillon Howe"
+      ]
     }
   ]
 }

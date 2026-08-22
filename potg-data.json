@@ -2170,6 +2170,26 @@
         "Cade Reagan",
         "Colton Cheh"
       ]
+    },
+    {
+      "id": "potg_1787440779178_z9s8wf",
+      "gameId": null,
+      "timestamp": "2026-08-22T23:19:39.178Z",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team": "Penn State",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Miles Howell",
+        "Eivin Brewer",
+        "Leo Ryan",
+        "Henry Pendowski"
+      ],
+      "opponentPlayers": [
+        "Nolan Williams",
+        "Dean Ramstrom",
+        "Brevyn Byrne"
+      ]
     }
   ]
 }

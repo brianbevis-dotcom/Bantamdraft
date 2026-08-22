@@ -2052,6 +2052,25 @@
         "Knox Bellinger",
         "EJ Bunch"
       ]
+    },
+    {
+      "id": "potg_1787422243472_zrnj87",
+      "gameId": "game_1785258146331_93_6hla",
+      "timestamp": "2026-08-22T18:10:43.472Z",
+      "division": "Minor",
+      "date": "2026-08-18",
+      "team": "Purdue",
+      "opponent": "UCLA",
+      "ownPlayers": [
+        "Dalton Bennett",
+        "Nash Russell",
+        "Sawyer Green"
+      ],
+      "opponentPlayers": [
+        "Rory Ritenour",
+        "Boone Herndon",
+        "Joe Reed"
+      ]
     }
   ]
 }

@@ -2033,6 +2033,25 @@
         "Max Ruhana",
         "Dillon Howe"
       ]
+    },
+    {
+      "id": "potg_1787421164119_0bx9j9",
+      "gameId": "game_1785206262350_73_zmmh",
+      "timestamp": "2026-08-22T17:52:44.119Z",
+      "division": "Rookie",
+      "date": "2026-08-22",
+      "team": "Purdue",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Ezekiel Kimbowa",
+        "Max Ruhana",
+        "Dillon Howe",
+        "Declan Pav"
+      ],
+      "opponentPlayers": [
+        "Knox Bellinger",
+        "EJ Bunch"
+      ]
     }
   ]
 }

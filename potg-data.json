@@ -2091,6 +2091,26 @@
         "Charlie Lewis",
         "Phil Johnson"
       ]
+    },
+    {
+      "id": "potg_1787423656945_vfogiz",
+      "gameId": "game_1785258146331_99_unil",
+      "timestamp": "2026-08-22T18:34:16.945Z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team": "Washington",
+      "opponent": "UCLA",
+      "ownPlayers": [
+        "Bo O'Leary",
+        "Mac O'Leary",
+        "Griffin Baxter",
+        "Tyson Peterson"
+      ],
+      "opponentPlayers": [
+        "Rory Ritenour",
+        "Joe Reed",
+        "Kaeson Worland"
+      ]
     }
   ]
 }

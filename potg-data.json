@@ -2131,6 +2131,26 @@
         "Tytus Darnell",
         "Grant Dirksen"
       ]
+    },
+    {
+      "id": "potg_1787436062150_7fhx7a",
+      "gameId": "game_1785258146331_87_d4yq",
+      "timestamp": "2026-08-22T22:01:02.150Z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team": "Indiana",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Gavin Geiersbach",
+        "Carter Clancy",
+        "Isaac Vinson",
+        "Tegan Fields"
+      ],
+      "opponentPlayers": [
+        "CJ Gilliard",
+        "Eli Roberts",
+        "Asher Tow"
+      ]
     }
   ]
 }

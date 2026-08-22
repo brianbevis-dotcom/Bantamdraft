@@ -2151,6 +2151,25 @@
         "Eli Roberts",
         "Asher Tow"
       ]
+    },
+    {
+      "id": "potg_1787438084663_pgz2rw",
+      "gameId": null,
+      "timestamp": "2026-08-22T22:34:44.663Z",
+      "division": "Rookie",
+      "date": "2026-08-22",
+      "team": "Ohio State",
+      "opponent": "Nebraska",
+      "ownPlayers": [
+        "Wallace Davis",
+        "Xavier Shone",
+        "Weston Peak",
+        "Graham Gillenwater"
+      ],
+      "opponentPlayers": [
+        "Cade Reagan",
+        "Colton Cheh"
+      ]
     }
   ]
 }

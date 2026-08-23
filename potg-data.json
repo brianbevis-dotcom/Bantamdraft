@@ -2265,6 +2265,26 @@
         "Omar Grant Jr.",
         "Bryce Pav"
       ]
+    },
+    {
+      "id": "potg_1787507682565_elev99",
+      "gameId": "game_1785257634908_23_ywha",
+      "timestamp": "2026-08-23T17:54:42.565Z",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team": "Oregon",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Austin Jewell",
+        "Dylan Clem",
+        "Anderson Williams",
+        "Cooper Sheets"
+      ],
+      "opponentPlayers": [
+        "Jack Cronin",
+        "Christian Calvert",
+        "Brody Smythe"
+      ]
     }
   ]
 }

@@ -2246,6 +2246,25 @@
         "Liam Adams",
         "Jaxson LaFree"
       ]
+    },
+    {
+      "id": "potg_1787505384637_3b16kh",
+      "gameId": null,
+      "timestamp": "2026-08-23T17:16:24.637Z",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team": "Wisconsin",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Beau Ferguson",
+        "Tyson Greenwald",
+        "Tucker Horton",
+        "Tristan Greenwald"
+      ],
+      "opponentPlayers": [
+        "Omar Grant Jr.",
+        "Bryce Pav"
+      ]
     }
   ]
 }

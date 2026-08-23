@@ -2228,6 +2228,24 @@
         "Dalton Bennett",
         "Sawyer Green"
       ]
+    },
+    {
+      "id": "potg_1787451497764_f5cn6l",
+      "gameId": "game_1785257634909_58_y4mt",
+      "timestamp": "2026-08-23T02:18:17.764Z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team": "Michigan",
+      "opponent": "Iowa",
+      "ownPlayers": [
+        "Clayton Pulse",
+        "Henry Davis",
+        "Rayden Cerna"
+      ],
+      "opponentPlayers": [
+        "Liam Adams",
+        "Jaxson LaFree"
+      ]
     }
   ]
 }

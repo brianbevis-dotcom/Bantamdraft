@@ -2285,6 +2285,26 @@
         "Christian Calvert",
         "Brody Smythe"
       ]
+    },
+    {
+      "id": "potg_1787511951389_m4u2x2",
+      "gameId": "game_1785257634908_38_uxod",
+      "timestamp": "2026-08-23T19:05:51.389Z",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team": "Indiana",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Dean Griffin",
+        "Nolan Halterman",
+        "Gregory Jr Werner",
+        "Rhett Duncan"
+      ],
+      "opponentPlayers": [
+        "Jackson Cline",
+        "Yadriel Roldan",
+        "Tucker Horton"
+      ]
     }
   ]
 }

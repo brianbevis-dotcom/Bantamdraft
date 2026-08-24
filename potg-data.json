@@ -2401,6 +2401,26 @@
         "Kellen Hawk",
         "Anderson Williams"
       ]
+    },
+    {
+      "id": "potg_1787589834653_i0rjpr",
+      "gameId": "game_1785257634909_132_fybq",
+      "timestamp": "2026-08-24T16:43:54.653Z",
+      "division": "Rookie",
+      "date": "2026-08-22",
+      "team": "Indiana",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Niles Williams",
+        "Brantley Vinson",
+        "Parker Paxson",
+        "Reece Jacobs"
+      ],
+      "opponentPlayers": [
+        "Liam Bailey",
+        "Graham Davis",
+        "Brody Egenolf"
+      ]
     }
   ]
 }

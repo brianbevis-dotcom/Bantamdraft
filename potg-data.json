@@ -2344,6 +2344,25 @@
         "Jaxson LaFree",
         "Atticus Apgar"
       ]
+    },
+    {
+      "id": "potg_1787571102657_ryjuib",
+      "gameId": "game_1785257634909_87_el1g",
+      "timestamp": "2026-08-24T11:31:42.657Z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team": "Penn State",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "CJ Gilliard",
+        "Asher Tow",
+        "Devansh Kandimalla"
+      ],
+      "opponentPlayers": [
+        "Gavin Geiersbach",
+        "Carter Clancy",
+        "Isaac Vinson"
+      ]
     }
   ]
 }

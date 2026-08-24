@@ -2381,6 +2381,26 @@
         "Cole Brabender",
         "Nico Locke"
       ]
+    },
+    {
+      "id": "potg_1787589174762_20pzl6",
+      "gameId": "game_1785258146330_23_l89r",
+      "timestamp": "2026-08-24T16:32:54.762Z",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team": "Northwestern",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Jack Cronin",
+        "Christian Calvert",
+        "Shaun Martinez Jr.",
+        "Brody Smythe"
+      ],
+      "opponentPlayers": [
+        "Austin Jewell",
+        "Kellen Hawk",
+        "Anderson Williams"
+      ]
     }
   ]
 }

@@ -2305,6 +2305,26 @@
         "Yadriel Roldan",
         "Tucker Horton"
       ]
+    },
+    {
+      "id": "potg_1787544785023_3rnjgt",
+      "gameId": "game_1785257634909_132_fybq",
+      "timestamp": "2026-08-24T04:13:05.023Z",
+      "division": "Rookie",
+      "date": "2026-08-22",
+      "team": "Penn State",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Judah Duke",
+        "Liam Bailey",
+        "Graham Davis",
+        "Brody Egenolf"
+      ],
+      "opponentPlayers": [
+        "Niles Williams",
+        "Brantley Vinson",
+        "Cruz Chavis"
+      ]
     }
   ]
 }

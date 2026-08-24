@@ -2363,6 +2363,24 @@
         "Carter Clancy",
         "Isaac Vinson"
       ]
+    },
+    {
+      "id": "potg_1787577339462_svh8ay",
+      "gameId": "game_1785257634908_8_v7pp",
+      "timestamp": "2026-08-24T13:15:39.462Z",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team": "Purdue",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Jude Gilpin",
+        "Jack Dirksen"
+      ],
+      "opponentPlayers": [
+        "Isaac Hamilton",
+        "Cole Brabender",
+        "Nico Locke"
+      ]
     }
   ]
 }

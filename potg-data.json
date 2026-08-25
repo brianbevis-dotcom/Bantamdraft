@@ -2441,6 +2441,25 @@
         "Silas Overpeck",
         "Aaron Dunlap"
       ]
+    },
+    {
+      "id": "potg_1787622153027_6vnvt1",
+      "gameId": "game_1785206262350_79_b6zd",
+      "timestamp": "2026-08-25T01:42:33.028Z",
+      "division": "Rookie",
+      "date": "2026-08-24",
+      "team": "Michigan",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Knox Bellinger",
+        "Mason Harmon",
+        "Aaron Dunlap"
+      ],
+      "opponentPlayers": [
+        "Judah Duke",
+        "Theodore Tanner",
+        "Brody Egenolf"
+      ]
     }
   ]
 }

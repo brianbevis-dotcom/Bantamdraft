@@ -2499,6 +2499,25 @@
         "Beau Johnson",
         "Atticus Apgar"
       ]
+    },
+    {
+      "id": "potg_1787664790718_hkex37",
+      "gameId": "game_1785257634909_54_ru8g",
+      "timestamp": "2026-08-25T13:33:10.718Z",
+      "division": "Minor",
+      "date": "2026-08-18",
+      "team": "Iowa",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Liam Adams",
+        "Mason Payton",
+        "Atticus Apgar"
+      ],
+      "opponentPlayers": [
+        "CJ Gilliard",
+        "Grant Jacobs",
+        "Devansh Kandimalla"
+      ]
     }
   ]
 }

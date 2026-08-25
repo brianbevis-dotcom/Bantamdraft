@@ -2480,6 +2480,25 @@
         "Joey Primeau",
         "Charles (CJ) Pitcock"
       ]
+    },
+    {
+      "id": "potg_1787664750977_gyrbt8",
+      "gameId": "game_1785258146330_58_1bro",
+      "timestamp": "2026-08-25T13:32:30.977Z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team": "Michigan",
+      "opponent": "Iowa",
+      "ownPlayers": [
+        "Carson Roller",
+        "Clayton Pulse",
+        "Rayden Cerna"
+      ],
+      "opponentPlayers": [
+        "Liam Adams",
+        "Beau Johnson",
+        "Atticus Apgar"
+      ]
     }
   ]
 }

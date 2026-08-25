@@ -2460,6 +2460,26 @@
         "Theodore Tanner",
         "Brody Egenolf"
       ]
+    },
+    {
+      "id": "potg_1787625868477_jocmxx",
+      "gameId": null,
+      "timestamp": "2026-08-25T02:44:28.477Z",
+      "division": "Minor",
+      "date": "2026-08-24",
+      "team": "Michigan",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Luca Mina",
+        "Carson Roller",
+        "Clayton Pulse",
+        "Kyree Williams"
+      ],
+      "opponentPlayers": [
+        "Cameron Rose",
+        "Joey Primeau",
+        "Charles (CJ) Pitcock"
+      ]
     }
   ]
 }

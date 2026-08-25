@@ -2421,6 +2421,26 @@
         "Graham Davis",
         "Brody Egenolf"
       ]
+    },
+    {
+      "id": "potg_1787621437974_qydize",
+      "gameId": "game_1785257634909_119_96qy",
+      "timestamp": "2026-08-25T01:30:37.974Z",
+      "division": "Rookie",
+      "date": "2026-08-24",
+      "team": "Penn State",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Judah Duke",
+        "Liam Bailey",
+        "Graham Davis",
+        "Brody Egenolf"
+      ],
+      "opponentPlayers": [
+        "Knox Bellinger",
+        "Silas Overpeck",
+        "Aaron Dunlap"
+      ]
     }
   ]
 }

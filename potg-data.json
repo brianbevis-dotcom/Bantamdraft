@@ -2518,6 +2518,26 @@
         "Grant Jacobs",
         "Devansh Kandimalla"
       ]
+    },
+    {
+      "id": "potg_1787707310100_1w6t3v",
+      "gameId": "game_1785257634909_48_2qqq",
+      "timestamp": "2026-08-26T01:21:50.100Z",
+      "division": "Minor",
+      "date": "2026-08-25",
+      "team": "UCLA",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Rory Ritenour",
+        "Boone Herndon",
+        "Joe Reed",
+        "Kaeson Worland"
+      ],
+      "opponentPlayers": [
+        "Gavin Geiersbach",
+        "Carter Clancy",
+        "Isaac Vinson"
+      ]
     }
   ]
 }

@@ -2538,6 +2538,25 @@
         "Carter Clancy",
         "Isaac Vinson"
       ]
+    },
+    {
+      "id": "potg_1787707638742_w4uy5m",
+      "gameId": "game_1785257634909_64_dl9l",
+      "timestamp": "2026-08-26T01:27:18.742Z",
+      "division": "Minor",
+      "date": "2026-08-25",
+      "team": "Washington",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Mac O'Leary",
+        "Griffin Baxter",
+        "Tyson Peterson"
+      ],
+      "opponentPlayers": [
+        "Theo Riddick",
+        "Owen Pharis",
+        "Britton Sanders"
+      ]
     }
   ]
 }

@@ -2577,6 +2577,26 @@
         "Nicholas Woods JR",
         "Dawson Erazmus"
       ]
+    },
+    {
+      "id": "potg_1787713101063_eqxh18",
+      "gameId": "game_1785258146330_48_2qox",
+      "timestamp": "2026-08-26T02:58:21.063Z",
+      "division": "Minor",
+      "date": "2026-08-25",
+      "team": "Indiana",
+      "opponent": "UCLA",
+      "ownPlayers": [
+        "Gavin Geiersbach",
+        "Carter Clancy",
+        "Isaac Vinson",
+        "McCoy Landis"
+      ],
+      "opponentPlayers": [
+        "Rory Ritenour",
+        "Joe Reed",
+        "Kaeson Worland"
+      ]
     }
   ]
 }

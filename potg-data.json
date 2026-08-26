@@ -2597,6 +2597,25 @@
         "Joe Reed",
         "Kaeson Worland"
       ]
+    },
+    {
+      "id": "potg_1787750834146_xp5k7v",
+      "gameId": "game_1785205269761_81_b6bp",
+      "timestamp": "2026-08-26T13:27:14.146Z",
+      "division": "Rookie",
+      "date": "2026-08-24",
+      "team": "Indiana",
+      "opponent": "Nebraska",
+      "ownPlayers": [
+        "Vincent Grantner",
+        "Niles Williams",
+        "Brantley Vinson",
+        "Reece Jacobs"
+      ],
+      "opponentPlayers": [
+        "Cade Reagan",
+        "Parker Hawley"
+      ]
     }
   ]
 }

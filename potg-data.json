@@ -2557,6 +2557,26 @@
         "Owen Pharis",
         "Britton Sanders"
       ]
+    },
+    {
+      "id": "potg_1787711062363_pj5gsu",
+      "gameId": "game_1785257634909_83_3pqi",
+      "timestamp": "2026-08-26T02:24:22.364Z",
+      "division": "Minor",
+      "date": "2026-08-25",
+      "team": "Oregon",
+      "opponent": "Illinois",
+      "ownPlayers": [
+        "Carter Allen",
+        "Charlie Lewis",
+        "Colin Davis",
+        "Phil Johnson"
+      ],
+      "opponentPlayers": [
+        "Tanner Hess",
+        "Nicholas Woods JR",
+        "Dawson Erazmus"
+      ]
     }
   ]
 }

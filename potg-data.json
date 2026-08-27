@@ -2635,6 +2635,24 @@
         "Cullen McCoy",
         "William Beasley"
       ]
+    },
+    {
+      "id": "potg_1787832923355_pf5zx2",
+      "gameId": null,
+      "timestamp": "2026-08-27T12:15:23.355Z",
+      "division": "Major",
+      "date": "2026-08-26",
+      "team": "Penn State",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Miles Howell",
+        "Eivin Brewer",
+        "Leo Ryan"
+      ],
+      "opponentPlayers": [
+        "Yadriel Roldan",
+        "Tristan Greenwald"
+      ]
     }
   ]
 }

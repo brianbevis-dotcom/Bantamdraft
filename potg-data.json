@@ -2616,6 +2616,25 @@
         "Cade Reagan",
         "Parker Hawley"
       ]
+    },
+    {
+      "id": "potg_1787792463614_55s5je",
+      "gameId": null,
+      "timestamp": "2026-08-27T01:01:03.614Z",
+      "division": "Minor",
+      "date": "2026-08-26",
+      "team": "Michigan",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Julian Mina",
+        "Luca Mina",
+        "Clayton Pulse",
+        "Henry Davis"
+      ],
+      "opponentPlayers": [
+        "Cullen McCoy",
+        "William Beasley"
+      ]
     }
   ]
 }

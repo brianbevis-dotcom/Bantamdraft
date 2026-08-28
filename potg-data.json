@@ -2691,6 +2691,26 @@
         "Omar Grant Jr.",
         "Julian Bevis"
       ]
+    },
+    {
+      "id": "potg_1787941372071_bkw70f",
+      "gameId": "game_1785257634908_3_gqp4",
+      "timestamp": "2026-08-28T18:22:52.071Z",
+      "division": "Major",
+      "date": "2026-08-26",
+      "team": "Indiana",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Dean Griffin",
+        "Omar Grant Jr.",
+        "Bryce Pav",
+        "Julian Bevis"
+      ],
+      "opponentPlayers": [
+        "Jack Cronin",
+        "Ike Roberts",
+        "Christian Calvert"
+      ]
     }
   ]
 }

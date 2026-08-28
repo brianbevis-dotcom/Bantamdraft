@@ -2672,6 +2672,25 @@
         "Henry Davis",
         "Luke Jenkins"
       ]
+    },
+    {
+      "id": "potg_1787883709730_859s3k",
+      "gameId": "game_1785258146330_3_8dum",
+      "timestamp": "2026-08-28T02:21:49.730Z",
+      "division": "Major",
+      "date": "2026-08-26",
+      "team": "Northwestern",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Jack Cronin",
+        "Christian Calvert",
+        "Brody Smythe"
+      ],
+      "opponentPlayers": [
+        "Dean Griffin",
+        "Omar Grant Jr.",
+        "Julian Bevis"
+      ]
     }
   ]
 }

@@ -2711,6 +2711,26 @@
         "Ike Roberts",
         "Christian Calvert"
       ]
+    },
+    {
+      "id": "potg_1787943675629_yn4nh1",
+      "gameId": null,
+      "timestamp": "2026-08-28T19:01:15.629Z",
+      "division": "Rookie",
+      "date": "2026-08-24",
+      "team": "Ohio State",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Wallace Davis",
+        "Xavier Shone",
+        "Weston Peak",
+        "John Brewer"
+      ],
+      "opponentPlayers": [
+        "Ezekiel Kimbowa",
+        "Christian Peterson",
+        "Declan Pav"
+      ]
     }
   ]
 }

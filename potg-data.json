@@ -2769,6 +2769,24 @@
         "Cameron Wright",
         "Cameron Frew"
       ]
+    },
+    {
+      "id": "potg_1788005907249_9hukco",
+      "gameId": "game_1785257634909_78_1g37",
+      "timestamp": "2026-08-29T12:18:27.249Z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team": "Ohio State",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Kash Coyle",
+        "Cameron Rose",
+        "Joey Primeau",
+        "Stetson Ebbert"
+      ],
+      "opponentPlayers": [
+        "Theo Riddick"
+      ]
     }
   ]
 }

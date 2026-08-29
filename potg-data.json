@@ -2807,6 +2807,26 @@
         "Henry Davis",
         "Rayden Cerna"
       ]
+    },
+    {
+      "id": "potg_1788017115705_htmtn6",
+      "gameId": "game_1785258146331_109_4c3y",
+      "timestamp": "2026-08-29T15:25:15.705Z",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team": "UCLA",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Rory Ritenour",
+        "Boone Herndon",
+        "Joe Reed",
+        "Kaeson Worland"
+      ],
+      "opponentPlayers": [
+        "Brent Neu",
+        "Luke Bolt",
+        "Caiden Finlinson"
+      ]
     }
   ]
 }

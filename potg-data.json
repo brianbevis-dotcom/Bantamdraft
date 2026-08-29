@@ -2926,6 +2926,26 @@
         "Nico Locke",
         "Jack Judge"
       ]
+    },
+    {
+      "id": "potg_1788039732015_qpbg3i",
+      "gameId": "game_1785257634908_4_7lm3",
+      "timestamp": "2026-08-29T21:42:12.016Z",
+      "division": "Major",
+      "date": "2026-08-29",
+      "team": "Michigan State",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Benson Ward",
+        "Cole Brabender",
+        "Nico Locke",
+        "Jack Judge"
+      ],
+      "opponentPlayers": [
+        "Dean Griffin",
+        "Julian Bevis",
+        "Rhett Duncan"
+      ]
     }
   ]
 }

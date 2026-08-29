@@ -2750,6 +2750,25 @@
         "Cameron Rose",
         "Joey Primeau"
       ]
+    },
+    {
+      "id": "potg_1788005835246_ck7qnq",
+      "gameId": "game_1785257634909_77_xcjn",
+      "timestamp": "2026-08-29T12:17:15.246Z",
+      "division": "Minor",
+      "date": "2026-08-10",
+      "team": "Ohio State",
+      "opponent": "Minnesota",
+      "ownPlayers": [
+        "Kash Coyle",
+        "Cameron Rose",
+        "Stetson Ebbert"
+      ],
+      "opponentPlayers": [
+        "Leo O’Riley",
+        "Cameron Wright",
+        "Cameron Frew"
+      ]
     }
   ]
 }

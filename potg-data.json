@@ -2906,6 +2906,26 @@
         "Nicholas Woods JR",
         "Dawson Erazmus"
       ]
+    },
+    {
+      "id": "potg_1788037279903_zqdxwz",
+      "gameId": "game_1785257634908_4_7lm3",
+      "timestamp": "2026-08-29T21:01:19.903Z",
+      "division": "Major",
+      "date": "2026-08-29",
+      "team": "Indiana",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Austin Treharne",
+        "Dean Griffin",
+        "Julian Bevis",
+        "Rhett Duncan"
+      ],
+      "opponentPlayers": [
+        "Cole Brabender",
+        "Nico Locke",
+        "Jack Judge"
+      ]
     }
   ]
 }

@@ -2787,6 +2787,26 @@
       "opponentPlayers": [
         "Theo Riddick"
       ]
+    },
+    {
+      "id": "potg_1788005975898_mwki19",
+      "gameId": "game_1785257634909_79_56rj",
+      "timestamp": "2026-08-29T12:19:35.898Z",
+      "division": "Minor",
+      "date": "2026-08-24",
+      "team": "Ohio State",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Kash Coyle",
+        "Cameron Rose",
+        "Joey Primeau",
+        "Stetson Ebbert"
+      ],
+      "opponentPlayers": [
+        "Clayton Pulse",
+        "Henry Davis",
+        "Rayden Cerna"
+      ]
     }
   ]
 }

@@ -2847,6 +2847,26 @@
         "Cameron Rose",
         "Joey Primeau"
       ]
+    },
+    {
+      "id": "potg_1788027346709_vvr5w5",
+      "gameId": "game_1785206262350_97_2a0w",
+      "timestamp": "2026-08-29T18:15:46.709Z",
+      "division": "Rookie",
+      "date": "2026-08-29",
+      "team": "Penn State",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Judah Duke",
+        "Liam Bailey",
+        "Graham Davis",
+        "Brody Egenolf"
+      ],
+      "opponentPlayers": [
+        "Lincoln Lippert",
+        "Xavier Shone",
+        "John Brewer"
+      ]
     }
   ]
 }

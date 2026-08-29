@@ -2887,6 +2887,25 @@
         "Cameron Wright",
         "Harrison Storm"
       ]
+    },
+    {
+      "id": "potg_1788034762833_0hveyq",
+      "gameId": "game_1785258146330_44_n8tr",
+      "timestamp": "2026-08-29T20:19:22.833Z",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team": "Purdue",
+      "opponent": "Illinois",
+      "ownPlayers": [
+        "Hendrix Stewart",
+        "Nash Russell",
+        "Sawyer Green"
+      ],
+      "opponentPlayers": [
+        "Nathan Currier",
+        "Nicholas Woods JR",
+        "Dawson Erazmus"
+      ]
     }
   ]
 }

@@ -2731,6 +2731,25 @@
         "Christian Peterson",
         "Declan Pav"
       ]
+    },
+    {
+      "id": "potg_1788005706551_nwm4lv",
+      "gameId": "game_1785257634909_98_4fxv",
+      "timestamp": "2026-08-29T12:15:06.551Z",
+      "division": "Minor",
+      "date": "2026-08-15",
+      "team": "UCLA",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Rory Ritenour",
+        "Jake Ruhana",
+        "Joe Reed"
+      ],
+      "opponentPlayers": [
+        "Kash Coyle",
+        "Cameron Rose",
+        "Joey Primeau"
+      ]
     }
   ]
 }

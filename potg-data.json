@@ -2867,6 +2867,26 @@
         "Xavier Shone",
         "John Brewer"
       ]
+    },
+    {
+      "id": "potg_1788032035376_70pp47",
+      "gameId": "game_1785257634909_84_11ds",
+      "timestamp": "2026-08-29T19:33:55.377Z",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team": "Oregon",
+      "opponent": "Minnesota",
+      "ownPlayers": [
+        "Carter Allen",
+        "Maddox Lear",
+        "Charlie Lewis",
+        "Phil Johnson"
+      ],
+      "opponentPlayers": [
+        "Wyatt Wolf",
+        "Cameron Wright",
+        "Harrison Storm"
+      ]
     }
   ]
 }

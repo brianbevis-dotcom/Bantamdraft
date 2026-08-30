@@ -3044,6 +3044,26 @@
         "Cullen McCoy",
         "William Beasley"
       ]
+    },
+    {
+      "id": "potg_1788094056703_zlvlev",
+      "gameId": "game_1785258146330_18_1snp",
+      "timestamp": "2026-08-30T12:47:36.703Z",
+      "division": "Major",
+      "date": "2026-08-26",
+      "team": "Oregon",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Banks Smith",
+        "Anderson Williams",
+        "Barrett Sitter",
+        "Cooper Sheets"
+      ],
+      "opponentPlayers": [
+        "Decklyn Field",
+        "Xavier Matteson",
+        "Brevyn Byrne"
+      ]
     }
   ]
 }

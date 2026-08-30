@@ -3004,6 +3004,26 @@
         "Bryce Pav",
         "Gregory Jr Werner"
       ]
+    },
+    {
+      "id": "potg_1788084045981_jwl3eg",
+      "gameId": "game_1785258146330_39_19si",
+      "timestamp": "2026-08-30T10:00:45.981Z",
+      "division": "Major",
+      "date": "2026-08-29",
+      "team": "Wisconsin",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Jackson Cline",
+        "Beau Ferguson",
+        "Tyson Greenwald",
+        "Tristan Greenwald"
+      ],
+      "opponentPlayers": [
+        "Jude Gilpin",
+        "Tytus Darnell",
+        "Grant Dirksen"
+      ]
     }
   ]
 }

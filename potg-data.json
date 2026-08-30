@@ -2965,6 +2965,26 @@
         "CJ Gilliard",
         "YEMI ALEWI"
       ]
+    },
+    {
+      "id": "potg_1788056454072_zgbs3a",
+      "gameId": "game_1785257634909_60_n1vh",
+      "timestamp": "2026-08-30T02:20:54.072Z",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team": "Michigan",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Carson Roller",
+        "Clayton Pulse",
+        "Henry Davis",
+        "Rayden Cerna"
+      ],
+      "opponentPlayers": [
+        "Owen Pharis",
+        "Britton Sanders",
+        "Layton LeClair"
+      ]
     }
   ]
 }

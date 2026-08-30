@@ -2985,6 +2985,25 @@
         "Britton Sanders",
         "Layton LeClair"
       ]
+    },
+    {
+      "id": "potg_1788083256954_cjnw9d",
+      "gameId": "game_1785258146330_38_uumu",
+      "timestamp": "2026-08-30T09:47:36.954Z",
+      "division": "Major",
+      "date": "2026-08-22",
+      "team": "Wisconsin",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Beau Ferguson",
+        "Tucker Horton",
+        "Tristan Greenwald"
+      ],
+      "opponentPlayers": [
+        "Omar Grant Jr.",
+        "Bryce Pav",
+        "Gregory Jr Werner"
+      ]
     }
   ]
 }

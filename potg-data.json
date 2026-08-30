@@ -3064,6 +3064,26 @@
         "Xavier Matteson",
         "Brevyn Byrne"
       ]
+    },
+    {
+      "id": "potg_1788094098282_h92c2q",
+      "gameId": "game_1785258146330_24_6yyh",
+      "timestamp": "2026-08-30T12:48:18.282Z",
+      "division": "Major",
+      "date": "2026-08-29",
+      "team": "Oregon",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Banks Smith",
+        "Dylan Clem",
+        "Kellen Hawk",
+        "Clark Mayes"
+      ],
+      "opponentPlayers": [
+        "Miles Howell",
+        "Lincoln Powers",
+        "Lilly Patterson"
+      ]
     }
   ]
 }

@@ -2946,6 +2946,25 @@
         "Julian Bevis",
         "Rhett Duncan"
       ]
+    },
+    {
+      "id": "potg_1788053721629_upn7w0",
+      "gameId": "game_1785258146331_104_yz8m",
+      "timestamp": "2026-08-30T01:35:21.629Z",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team": "Washington",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Mac O'Leary",
+        "Griffin Baxter",
+        "Tyson Peterson",
+        "Blaine Atkinson"
+      ],
+      "opponentPlayers": [
+        "CJ Gilliard",
+        "YEMI ALEWI"
+      ]
     }
   ]
 }

@@ -3024,6 +3024,26 @@
         "Tytus Darnell",
         "Grant Dirksen"
       ]
+    },
+    {
+      "id": "potg_1788091590176_jqbyil",
+      "gameId": "game_1785257634909_55_m3d8",
+      "timestamp": "2026-08-30T12:06:30.176Z",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team": "Iowa",
+      "opponent": "Northwestern",
+      "ownPlayers": [
+        "Liam Adams",
+        "Owen Bell",
+        "Nolan Wilson",
+        "Jaxson LaFree"
+      ],
+      "opponentPlayers": [
+        "Evan Sabelhaus",
+        "Cullen McCoy",
+        "William Beasley"
+      ]
     }
   ]
 }

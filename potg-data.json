@@ -3084,6 +3084,26 @@
         "Lincoln Powers",
         "Lilly Patterson"
       ]
+    },
+    {
+      "id": "potg_1788095836542_7tkep6",
+      "gameId": "game_1785257634908_14_tcbf",
+      "timestamp": "2026-08-30T13:17:16.542Z",
+      "division": "Major",
+      "date": "2026-08-29",
+      "team": "Northwestern",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Jack Cronin",
+        "Ike Roberts",
+        "Christian Calvert",
+        "Shaun Martinez Jr."
+      ],
+      "opponentPlayers": [
+        "Xavier Matteson",
+        "Ty Hornsby",
+        "Brevyn Byrne"
+      ]
     }
   ]
 }

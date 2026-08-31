@@ -3104,6 +3104,23 @@
         "Ty Hornsby",
         "Brevyn Byrne"
       ]
+    },
+    {
+      "id": "potg_1788143131012_6lq7nh",
+      "gameId": "game_1785257634909_44_z2oz",
+      "timestamp": "2026-08-31T02:25:31.012Z",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team": "Purdue",
+      "opponent": "Illinois",
+      "ownPlayers": [
+        "Hendrix Stewart",
+        "Sawyer Green"
+      ],
+      "opponentPlayers": [
+        "Nicholas Woods JR",
+        "Dawson Erazmus"
+      ]
     }
   ]
 }

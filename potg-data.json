@@ -3197,6 +3197,25 @@
         "Nolan Charnstrom",
         "Robby Haney"
       ]
+    },
+    {
+      "id": "potg_1788196111176_m4bcai",
+      "gameId": "game_1785257634909_69_1cso",
+      "timestamp": "2026-08-31T17:08:31.176Z",
+      "division": "Minor",
+      "date": "2026-08-22",
+      "team": "Minnesota",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Cameron Wright",
+        "Casen Copeland",
+        "Ryker Beltz",
+        "Cameron Frew"
+      ],
+      "opponentPlayers": [
+        "Luke Bolt",
+        "Carter Schmaltz"
+      ]
     }
   ]
 }

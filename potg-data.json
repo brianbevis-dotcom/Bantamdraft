@@ -3141,6 +3141,25 @@
         "Parker Paxson",
         "Charlie Ariss"
       ]
+    },
+    {
+      "id": "potg_1788191044329_t1qtl6",
+      "gameId": "game_1785258146331_120_un3d",
+      "timestamp": "2026-08-31T15:44:04.329Z",
+      "division": "Rookie",
+      "date": "2026-08-29",
+      "team": "Indiana",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Niles Williams",
+        "Brantley Vinson",
+        "Parker Paxson",
+        "Reece Jacobs"
+      ],
+      "opponentPlayers": [
+        "Knox Bellinger",
+        "Calvin Kraft"
+      ]
     }
   ]
 }

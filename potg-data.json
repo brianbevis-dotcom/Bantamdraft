@@ -3160,6 +3160,24 @@
         "Knox Bellinger",
         "Calvin Kraft"
       ]
+    },
+    {
+      "id": "potg_1788195926620_8m7p16",
+      "gameId": "game_1785258146330_84_9a44",
+      "timestamp": "2026-08-31T17:05:26.620Z",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team": "Oregon",
+      "opponent": "Minnesota",
+      "ownPlayers": [
+        "Carter Allen",
+        "Colin Davis"
+      ],
+      "opponentPlayers": [
+        "Cameron Wright",
+        "Casen Copeland",
+        "Cameron Frew"
+      ]
     }
   ]
 }

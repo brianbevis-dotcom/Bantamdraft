@@ -3178,6 +3178,25 @@
         "Casen Copeland",
         "Cameron Frew"
       ]
+    },
+    {
+      "id": "potg_1788196009012_xd2fnb",
+      "gameId": "game_1785257634909_68_nswl",
+      "timestamp": "2026-08-31T17:06:49.012Z",
+      "division": "Minor",
+      "date": "2026-08-12",
+      "team": "Minnesota",
+      "opponent": "Illinois",
+      "ownPlayers": [
+        "Cameron Wright",
+        "Casen Copeland",
+        "Ryker Beltz",
+        "Cameron Frew"
+      ],
+      "opponentPlayers": [
+        "Nolan Charnstrom",
+        "Robby Haney"
+      ]
     }
   ]
 }

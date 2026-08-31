@@ -3121,6 +3121,26 @@
         "Nicholas Woods JR",
         "Dawson Erazmus"
       ]
+    },
+    {
+      "id": "potg_1788179651548_gz81f1",
+      "gameId": "game_1785205269761_98_bhej",
+      "timestamp": "2026-08-31T12:34:11.548Z",
+      "division": "Rookie",
+      "date": "2026-08-29",
+      "team": "Michigan",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Knox Bellinger",
+        "Mason Harmon",
+        "Aaron Dunlap",
+        "Calvin Kraft"
+      ],
+      "opponentPlayers": [
+        "Niles Williams",
+        "Parker Paxson",
+        "Charlie Ariss"
+      ]
     }
   ]
 }

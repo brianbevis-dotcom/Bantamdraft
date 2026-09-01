@@ -3273,6 +3273,26 @@
         "Aaron Dunlap",
         "Calvin Kraft"
       ]
+    },
+    {
+      "id": "potg_1788290354580_2yn8o4",
+      "gameId": "game_1785205269761_104_dhm5",
+      "timestamp": "2026-09-01T19:19:14.580Z",
+      "division": "Rookie",
+      "date": "2026-08-31",
+      "team": "Nebraska",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Cade Reagan",
+        "Parker Hawley",
+        "Camden Brown",
+        "Colton Cheh"
+      ],
+      "opponentPlayers": [
+        "Xavier Shone",
+        "John Brewer",
+        "Graham Gillenwater"
+      ]
     }
   ]
 }

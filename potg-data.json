@@ -3253,6 +3253,26 @@
         "Brantley Vinson",
         "Parker Paxson"
       ]
+    },
+    {
+      "id": "potg_1788290240790_mxwvx7",
+      "gameId": null,
+      "timestamp": "2026-09-01T19:17:20.790Z",
+      "division": "Rookie",
+      "date": "2026-08-31",
+      "team": "Nebraska",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "Cade Reagan",
+        "Parker Hawley",
+        "Mason Schneider",
+        "Colton Cheh"
+      ],
+      "opponentPlayers": [
+        "Knox Bellinger",
+        "Aaron Dunlap",
+        "Calvin Kraft"
+      ]
     }
   ]
 }

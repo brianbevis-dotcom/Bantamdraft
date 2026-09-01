@@ -3216,6 +3216,24 @@
         "Luke Bolt",
         "Carter Schmaltz"
       ]
+    },
+    {
+      "id": "potg_1788264316616_ofqnwk",
+      "gameId": "game_1785258146331_123_ec0u",
+      "timestamp": "2026-09-01T12:05:16.616Z",
+      "division": "Rookie",
+      "date": "2026-08-31",
+      "team": "Michigan",
+      "opponent": "Nebraska",
+      "ownPlayers": [
+        "Knox Bellinger",
+        "Aaron Dunlap"
+      ],
+      "opponentPlayers": [
+        "Cade Reagan",
+        "Parker Hawley",
+        "Colton Cheh"
+      ]
     }
   ]
 }

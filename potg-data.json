@@ -3313,6 +3313,26 @@
         "Christian Peterson",
         "Declan Pav"
       ]
+    },
+    {
+      "id": "potg_1788291009150_a244h1",
+      "gameId": "game_1785257634909_137_1ec7",
+      "timestamp": "2026-09-01T19:30:09.150Z",
+      "division": "Rookie",
+      "date": "2026-08-15",
+      "team": "Nebraska",
+      "opponent": "Purdue",
+      "ownPlayers": [
+        "Cade Reagan",
+        "Parker Hawley",
+        "Mason Schneider",
+        "Colton Cheh"
+      ],
+      "opponentPlayers": [
+        "Ezekiel Kimbowa",
+        "Christian Peterson",
+        "Declan Pav"
+      ]
     }
   ]
 }

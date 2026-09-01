@@ -3234,6 +3234,25 @@
         "Parker Hawley",
         "Colton Cheh"
       ]
+    },
+    {
+      "id": "potg_1788266185643_7vo7we",
+      "gameId": null,
+      "timestamp": "2026-09-01T12:36:25.643Z",
+      "division": "Rookie",
+      "date": "2026-08-31",
+      "team": "Ohio State",
+      "opponent": "Indiana",
+      "ownPlayers": [
+        "Wallace Davis",
+        "Xavier Shone",
+        "Weston Peak"
+      ],
+      "opponentPlayers": [
+        "Vincent Grantner",
+        "Brantley Vinson",
+        "Parker Paxson"
+      ]
     }
   ]
 }

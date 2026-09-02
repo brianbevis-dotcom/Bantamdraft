@@ -3353,6 +3353,26 @@
         "Brantley Vinson",
         "Reece Jacobs"
       ]
+    },
+    {
+      "id": "potg_1788314694362_l3fqqj",
+      "gameId": "game_1785257634909_100_p35j",
+      "timestamp": "2026-09-02T02:04:54.362Z",
+      "division": "Minor",
+      "date": "2026-09-01",
+      "team": "UCLA",
+      "opponent": "Illinois",
+      "ownPlayers": [
+        "Rory Ritenour",
+        "Boone Herndon",
+        "Joe Reed",
+        "Kaeson Worland"
+      ],
+      "opponentPlayers": [
+        "Tanner Hess",
+        "Legend Lewis",
+        "Dawson Erazmus"
+      ]
     }
   ]
 }

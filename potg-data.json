@@ -3449,6 +3449,24 @@
         "Koen Brumbaugh",
         "Grant Jacobs"
       ]
+    },
+    {
+      "id": "potg_1788366882118_hdhtb7",
+      "gameId": "game_1785205269761_102_ztzm",
+      "timestamp": "2026-09-02T16:34:42.118Z",
+      "division": "Rookie",
+      "date": "2026-08-31",
+      "team": "Purdue",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Ezekiel Kimbowa",
+        "Max Ruhana",
+        "Declan Pav"
+      ],
+      "opponentPlayers": [
+        "Judah Duke",
+        "Liam Bailey"
+      ]
     }
   ]
 }

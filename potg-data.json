@@ -3392,6 +3392,23 @@
         "Rayden Cerna",
         "Maverick Cerna"
       ]
+    },
+    {
+      "id": "potg_1788316293712_jhiqlk",
+      "gameId": "game_1785257634909_104_qbqs",
+      "timestamp": "2026-09-02T02:31:33.712Z",
+      "division": "Minor",
+      "date": "2026-08-29",
+      "team": "Washington",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Mac O'Leary"
+      ],
+      "opponentPlayers": [
+        "CJ Gilliard",
+        "Koen Brumbaugh",
+        "Devansh Kandimalla"
+      ]
     }
   ]
 }

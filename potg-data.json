@@ -3429,6 +3429,26 @@
         "Anderson Coffey",
         "Luke Bolt"
       ]
+    },
+    {
+      "id": "potg_1788359662188_eyo0lk",
+      "gameId": "game_1785258146331_89_zalw",
+      "timestamp": "2026-09-02T14:34:22.188Z",
+      "division": "Minor",
+      "date": "2026-09-01",
+      "team": "Michigan",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Julian Mina",
+        "Luca Mina",
+        "Clayton Pulse",
+        "Henry Davis"
+      ],
+      "opponentPlayers": [
+        "CJ Gilliard",
+        "Koen Brumbaugh",
+        "Grant Jacobs"
+      ]
     }
   ]
 }

@@ -3409,6 +3409,26 @@
         "Koen Brumbaugh",
         "Devansh Kandimalla"
       ]
+    },
+    {
+      "id": "potg_1788322763904_u6nt4j",
+      "gameId": "game_1785257634909_94_7jj3",
+      "timestamp": "2026-09-02T04:19:23.904Z",
+      "division": "Minor",
+      "date": "2026-09-01",
+      "team": "Purdue",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Hendrix Stewart",
+        "Dalton Bennett",
+        "Nash Russell",
+        "Sawyer Green"
+      ],
+      "opponentPlayers": [
+        "Brent Neu",
+        "Anderson Coffey",
+        "Luke Bolt"
+      ]
     }
   ]
 }

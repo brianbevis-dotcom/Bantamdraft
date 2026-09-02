@@ -3467,6 +3467,24 @@
         "Judah Duke",
         "Liam Bailey"
       ]
+    },
+    {
+      "id": "potg_1788367000600_7fs6ul",
+      "gameId": "game_1785206262350_96_uwjp",
+      "timestamp": "2026-09-02T16:36:40.600Z",
+      "division": "Rookie",
+      "date": "2026-08-29",
+      "team": "Purdue",
+      "opponent": "Nebraska",
+      "ownPlayers": [
+        "Ezekiel Kimbowa",
+        "Dillon Howe",
+        "Christian Peterson"
+      ],
+      "opponentPlayers": [
+        "Cade Reagan",
+        "Mason Schneider"
+      ]
     }
   ]
 }

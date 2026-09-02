@@ -3373,6 +3373,25 @@
         "Legend Lewis",
         "Dawson Erazmus"
       ]
+    },
+    {
+      "id": "potg_1788316210159_gym418",
+      "gameId": "game_1785257634909_89_jc9p",
+      "timestamp": "2026-09-02T02:30:10.160Z",
+      "division": "Minor",
+      "date": "2026-09-01",
+      "team": "Penn State",
+      "opponent": "Michigan",
+      "ownPlayers": [
+        "CJ Gilliard",
+        "Koen Brumbaugh",
+        "Devansh Kandimalla",
+        "YEMI ALEWI"
+      ],
+      "opponentPlayers": [
+        "Rayden Cerna",
+        "Maverick Cerna"
+      ]
     }
   ]
 }

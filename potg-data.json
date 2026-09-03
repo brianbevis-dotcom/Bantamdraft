@@ -3524,6 +3524,26 @@
         "Leo Powers",
         "Graham Gillenwater"
       ]
+    },
+    {
+      "id": "potg_1788454707751_cs6vra",
+      "gameId": "game_1785258146330_19_9ef7",
+      "timestamp": "2026-09-03T16:58:27.751Z",
+      "division": "Major",
+      "date": "2026-09-02",
+      "team": "Indiana",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Austin Treharne",
+        "Dean Griffin",
+        "Julian Bevis",
+        "Rhett Duncan"
+      ],
+      "opponentPlayers": [
+        "Xavier Matteson",
+        "Ty Hornsby",
+        "Brevyn Byrne"
+      ]
     }
   ]
 }

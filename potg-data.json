@@ -3544,6 +3544,24 @@
         "Ty Hornsby",
         "Brevyn Byrne"
       ]
+    },
+    {
+      "id": "potg_1788460510618_kf229v",
+      "gameId": "game_1785257634909_75_nbil",
+      "timestamp": "2026-09-03T18:35:10.618Z",
+      "division": "Minor",
+      "date": "2026-08-31",
+      "team": "Northwestern",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Evan Sabelhaus",
+        "Cullen McCoy",
+        "William Beasley"
+      ],
+      "opponentPlayers": [
+        "Kash Coyle",
+        "Joey Primeau"
+      ]
     }
   ]
 }

@@ -3505,6 +3505,25 @@
         "Jack Metzger",
         "Tyson Greenwald"
       ]
+    },
+    {
+      "id": "potg_1788451650300_ym5ouz",
+      "gameId": "game_1785257634909_129_vsxd",
+      "timestamp": "2026-09-03T16:07:30.300Z",
+      "division": "Rookie",
+      "date": "2026-08-31",
+      "team": "Indiana",
+      "opponent": "Ohio State",
+      "ownPlayers": [
+        "Brantley Vinson",
+        "Parker Paxson",
+        "Reece Jacobs"
+      ],
+      "opponentPlayers": [
+        "Sutton Ward",
+        "Leo Powers",
+        "Graham Gillenwater"
+      ]
     }
   ]
 }

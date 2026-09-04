@@ -3601,6 +3601,26 @@
         "Kellen Hawk",
         "Barrett Sitter"
       ]
+    },
+    {
+      "id": "potg_1788559741919_1gi2as",
+      "gameId": "game_1785258146330_65_jasr",
+      "timestamp": "2026-09-04T22:09:01.919Z",
+      "division": "Minor",
+      "date": "2026-09-01",
+      "team": "Oregon",
+      "opponent": "Michigan State",
+      "ownPlayers": [
+        "Carter Allen",
+        "Maddox Lear",
+        "Charlie Lewis",
+        "Phil Johnson"
+      ],
+      "opponentPlayers": [
+        "Theo Riddick",
+        "Britton Sanders",
+        "Layton LeClair"
+      ]
     }
   ]
 }

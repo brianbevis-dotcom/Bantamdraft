@@ -3562,6 +3562,26 @@
         "Kash Coyle",
         "Joey Primeau"
       ]
+    },
+    {
+      "id": "potg_1788519598199_w1q9d8",
+      "gameId": "game_1785257634908_9_qarl",
+      "timestamp": "2026-09-04T10:59:58.199Z",
+      "division": "Major",
+      "date": "2026-09-02",
+      "team": "Michigan State",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Isaac Hamilton",
+        "Cole Brabender",
+        "Nico Locke",
+        "Jack Judge"
+      ],
+      "opponentPlayers": [
+        "Jack Metzger",
+        "Yadriel Roldan",
+        "Tristan Greenwald"
+      ]
     }
   ]
 }

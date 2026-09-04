@@ -3582,6 +3582,25 @@
         "Yadriel Roldan",
         "Tristan Greenwald"
       ]
+    },
+    {
+      "id": "potg_1788546211953_dp8eak",
+      "gameId": "game_1785257634908_34_abim",
+      "timestamp": "2026-09-04T18:23:31.953Z",
+      "division": "Major",
+      "date": "2026-09-02",
+      "team": "Purdue",
+      "opponent": "Oregon",
+      "ownPlayers": [
+        "Tytus Darnell",
+        "Davis Yoder",
+        "Grayson Miller",
+        "Benjamin Bauer"
+      ],
+      "opponentPlayers": [
+        "Kellen Hawk",
+        "Barrett Sitter"
+      ]
     }
   ]
 }

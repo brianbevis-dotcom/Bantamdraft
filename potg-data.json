@@ -3621,6 +3621,25 @@
         "Britton Sanders",
         "Layton LeClair"
       ]
+    },
+    {
+      "id": "potg_1788723964663_c9309e",
+      "gameId": "game_1785257634908_29_rexl",
+      "timestamp": "2026-09-06T19:46:04.663Z",
+      "division": "Major",
+      "date": "2026-09-02",
+      "team": "Northwestern",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Christian Calvert",
+        "Jagger Morrow",
+        "Brody Smythe"
+      ],
+      "opponentPlayers": [
+        "Miles Howell",
+        "Henry Pendowski",
+        "Lilly Patterson"
+      ]
     }
   ]
 }

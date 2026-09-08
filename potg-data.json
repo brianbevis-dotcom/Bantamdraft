@@ -3640,6 +3640,24 @@
         "Henry Pendowski",
         "Lilly Patterson"
       ]
+    },
+    {
+      "id": "potg_1788840417593_5ygrod",
+      "gameId": null,
+      "timestamp": "2026-09-08T04:06:57.593Z",
+      "division": "Major",
+      "date": "2026-08-29",
+      "team": "Purdue",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Jude Gilpin",
+        "Davis Yoder",
+        "Grant Dirksen",
+        "Benjamin Bauer"
+      ],
+      "opponentPlayers": [
+        "Tyson Greenwald"
+      ]
     }
   ]
 }

@@ -3658,6 +3658,24 @@
       "opponentPlayers": [
         "Tyson Greenwald"
       ]
+    },
+    {
+      "id": "potg_1788912527907_tuogl4",
+      "gameId": "game_1785257634909_124_dp8s",
+      "timestamp": "2026-09-09T00:08:47.907Z",
+      "division": "Rookie",
+      "date": "2026-09-08",
+      "team": "Indiana",
+      "opponent": "Nebraska",
+      "ownPlayers": [
+        "Brantley Vinson",
+        "Reece Jacobs"
+      ],
+      "opponentPlayers": [
+        "Parker Hawley",
+        "Camden Brown",
+        "Colton Cheh"
+      ]
     }
   ]
 }

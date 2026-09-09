@@ -3676,6 +3676,26 @@
         "Camden Brown",
         "Colton Cheh"
       ]
+    },
+    {
+      "id": "potg_1788923467877_569lyc",
+      "gameId": null,
+      "timestamp": "2026-09-09T03:11:07.877Z",
+      "division": "Minor",
+      "date": "2026-09-08",
+      "team": "Oregon",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Carter Allen",
+        "Graham Mathews",
+        "Maddox Lear",
+        "Charlie Lewis"
+      ],
+      "opponentPlayers": [
+        "Brent Neu",
+        "Anderson Coffey",
+        "Luke Bolt"
+      ]
     }
   ]
 }

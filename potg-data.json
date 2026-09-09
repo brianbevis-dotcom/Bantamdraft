@@ -3696,6 +3696,25 @@
         "Anderson Coffey",
         "Luke Bolt"
       ]
+    },
+    {
+      "id": "potg_1788985795523_o82twy",
+      "gameId": "game_1785258146330_49_9vbv",
+      "timestamp": "2026-09-09T20:29:55.523Z",
+      "division": "Minor",
+      "date": "2026-09-08",
+      "team": "Indiana",
+      "opponent": "Washington",
+      "ownPlayers": [
+        "McCoy Landis",
+        "Isaiah MacDonald",
+        "Landon O'Brien",
+        "Liam Hemmer"
+      ],
+      "opponentPlayers": [
+        "Griffin Baxter",
+        "Tyson Peterson"
+      ]
     }
   ]
 }

@@ -3715,6 +3715,26 @@
         "Griffin Baxter",
         "Tyson Peterson"
       ]
+    },
+    {
+      "id": "potg_1789009734702_kwha98",
+      "gameId": "game_1785257634908_30_pq6s",
+      "timestamp": "2026-09-10T03:08:54.702Z",
+      "division": "Major",
+      "date": "2026-09-09",
+      "team": "Michigan State",
+      "opponent": "Penn State",
+      "ownPlayers": [
+        "Isaac Hamilton",
+        "Cole Brabender",
+        "Nico Locke",
+        "Jack Judge"
+      ],
+      "opponentPlayers": [
+        "Miles Howell",
+        "Jackson Hinds",
+        "Lilly Patterson"
+      ]
     }
   ]
 }

@@ -3735,6 +3735,26 @@
         "Jackson Hinds",
         "Lilly Patterson"
       ]
+    },
+    {
+      "id": "potg_1789116313910_zlvc4t",
+      "gameId": "game_1785257634908_15_y9xx",
+      "timestamp": "2026-09-11T08:45:13.910Z",
+      "division": "Major",
+      "date": "2026-09-09",
+      "team": "Northwestern",
+      "opponent": "Wisconsin",
+      "ownPlayers": [
+        "Jack Cronin",
+        "Ike Roberts",
+        "Christian Calvert",
+        "Brody Smythe"
+      ],
+      "opponentPlayers": [
+        "Beau Ferguson",
+        "Tyson Greenwald",
+        "Tristan Greenwald"
+      ]
     }
   ]
 }

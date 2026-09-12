@@ -3755,6 +3755,26 @@
         "Tyson Greenwald",
         "Tristan Greenwald"
       ]
+    },
+    {
+      "id": "potg_1789244637982_6qi3ed",
+      "gameId": null,
+      "timestamp": "2026-09-12T20:23:57.982Z",
+      "division": "Minor",
+      "date": "2026-09-12",
+      "team": "Oregon",
+      "opponent": "Iowa",
+      "ownPlayers": [
+        "Carter Allen",
+        "Jeter Riley",
+        "Brandon Mangus",
+        "Colin Davis"
+      ],
+      "opponentPlayers": [
+        "Liam Adams",
+        "Jaxson LaFree",
+        "Hunter Willert"
+      ]
     }
   ]
 }

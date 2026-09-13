@@ -3775,6 +3775,25 @@
         "Jaxson LaFree",
         "Hunter Willert"
       ]
+    },
+    {
+      "id": "potg_1789335762931_59c9l5",
+      "gameId": "game_1785258146331_134_32v2",
+      "timestamp": "2026-09-13T21:42:42.931Z",
+      "division": "Rookie",
+      "date": "2026-09-12",
+      "team": "Penn State",
+      "opponent": "Nebraska",
+      "ownPlayers": [
+        "Liam Bailey",
+        "Graham Davis",
+        "Brody Egenolf"
+      ],
+      "opponentPlayers": [
+        "Cade Reagan",
+        "Parker Hawley",
+        "Colton Cheh"
+      ]
     }
   ]
 }
